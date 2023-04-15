@@ -1,5 +1,10 @@
 var NAVTREEINDEX144 =
 {
+"structdialogue.html":[36,0,211],
+"structdialogue.html#a015666472bdcaf3a21d69dbdfa40dc1c":[36,0,211,24],
+"structdialogue.html#a099d9372066f6a2d00a7a4140307a4a0":[36,0,211,9],
+"structdialogue.html#a23fd3c22838562075db010d68e8ce55f":[36,0,211,19],
+"structdialogue.html#a27792785bd5349401efa3948399f89e8":[36,0,211,14],
 "structdialogue.html#a2edd4e78d06b37dafd34284a48b82720":[36,0,211,18],
 "structdialogue.html#a3b6fb4b6e79356838e69df8b5d126668":[36,0,211,7],
 "structdialogue.html#a42afe2cf929fea970dc6b74a8bec4bd7":[36,0,211,17],
@@ -244,10 +249,5 @@ var NAVTREEINDEX144 =
 "structenum__traits_3_01mission_1_1mission__status_01_4.html#a39bc7615ffc1d45127df08183e4848ee":[36,0,286,0],
 "structenum__traits_3_01mission__goal_01_4.html":[36,0,287],
 "structenum__traits_3_01mission__goal_01_4.html#ae4010bceb279bb2304a4ead0812a452e":[36,0,287,0],
-"structenum__traits_3_01mission__origin_01_4.html":[36,0,288],
-"structenum__traits_3_01mission__origin_01_4.html#a5b1cbc2c99427d259f7317b7e0276e46":[36,0,288,0],
-"structenum__traits_3_01mon__trigger_01_4.html":[36,0,289],
-"structenum__traits_3_01mon__trigger_01_4.html#a09c668727c7ef33726837369baf6135b":[36,0,289,0],
-"structenum__traits_3_01morale__subtype__t_01_4.html":[36,0,290],
-"structenum__traits_3_01morale__subtype__t_01_4.html#a5a598f58cd35d7df4337307a355f5fc3":[36,0,290,0]
+"structenum__traits_3_01mission__origin_01_4.html":[36,0,288]
 };

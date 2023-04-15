@@ -1,5 +1,10 @@
 var NAVTREEINDEX128 =
 {
+"panels_8cpp.html#a4f2cb09266001a419bf65272bca9f935":[37,0,1,488,60],
+"panels_8cpp.html#a4f327dc193198e8e85d1be793e98fc75":[37,0,1,488,79],
+"panels_8cpp.html#a5184728c662f8867b181744a574d93ba":[37,0,1,488,78],
+"panels_8cpp.html#a557169ee6dc6d09dfed331f1819983d5":[37,0,1,488,96],
+"panels_8cpp.html#a5578e3e4db8731d870ddb061f428e6ad":[37,0,1,488,41],
 "panels_8cpp.html#a58c80de9aebca9b78cc618a7a5f29c22":[37,0,1,488,12],
 "panels_8cpp.html#a60b7b0564382f6a59b376a06cbea819c":[37,0,1,488,68],
 "panels_8cpp.html#a6432ea855f014fdd0ed5a41f5393a363":[37,0,1,488,34],
@@ -244,10 +249,5 @@ var NAVTREEINDEX128 =
 "pixel__minimap_8h.html#a5f62bf59e1051d11100e5fcc845aa612ae9c6cfa16d8958cb7752450883950ab8":[37,0,1,501,3,2],
 "pixel__minimap_8h.html#a5f62bf59e1051d11100e5fcc845aa612aec03f91ae56e478455e3786e91559194":[37,0,1,501,3,0],
 "pixel__minimap_8h_source.html":[37,0,1,501],
-"pixel__minimap__projectors_8cpp.html":[37,0,1,502],
-"pixel__minimap__projectors_8cpp_source.html":[37,0,1,502],
-"pixel__minimap__projectors_8h.html":[37,0,1,503],
-"pixel__minimap__projectors_8h.html#acb0f5579c10d0eac3f8658a7757f3311":[37,0,1,503,3],
-"pixel__minimap__projectors_8h_source.html":[37,0,1,503],
-"platform__win_8h.html":[37,0,1,504]
+"pixel__minimap__projectors_8cpp.html":[37,0,1,502]
 };

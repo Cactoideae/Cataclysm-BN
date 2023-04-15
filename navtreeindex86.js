@@ -1,5 +1,10 @@
 var NAVTREEINDEX86 =
 {
+"fstream__utils_8h.html#a0b743c6c4a7bd00670574e81ea722389":[37,0,1,235,5],
+"fstream__utils_8h.html#a3bef7ba76ece7cbf962a0effbd5d7d11":[37,0,1,235,6],
+"fstream__utils_8h.html#a3c6c3ddf581f85556062d6804445690b":[37,0,1,235,13],
+"fstream__utils_8h.html#a6027f853e7b1145c11e17bdcf6a63a91":[37,0,1,235,8],
+"fstream__utils_8h.html#a60af6440b8559cda55d978708889dac3":[37,0,1,235,17],
 "fstream__utils_8h.html#a622c5bbf103e24e414fea34574eb68a8":[37,0,1,235,16],
 "fstream__utils_8h.html#a996629d79715bd5b44fb507d0d368476":[37,0,1,235,7],
 "fstream__utils_8h.html#a9d2a31128a5950d146d741448c93e378":[37,0,1,235,3],
@@ -14,8 +19,8 @@ var NAVTREEINDEX86 =
 "fstream__utils_8h.html#adb5f308b4d5f3656ad32fbe62fab29f1":[37,0,1,235,9],
 "fstream__utils_8h.html#afc8cc3e35ba50c37cf8597c5fa334c82":[37,0,1,235,10],
 "fstream__utils_8h_source.html":[37,0,1,235],
-"functions.html":[36,3,0,0],
 "functions.html":[36,3,0],
+"functions.html":[36,3,0,0],
 "functions_a.html":[36,3,0,1],
 "functions_b.html":[36,3,0,2],
 "functions_c.html":[36,3,0,3],
@@ -67,8 +72,8 @@ var NAVTREEINDEX86 =
 "functions_rela.html":[36,3,6],
 "functions_s.html":[36,3,0,19],
 "functions_t.html":[36,3,0,20],
-"functions_type.html":[36,3,3,0],
 "functions_type.html":[36,3,3],
+"functions_type.html":[36,3,3,0],
 "functions_type_a.html":[36,3,3,1],
 "functions_type_b.html":[36,3,3,2],
 "functions_type_c.html":[36,3,3,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX86 =
 "game_8cpp.html#ae642dadc40a42795a8dc36d0b1359069":[37,0,1,238,47],
 "game_8cpp.html#ae6b3cb74ff09b7b8d1281ea60b8b30ab":[37,0,1,238,33],
 "game_8cpp.html#ae6dc8c4b5b8391a45ce44928abf4aa82":[37,0,1,238,20],
-"game_8cpp.html#ae8e6a5ac44a7f17ff6b6d1d86522d942":[37,0,1,238,27],
-"game_8cpp.html#aeb3c6fe7866efde5c7bc315bfba536a2":[37,0,1,238,10],
-"game_8cpp.html#aed84cc428d3176b893fe131e4eda45c3":[37,0,1,238,48],
-"game_8cpp.html#af079f6d5681dabcbc1c4ee804c0ba556":[37,0,1,238,60],
-"game_8cpp.html#af41938497a1a66b3a85d83f9a9d93588":[37,0,1,238,11],
-"game_8cpp.html#af557f83ca09615da5b2ff84b924e01c0":[37,0,1,238,86]
+"game_8cpp.html#ae8e6a5ac44a7f17ff6b6d1d86522d942":[37,0,1,238,27]
 };

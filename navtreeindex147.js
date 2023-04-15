@@ -1,5 +1,10 @@
 var NAVTREEINDEX147 =
 {
+"structfurn__workbench__info.html#a33bca71609fc99fe3f97ec88af04db79":[36,0,374,2],
+"structfurn__workbench__info.html#a490528ed5b3402a0f3e384606bf743ba":[36,0,374,0],
+"structfurn__workbench__info.html#a533d95f2f3db987b5ba485ea1cd23cd4":[36,0,374,5],
+"structfurn__workbench__info.html#a79aa70596531babf5d982f4a66236ed0":[36,0,374,3],
+"structfurn__workbench__info.html#abb441f8325f50068c380183554adb057":[36,0,374,1],
 "structfurn__workbench__info.html#acd40894d855c1c287d7757873b025244":[36,0,374,4],
 "structgame__message__params.html":[36,0,376],
 "structgame__message__params.html#a03bfa8f6c4eea588a1717f3a4d8d0b2f":[36,0,376,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX147 =
 "structislot__comestible.html#a993552f78902a64ac85b99d973d2acaf":[36,0,455,26],
 "structislot__comestible.html#aa08c225989aeacbf897d0f25240e5603":[36,0,455,13],
 "structislot__comestible.html#aa6e3e8f3028df292d4dcb27e1724818a":[36,0,455,6],
-"structislot__comestible.html#aa8ccc76e6c3389ee17cbb14a7625bd39":[36,0,455,27],
-"structislot__comestible.html#ab52735fc196f803809913290565cf2b5":[36,0,455,16],
-"structislot__comestible.html#ac2cb22e853ef3d01e923f5310a34da92":[36,0,455,0],
-"structislot__comestible.html#ac6e8b1e155162975298976d220d5927a":[36,0,455,23],
-"structislot__comestible.html#ac88d54f57a7a8ca8bc4b2cc49784e64c":[36,0,455,1],
-"structislot__comestible.html#aca5554772c9e19eb88c6e50b808b5b64":[36,0,455,19]
+"structislot__comestible.html#aa8ccc76e6c3389ee17cbb14a7625bd39":[36,0,455,27]
 };

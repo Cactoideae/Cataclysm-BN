@@ -1,5 +1,10 @@
 var NAVTREEINDEX158 =
 {
+"structtalk__effect__fun__t.html#ad0bbceecdbc81b07dc9fe94840cef232":[36,0,906,36],
+"structtalk__effect__fun__t.html#ae195bb77d77f00fb8f61394c22f147e0":[36,0,906,28],
+"structtalk__effect__fun__t.html#ae222ccc63cbd96f79b20891fd315057c":[36,0,906,3],
+"structtalk__effect__fun__t.html#aead594d6700523395693091c47be26af":[36,0,906,9],
+"structtalk__effect__fun__t.html#aed9a90ea7c1135c719f8f2a25cb63845":[36,0,906,6],
 "structtalk__effect__fun__t.html#af1cd39473c74422dd65ce8ec595f1bfc":[36,0,906,10],
 "structtalk__effect__fun__t.html#af913f7b3dbb08423243815af7b0f83d2":[36,0,906,19],
 "structtalk__effect__t.html":[36,0,907],
@@ -244,10 +249,5 @@ var NAVTREEINDEX158 =
 "structtripoint__distance.html#ad286425c97ef4c067cbd0ef939465f52":[36,0,952,5],
 "structtutorial__game.html":[36,0,955],
 "structtutorial__game.html#a040bc33a254c73e418aa27466e375f14":[36,0,955,2],
-"structtutorial__game.html#a1c6bedd67b5637f2c1f8211115b0f2e8":[36,0,955,7],
-"structtutorial__game.html#a246df1231852dda24f0c222f0610b8d7":[36,0,955,5],
-"structtutorial__game.html#a31ce75fb8345053b34c144b177a559ff":[36,0,955,4],
-"structtutorial__game.html#a435dfe483d7351089cc07c2a3868adfd":[36,0,955,1],
-"structtutorial__game.html#aa53fa661be65ecc08eec76b3126d8ee7":[36,0,955,3],
-"structtutorial__game.html#aeca17437ccd82168fc7c607b2775f154":[36,0,955,0]
+"structtutorial__game.html#a1c6bedd67b5637f2c1f8211115b0f2e8":[36,0,955,7]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX113 =
 {
+"namespacebase__camps.html#a8922377c7d85cf4e79f0445b4b6e819c":[35,0,70,9],
+"namespacebase__camps.html#aab43e79bc71521bc5a9b62fdb25ba942":[35,0,70,13],
+"namespacebase__camps.html#ac2310c6a4c935d23c24600fcd6f76092":[35,0,70,14],
+"namespacebase__camps.html#ad118b9792d4f9847673e5fb5411545ff":[35,0,70,8],
+"namespacebase__camps.html#ae5354fbaeffae050fe2190fc97a11ecb":[35,0,70,11],
 "namespacebehavior.html":[35,0,71],
 "namespacebehavior.html#a2bd918f2ce05c5605bd2df468cde24a2":[35,0,71,18],
 "namespacebehavior.html#a2d686e4a51f40d43f56fcd9ed8a62724":[35,0,71,21],
@@ -244,10 +249,5 @@ var NAVTREEINDEX113 =
 "namespaceclothing__mods.html#a25d4127250cb9f6dbe2aee52e5e3c0ee":[35,0,87,2],
 "namespaceclothing__mods.html#a5bf63dd4b0368188aa71cfa230cfa989":[35,0,87,4],
 "namespaceclothing__mods.html#a76b8b8dcfd6c0d1af778f5722bbb3bdb":[35,0,87,0],
-"namespaceclothing__mods.html#a8f2f25d2cd5b92e4ab3f62cfd98d7c6e":[35,0,87,1],
-"namespaceclothing__mods.html#aec1b637295ff2f661b88d4c77692e176":[35,0,87,5],
-"namespaceconstruct.html":[35,0,88],
-"namespaceconstruct.html#a067fa17ebfe14fea8e561056651e010f":[35,0,88,4],
-"namespaceconstruct.html#a0aa28fd1a374c1fe7e9d9b70d3b1deee":[35,0,88,1],
-"namespaceconstruct.html#a11e9996c384118b3064e857cb92a07fc":[35,0,88,23]
+"namespaceclothing__mods.html#a8f2f25d2cd5b92e4ab3f62cfd98d7c6e":[35,0,87,1]
 };

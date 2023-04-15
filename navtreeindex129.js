@@ -1,5 +1,10 @@
 var NAVTREEINDEX129 =
 {
+"pixel__minimap__projectors_8cpp_source.html":[37,0,1,502],
+"pixel__minimap__projectors_8h.html":[37,0,1,503],
+"pixel__minimap__projectors_8h.html#acb0f5579c10d0eac3f8658a7757f3311":[37,0,1,503,3],
+"pixel__minimap__projectors_8h_source.html":[37,0,1,503],
+"platform__win_8h.html":[37,0,1,504],
 "platform__win_8h.html#a2b2a3944525d6676e9da720c5fd7fc7b":[37,0,1,504,0],
 "platform__win_8h_source.html":[37,0,1,504],
 "player_8cpp.html":[37,0,1,505],
@@ -244,10 +249,5 @@ var NAVTREEINDEX129 =
 "projectile_8cpp.html#a6d90e67ebbf93a627358b4a7c858e920":[37,0,1,522,2],
 "projectile_8cpp.html#aa0f69d3860a33cb64a2fa4f518ba74cb":[37,0,1,522,5],
 "projectile_8cpp.html#aa7c9b029baed2ddb198dd5986c8a1184":[37,0,1,522,3],
-"projectile_8cpp.html#add6e007044ccea0bf32d9b6df99b3c02":[37,0,1,522,1],
-"projectile_8cpp_source.html":[37,0,1,522],
-"projectile_8h.html":[37,0,1,523],
-"projectile_8h.html#a02d1dede47c1bb85995516c35047df82":[37,0,1,523,2],
-"projectile_8h.html#a162c25498e3347a41712a4746b8b5100":[37,0,1,523,3],
-"projectile_8h.html#a65071d7b82e80907bb06d5c4127f7308":[37,0,1,523,6]
+"projectile_8cpp.html#add6e007044ccea0bf32d9b6df99b3c02":[37,0,1,522,1]
 };

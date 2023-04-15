@@ -1,5 +1,10 @@
 var NAVTREEINDEX134 =
 {
+"structSpeechBubble.html":[36,0,866],
+"structSpeechBubble.html#a72ece413ecfa11fdb12171b59a055a8f":[36,0,866,1],
+"structSpeechBubble.html#a786df9aa02b07bfc6b971709dbadcf66":[36,0,866,0],
+"structVehicleFacings.html":[36,0,986],
+"structVehicleFacings.html#a98625704bb5a6f88dc1152f7cd30bcee":[36,0,986,2],
 "structVehicleFacings.html#a9ccd6e0cf765622c656ec6114763d324":[36,0,986,0],
 "structVehicleFacings.html#aaa5eb8dc3c439da48f7ce768ba5c92e5":[36,0,986,1],
 "structVehicleLocation.html":[36,0,991],
@@ -244,10 +249,5 @@ var NAVTREEINDEX134 =
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a9fd49282d1064c42b19f97a8f32a4cdc":[35,0,45,0,4],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#aa4d3050822580d70946fd167d8424c2c":[36,0,7,0,14],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#aa4d3050822580d70946fd167d8424c2c":[35,0,45,0,14],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#aaeda3a4414f18c6cab37dbf50a5346dd":[35,0,45,0,10],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#aaeda3a4414f18c6cab37dbf50a5346dd":[36,0,7,0,10],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#abaa6ef4dace8834fadfdfb85ac52d8d1":[36,0,7,0,0],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#abaa6ef4dace8834fadfdfb85ac52d8d1":[35,0,45,0,0],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#acb770f9196607ce3684e91448d3ecd9d":[35,0,45,0,3],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#acb770f9196607ce3684e91448d3ecd9d":[36,0,7,0,3]
+"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#aaeda3a4414f18c6cab37dbf50a5346dd":[35,0,45,0,10]
 };

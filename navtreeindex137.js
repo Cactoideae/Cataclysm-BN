@@ -1,5 +1,10 @@
 var NAVTREEINDEX137 =
 {
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__monster_01_4.html":[35,0,73,0,15],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__monster_01_4.html#a643f28c024fab6f2b8945197e170caf9":[36,0,14,0,15,0],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__monster_01_4.html#a643f28c024fab6f2b8945197e170caf9":[35,0,73,0,15,0],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__loses__effect_01_4.html":[36,0,14,0,16],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__loses__effect_01_4.html":[35,0,73,0,16],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__loses__effect_01_4.html#a124cfb219b71e0064a3b56fa6c70f449":[35,0,73,0,16,0],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__loses__effect_01_4.html#a124cfb219b71e0064a3b56fa6c70f449":[36,0,14,0,16,0],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__takes__damage_01_4.html":[36,0,14,0,17],
@@ -244,10 +249,5 @@ var NAVTREEINDEX137 =
 "structcata_1_1list_1_1node.html":[36,0,14,11,12],
 "structcata_1_1list_1_1node.html#a786fff2fada051c5d4b9460a9e6e2ab6":[35,0,73,12,12,0],
 "structcata_1_1list_1_1node.html#a786fff2fada051c5d4b9460a9e6e2ab6":[36,0,14,11,12,0],
-"structcata_1_1list_1_1node.html#aa417f15fbb74b03baf667297fcaff146":[36,0,14,11,12,3],
-"structcata_1_1list_1_1node.html#aa417f15fbb74b03baf667297fcaff146":[35,0,73,12,12,3],
-"structcata_1_1list_1_1node.html#ae063bc5f477ff21c4278da10350e419e":[36,0,14,11,12,1],
-"structcata_1_1list_1_1node.html#ae063bc5f477ff21c4278da10350e419e":[35,0,73,12,12,1],
-"structcata_1_1list_1_1node.html#ae38c071ad2287f588dcbe4fc05678ad4":[35,0,73,12,12,2],
-"structcata_1_1list_1_1node.html#ae38c071ad2287f588dcbe4fc05678ad4":[36,0,14,11,12,2]
+"structcata_1_1list_1_1node.html#aa417f15fbb74b03baf667297fcaff146":[36,0,14,11,12,3]
 };

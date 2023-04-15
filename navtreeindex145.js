@@ -1,5 +1,10 @@
 var NAVTREEINDEX145 =
 {
+"structenum__traits_3_01mission__origin_01_4.html#a5b1cbc2c99427d259f7317b7e0276e46":[36,0,288,0],
+"structenum__traits_3_01mon__trigger_01_4.html":[36,0,289],
+"structenum__traits_3_01mon__trigger_01_4.html#a09c668727c7ef33726837369baf6135b":[36,0,289,0],
+"structenum__traits_3_01morale__subtype__t_01_4.html":[36,0,290],
+"structenum__traits_3_01morale__subtype__t_01_4.html#a5a598f58cd35d7df4337307a355f5fc3":[36,0,290,0],
 "structenum__traits_3_01mutagen__technique_01_4.html":[36,0,291],
 "structenum__traits_3_01mutagen__technique_01_4.html#aaa4b4a7fb5a4e844839c7169213fbc13":[36,0,291,0],
 "structenum__traits_3_01ot__match__type_01_4.html":[36,0,292],
@@ -244,10 +249,5 @@ var NAVTREEINDEX145 =
 "structfield__effect.html#a352940446a1d1f216b71d2feebc50a58":[36,0,338,16],
 "structfield__effect.html#a4722f7d759587ea15ebdb718b65832f7":[36,0,338,18],
 "structfield__effect.html#a512639fe0ca4f352620e574031789d37":[36,0,338,12],
-"structfield__effect.html#a5c06c21422cd1e138c917e8f5cc09e7c":[36,0,338,14],
-"structfield__effect.html#a5ceec401e0a620d8ab5d360ee7a7313f":[36,0,338,13],
-"structfield__effect.html#a66fd1db44c9ea1914b66868bb50b3e4e":[36,0,338,15],
-"structfield__effect.html#a956401c9c65e351a9787e26a346d38a9":[36,0,338,5],
-"structfield__effect.html#a9a71be9700fa03568a5217cefb5b2a48":[36,0,338,17],
-"structfield__effect.html#aa7f8a9b88109f827e6378cdfac035dd7":[36,0,338,10]
+"structfield__effect.html#a5c06c21422cd1e138c917e8f5cc09e7c":[36,0,338,14]
 };
