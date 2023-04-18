@@ -1,5 +1,13 @@
 var NAVTREEINDEX141 =
 {
+"structdetail_1_1accumulator.html#a7726e6a23a356df6083114354ad1dc43":[35,0,96,2,2],
+"structdetail_1_1accumulator.html#a846155e4f8f4e907a544691ab20d23a2":[36,0,21,1,3],
+"structdetail_1_1accumulator.html#a846155e4f8f4e907a544691ab20d23a2":[35,0,96,2,3],
+"structdetail_1_1accumulator.html#a89a6fafa557a17d276fab01841320012":[36,0,21,1,0],
+"structdetail_1_1accumulator.html#a89a6fafa557a17d276fab01841320012":[35,0,96,2,0],
+"structdetail_1_1accumulator.html#a8fb06dd21c69f1c5d560d254510fac6b":[36,0,21,1,1],
+"structdetail_1_1accumulator.html#a8fb06dd21c69f1c5d560d254510fac6b":[35,0,96,2,1],
+"structdetail_1_1accumulator.html#afa4c8b84cd1e7c1381b45f340f5b8494":[36,0,21,1,4],
 "structdetail_1_1accumulator.html#afa4c8b84cd1e7c1381b45f340f5b8494":[35,0,96,2,4],
 "structdetail_1_1arg__data.html":[36,0,21,3],
 "structdetail_1_1arg__data.html":[35,0,96,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX141 =
 "structdetail_1_1data.html":[35,0,96,30],
 "structdetail_1_1default__arg__formatter.html":[35,0,96,32],
 "structdetail_1_1default__arg__formatter.html":[36,0,21,31],
-"structdetail_1_1default__arg__formatter.html#a1afe3f579bacdaef24bfa34489a55122":[35,0,96,32,2],
-"structdetail_1_1default__arg__formatter.html#a1afe3f579bacdaef24bfa34489a55122":[36,0,21,31,2],
-"structdetail_1_1default__arg__formatter.html#a1d9e45a7a7ad48799f28641f31f2f3a3":[36,0,21,31,0],
-"structdetail_1_1default__arg__formatter.html#a1d9e45a7a7ad48799f28641f31f2f3a3":[35,0,96,32,0],
-"structdetail_1_1default__arg__formatter.html#a61186d6093035ac2dfc5d4c1db24e129":[36,0,21,31,5],
-"structdetail_1_1default__arg__formatter.html#a61186d6093035ac2dfc5d4c1db24e129":[35,0,96,32,5],
-"structdetail_1_1default__arg__formatter.html#a65c2a5027fa4621e894476d7954875c6":[35,0,96,32,1],
-"structdetail_1_1default__arg__formatter.html#a65c2a5027fa4621e894476d7954875c6":[36,0,21,31,1],
-"structdetail_1_1default__arg__formatter.html#a81cc3b93aca25d7c4f9fb99b6b199b90":[36,0,21,31,3]
+"structdetail_1_1default__arg__formatter.html#a1afe3f579bacdaef24bfa34489a55122":[35,0,96,32,2]
 };

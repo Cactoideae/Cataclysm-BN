@@ -1,5 +1,10 @@
 var NAVTREEINDEX48 =
 {
+"classjmapgen__nested_1_1neighborhood__check.html#a698491416970fe0f187857e1925f8c31":[36,0,510,0,4],
+"classjmapgen__nested_1_1neighborhood__check.html#ab2175e1cfa340eb354825ece24d1180b":[36,0,510,0,1],
+"classjmapgen__nested_1_1neighborhood__check.html#adf374b8676171ef9f70e3aa27acb59db":[36,0,510,0,0],
+"classjmapgen__nested_1_1neighborhood__check.html#aec1c5d01f43bd8cfe71d034afc847250":[36,0,510,0,2],
+"classjmapgen__npc.html":[36,0,511],
 "classjmapgen__npc.html#a58bf6ce68d1627369f316dbef3833adf":[36,0,511,2],
 "classjmapgen__npc.html#aa7b489df4ecc3658dfba7b58175344c3":[36,0,511,1],
 "classjmapgen__npc.html#aa85eae06a7dd49022e1758494b99e637":[36,0,511,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX48 =
 "classlearn__spell__actor.html#a9874958cd0307f3553bbedfed3c2436e":[36,0,557,2],
 "classlearn__spell__actor.html#ab6b4522a3ef43bbe0ce35d47b0988887":[36,0,557,0],
 "classlearn__spell__actor.html#ae62714231215ddae24903fa17f4ec570":[36,0,557,1],
-"classlearn__spell__actor.html#aefe387c5eff2be27b39f8996e2e6fad4":[36,0,557,3],
-"classlearn__spell__actor.html#af3268f343134dfbfcd3e398c0fba712f":[36,0,557,5],
-"classlightson__game.html":[36,0,561],
-"classlightson__game.html#a0ae693de1088e51f61e71678db0f0b46":[36,0,561,13],
-"classlightson__game.html#a0cc0c1dfd8fad29dd870a47fc149fde4":[36,0,561,15],
-"classlightson__game.html#a11a1d05b52e6ce295cdb5c65cff77406":[36,0,561,2]
+"classlearn__spell__actor.html#aefe387c5eff2be27b39f8996e2e6fad4":[36,0,557,3]
 };

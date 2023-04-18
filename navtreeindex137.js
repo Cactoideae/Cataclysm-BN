@@ -1,5 +1,13 @@
 var NAVTREEINDEX137 =
 {
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__heals__damage_01_4.html":[35,0,73,0,13],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__heals__damage_01_4.html#ae559cd96e6a29ac43853cdb7389abdee":[35,0,73,0,13,0],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__heals__damage_01_4.html#ae559cd96e6a29ac43853cdb7389abdee":[36,0,14,0,13,0],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__character_01_4.html":[35,0,73,0,14],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__character_01_4.html":[36,0,14,0,14],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__character_01_4.html#abefa1281bd386858990087ed64031e76":[35,0,73,0,14,0],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__character_01_4.html#abefa1281bd386858990087ed64031e76":[36,0,14,0,14,0],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__monster_01_4.html":[36,0,14,0,15],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__monster_01_4.html":[35,0,73,0,15],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__monster_01_4.html#a643f28c024fab6f2b8945197e170caf9":[36,0,14,0,15,0],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__monster_01_4.html#a643f28c024fab6f2b8945197e170caf9":[35,0,73,0,15,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX137 =
 "structcata_1_1list_1_1group__vector_1_1ebco__pair2.html#a276c9aa1ad3ef57bffc47739ef6f2eda":[36,0,14,11,8,1,0],
 "structcata_1_1list_1_1group__vector_1_1ebco__pair2.html#acd203cfeb979e5ad578cb8388a6c1af5":[35,0,73,12,8,1,1],
 "structcata_1_1list_1_1group__vector_1_1ebco__pair2.html#acd203cfeb979e5ad578cb8388a6c1af5":[36,0,14,11,8,1,1],
-"structcata_1_1list_1_1less.html":[36,0,14,11,9],
-"structcata_1_1list_1_1less.html":[35,0,73,12,9],
-"structcata_1_1list_1_1less.html#aed1897f01debfcf501b78d159897aa08":[35,0,73,12,9,0],
-"structcata_1_1list_1_1less.html#aed1897f01debfcf501b78d159897aa08":[36,0,14,11,9,0],
-"structcata_1_1list_1_1node.html":[35,0,73,12,12],
-"structcata_1_1list_1_1node.html":[36,0,14,11,12],
-"structcata_1_1list_1_1node.html#a786fff2fada051c5d4b9460a9e6e2ab6":[35,0,73,12,12,0],
-"structcata_1_1list_1_1node.html#a786fff2fada051c5d4b9460a9e6e2ab6":[36,0,14,11,12,0],
-"structcata_1_1list_1_1node.html#aa417f15fbb74b03baf667297fcaff146":[36,0,14,11,12,3]
+"structcata_1_1list_1_1less.html":[36,0,14,11,9]
 };

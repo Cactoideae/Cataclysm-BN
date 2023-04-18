@@ -1,5 +1,13 @@
 var NAVTREEINDEX134 =
 {
+"structMonsterGroupResult.html":[36,0,658],
+"structMonsterGroupResult.html#a33c168a013a586d2418dd9e67f7c42a0":[36,0,658,2],
+"structMonsterGroupResult.html#a87072a8f3ede037f1d456ba8c2c1312a":[36,0,658,1],
+"structMonsterGroupResult.html#ac4025cbddc4f66df92f2814a791f8227":[36,0,658,0],
+"structMonsterGroupResult.html#ae6dfbd3094c5339d3a3ff41b37f8d48b":[36,0,658,3],
+"structNullBuf.html":[36,0,698],
+"structNullBuf.html#a17d66975d5437ed9c7dd7affa34363bb":[36,0,698,0],
+"structNullBuf.html#a625468956e2eac7a5e911f30a1ea3933":[36,0,698,1],
 "structSpeechBubble.html":[36,0,866],
 "structSpeechBubble.html#a72ece413ecfa11fdb12171b59a055a8f":[36,0,866,1],
 "structSpeechBubble.html#a786df9aa02b07bfc6b971709dbadcf66":[36,0,866,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX134 =
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a71fd68a106b03bbd78abad3469bb3465":[35,0,45,0,5],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a87ad9e96cfc987fb74af60d32c23a0f6":[36,0,7,0,15],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a87ad9e96cfc987fb74af60d32c23a0f6":[35,0,45,0,15],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a919159d6db57f2d016b598636ee87b66":[35,0,45,0,12],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a919159d6db57f2d016b598636ee87b66":[36,0,7,0,12],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a95bbbf5291d041ad1fb14c0a51a96cd6":[36,0,7,0,11],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a95bbbf5291d041ad1fb14c0a51a96cd6":[35,0,45,0,11],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a9fd49282d1064c42b19f97a8f32a4cdc":[36,0,7,0,4],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a9fd49282d1064c42b19f97a8f32a4cdc":[35,0,45,0,4],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#aa4d3050822580d70946fd167d8424c2c":[36,0,7,0,14],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#aa4d3050822580d70946fd167d8424c2c":[35,0,45,0,14],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#aaeda3a4414f18c6cab37dbf50a5346dd":[35,0,45,0,10]
+"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a919159d6db57f2d016b598636ee87b66":[35,0,45,0,12]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX136 =
 {
+"structbionic.html#a420d79aeeaf7464328bb295d90fac13d":[36,0,110,3],
+"structbionic.html#a4ac0c0f1eb401db04c83b12fcd2d5cdb":[36,0,110,15],
+"structbionic.html#a4b38420250d3ff4ad9c7eba7e2b25a48":[36,0,110,24],
+"structbionic.html#a4e99cc883a91088a7f1a3ece49478a85":[36,0,110,7],
+"structbionic.html#a66fc20bc3ee64b64edce99959aedd453":[36,0,110,6],
+"structbionic.html#a67cd9d56d6d14116522bdf1dd2bd2b4e":[36,0,110,0],
+"structbionic.html#a69c27d34e4a5014ae73135e80dd304b0":[36,0,110,22],
+"structbionic.html#a6c1ea38486361f355547214c0c73ab21":[36,0,110,14],
 "structbionic.html#a9ba6a347620bc748a13a909909effd3e":[36,0,110,20],
 "structbionic.html#a9ffb74340fe471788746f0a0247bf772":[36,0,110,21],
 "structbionic.html#aaa23ac1a042d1a4380449d483d57d249":[36,0,110,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX136 =
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__gains__effect_01_4.html#a19b50aa981159ed7684932a9eef05ae1":[35,0,73,0,11,0],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__gets__headshot_01_4.html":[35,0,73,0,12],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__gets__headshot_01_4.html":[36,0,14,0,12],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__heals__damage_01_4.html":[36,0,14,0,13],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__heals__damage_01_4.html":[35,0,73,0,13],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__heals__damage_01_4.html#ae559cd96e6a29ac43853cdb7389abdee":[35,0,73,0,13,0],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__heals__damage_01_4.html#ae559cd96e6a29ac43853cdb7389abdee":[36,0,14,0,13,0],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__character_01_4.html":[35,0,73,0,14],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__character_01_4.html":[36,0,14,0,14],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__character_01_4.html#abefa1281bd386858990087ed64031e76":[35,0,73,0,14,0],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__character_01_4.html#abefa1281bd386858990087ed64031e76":[36,0,14,0,14,0],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__kills__monster_01_4.html":[36,0,14,0,15]
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__heals__damage_01_4.html":[36,0,14,0,13]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX10 =
 {
+"character_8h.html#a70a4eaaf64bcd7658f91bfb500492f5a":[37,0,1,93,12],
+"character_8h.html#a70a4eaaf64bcd7658f91bfb500492f5aa14106c7e29076a7501b25177e2848fcc":[37,0,1,93,12,1],
+"character_8h.html#a70a4eaaf64bcd7658f91bfb500492f5aa23295fa6e8af5fada85fd5ed40ce4c58":[37,0,1,93,12,2],
+"character_8h.html#a70a4eaaf64bcd7658f91bfb500492f5aa334c4a4c42fdb79d7ebc3e73b517e6f8":[37,0,1,93,12,0],
+"character_8h.html#a70a4eaaf64bcd7658f91bfb500492f5aa795f3202b17cb6bc3d4b771d8c6c9eaf":[37,0,1,93,12,3],
 "character_8h.html#a8d88c9a764e41f78d403b0fb6976ef56":[37,0,1,93,24],
 "character_8h.html#aa7bb0ad73714bdf6b22d11b5b4e2633f":[37,0,1,93,13],
 "character_8h.html#aa7bb0ad73714bdf6b22d11b5b4e2633fa7ab3f388bbf5200ebf5e501260ecddcc":[37,0,1,93,13,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX10 =
 "character__id_8h_source.html":[37,0,1,101],
 "character__martial__arts_8cpp.html":[37,0,1,102],
 "character__martial__arts_8cpp.html#ad4e154f87d5ce1877c607ae7c6af3a31":[37,0,1,102,0],
-"character__martial__arts_8cpp.html#aeee3c9dc84bb463a145c7ac233471712":[37,0,1,102,1],
-"character__martial__arts_8cpp_source.html":[37,0,1,102],
-"character__martial__arts_8h.html":[37,0,1,103],
-"character__martial__arts_8h.html#a7f08e733bbd21e1303309ff5f4dc86b5":[37,0,1,103,1],
-"character__martial__arts_8h_source.html":[37,0,1,103],
-"character__oracle_8cpp.html":[37,0,1,104]
+"character__martial__arts_8cpp.html#aeee3c9dc84bb463a145c7ac233471712":[37,0,1,102,1]
 };

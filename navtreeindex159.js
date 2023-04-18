@@ -1,5 +1,13 @@
 var NAVTREEINDEX159 =
 {
+"structtripoint__distance.html#a1ff0407511bb30de8766ee39717c34ca":[36,0,952,1],
+"structtripoint__distance.html#a890096aff91ff77c9bd7d6c1f065a307":[36,0,952,2],
+"structtripoint__distance.html#a9102e576bacda7c7c99d92b9529e1af3":[36,0,952,4],
+"structtripoint__distance.html#abc9bed955e1a7a65dfe916553810fd65":[36,0,952,0],
+"structtripoint__distance.html#ad286425c97ef4c067cbd0ef939465f52":[36,0,952,5],
+"structtutorial__game.html":[36,0,955],
+"structtutorial__game.html#a040bc33a254c73e418aa27466e375f14":[36,0,955,2],
+"structtutorial__game.html#a1c6bedd67b5637f2c1f8211115b0f2e8":[36,0,955,7],
 "structtutorial__game.html#a246df1231852dda24f0c222f0610b8d7":[36,0,955,5],
 "structtutorial__game.html#a31ce75fb8345053b34c144b177a559ff":[36,0,955,4],
 "structtutorial__game.html#a435dfe483d7351089cc07c2a3868adfd":[36,0,955,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX159 =
 "structvpslot__engine.html#a207bbc61059f2b1fd5e6841d0bf84779":[36,0,1001,4],
 "structvpslot__engine.html#a7e3deeff055efd1040c58b7cfdd7df40":[36,0,1001,3],
 "structvpslot__engine.html#a8cb31e5d938bdbeb3043e08b8e9e50fc":[36,0,1001,0],
-"structvpslot__engine.html#ae180c4529fe1ce611c6808f36a8ac7c3":[36,0,1001,2],
-"structvpslot__engine.html#af79fe910ca75a02a570fa337ba3b3941":[36,0,1001,7],
-"structvpslot__rotor.html":[36,0,1002],
-"structvpslot__rotor.html#a218e6f316cb0b62a4faba279ea298b07":[36,0,1002,0],
-"structvpslot__wheel.html":[36,0,1003],
-"structvpslot__wheel.html#a78e4e450cb036a18ca50410eb0cde80c":[36,0,1003,3],
-"structvpslot__wheel.html#a7f9ec88cf40ad2440f2f38c88756075b":[36,0,1003,0],
-"structvpslot__wheel.html#a84115bb1207b65b5d51ea35aa78f8028":[36,0,1003,1],
-"structvpslot__wheel.html#afeb493eb195716a2931cd5837735f7fc":[36,0,1003,2]
+"structvpslot__engine.html#ae180c4529fe1ce611c6808f36a8ac7c3":[36,0,1001,2]
 };
