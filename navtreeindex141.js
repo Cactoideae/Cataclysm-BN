@@ -1,5 +1,6 @@
 var NAVTREEINDEX141 =
 {
+"structdetail_1_1accumulator.html#a7726e6a23a356df6083114354ad1dc43":[36,0,21,1,2],
 "structdetail_1_1accumulator.html#a7726e6a23a356df6083114354ad1dc43":[35,0,96,2,2],
 "structdetail_1_1accumulator.html#a846155e4f8f4e907a544691ab20d23a2":[36,0,21,1,3],
 "structdetail_1_1accumulator.html#a846155e4f8f4e907a544691ab20d23a2":[35,0,96,2,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX141 =
 "structdetail_1_1data.html":[36,0,21,29],
 "structdetail_1_1data.html":[35,0,96,30],
 "structdetail_1_1default__arg__formatter.html":[35,0,96,32],
-"structdetail_1_1default__arg__formatter.html":[36,0,21,31],
-"structdetail_1_1default__arg__formatter.html#a1afe3f579bacdaef24bfa34489a55122":[35,0,96,32,2]
+"structdetail_1_1default__arg__formatter.html":[36,0,21,31]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX155 =
 {
+"structpickup_1_1stacked__items.html#aee4abba0897554e8256f3332392b0ed3":[36,0,33,3,0],
 "structpickup_1_1stacked__items.html#aee4abba0897554e8256f3332392b0ed3":[35,0,157,3,0],
 "structpickup_1_1unstacked__items.html":[35,0,157,4],
 "structpickup_1_1unstacked__items.html":[36,0,33,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX155 =
 "structradio__tower.html#a6737a5b6e13a5be9c831cde9d80d5724":[36,0,780,0],
 "structradio__tower.html#a8da1cde3d8253aed8c351d4ad66cbcb2":[36,0,780,3],
 "structradio__tower.html#ab75e98832450a68008a2bb9608dc23f1":[36,0,780,4],
-"structradio__tower__reference.html":[36,0,781],
-"structradio__tower__reference.html#a26f2e82817817ca5291a8376bb416784":[36,0,781,3]
+"structradio__tower__reference.html":[36,0,781]
 };

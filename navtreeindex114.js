@@ -1,5 +1,6 @@
 var NAVTREEINDEX114 =
 {
+"namespacecharge__removal__blacklist.html#aaeadabf202652885cbe0c4ee67c0b3d8":[35,0,85,2],
 "namespacecity__buildings.html":[35,0,86],
 "namespacecity__buildings.html#a6be0b7f7107b43f1a3e7a3f3b1939266":[35,0,86,0],
 "namespaceclothing__mods.html":[35,0,87],
@@ -248,6 +249,5 @@ var NAVTREEINDEX114 =
 "namespacedetail.html#a1ce5844a002c0c15253b91f7ffae5729":[35,0,96,269],
 "namespacedetail.html#a1d61b8b681bfea9c6949651be0f34c3c":[35,0,96,317],
 "namespacedetail.html#a1e83f1deb8d4267918ea078c1fa8ed0d":[35,0,96,308],
-"namespacedetail.html#a204148e9216ddc0ae7fdbea1c42e457a":[35,0,96,123],
-"namespacedetail.html#a208b54c1c61a9bce9df4531a657a0c64":[35,0,96,141]
+"namespacedetail.html#a204148e9216ddc0ae7fdbea1c42e457a":[35,0,96,123]
 };

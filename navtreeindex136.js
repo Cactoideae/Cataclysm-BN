@@ -1,5 +1,6 @@
 var NAVTREEINDEX136 =
 {
+"structbionic.html#a3d1a3c8fbf7dea71039e8bc3a1fd5622":[36,0,110,4],
 "structbionic.html#a420d79aeeaf7464328bb295d90fac13d":[36,0,110,3],
 "structbionic.html#a4ac0c0f1eb401db04c83b12fcd2d5cdb":[36,0,110,15],
 "structbionic.html#a4b38420250d3ff4ad9c7eba7e2b25a48":[36,0,110,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX136 =
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__gains__effect_01_4.html#a19b50aa981159ed7684932a9eef05ae1":[36,0,14,0,11,0],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__gains__effect_01_4.html#a19b50aa981159ed7684932a9eef05ae1":[35,0,73,0,11,0],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__gets__headshot_01_4.html":[35,0,73,0,12],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__gets__headshot_01_4.html":[36,0,14,0,12],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__heals__damage_01_4.html":[36,0,14,0,13]
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__gets__headshot_01_4.html":[36,0,14,0,12]
 };

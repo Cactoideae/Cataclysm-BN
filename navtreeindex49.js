@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"classlearn__spell__actor.html#aefe387c5eff2be27b39f8996e2e6fad4":[36,0,557,3],
 "classlearn__spell__actor.html#af3268f343134dfbfcd3e398c0fba712f":[36,0,557,5],
 "classlightson__game.html":[36,0,561],
 "classlightson__game.html#a0ae693de1088e51f61e71678db0f0b46":[36,0,561,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "classmap.html#a0848fb321e7b0f59f0573da235a8c6fc":[36,0,581,445],
 "classmap.html#a0883848153267d70cdfdc14d7abf08b7":[36,0,581,184],
 "classmap.html#a091e78df9647c7c8a468a33886a097c5":[36,0,581,123],
-"classmap.html#a098e18c24d766d1b52255cd5b9693e8d":[36,0,581,111],
-"classmap.html#a09daa790840223d03e1b64a4258679c1":[36,0,581,139]
+"classmap.html#a098e18c24d766d1b52255cd5b9693e8d":[36,0,581,111]
 };

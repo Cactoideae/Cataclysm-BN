@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classevent__transformation.html#acfe7c15da90129ac604e3cea837f121f":[36,0,321,4],
 "classevent__transformation.html#addd11cae6b102e6527725c4d85222927":[36,0,321,5],
 "classevent__transformation.html#af3e50f1b68c4444cbb9900c4db590468":[36,0,321,3],
 "classevent__transformation.html#af6cc539e8c5e5475c286f19a6c61aa66":[36,0,321,7],
@@ -11,12 +12,12 @@ var NAVTREEINDEX38 =
 "classevent__transformation_1_1impl.html#a9c4f5519af3f05949154be6d51158f39":[36,0,321,0,2],
 "classevent__transformation_1_1impl.html#ab34d1d857c04ab83a69f368d5528ce3d":[36,0,321,0,5],
 "classevent__transformation_1_1impl.html#aeab6ea16440952c8be2a787cf53f1095":[36,0,321,0,0],
-"classexplosion__handler_1_1explosion__queue.html":[35,0,106,1],
 "classexplosion__handler_1_1explosion__queue.html":[36,0,24,0],
+"classexplosion__handler_1_1explosion__queue.html":[35,0,106,1],
 "classexplosion__handler_1_1explosion__queue.html#a380d0eb70cae94d75275761fb7685544":[35,0,106,1,0],
 "classexplosion__handler_1_1explosion__queue.html#a380d0eb70cae94d75275761fb7685544":[36,0,24,0,0],
-"classexplosion__handler_1_1explosion__queue.html#a63402ce169e30e1be28113893cfbdea9":[36,0,24,0,2],
 "classexplosion__handler_1_1explosion__queue.html#a63402ce169e30e1be28113893cfbdea9":[35,0,106,1,2],
+"classexplosion__handler_1_1explosion__queue.html#a63402ce169e30e1be28113893cfbdea9":[36,0,24,0,2],
 "classexplosion__handler_1_1explosion__queue.html#a66a046dd6be9e1611d6707db7f200079":[36,0,24,0,3],
 "classexplosion__handler_1_1explosion__queue.html#a66a046dd6be9e1611d6707db7f200079":[35,0,106,1,3],
 "classexplosion__handler_1_1explosion__queue.html#a892c99bbadbb5fb2db436cba4dbc355f":[36,0,24,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classformat__arg__store.html#ad87a1b7409c355e2221f9f8e58d77c94":[36,0,356,7],
 "classformat__arg__store.html#adca76a9694514be48ffbc8253f2c8d68":[36,0,356,0],
 "classformat__arg__store.html#ae02d97eac035816ed9368edfdc908d4e":[36,0,356,6],
-"classformat__error.html":[36,0,358],
-"classformat__error.html#a5dd37d8461b410faf04397e3ad8b4a6a":[36,0,358,4]
+"classformat__error.html":[36,0,358]
 };

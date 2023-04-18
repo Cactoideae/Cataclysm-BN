@@ -77,7 +77,7 @@ var searchData=
   ['init_5fdeath_74',['init_death',['../classMonsterGenerator.html#a91acbd81042f51533d258b205822838d',1,'MonsterGenerator']]],
   ['init_5fdefense_75',['init_defense',['../classMonsterGenerator.html#a1e62e253ba3887f30c01fb141fdc9095',1,'MonsterGenerator']]],
   ['init_5fdraw_5fbelow_5foverride_76',['init_draw_below_override',['../classcata__tiles.html#a4acce8fe0a9c5d3e38b55d5ed9d08e93',1,'cata_tiles']]],
-  ['init_5fdraw_5fbullet_77',['init_draw_bullet',['../classcata__tiles.html#abe26bd8c0611b06420eb4f6fd08748e4',1,'cata_tiles']]],
+  ['init_5fdraw_5fbullet_77',['init_draw_bullet',['../classcata__tiles.html#afc57a4138f87272100b09d9ff9a9f036',1,'cata_tiles']]],
   ['init_5fdraw_5fcone_5faoe_78',['init_draw_cone_aoe',['../classcata__tiles.html#a376a6428a4315d893063e91948aa68d9',1,'cata_tiles']]],
   ['init_5fdraw_5fcursor_79',['init_draw_cursor',['../classcata__tiles.html#aa304115785ac2a0ed19087f26fbd8980',1,'cata_tiles']]],
   ['init_5fdraw_5ffield_5foverride_80',['init_draw_field_override',['../classcata__tiles.html#a9e3538ad287a3c09f21457808d6e1736',1,'cata_tiles']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"faction__camp_8cpp.html#aaa9613ea825773a0d74eaba7663a5dbf":[37,0,1,210,14],
 "faction__camp_8cpp.html#aab43e79bc71521bc5a9b62fdb25ba942":[37,0,1,210,45],
 "faction__camp_8cpp.html#aab5d0f0293a4dcd379c4243f95241bd2":[37,0,1,210,29],
 "faction__camp_8cpp.html#ac038c6319122de04af85fb88e6618601":[37,0,1,210,84],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "flag_8h.html":[37,0,1,223],
 "flag_8h.html#a4edf158441953c104d2aa0bde9cee111":[37,0,1,223,1],
 "flag_8h.html#afb68a5aab60efccd97f09eb8237bf925":[37,0,1,223,2],
-"flag_8h_source.html":[37,0,1,223],
-"flat__set_8h.html":[37,0,1,224]
+"flag_8h_source.html":[37,0,1,223]
 };

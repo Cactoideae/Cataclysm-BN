@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"namespaceovermap__terrains.html#adeb350d773c86be9ebdc18a60b9eca30":[35,0,153,2],
 "namespaceovermap__ui.html":[35,0,154],
 "namespaceovermap__ui.html#a06c7012cacbc54d3089948f7d99791ce":[35,0,154,21],
 "namespaceovermap__ui.html#a2e98c69cd4c14544afd28c0b4958e70f":[35,0,154,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "namespacespell__effect.html#a9c1ca41ab01026f6634fd4775fdc44d1":[35,0,169,23],
 "namespacespell__effect.html#a9f1b39574600d0523b1c049f7d7d69bd":[35,0,169,5],
 "namespacespell__effect.html#aa36a2d7d3cb5678aa8b0eb00c0ba7c0d":[35,0,169,22],
-"namespacespell__effect.html#aab642b59960d04ea76dd5dac1e987640":[35,0,169,15],
-"namespacespell__effect.html#abb764fe9032ab4bbf5b194f6fc86c504":[35,0,169,1]
+"namespacespell__effect.html#aab642b59960d04ea76dd5dac1e987640":[35,0,169,15]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"structMonsterGroupEntry.html#afcf7bc546503b788c79ded5d89843285":[36,0,656,2],
 "structMonsterGroupResult.html":[36,0,658],
 "structMonsterGroupResult.html#a33c168a013a586d2418dd9e67f7c42a0":[36,0,658,2],
 "structMonsterGroupResult.html#a87072a8f3ede037f1d456ba8c2c1312a":[36,0,658,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a71fd68a106b03bbd78abad3469bb3465":[36,0,7,0,5],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a71fd68a106b03bbd78abad3469bb3465":[35,0,45,0,5],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a87ad9e96cfc987fb74af60d32c23a0f6":[36,0,7,0,15],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a87ad9e96cfc987fb74af60d32c23a0f6":[35,0,45,0,15],
-"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a919159d6db57f2d016b598636ee87b66":[35,0,45,0,12]
+"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a87ad9e96cfc987fb74af60d32c23a0f6":[35,0,45,0,15]
 };
