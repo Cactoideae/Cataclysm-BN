@@ -1,5 +1,9 @@
 var NAVTREEINDEX125 =
 {
+"npctalk_8cpp.html#ad2ae1bb0e28baed485b629d6e87a58c5aa3fdf4ff55c1b3a479ce38717c338be7":[37,0,1,460,4,10],
+"npctalk_8cpp.html#ad2ae1bb0e28baed485b629d6e87a58c5aa41dbe6194e35f0c7b8f3d71b5befb2a":[37,0,1,460,4,3],
+"npctalk_8cpp.html#ad2ae1bb0e28baed485b629d6e87a58c5aabd4bc495593153c9a2b8e69667b795e":[37,0,1,460,4,17],
+"npctalk_8cpp.html#ad2ae1bb0e28baed485b629d6e87a58c5aac45ddc984e888925fd24e64fddd1fef":[37,0,1,460,4,9],
 "npctalk_8cpp.html#ad2ae1bb0e28baed485b629d6e87a58c5ab0f976be572157292fe31c13fd05b18d":[37,0,1,460,4,11],
 "npctalk_8cpp.html#ad2ae1bb0e28baed485b629d6e87a58c5ac4d58a9f084ab657cb4817f4f494e56f":[37,0,1,460,4,6],
 "npctalk_8cpp.html#ad2ae1bb0e28baed485b629d6e87a58c5ac5178e864a93db225cf597d24de8bee4":[37,0,1,460,4,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX125 =
 "options_8cpp.html#a031b0d1a47acae590a315c72df6b2052":[37,0,1,468,12],
 "options_8cpp.html#a04e6b4e87a7b0664ca91c73486e233b6":[37,0,1,468,4],
 "options_8cpp.html#a28c374585686e3c68f7015ebec764881":[37,0,1,468,13],
-"options_8cpp.html#a4af03695c821f01da0be3860fc2c389c":[37,0,1,468,3],
-"options_8cpp.html#a64727816bd8be1e0f42522f6486cf68c":[37,0,1,468,5],
-"options_8cpp.html#a8600ac715df3f79d8221e0438f85c0ee":[37,0,1,468,10],
-"options_8cpp.html#aae39c0b4da325d9397e161c030b27d0f":[37,0,1,468,11],
-"options_8cpp.html#ac39afaf9ef469fafa207489dbbd67233":[37,0,1,468,14]
+"options_8cpp.html#a4af03695c821f01da0be3860fc2c389c":[37,0,1,468,3]
 };

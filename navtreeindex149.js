@@ -1,5 +1,11 @@
 var NAVTREEINDEX149 =
 {
+"structitype.html#a9599d60ae3f70f8791bf108a4bde877b":[36,0,490,51],
+"structitype.html#a9bf7494805acc141b007ddade6a6313c":[36,0,490,28],
+"structitype.html#a9d0d50c14b184fceddd1a13ee279a6fc":[36,0,490,45],
+"structitype.html#a9defae7ba72f6d0af2e5629c4244f00e":[36,0,490,9],
+"structitype.html#a9df22ea5b5b6e19d18f730d4a8625cfa":[36,0,490,19],
+"structitype.html#aa0615d0fb9ee03b0b7350fe1f334d77b":[36,0,490,10],
 "structitype.html#aa5c0438c1bc94ded4e950ad684463a72":[36,0,490,55],
 "structitype.html#aa656fede37aaf975ab567bcc5c6a452e":[36,0,490,34],
 "structitype.html#aaf325d340c06130e2fd994e54400a012":[36,0,490,43],
@@ -243,11 +249,5 @@ var NAVTREEINDEX149 =
 "structmap__bash__info.html#ab4e99da9431ac05b41e0eed375fdd74a":[36,0,582,17],
 "structmap__bash__info.html#abadd71d9aba5f824f9257f16d26600f3":[36,0,582,9],
 "structmap__bash__info.html#ac1b1280bcde9bfa0373d7e5c6230855a":[36,0,582,26],
-"structmap__bash__info.html#ac3d29555dc400fe64f6b77d0befef121":[36,0,582,2],
-"structmap__bash__info.html#ad4d5450ddbfc62ba00d3bde4f110234b":[36,0,582,8],
-"structmap__bash__info.html#adcb610d096ede7e5e8d86c543dc27cd2":[36,0,582,16],
-"structmap__bash__info.html#ade17eb3880bead8e01a6d919246ba9ad":[36,0,582,4],
-"structmap__bash__info.html#ae3ad37da3f133c0227ce2d2d3fba6c9c":[36,0,582,21],
-"structmap__bash__info.html#ae4f45c24f15b024934db47d62cd4df04":[36,0,582,13],
-"structmap__bash__info.html#ae61d680abb809d8baaa90cc90f50b49e":[36,0,582,11]
+"structmap__bash__info.html#ac3d29555dc400fe64f6b77d0befef121":[36,0,582,2]
 };

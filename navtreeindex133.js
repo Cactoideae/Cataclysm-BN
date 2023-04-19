@@ -1,5 +1,9 @@
 var NAVTREEINDEX133 =
 {
+"sounds_8h.html#af20f2b1f5492d2f2d793da6d29740f18a6492e8fca309130dc1783804cecdeffc":[37,0,1,589,2,24],
+"sounds_8h.html#af20f2b1f5492d2f2d793da6d29740f18a65f31a0f648a1988eb39be4b8f11c828":[37,0,1,589,2,13],
+"sounds_8h.html#af20f2b1f5492d2f2d793da6d29740f18a661036444e60a010951b875acbe1b1d7":[37,0,1,589,2,20],
+"sounds_8h.html#af20f2b1f5492d2f2d793da6d29740f18a6f3433a0d9b16dc770e142b204218670":[37,0,1,589,2,21],
 "sounds_8h.html#af20f2b1f5492d2f2d793da6d29740f18a798e54712226899a9a484b7ae5aaecea":[37,0,1,589,2,1],
 "sounds_8h.html#af20f2b1f5492d2f2d793da6d29740f18a7fdfd48cf1a1a4f9a7259b6462080c27":[37,0,1,589,2,8],
 "sounds_8h.html#af20f2b1f5492d2f2d793da6d29740f18a81da90028584163c881d835d6093f9e6":[37,0,1,589,2,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX133 =
 "structMonsterGroupEntry.html#a2d993c64e54052fbfc8359b785822770":[36,0,656,7],
 "structMonsterGroupEntry.html#a36a5db8bb7cfa27d2b87350aa36a340c":[36,0,656,4],
 "structMonsterGroupEntry.html#a432112121da26dda7656bf262057e491":[36,0,656,8],
-"structMonsterGroupEntry.html#a466800958164795f0c4d780f018f55c4":[36,0,656,5],
-"structMonsterGroupEntry.html#aa8bcee9ea0e206fb4e66d662108ef48b":[36,0,656,0],
-"structMonsterGroupEntry.html#aacc61581b670aecc16471f2a08bfb96a":[36,0,656,9],
-"structMonsterGroupEntry.html#ac382f38fdf92ade9b5aeee97d7e0cfa1":[36,0,656,3],
-"structMonsterGroupEntry.html#adcbaa803916753b42bb8968d9d38378a":[36,0,656,6]
+"structMonsterGroupEntry.html#a466800958164795f0c4d780f018f55c4":[36,0,656,5]
 };

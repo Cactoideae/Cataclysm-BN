@@ -384,7 +384,7 @@ template&lt;typename E &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="enum__conversions_8h_source.html#l00042">build_enum_lookup_map()</a>, <a class="el" href="event__statistics_8cpp_source.html#l00268">new_field::check()</a>, <a class="el" href="event__statistics_8cpp_source.html#l00212">value_constraint::check()</a>, <a class="el" href="event__statistics_8cpp_source.html#l00335">event_type_event_source::debug_description()</a>, <a class="el" href="magic_8cpp_source.html#l01090">spell::enumerate_targets()</a>, <a class="el" href="cata__variant_8h_source.html#l00293">cata_variant::get()</a>, <a class="el" href="character_8cpp_source.html#l03252">Character::get_overlay_ids()</a>, <a class="el" href="event_8cpp_source.html#l00170">cata::event::get_variant()</a>, <a class="el" href="debug_8cpp_source.html#l01159">detail::realDebugLog()</a>, <a class="el" href="craft__command_8cpp_source.html#l00069">comp_selection&lt; CompType &gt;::serialize()</a>, and <a class="el" href="cata__variant_8h_source.html#l00148">cata_variant_detail::convert_enum&lt; T &gt;::to_string()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="enum__conversions_8h_source.html#l00042">build_enum_lookup_map()</a>, <a class="el" href="event__statistics_8cpp_source.html#l00268">new_field::check()</a>, <a class="el" href="event__statistics_8cpp_source.html#l00212">value_constraint::check()</a>, <a class="el" href="event__statistics_8cpp_source.html#l00335">event_type_event_source::debug_description()</a>, <a class="el" href="magic_8cpp_source.html#l01090">spell::enumerate_targets()</a>, <a class="el" href="cata__variant_8h_source.html#l00293">cata_variant::get()</a>, <a class="el" href="character_8cpp_source.html#l03255">Character::get_overlay_ids()</a>, <a class="el" href="event_8cpp_source.html#l00170">cata::event::get_variant()</a>, <a class="el" href="debug_8cpp_source.html#l01159">detail::realDebugLog()</a>, <a class="el" href="craft__command_8cpp_source.html#l00069">comp_selection&lt; CompType &gt;::serialize()</a>, and <a class="el" href="cata__variant_8h_source.html#l00148">cata_variant_detail::convert_enum&lt; T &gt;::to_string()</a>.</p>
 
 </div>
 </div>
@@ -1127,21 +1127,21 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="character_8cpp_source.html#l04213">4213</a> of file <a class="el" href="character_8cpp_source.html">character.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l04214" name="l04214"></a><span class="lineno"> 4214</span>{</div>
-<div class="line"><a id="l04215" name="l04215"></a><span class="lineno"> 4215</span>    <span class="keywordflow">switch</span>( data ) {</div>
-<div class="line"><a id="l04216" name="l04216"></a><span class="lineno"> 4216</span>        <span class="comment">// *INDENT-OFF*</span></div>
-<div class="line"><a id="l04217" name="l04217"></a><span class="lineno"> 4217</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a3963049b60ddd6534b219d3767af0dfc">character_stat::STRENGTH</a>:     <span class="keywordflow">return</span> <span class="stringliteral">&quot;STR&quot;</span>;</div>
-<div class="line"><a id="l04218" name="l04218"></a><span class="lineno"> 4218</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a66212c9f367544fe9bffff62900c6203">character_stat::DEXTERITY</a>:    <span class="keywordflow">return</span> <span class="stringliteral">&quot;DEX&quot;</span>;</div>
-<div class="line"><a id="l04219" name="l04219"></a><span class="lineno"> 4219</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755acbc4a7ccc74fbcbda6a01632c5e4656e">character_stat::INTELLIGENCE</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;INT&quot;</span>;</div>
-<div class="line"><a id="l04220" name="l04220"></a><span class="lineno"> 4220</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a7301a4f338e31867e8ef6d3f0a148319">character_stat::PERCEPTION</a>:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;PER&quot;</span>;</div>
-<div class="line"><a id="l04221" name="l04221"></a><span class="lineno"> 4221</span> </div>
-<div class="line"><a id="l04222" name="l04222"></a><span class="lineno"> 4222</span>        <span class="comment">// *INDENT-ON*</span></div>
-<div class="line"><a id="l04223" name="l04223"></a><span class="lineno"> 4223</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a308f546dec073d676fe48face3d09056">character_stat::DUMMY_STAT</a>:</div>
-<div class="line"><a id="l04224" name="l04224"></a><span class="lineno"> 4224</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l04225" name="l04225"></a><span class="lineno"> 4225</span>    }</div>
-<div class="line"><a id="l04226" name="l04226"></a><span class="lineno"> 4226</span>    <a class="code hl_enumvalue" href="vehicle_8h.html#a120e32a2f241b5f666c5189a2f405eeaa5bb94a1c12413a2e5d14deabab29f2aa">abort</a>();</div>
-<div class="line"><a id="l04227" name="l04227"></a><span class="lineno"> 4227</span>}</div>
+<p class="definition">Definition at line <a class="el" href="character_8cpp_source.html#l04216">4216</a> of file <a class="el" href="character_8cpp_source.html">character.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l04217" name="l04217"></a><span class="lineno"> 4217</span>{</div>
+<div class="line"><a id="l04218" name="l04218"></a><span class="lineno"> 4218</span>    <span class="keywordflow">switch</span>( data ) {</div>
+<div class="line"><a id="l04219" name="l04219"></a><span class="lineno"> 4219</span>        <span class="comment">// *INDENT-OFF*</span></div>
+<div class="line"><a id="l04220" name="l04220"></a><span class="lineno"> 4220</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a3963049b60ddd6534b219d3767af0dfc">character_stat::STRENGTH</a>:     <span class="keywordflow">return</span> <span class="stringliteral">&quot;STR&quot;</span>;</div>
+<div class="line"><a id="l04221" name="l04221"></a><span class="lineno"> 4221</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a66212c9f367544fe9bffff62900c6203">character_stat::DEXTERITY</a>:    <span class="keywordflow">return</span> <span class="stringliteral">&quot;DEX&quot;</span>;</div>
+<div class="line"><a id="l04222" name="l04222"></a><span class="lineno"> 4222</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755acbc4a7ccc74fbcbda6a01632c5e4656e">character_stat::INTELLIGENCE</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;INT&quot;</span>;</div>
+<div class="line"><a id="l04223" name="l04223"></a><span class="lineno"> 4223</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a7301a4f338e31867e8ef6d3f0a148319">character_stat::PERCEPTION</a>:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;PER&quot;</span>;</div>
+<div class="line"><a id="l04224" name="l04224"></a><span class="lineno"> 4224</span> </div>
+<div class="line"><a id="l04225" name="l04225"></a><span class="lineno"> 4225</span>        <span class="comment">// *INDENT-ON*</span></div>
+<div class="line"><a id="l04226" name="l04226"></a><span class="lineno"> 4226</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a308f546dec073d676fe48face3d09056">character_stat::DUMMY_STAT</a>:</div>
+<div class="line"><a id="l04227" name="l04227"></a><span class="lineno"> 4227</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l04228" name="l04228"></a><span class="lineno"> 4228</span>    }</div>
+<div class="line"><a id="l04229" name="l04229"></a><span class="lineno"> 4229</span>    <a class="code hl_enumvalue" href="vehicle_8h.html#a120e32a2f241b5f666c5189a2f405eeaa5bb94a1c12413a2e5d14deabab29f2aa">abort</a>();</div>
+<div class="line"><a id="l04230" name="l04230"></a><span class="lineno"> 4230</span>}</div>
 <div class="ttc" id="acharacter__stat_8h_html_a27f8e52e2e5afc1c4a709dd65ab84755a308f546dec073d676fe48face3d09056"><div class="ttname"><a href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a308f546dec073d676fe48face3d09056">character_stat::DUMMY_STAT</a></div><div class="ttdeci">@ DUMMY_STAT</div></div>
 <div class="ttc" id="acharacter__stat_8h_html_a27f8e52e2e5afc1c4a709dd65ab84755a3963049b60ddd6534b219d3767af0dfc"><div class="ttname"><a href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a3963049b60ddd6534b219d3767af0dfc">character_stat::STRENGTH</a></div><div class="ttdeci">@ STRENGTH</div></div>
 <div class="ttc" id="acharacter__stat_8h_html_a27f8e52e2e5afc1c4a709dd65ab84755a66212c9f367544fe9bffff62900c6203"><div class="ttname"><a href="character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755a66212c9f367544fe9bffff62900c6203">character_stat::DEXTERITY</a></div><div class="ttdeci">@ DEXTERITY</div></div>
@@ -3739,7 +3739,7 @@ template&lt;typename C , typename E  = typename C::mapped_type&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceio.html">io</a></li>
-    <li class="footer">Generated on Tue Apr 18 2023 23:05:58 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 19 2023 00:46:38 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

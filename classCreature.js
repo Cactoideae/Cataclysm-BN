@@ -94,6 +94,7 @@ var classCreature =
     [ "fall_damage_mod", "classCreature.html#ab94a3c4423c330bfc0d6591da2efcc9b", null ],
     [ "get_all_body_parts", "classCreature.html#a9f9cc294949ffc5bd51ab464b5c5ad6f", null ],
     [ "get_all_effects", "classCreature.html#acd41fe70086446befdb8d6e5a950c1ff", null ],
+    [ "get_all_effects_of_type", "classCreature.html#a90285456548d0e3d8ff48c6495733924", null ],
     [ "get_all_effects_of_type", "classCreature.html#aac94e7c7a3d343c197ddc581745b8a37", null ],
     [ "get_anatomy", "classCreature.html#a59d8ead2387b3b99cb2e88c5f1858e17", null ],
     [ "get_armor_bash", "classCreature.html#a3e049fbeaa6a392bd3a2594005b397af", null ],

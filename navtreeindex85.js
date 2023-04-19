@@ -1,5 +1,9 @@
 var NAVTREEINDEX85 =
 {
+"fmtlib__format_8h.html#a0c8726854a4af0ec6aff3fcf32ee4094":[37,0,1,229,148],
+"fmtlib__format_8h.html#a0cdd653ad972489f35ed316aa075c574":[37,0,1,229,159],
+"fmtlib__format_8h.html#a0d8ba35c77308dbea0f638f6c0bb6fba":[37,0,1,229,223],
+"fmtlib__format_8h.html#a0e6e76d76af117dda2fead640c9238b4":[37,0,1,229,102],
 "fmtlib__format_8h.html#a0f6aad1fb80f2a74cb78b07a0e04e93a":[37,0,1,229,136],
 "fmtlib__format_8h.html#a10e923e5e0b52ca60b97a1126bbfdc88":[37,0,1,229,131],
 "fmtlib__format_8h.html#a1177f090c1dacc3982b2e069eaa2582c":[37,0,1,229,152],
@@ -245,9 +249,5 @@ var NAVTREEINDEX85 =
 "font__loader_8cpp.html#a418f43b9aab490b1fab4aa6e20cdc285":[37,0,1,232,0],
 "font__loader_8cpp_source.html":[37,0,1,232],
 "font__loader_8h.html":[37,0,1,233],
-"font__loader_8h.html#a418f43b9aab490b1fab4aa6e20cdc285":[37,0,1,233,2],
-"font__loader_8h.html#ae68ffdaba9e52bb22303fa364bd5e36c":[37,0,1,233,1],
-"font__loader_8h_source.html":[37,0,1,233],
-"fragment__cloud_8h.html":[37,0,1,234],
-"fragment__cloud_8h.html#a67c88def67b7534cd6fcf1e187fbb720":[37,0,1,234,4]
+"font__loader_8h.html#a418f43b9aab490b1fab4aa6e20cdc285":[37,0,1,233,2]
 };

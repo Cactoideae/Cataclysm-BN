@@ -72,6 +72,7 @@ var bionics_8cpp =
     [ "effect_heating_bionic", "bionics_8cpp.html#a549621fd3269acc5854484909ebd19c0", null ],
     [ "effect_infected", "bionics_8cpp.html#a1de43fa1f6d16ce87ab7a3a49e47c463", null ],
     [ "effect_iodine", "bionics_8cpp.html#af5dd86266df53b8e4db96ed1853a4626", null ],
+    [ "effect_mending", "bionics_8cpp.html#ae239a31e1ebbbbacd06a8fcdd8be2861", null ],
     [ "effect_meth", "bionics_8cpp.html#a5ba3e18250fa524fe8548fa0a1e98535", null ],
     [ "effect_narcosis", "bionics_8cpp.html#a1a6476e8888f0929f469fd9af2d629bc", null ],
     [ "effect_operating", "bionics_8cpp.html#ab8dd6142a7131d3af944e532002ac9e3", null ],
@@ -120,5 +121,6 @@ var bionics_8cpp =
     [ "trait_NOPAIN", "bionics_8cpp.html#af20cb84a6e8ccc0ed66c352edf29143b", null ],
     [ "trait_PROF_AUTODOC", "bionics_8cpp.html#ad7474f99e46e79db646d59a9d53f780e", null ],
     [ "trait_PROF_MED", "bionics_8cpp.html#a41d5ef1cb07f75eb03dcf4aea6619a81", null ],
+    [ "trait_REGEN_LIZ", "bionics_8cpp.html#aa3da8ff614f792fca48c877acc0ff880", null ],
     [ "trait_THRESH_MEDICAL", "bionics_8cpp.html#a3736b679305588b502b71a85b6fc4cda", null ]
 ];

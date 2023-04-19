@@ -1,5 +1,11 @@
 var NAVTREEINDEX153 =
 {
+"structnpc__dist__to__player.html#aa1bb8b790c19ea555874777b7b4c03e6":[36,0,689,2],
+"structnpc__dist__to__player.html#adec94d599f134c5173b1e414af7b6a6f":[36,0,689,1],
+"structnpc__favor.html":[36,0,690],
+"structnpc__favor.html#a0a0e38bd9423b8645fc88f45df0eee10":[36,0,690,6],
+"structnpc__favor.html#a17a3ef040335d5fda6f76a9d63bdd667":[36,0,690,0],
+"structnpc__favor.html#a8b52d6bc6768746cf9a87264ed925069":[36,0,690,4],
 "structnpc__favor.html#a99c3eda231f3c918bd06cb815ca158de":[36,0,690,5],
 "structnpc__favor.html#a9b19967ac54d6b5810144a35aa703594":[36,0,690,2],
 "structnpc__favor.html#ab1c773260066b2c841e8c19db17a13e4":[36,0,690,3],
@@ -111,8 +117,8 @@ var NAVTREEINDEX153 =
 "structom__lines_1_1type.html#a2511ff3039454c926ec0451f16d96e36":[36,0,29,0,3],
 "structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[35,0,147,0,2],
 "structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[36,0,29,0,2],
-"structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[36,0,29,0,4],
 "structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[35,0,147,0,4],
+"structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[36,0,29,0,4],
 "structom__lines_1_1type.html#ad37beb8f13a55a1f2547f9785ca9df35":[35,0,147,0,0],
 "structom__lines_1_1type.html#ad37beb8f13a55a1f2547f9785ca9df35":[36,0,29,0,0],
 "structom__map__extra.html":[36,0,705],
@@ -243,11 +249,5 @@ var NAVTREEINDEX153 =
 "structovermap__lake__settings.html#ad7efde061dc78fee00d46620485a2bfb":[36,0,720,2],
 "structovermap__location.html":[36,0,722],
 "structovermap__location.html#a69e9d21dec0274326f5755a6f9978839":[36,0,722,4],
-"structovermap__location.html#a8eb07835134fcba1980a3d3b7155631f":[36,0,722,0],
-"structovermap__location.html#aab486eefaf64d4263fdbbd1972a6e06d":[36,0,722,7],
-"structovermap__location.html#ac139bf03c186bafca9f9d2e8682e36c4":[36,0,722,8],
-"structovermap__location.html#ac27a5c6b89916e972430d6656e26fe52":[36,0,722,1],
-"structovermap__location.html#acde3ca877cd899060fba28da89d1beaf":[36,0,722,6],
-"structovermap__location.html#adb366d0a4451bfde4dc22b152168ad90":[36,0,722,3],
-"structovermap__location.html#ae83e5807df2ede77a8a6a7f666f2ac64":[36,0,722,9]
+"structovermap__location.html#a8eb07835134fcba1980a3d3b7155631f":[36,0,722,0]
 };

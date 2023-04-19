@@ -35,6 +35,7 @@ var structbionic__data =
     [ "included", "structbionic__data.html#af1f4706ffd11a7b7f044c2d67ddb2b92", null ],
     [ "included_bionics", "structbionic__data.html#a473e64161cde41fc639c09c92fdec0ad", null ],
     [ "is_remote_fueled", "structbionic__data.html#ad0a8e68595674cdf6b64719c375f3cb9", null ],
+    [ "kcal_trigger", "structbionic__data.html#ae45d3fccfc21e7cd0bfafc9acf2deb31", null ],
     [ "learned_spells", "structbionic__data.html#a417279b7446198706253bfafa83c2574", null ],
     [ "name", "structbionic__data.html#a3cf96a3fc532f2c82b73924ab585451e", null ],
     [ "occupied_bodyparts", "structbionic__data.html#ae9faf505571841d8ef97496eb3a26607", null ],
