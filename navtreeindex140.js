@@ -1,5 +1,6 @@
 var NAVTREEINDEX140 =
 {
+"structconstruction.html#a52094564ee6ba8fb55b74f6913c9a0bf":[36,0,174,0],
 "structconstruction.html#a5671c035ade5a0c7ab262b48a3b5e8b5":[36,0,174,20],
 "structconstruction.html#a70c13acb194736b73200b8d6c08366dc":[36,0,174,9],
 "structconstruction.html#a89d4a74d41da134b245a60efc638d2bd":[36,0,174,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX140 =
 "structdefense__game.html#afd97d055867c5bd638560a1a6e19f9aa":[36,0,201,30],
 "structdesc__freq.html":[36,0,208],
 "structdesc__freq.html#a49ec6fd8f4ca7aa1b91ab1f660e2b400":[36,0,208,2],
-"structdesc__freq.html#ae40bb45b83a3ec156a53d4143421892d":[36,0,208,4],
-"structdesc__freq.html#aec51702de07cce179b141c6fc001184a":[36,0,208,0]
+"structdesc__freq.html#ae40bb45b83a3ec156a53d4143421892d":[36,0,208,4]
 };

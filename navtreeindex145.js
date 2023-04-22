@@ -1,5 +1,6 @@
 var NAVTREEINDEX145 =
 {
+"structenum__traits_3_01holiday_01_4.html#a680b4ebf15196dbcbb1dbef7968d841b":[36,0,280,0],
 "structenum__traits_3_01hp__part_01_4.html":[36,0,281],
 "structenum__traits_3_01hp__part_01_4.html#a65561b3592573d113a210fef257dfe4e":[36,0,281,0],
 "structenum__traits_3_01lab__type_01_4.html":[36,0,282],
@@ -248,6 +249,5 @@ var NAVTREEINDEX145 =
 "structfake__spell.html#a4a068f23f16e41a517d65d878a4aab85":[36,0,334,9],
 "structfake__spell.html#a59f61e26f45fbd72f16081ee60b2489e":[36,0,334,8],
 "structfake__spell.html#a82fc59858e378e029bd130fbeb39fefc":[36,0,334,3],
-"structfake__spell.html#a9bc6a2b1d7adc0673ab1a09a46ab7be0":[36,0,334,2],
-"structfake__spell.html#aa8f371a1fc29e5fd41a0623ed1771942":[36,0,334,0]
+"structfake__spell.html#a9bc6a2b1d7adc0673ab1a09a46ab7be0":[36,0,334,2]
 };

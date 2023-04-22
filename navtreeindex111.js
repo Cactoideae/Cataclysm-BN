@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"namespaceMapExtras.html#afee3c6989f2b385e270199d341d23188":[35,0,125,9],
 "namespaceMessages.html":[35,0,135],
 "namespaceMessages.html#a156ac466eeb7b86befecfd69abc1ab5d":[35,0,135,2],
 "namespaceMessages.html#a55e47000ff46eec461fddbfb67ac3c19":[35,0,135,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "namespaceanonymous__namespace_02ammo_8cpp_03.html#a1d064e67562b19b60f871ed2dd6a3d23":[35,0,6,0],
 "namespaceanonymous__namespace_02ammo_8cpp_03.html#ad976e077c2d7a7af5b9a939495ae395c":[35,0,6,1],
 "namespaceanonymous__namespace_02ammo__effect_8cpp_03.html":[35,0,7],
-"namespaceanonymous__namespace_02ammo__effect_8cpp_03.html#abd6b882ac387ff0e2c638bc4f8918b66":[35,0,7,0],
-"namespaceanonymous__namespace_02anatomy_8cpp_03.html":[35,0,8]
+"namespaceanonymous__namespace_02ammo__effect_8cpp_03.html#abd6b882ac387ff0e2c638bc4f8918b66":[35,0,7,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"globals_type_r.html":[37,1,3,15],
 "globals_type_s.html":[37,1,3,16],
 "globals_type_t.html":[37,1,3,17],
 "globals_type_u.html":[37,1,3,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX89 =
 "help_8h.html#aa32b35413d90584d6e8fc93520f00e9d":[37,0,1,266,3],
 "help_8h.html#adb2353bab48d46f9fd07dc54624033a6":[37,0,1,266,2],
 "help_8h_source.html":[37,0,1,266],
-"hierarchy.html":[36,2],
-"iexamine_8cpp.html":[37,0,1,267]
+"hierarchy.html":[36,2]
 };

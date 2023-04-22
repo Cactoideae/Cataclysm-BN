@@ -1,5 +1,6 @@
 var NAVTREEINDEX157 =
 {
+"structrl__vec3d.html#a712f595c216e9d8ccf60b3f2806a1b56":[36,0,809,1],
 "structrl__vec3d.html#a78ffd8358cb044162b20e1db880a3625":[36,0,809,16],
 "structrl__vec3d.html#a90d97973e63b1508c0bbd715b292e324":[36,0,809,10],
 "structrl__vec3d.html#aa3e645bcb594a5225b2a517729cc4bc9":[36,0,809,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX157 =
 "structtalk__effect__fun__t.html#a2e7d69689a6ec0452bcff3a133412ded":[36,0,906,15],
 "structtalk__effect__fun__t.html#a34bbda9946c05887de8cdb5648cabacc":[36,0,906,2],
 "structtalk__effect__fun__t.html#a3752ea6b2728fff70e1c3ba9b4dab213":[36,0,906,21],
-"structtalk__effect__fun__t.html#a37f881e3bfe110000bc8c953f3387383":[36,0,906,18],
-"structtalk__effect__fun__t.html#a3aa2ce8fc060db79c1be6d071b18c02a":[36,0,906,8]
+"structtalk__effect__fun__t.html#a37f881e3bfe110000bc8c953f3387383":[36,0,906,18]
 };

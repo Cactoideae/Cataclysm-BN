@@ -1,5 +1,6 @@
 var NAVTREEINDEX155 =
 {
+"structpickup_1_1pick__drop__selection.html#a8cd2ac95f738861aca0608573db85637":[35,0,157,2,2],
 "structpickup_1_1pick__drop__selection.html#aeac6ab1f097a6698b6ea7b0f4b38b045":[35,0,157,2,3],
 "structpickup_1_1pick__drop__selection.html#aeac6ab1f097a6698b6ea7b0f4b38b045":[36,0,33,2,3],
 "structpickup_1_1stacked__items.html":[35,0,157,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX155 =
 "structquery__popup_1_1result.html#aa6834434530791ebbc80d115a74cb634":[36,0,779,2,3],
 "structquery__popup_1_1result.html#ad0078443a663101673a6e13abbcd809e":[36,0,779,2,1],
 "structquery__popup_1_1result.html#af3f789604aaca70f6abe7d247c8c5c64":[36,0,779,2,4],
-"structradio__tower.html":[36,0,780],
-"structradio__tower.html#a03f6968ebcba8b7137577d55fd51196b":[36,0,780,2]
+"structradio__tower.html":[36,0,780]
 };
