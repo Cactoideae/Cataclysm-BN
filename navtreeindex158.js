@@ -1,5 +1,7 @@
 var NAVTREEINDEX158 =
 {
+"structtalk__effect__fun__t.html#a34bbda9946c05887de8cdb5648cabacc":[36,0,906,2],
+"structtalk__effect__fun__t.html#a3752ea6b2728fff70e1c3ba9b4dab213":[36,0,906,21],
 "structtalk__effect__fun__t.html#a37f881e3bfe110000bc8c953f3387383":[36,0,906,18],
 "structtalk__effect__fun__t.html#a3aa2ce8fc060db79c1be6d071b18c02a":[36,0,906,8],
 "structtalk__effect__fun__t.html#a53e8e6a9a8f8fbb3d08f453f3c216672":[36,0,906,38],
@@ -247,7 +249,5 @@ var NAVTREEINDEX158 =
 "structtripoint.html#aafb6bf6d705c462f95fac44a888dbe78":[36,0,951,27],
 "structtripoint.html#ac4438ffa2e532089c99a8660480340cb":[36,0,951,25],
 "structtripoint.html#ac944c0e329b5eba2602f7a52f66bbbb9":[36,0,951,30],
-"structtripoint.html#accc0725c936dbebb2486f969f39e2e5f":[36,0,951,20],
-"structtripoint.html#ad4c7b8a69caba67a12d48de55f002efc":[36,0,951,1],
-"structtripoint.html#ad506edc0fb7d2dcb75a71e0defa646e7":[36,0,951,7]
+"structtripoint.html#accc0725c936dbebb2486f969f39e2e5f":[36,0,951,20]
 };

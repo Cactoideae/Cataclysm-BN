@@ -418,6 +418,7 @@ var classmap =
     [ "shift_vehicle_z", "classmap.html#a4ce7ad846d14a09f14e32412707c255f", null ],
     [ "shoot", "classmap.html#a30089f97bb31ba2ca2243c178a4a3c65", null ],
     [ "smash_items", "classmap.html#a369e57962e2c38b17464c405b6d7184b", null ],
+    [ "smash_trap", "classmap.html#a29a8b3fb362cffc27c1e40d6092641b8", null ],
     [ "spawn_an_item", "classmap.html#a8d67cd8fe3f142bae77fbd0eb81106d5", null ],
     [ "spawn_an_item", "classmap.html#a74b3eb629d4eef3e12b5b7aaeef98625", null ],
     [ "spawn_artifact", "classmap.html#a2182c8dd7cbebaaf41e7ab28ca053d6a", null ],

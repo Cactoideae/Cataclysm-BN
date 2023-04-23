@@ -1,5 +1,7 @@
 var NAVTREEINDEX135 =
 {
+"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a3bec653fe4d50cc921507c4ba096a0cd":[36,0,7,0,6],
+"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a3bec653fe4d50cc921507c4ba096a0cd":[35,0,45,0,6],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a4df927092da3c6baba2c1e9dcd10700a":[35,0,45,0,16],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a4df927092da3c6baba2c1e9dcd10700a":[36,0,7,0,16],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a71fd68a106b03bbd78abad3469bb3465":[36,0,7,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX135 =
 "structbehavior_1_1behavior__return.html#acf8fb8a3528e7d8bbc935f810ddf93f2":[35,0,71,0,0],
 "structbehavior_1_1behavior__return.html#acf8fb8a3528e7d8bbc935f810ddf93f2":[36,0,13,0,0],
 "structbench__location.html":[36,0,109],
-"structbench__location.html#a39627b2f4a05e1c10c8492e8e4af9838":[36,0,109,0],
-"structbench__location.html#a798af50900ad9c46f5fe40d3b5367416":[36,0,109,2],
-"structbench__location.html#aea91597de713d6272ac0482a778a49ef":[36,0,109,1]
+"structbench__location.html#a39627b2f4a05e1c10c8492e8e4af9838":[36,0,109,0]
 };

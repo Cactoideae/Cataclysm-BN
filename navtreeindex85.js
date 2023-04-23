@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"fmtlib__format_8h.html#a09119ad072f708d17b88704fa898aff0":[37,0,1,229,79],
 "fmtlib__format_8h.html#a0c8726854a4af0ec6aff3fcf32ee4094":[37,0,1,229,148],
 "fmtlib__format_8h.html#a0cdd653ad972489f35ed316aa075c574":[37,0,1,229,159],
 "fmtlib__format_8h.html#a0d8ba35c77308dbea0f638f6c0bb6fba":[37,0,1,229,223],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "font__loader_8cpp.html":[37,0,1,232],
 "font__loader_8cpp.html#a418f43b9aab490b1fab4aa6e20cdc285":[37,0,1,232,0],
 "font__loader_8cpp_source.html":[37,0,1,232],
-"font__loader_8h.html":[37,0,1,233],
-"font__loader_8h.html#a418f43b9aab490b1fab4aa6e20cdc285":[37,0,1,233,2]
+"font__loader_8h.html":[37,0,1,233]
 };

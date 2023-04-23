@@ -1,5 +1,7 @@
 var NAVTREEINDEX137 =
 {
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1buries__corpse_01_4.html#a27952c0c579311cff6f3304b56f0131b":[36,0,14,0,9,0],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1buries__corpse_01_4.html#a27952c0c579311cff6f3304b56f0131b":[35,0,73,0,9,0],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1causes__resonance__cascade_01_4.html":[35,0,73,0,10],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1causes__resonance__cascade_01_4.html":[36,0,14,0,10],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1character__gains__effect_01_4.html":[35,0,73,0,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "structcata_1_1list_1_1group.html#afe6b5eff986464071baac204f40c501b":[35,0,73,12,7,8],
 "structcata_1_1list_1_1group.html#afe6b5eff986464071baac204f40c501b":[36,0,14,11,7,8],
 "structcata_1_1list_1_1group__vector_1_1ebco__pair.html":[35,0,73,12,8,0],
-"structcata_1_1list_1_1group__vector_1_1ebco__pair.html":[36,0,14,11,8,0],
-"structcata_1_1list_1_1group__vector_1_1ebco__pair.html#ad088989c97574c31f9e09f175130088e":[35,0,73,12,8,0,1],
-"structcata_1_1list_1_1group__vector_1_1ebco__pair.html#ad088989c97574c31f9e09f175130088e":[36,0,14,11,8,0,1]
+"structcata_1_1list_1_1group__vector_1_1ebco__pair.html":[36,0,14,11,8,0]
 };

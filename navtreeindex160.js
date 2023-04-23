@@ -1,5 +1,7 @@
 var NAVTREEINDEX160 =
 {
+"structvisibility__variables.html#a819f1ebdf308308df688f63d810e2c06":[36,0,994,4],
+"structvisibility__variables.html#ac72fc56d2bf35dfde2b01ec10dcdf727":[36,0,994,3],
 "structvisibility__variables.html#ae5bfa91f710dbe6eec585beecda8a7b4":[36,0,994,0],
 "structvpslot__engine.html":[36,0,1001],
 "structvpslot__engine.html#a019b588ce76b319f84c10fc78af5e89c":[36,0,1001,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX160 =
 "suffer_8cpp.html#aaa9613ea825773a0d74eaba7663a5dbf":[37,0,1,612,2],
 "suffer_8cpp.html#aaacc93acc84b2a93e4d15c1ffd7b5d87":[37,0,1,612,57],
 "suffer_8cpp.html#aad53848ab2846f97f19789f86fe58e9c":[37,0,1,612,69],
-"suffer_8cpp.html#ab157731f2d7c0405beb22be08e122385":[37,0,1,612,15],
-"suffer_8cpp.html#ab16f8be4be2050986e76d2cb0cff7609":[37,0,1,612,46],
-"suffer_8cpp.html#ab38a96846200ba0c103a2bd690fe8d6d":[37,0,1,612,21]
+"suffer_8cpp.html#ab157731f2d7c0405beb22be08e122385":[37,0,1,612,15]
 };

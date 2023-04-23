@@ -1,5 +1,7 @@
 var NAVTREEINDEX113 =
 {
+"namespacebase__camps.html#a11becc5688aac40a12f2bc2e33d605c1":[35,0,70,7],
+"namespacebase__camps.html#a28832cf25e9985baab0a6cc9ac1323e2":[35,0,70,15],
 "namespacebase__camps.html#a33f7b3ee160c6971b07b5eb8416043b5":[35,0,70,6],
 "namespacebase__camps.html#a37484bd6058ac21028411c509951a457":[35,0,70,3],
 "namespacebase__camps.html#a514cbffdef2185c4d8b777f5feec390e":[35,0,70,10],
@@ -72,15 +74,15 @@ var NAVTREEINDEX113 =
 "namespacecata.html#ae46986af1dab17c49a326aca49824ebb":[35,0,73,41],
 "namespacecata.html#ae69b05589ee85e0484909df93337e642":[35,0,73,44],
 "namespacecata.html#afffb8622bc3a60914019309e92cc57e3":[35,0,73,47],
-"namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,29],
-"namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,30],
-"namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,31],
-"namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,32],
 "namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,33],
 "namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,35],
 "namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,36],
 "namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,37],
 "namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,38],
+"namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,32],
+"namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,31],
+"namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,30],
+"namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,29],
 "namespacecata.html#gaf6c1b09e9154ca0f0018624028929df5":[35,0,73,28],
 "namespacecata_1_1event__detail.html":[35,0,73,0],
 "namespacecata_1_1hash64__detail.html":[35,0,73,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX113 =
 "namespacecharacter__weight__category.html":[35,0,84],
 "namespacecharacter__weight__category.html#a4796dc02b0d31bbc649f0d96a93fd600":[35,0,84,2],
 "namespacecharacter__weight__category.html#a75b0c4b24e523cce5ca6d4699370c985":[35,0,84,6],
-"namespacecharacter__weight__category.html#a8be790615c5a48bdf4fb02fd551f8a17":[35,0,84,1],
-"namespacecharacter__weight__category.html#a94a763d34daa1acd627b67cf6f7e6aaa":[35,0,84,3],
-"namespacecharacter__weight__category.html#a9c7c7934ca11833d32605b6af00f4572":[35,0,84,4]
+"namespacecharacter__weight__category.html#a8be790615c5a48bdf4fb02fd551f8a17":[35,0,84,1]
 };
