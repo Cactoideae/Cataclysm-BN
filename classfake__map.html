@@ -1144,35 +1144,35 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map_8cpp_source.html#l07874">7874</a> of file <a class="el" href="map_8cpp_source.html">map.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l07876" name="l07876"></a><span class="lineno"> 7876</span>{</div>
-<div class="line"><a id="l07877" name="l07877"></a><span class="lineno"> 7877</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structtripoint.html">tripoint</a> tripoint_below_zero( 0, 0, fake_map_z );</div>
-<div class="line"><a id="l07878" name="l07878"></a><span class="lineno"> 7878</span> </div>
-<div class="line"><a id="l07879" name="l07879"></a><span class="lineno"> 7879</span>    <a class="code hl_function" href="classmap.html#a2df948ca418fb89696c818351059ffe2">set_abs_sub</a>( tripoint_below_zero );</div>
-<div class="line"><a id="l07880" name="l07880"></a><span class="lineno"> 7880</span>    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> gridx = 0; gridx &lt; <a class="code hl_variable" href="classmap.html#a7997e4febecb36a59b48b06649dc9173">my_MAPSIZE</a>; gridx++ ) {</div>
-<div class="line"><a id="l07881" name="l07881"></a><span class="lineno"> 7881</span>        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> gridy = 0; gridy &lt; <a class="code hl_variable" href="classmap.html#a7997e4febecb36a59b48b06649dc9173">my_MAPSIZE</a>; gridy++ ) {</div>
-<div class="line"><a id="l07882" name="l07882"></a><span class="lineno"> 7882</span>            std::unique_ptr&lt;submap&gt; <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a> = std::make_unique&lt;submap&gt;();</div>
-<div class="line"><a id="l07883" name="l07883"></a><span class="lineno"> 7883</span> </div>
-<div class="line"><a id="l07884" name="l07884"></a><span class="lineno"> 7884</span>            <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a>-&gt;set_all_ter( ter_type );</div>
-<div class="line"><a id="l07885" name="l07885"></a><span class="lineno"> 7885</span>            <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a>-&gt;set_all_furn( fur_type );</div>
-<div class="line"><a id="l07886" name="l07886"></a><span class="lineno"> 7886</span>            <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a>-&gt;set_all_traps( trap_type );</div>
-<div class="line"><a id="l07887" name="l07887"></a><span class="lineno"> 7887</span> </div>
-<div class="line"><a id="l07888" name="l07888"></a><span class="lineno"> 7888</span>            <a class="code hl_function" href="classmap.html#a6661848d660b8e3f85425173b3970189">setsubmap</a>( <a class="code hl_function" href="classmap.html#ab448e17e1847234311043c6140722a36">get_nonant</a>( { gridx, gridy, fake_map_z } ), <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a>.get() );</div>
-<div class="line"><a id="l07889" name="l07889"></a><span class="lineno"> 7889</span> </div>
-<div class="line"><a id="l07890" name="l07890"></a><span class="lineno"> 7890</span>            <a class="code hl_variable" href="classfake__map.html#ae55d323f709be3035a325b848e262a77">temp_submaps_</a>.emplace_back( <a class="code hl_function" href="namespaceavatar__action.html#a76ba74774376a08222b8cdcce08f7304">std::move</a>( <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a> ) );</div>
-<div class="line"><a id="l07891" name="l07891"></a><span class="lineno"> 7891</span>        }</div>
-<div class="line"><a id="l07892" name="l07892"></a><span class="lineno"> 7892</span>    }</div>
-<div class="line"><a id="l07893" name="l07893"></a><span class="lineno"> 7893</span>}</div>
+<p class="definition">Definition at line <a class="el" href="map_8cpp_source.html#l07886">7886</a> of file <a class="el" href="map_8cpp_source.html">map.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l07888" name="l07888"></a><span class="lineno"> 7888</span>{</div>
+<div class="line"><a id="l07889" name="l07889"></a><span class="lineno"> 7889</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structtripoint.html">tripoint</a> tripoint_below_zero( 0, 0, fake_map_z );</div>
+<div class="line"><a id="l07890" name="l07890"></a><span class="lineno"> 7890</span> </div>
+<div class="line"><a id="l07891" name="l07891"></a><span class="lineno"> 7891</span>    <a class="code hl_function" href="classmap.html#a2df948ca418fb89696c818351059ffe2">set_abs_sub</a>( tripoint_below_zero );</div>
+<div class="line"><a id="l07892" name="l07892"></a><span class="lineno"> 7892</span>    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> gridx = 0; gridx &lt; <a class="code hl_variable" href="classmap.html#a7997e4febecb36a59b48b06649dc9173">my_MAPSIZE</a>; gridx++ ) {</div>
+<div class="line"><a id="l07893" name="l07893"></a><span class="lineno"> 7893</span>        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> gridy = 0; gridy &lt; <a class="code hl_variable" href="classmap.html#a7997e4febecb36a59b48b06649dc9173">my_MAPSIZE</a>; gridy++ ) {</div>
+<div class="line"><a id="l07894" name="l07894"></a><span class="lineno"> 7894</span>            std::unique_ptr&lt;submap&gt; <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a> = std::make_unique&lt;submap&gt;();</div>
+<div class="line"><a id="l07895" name="l07895"></a><span class="lineno"> 7895</span> </div>
+<div class="line"><a id="l07896" name="l07896"></a><span class="lineno"> 7896</span>            <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a>-&gt;set_all_ter( ter_type );</div>
+<div class="line"><a id="l07897" name="l07897"></a><span class="lineno"> 7897</span>            <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a>-&gt;set_all_furn( fur_type );</div>
+<div class="line"><a id="l07898" name="l07898"></a><span class="lineno"> 7898</span>            <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a>-&gt;set_all_traps( trap_type );</div>
+<div class="line"><a id="l07899" name="l07899"></a><span class="lineno"> 7899</span> </div>
+<div class="line"><a id="l07900" name="l07900"></a><span class="lineno"> 7900</span>            <a class="code hl_function" href="classmap.html#a6661848d660b8e3f85425173b3970189">setsubmap</a>( <a class="code hl_function" href="classmap.html#ab448e17e1847234311043c6140722a36">get_nonant</a>( { gridx, gridy, fake_map_z } ), <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a>.get() );</div>
+<div class="line"><a id="l07901" name="l07901"></a><span class="lineno"> 7901</span> </div>
+<div class="line"><a id="l07902" name="l07902"></a><span class="lineno"> 7902</span>            <a class="code hl_variable" href="classfake__map.html#ae55d323f709be3035a325b848e262a77">temp_submaps_</a>.emplace_back( <a class="code hl_function" href="namespaceavatar__action.html#a76ba74774376a08222b8cdcce08f7304">std::move</a>( <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a> ) );</div>
+<div class="line"><a id="l07903" name="l07903"></a><span class="lineno"> 7903</span>        }</div>
+<div class="line"><a id="l07904" name="l07904"></a><span class="lineno"> 7904</span>    }</div>
+<div class="line"><a id="l07905" name="l07905"></a><span class="lineno"> 7905</span>}</div>
 <div class="ttc" id="aclassfake__map_html_ae55d323f709be3035a325b848e262a77"><div class="ttname"><a href="classfake__map.html#ae55d323f709be3035a325b848e262a77">fake_map::temp_submaps_</a></div><div class="ttdeci">std::vector&lt; std::unique_ptr&lt; submap &gt; &gt; temp_submaps_</div><div class="ttdef"><b>Definition:</b> <a href="map_8h_source.html#l02066">map.h:2066</a></div></div>
-<div class="ttc" id="aclassmap_html_a2df948ca418fb89696c818351059ffe2"><div class="ttname"><a href="classmap.html#a2df948ca418fb89696c818351059ffe2">map::set_abs_sub</a></div><div class="ttdeci">void set_abs_sub(const tripoint &amp;p)</div><div class="ttdoc">Sets abs_sub, see there.</div><div class="ttdef"><b>Definition:</b> <a href="map_8cpp_source.html#l08365">map.cpp:8365</a></div></div>
-<div class="ttc" id="aclassmap_html_a6661848d660b8e3f85425173b3970189"><div class="ttname"><a href="classmap.html#a6661848d660b8e3f85425173b3970189">map::setsubmap</a></div><div class="ttdeci">void setsubmap(size_t grididx, submap *smap)</div><div class="ttdoc">Set the submap pointer in grid at the give index.</div><div class="ttdef"><b>Definition:</b> <a href="map_8cpp_source.html#l08384">map.cpp:8384</a></div></div>
+<div class="ttc" id="aclassmap_html_a2df948ca418fb89696c818351059ffe2"><div class="ttname"><a href="classmap.html#a2df948ca418fb89696c818351059ffe2">map::set_abs_sub</a></div><div class="ttdeci">void set_abs_sub(const tripoint &amp;p)</div><div class="ttdoc">Sets abs_sub, see there.</div><div class="ttdef"><b>Definition:</b> <a href="map_8cpp_source.html#l08377">map.cpp:8377</a></div></div>
+<div class="ttc" id="aclassmap_html_a6661848d660b8e3f85425173b3970189"><div class="ttname"><a href="classmap.html#a6661848d660b8e3f85425173b3970189">map::setsubmap</a></div><div class="ttdeci">void setsubmap(size_t grididx, submap *smap)</div><div class="ttdoc">Set the submap pointer in grid at the give index.</div><div class="ttdef"><b>Definition:</b> <a href="map_8cpp_source.html#l08396">map.cpp:8396</a></div></div>
 <div class="ttc" id="aclassmap_html_a7997e4febecb36a59b48b06649dc9173"><div class="ttname"><a href="classmap.html#a7997e4febecb36a59b48b06649dc9173">map::my_MAPSIZE</a></div><div class="ttdeci">int my_MAPSIZE</div><div class="ttdef"><b>Definition:</b> <a href="map_8h_source.html#l01777">map.h:1777</a></div></div>
-<div class="ttc" id="aclassmap_html_ab448e17e1847234311043c6140722a36"><div class="ttname"><a href="classmap.html#ab448e17e1847234311043c6140722a36">map::get_nonant</a></div><div class="ttdeci">size_t get_nonant(const tripoint &amp;gridp) const</div><div class="ttdoc">Get the index of a submap pointer in the grid given by grid coordinates.</div><div class="ttdef"><b>Definition:</b> <a href="map_8cpp_source.html#l08417">map.cpp:8417</a></div></div>
+<div class="ttc" id="aclassmap_html_ab448e17e1847234311043c6140722a36"><div class="ttname"><a href="classmap.html#ab448e17e1847234311043c6140722a36">map::get_nonant</a></div><div class="ttdeci">size_t get_nonant(const tripoint &amp;gridp) const</div><div class="ttdoc">Get the index of a submap pointer in the grid given by grid coordinates.</div><div class="ttdef"><b>Definition:</b> <a href="map_8cpp_source.html#l08429">map.cpp:8429</a></div></div>
 <div class="ttc" id="anamespaceavatar__action_html_a76ba74774376a08222b8cdcce08f7304"><div class="ttname"><a href="namespaceavatar__action.html#a76ba74774376a08222b8cdcce08f7304">avatar_action::move</a></div><div class="ttdeci">bool move(avatar &amp;you, map &amp;m, const tripoint &amp;d)</div><div class="ttdef"><b>Definition:</b> <a href="avatar__action_8cpp_source.html#l00096">avatar_action.cpp:96</a></div></div>
 <div class="ttc" id="anamespacecoords_html_a7457d0a4e8c8e6407a2c0ee89d275962"><div class="ttname"><a href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">coords::sm</a></div><div class="ttdeci">constexpr scale sm</div><div class="ttdef"><b>Definition:</b> <a href="coordinates_8h_source.html#l00031">coordinates.h:31</a></div></div>
 <div class="ttc" id="astructtripoint_html"><div class="ttname"><a href="structtripoint.html">tripoint</a></div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00133">point.h:133</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="map_8cpp_source.html#l08417">map::get_nonant()</a>, <a class="el" href="avatar__action_8cpp_source.html#l00096">avatar_action::move()</a>, <a class="el" href="map_8h_source.html#l01777">map::my_MAPSIZE</a>, <a class="el" href="map_8cpp_source.html#l08365">map::set_abs_sub()</a>, <a class="el" href="map_8cpp_source.html#l08384">map::setsubmap()</a>, <a class="el" href="coordinates_8h_source.html#l00031">coords::sm</a>, and <a class="el" href="map_8h_source.html#l02066">temp_submaps_</a>.</p>
+<p class="reference">References <a class="el" href="map_8cpp_source.html#l08429">map::get_nonant()</a>, <a class="el" href="avatar__action_8cpp_source.html#l00096">avatar_action::move()</a>, <a class="el" href="map_8h_source.html#l01777">map::my_MAPSIZE</a>, <a class="el" href="map_8cpp_source.html#l08377">map::set_abs_sub()</a>, <a class="el" href="map_8cpp_source.html#l08396">map::setsubmap()</a>, <a class="el" href="coordinates_8h_source.html#l00031">coords::sm</a>, and <a class="el" href="map_8h_source.html#l02066">temp_submaps_</a>.</p>
 
 </div>
 </div>
@@ -1224,7 +1224,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="map_8h_source.html#l02066">2066</a> of file <a class="el" href="map_8h_source.html">map.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="map_8cpp_source.html#l07874">fake_map()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="map_8cpp_source.html#l07886">fake_map()</a>.</p>
 
 </div>
 </div>
@@ -1238,7 +1238,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classfake__map.html">fake_map</a></li>
-    <li class="footer">Generated on Sun Apr 23 2023 08:54:10 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Apr 23 2023 23:21:51 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

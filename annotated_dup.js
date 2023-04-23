@@ -350,6 +350,8 @@ var annotated_dup =
     ] ],
     [ "explosion_handler", "namespaceexplosion__handler.html", [
       [ "explosion_queue", "classexplosion__handler_1_1explosion__queue.html", "classexplosion__handler_1_1explosion__queue" ],
+      [ "ExplosionEvent", "classexplosion__handler_1_1ExplosionEvent.html", "classexplosion__handler_1_1ExplosionEvent" ],
+      [ "ExplosionProcess", "classexplosion__handler_1_1ExplosionProcess.html", "classexplosion__handler_1_1ExplosionProcess" ],
       [ "queued_explosion", "structexplosion__handler_1_1queued__explosion.html", "structexplosion__handler_1_1queued__explosion" ]
     ] ],
     [ "io", "namespaceio.html", [

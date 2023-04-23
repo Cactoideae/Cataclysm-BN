@@ -532,6 +532,20 @@ var namespaces_dup =
       [ "run", "namespaceexamine__item__menu.html#a0ef68cd5b60cc38b1d1655c81dea6b8c", null ]
     ] ],
     [ "explosion_handler", "namespaceexplosion__handler.html", "namespaceexplosion__handler" ],
+    [ "ExplosionConstants", "namespaceExplosionConstants.html", [
+      [ "BASH_RANDOM_FACTOR", "namespaceExplosionConstants.html#a8c563e08c54ce17d320c4f2612d0ecee", null ],
+      [ "EXPLOSION_CALIBRATION_POWER", "namespaceExplosionConstants.html#a32f66c60a716590477b2146c3b780d8f", null ],
+      [ "FLING_MAX_RANGE", "namespaceExplosionConstants.html#ac4b919136103ca5eb8f769428f79979b", null ],
+      [ "FLING_THRESHOLD", "namespaceExplosionConstants.html#ad1cc0f9b671f3ddf8de188e51a48f983", null ],
+      [ "ITEM_FLING_FACTOR", "namespaceExplosionConstants.html#a47530022cd90a1eb082dcddf4877636a", null ],
+      [ "ITEM_FLING_RANDOM_FACTOR", "namespaceExplosionConstants.html#a832a873f1c16de84289be23662512362", null ],
+      [ "MOB_FLING_FACTOR", "namespaceExplosionConstants.html#a66c91c71e8709c45ebf308f4d009a032", null ],
+      [ "MULTIBASH_COUNT", "namespaceExplosionConstants.html#aa9232b67f850df28321b2edd57023755", null ],
+      [ "RESTITUTION_COEFF", "namespaceExplosionConstants.html#af0281f18a9ab8737375217dbc17ab5a1", null ],
+      [ "SHRAPNEL_OBSTACLE_REDUCTION", "namespaceExplosionConstants.html#ab41493d54e1187212d5a7e2085eac76a", null ],
+      [ "VEHICLE_DAMAGE_MULT", "namespaceExplosionConstants.html#a50c0eb350e87df8eb1ff983f8b2e104e", null ],
+      [ "Z_LEVEL_DIST", "namespaceExplosionConstants.html#a1531b40018425ca267ac14b9e6ee4c74", null ]
+    ] ],
     [ "ff", "namespaceff.html", [
       [ "point_flood_fill_4_connected", "namespaceff.html#adaea099ecca20d124ab3a3d2f2bf79f9", null ]
     ] ],

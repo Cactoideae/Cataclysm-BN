@@ -37,7 +37,7 @@ var searchData=
   ['intelligence_34',['INTELLIGENCE',['../namespaceenchant__vals.html#acd6a6ebb27f9ecb82b3bce1d3aef2998acbc4a7ccc74fbcbda6a01632c5e4656e',1,'enchant_vals::INTELLIGENCE()'],['../character__stat_8h.html#a27f8e52e2e5afc1c4a709dd65ab84755acbc4a7ccc74fbcbda6a01632c5e4656e',1,'INTELLIGENCE():&#160;character_stat.h']]],
   ['intensity_35',['intensity',['../namespacefields.html#af8bc739ca8fbe535a44afc02da973280a04bb0ec2d0e931c59f606510558e55a1',1,'fields']]],
   ['interior_5fengine_5fsound_36',['interior_engine_sound',['../namespacesfx.html#af20f2b1f5492d2f2d793da6d29740f18a6492e8fca309130dc1783804cecdeffc',1,'sfx']]],
-  ['invalid_37',['invalid',['../classitem__location.html#a038e108475b9fb4f9833268f5fa2888dafedb2d84cafe20862cb4399751a8a7e3',1,'item_location::invalid()'],['../classturret__data.html#aa11f464b221b987d03a8859293e07ab6afedb2d84cafe20862cb4399751a8a7e3',1,'turret_data::invalid()'],['../namespaceom__direction.html#a3f3a3bf2c5af33fc8036734d1ba70b7cafedb2d84cafe20862cb4399751a8a7e3',1,'om_direction::invalid()'],['../overmap_8h.html#a9fc8376b48f8cce3e3138d4a0019512dafedb2d84cafe20862cb4399751a8a7e3',1,'invalid():&#160;overmap.h']]],
+  ['invalid_37',['invalid',['../namespaceom__direction.html#a3f3a3bf2c5af33fc8036734d1ba70b7cafedb2d84cafe20862cb4399751a8a7e3',1,'om_direction::invalid()'],['../classitem__location.html#a038e108475b9fb4f9833268f5fa2888dafedb2d84cafe20862cb4399751a8a7e3',1,'item_location::invalid()'],['../classturret__data.html#aa11f464b221b987d03a8859293e07ab6afedb2d84cafe20862cb4399751a8a7e3',1,'turret_data::invalid()'],['../overmap_8h.html#a9fc8376b48f8cce3e3138d4a0019512dafedb2d84cafe20862cb4399751a8a7e3',1,'invalid():&#160;overmap.h']]],
   ['invalid_5finput_38',['invalid_input',['../classrobot__finds__kitten.html#a45c31759b053178313fc5bd0ea6037a6a1080ed39e08a161dc545804658700e33',1,'robot_finds_kitten']]],
   ['invalid_5ftarget_39',['INVALID_TARGET',['../veh__interact_8h.html#a20b2f028869d3e498ff64764c966ce10a5241a918e3222edc9de78aa99513f39f',1,'veh_interact.h']]],
   ['invlet_40',['INVLET',['../enums_8h.html#aa5453fbee63cb8d917b85be32ec4cb8ca7b095dec8aba0ea8329e45b9982a907c',1,'enums.h']]],
@@ -60,9 +60,10 @@ var searchData=
   ['item_5fdamage_5fbash_57',['ITEM_DAMAGE_BASH',['../namespaceenchant__vals.html#acd6a6ebb27f9ecb82b3bce1d3aef2998a068b15c9ee46d32443e4ab3eee0ac95a',1,'enchant_vals']]],
   ['item_5fdamage_5fcut_58',['ITEM_DAMAGE_CUT',['../namespaceenchant__vals.html#acd6a6ebb27f9ecb82b3bce1d3aef2998a53d26b3f55e6c8e102f2a536a72e2be9',1,'enchant_vals']]],
   ['item_5fdamage_5fstab_59',['ITEM_DAMAGE_STAB',['../namespaceenchant__vals.html#acd6a6ebb27f9ecb82b3bce1d3aef2998a24b1489f84682a003817d07f29da512a',1,'enchant_vals']]],
-  ['iter_5fcontinue_60',['ITER_CONTINUE',['../classmap.html#aadedc1bc0f2088dbc9e2e6c5f7b0a716aa12b3b935aabc2d25f63c997c272882b',1,'map']]],
-  ['iter_5ffinish_61',['ITER_FINISH',['../classmap.html#aadedc1bc0f2088dbc9e2e6c5f7b0a716aaf26fed121301ba275de78fcab2981f4',1,'map']]],
-  ['iter_5fskip_5fsubmap_62',['ITER_SKIP_SUBMAP',['../classmap.html#aadedc1bc0f2088dbc9e2e6c5f7b0a716a9ab0b0f028d686ac48a4b5d48dcb8c7b',1,'map']]],
-  ['iter_5fskip_5fzlevel_63',['ITER_SKIP_ZLEVEL',['../classmap.html#aadedc1bc0f2088dbc9e2e6c5f7b0a716a2a313788517863222407f26e74d1e5c6',1,'map']]],
-  ['itype_5fid_64',['itype_id',['../cata__variant_8h.html#adfe42687fffdd05d233096b4e7dac2f4a5b71ce78dc7a00ad2177c6655231928c',1,'cata_variant.h']]]
+  ['item_5fmovement_60',['ITEM_MOVEMENT',['../classexplosion__handler_1_1ExplosionEvent.html#a9e95e98bf2f73eed74b144cde470f4f2ac42f3cac9658cb9c088d35e31f5a4d2f',1,'explosion_handler::ExplosionEvent']]],
+  ['iter_5fcontinue_61',['ITER_CONTINUE',['../classmap.html#aadedc1bc0f2088dbc9e2e6c5f7b0a716aa12b3b935aabc2d25f63c997c272882b',1,'map']]],
+  ['iter_5ffinish_62',['ITER_FINISH',['../classmap.html#aadedc1bc0f2088dbc9e2e6c5f7b0a716aaf26fed121301ba275de78fcab2981f4',1,'map']]],
+  ['iter_5fskip_5fsubmap_63',['ITER_SKIP_SUBMAP',['../classmap.html#aadedc1bc0f2088dbc9e2e6c5f7b0a716a9ab0b0f028d686ac48a4b5d48dcb8c7b',1,'map']]],
+  ['iter_5fskip_5fzlevel_64',['ITER_SKIP_ZLEVEL',['../classmap.html#aadedc1bc0f2088dbc9e2e6c5f7b0a716a2a313788517863222407f26e74d1e5c6',1,'map']]],
+  ['itype_5fid_65',['itype_id',['../cata__variant_8h.html#adfe42687fffdd05d233096b4e7dac2f4a5b71ce78dc7a00ad2177c6655231928c',1,'cata_variant.h']]]
 ];

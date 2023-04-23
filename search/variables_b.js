@@ -33,7 +33,7 @@ var searchData=
   ['kill_5ftracker_5fptr_30',['kill_tracker_ptr',['../classgame.html#a3b7828e88a965ea18597b632c9444ea5',1,'game']]],
   ['killer_31',['killer',['../classCreature.html#af4d6d569180f457e7d2294946eaf7563',1,'Creature']]],
   ['kills_32',['kills',['../structdiary__page.html#abffa26498493ef5540ac4e4abe8e3361',1,'diary_page::kills()'],['../classkill__tracker.html#a1fbcc4310449c768846a668f79fc90e7',1,'kill_tracker::kills()']]],
-  ['kind_33',['kind',['../structdetail_1_1arg__ref.html#a116910e6930a72e226b4b4da57a56702',1,'detail::arg_ref::kind()'],['../structcata__libintl_1_1PlfToken.html#adb6c7c3c5ca49f938e4f18e370f4bfd5',1,'cata_libintl::PlfToken::kind()']]],
+  ['kind_33',['kind',['../structdetail_1_1arg__ref.html#a116910e6930a72e226b4b4da57a56702',1,'detail::arg_ref::kind()'],['../classexplosion__handler_1_1ExplosionEvent.html#a210040a6286857a180619c35ed6aaf68',1,'explosion_handler::ExplosionEvent::kind()'],['../structcata__libintl_1_1PlfToken.html#adb6c7c3c5ca49f938e4f18e370f4bfd5',1,'cata_libintl::PlfToken::kind()']]],
   ['kitten_34',['KITTEN',['../iuse__software__kitten_8cpp.html#ab91264844d482eccf3df3c244542c887',1,'iuse_software_kitten.cpp']]],
   ['kitten_35',['kitten',['../classrobot__finds__kitten.html#a2ec3cf2977508663b03e3da09a036175',1,'robot_finds_kitten']]],
   ['knockback_5fdist_36',['knockback_dist',['../classma__technique.html#a26cefe1707e20f3448e36f14a5d28c8c',1,'ma_technique']]],

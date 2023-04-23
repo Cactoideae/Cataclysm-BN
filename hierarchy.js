@@ -619,6 +619,8 @@ var hierarchy =
     [ "explosion_data", "structexplosion__data.html", null ],
     [ "explosion_handler::explosion_queue", "classexplosion__handler_1_1explosion__queue.html", null ],
     [ "explosion_tile", "structexplosion__tile.html", null ],
+    [ "explosion_handler::ExplosionEvent", "classexplosion__handler_1_1ExplosionEvent.html", null ],
+    [ "explosion_handler::ExplosionProcess", "classexplosion__handler_1_1ExplosionProcess.html", null ],
     [ "faction_manager", "classfaction__manager.html", null ],
     [ "faction_template", "classfaction__template.html", [
       [ "faction", "classfaction.html", null ]
@@ -667,6 +669,7 @@ var hierarchy =
     [ "field_entry", "classfield__entry.html", null ],
     [ "field_intensity_level", "structfield__intensity__level.html", null ],
     [ "field_type", "structfield__type.html", null ],
+    [ "explosion_handler::ExplosionEvent::FieldToAdd", "structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html", null ],
     [ "detail::fill_t< Char >", "structdetail_1_1fill__t.html", null ],
     [ "fire_data", "structfire__data.html", null ],
     [ "detail::fixed_buffer_traits", "classdetail_1_1fixed__buffer__traits.html", null ],
@@ -1418,6 +1421,7 @@ var hierarchy =
     [ "coords::project_to_impl< ScaleUp, 0, ResultScale >", "structcoords_1_1project__to__impl_3_01ScaleUp_00_010_00_01ResultScale_01_4.html", null ],
     [ "projectile", "structprojectile.html", null ],
     [ "projectile_attack_aim", "structprojectile__attack__aim.html", null ],
+    [ "explosion_handler::ExplosionEvent::PropelledEntity", "structexplosion__handler_1_1ExplosionEvent_1_1PropelledEntity.html", null ],
     [ "pry_result", "structpry__result.html", null ],
     [ "quality", "structquality.html", null ],
     [ "quality_requirement", "structquality__requirement.html", null ],
