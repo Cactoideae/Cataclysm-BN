@@ -1,5 +1,6 @@
 var NAVTREEINDEX136 =
 {
+"structbionic.html":[36,0,110],
 "structbionic.html#a11ccbcabb8fcf2cbaddc48b9a9095751":[36,0,110,10],
 "structbionic.html#a1653e341c38d8ced1112b63be102c8f6":[36,0,110,18],
 "structbionic.html#a1a7f52c48c928214fbe1a74682be7ff3":[36,0,110,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX136 =
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1buries__corpse_01_4.html":[36,0,14,0,9],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1buries__corpse_01_4.html":[35,0,73,0,9],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1buries__corpse_01_4.html#a27952c0c579311cff6f3304b56f0131b":[36,0,14,0,9,0],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1buries__corpse_01_4.html#a27952c0c579311cff6f3304b56f0131b":[35,0,73,0,9,0],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1causes__resonance__cascade_01_4.html":[35,0,73,0,10]
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1buries__corpse_01_4.html#a27952c0c579311cff6f3304b56f0131b":[35,0,73,0,9,0]
 };

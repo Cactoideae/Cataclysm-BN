@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"regional__settings_8cpp.html#afd329591aa80065c0762cab95ac64819":[37,0,1,534,8],
 "regional__settings_8cpp_source.html":[37,0,1,534],
 "regional__settings_8h.html":[37,0,1,535],
 "regional__settings_8h.html#a0111ee282937eb166fd0604151e798c7":[37,0,1,535,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "scent__map_8h.html":[37,0,1,561],
 "scent__map_8h.html#aa8107007f54002911ea868b32a108025":[37,0,1,561,2],
 "scent__map_8h.html#ae37b6acaf47b352000fac854f116c126":[37,0,1,561,3],
-"scent__map_8h_source.html":[37,0,1,561],
-"scores__ui_8cpp.html":[37,0,1,562]
+"scent__map_8h_source.html":[37,0,1,561]
 };

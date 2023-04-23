@@ -1,5 +1,6 @@
 var NAVTREEINDEX144 =
 {
+"structdetail_1_1width__adapter.html#a8e374f042abe43de534afdb3d16d44a0":[36,0,21,113,4],
 "structdetail_1_1width__adapter.html#a8e374f042abe43de534afdb3d16d44a0":[35,0,96,114,4],
 "structdetail_1_1width__adapter.html#a934a6268be4a54e08db902eb5cf29cc8":[35,0,96,114,3],
 "structdetail_1_1width__adapter.html#a934a6268be4a54e08db902eb5cf29cc8":[36,0,21,113,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX144 =
 "structenum__traits_3_01fields_1_1stacking__type_01_4.html":[36,0,278],
 "structenum__traits_3_01fields_1_1stacking__type_01_4.html#a6d4d263b68abe25c8f40e2a4c507b1ba":[36,0,278,0],
 "structenum__traits_3_01game__message__type_01_4.html":[36,0,279],
-"structenum__traits_3_01game__message__type_01_4.html#a8849dcae320e3edd49312220e24f564a":[36,0,279,0],
-"structenum__traits_3_01holiday_01_4.html":[36,0,280]
+"structenum__traits_3_01game__message__type_01_4.html#a8849dcae320e3edd49312220e24f564a":[36,0,279,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX112 =
 {
+"namespaceanonymous__namespace_02ammo__effect_8cpp_03.html#abd6b882ac387ff0e2c638bc4f8918b66":[35,0,7,0],
 "namespaceanonymous__namespace_02anatomy_8cpp_03.html":[35,0,8],
 "namespaceanonymous__namespace_02anatomy_8cpp_03.html#ab5d71f06f2d27833d926be7417cddeeb":[35,0,8,0],
 "namespaceanonymous__namespace_02animation_8cpp_03.html":[35,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX112 =
 "namespacebase__camps.html":[35,0,70],
 "namespacebase__camps.html#a04fa69b1c0952a34dc4a7d26b3f9f786":[35,0,70,12],
 "namespacebase__camps.html#a11becc5688aac40a12f2bc2e33d605c1":[35,0,70,7],
-"namespacebase__camps.html#a28832cf25e9985baab0a6cc9ac1323e2":[35,0,70,15],
-"namespacebase__camps.html#a33f7b3ee160c6971b07b5eb8416043b5":[35,0,70,6]
+"namespacebase__camps.html#a28832cf25e9985baab0a6cc9ac1323e2":[35,0,70,15]
 };
