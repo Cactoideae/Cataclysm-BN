@@ -684,7 +684,7 @@ template&lt;size_t N = 1&gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="game_8cpp_source.html#l00281">g</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05586">grenade_helper()</a>, and <a class="el" href="monattack_8cpp_source.html#l01216">mattack::science()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05596">grenade_helper()</a>, and <a class="el" href="monattack_8cpp_source.html#l01216">mattack::science()</a>.</p>
 
 </div>
 </div>
@@ -780,7 +780,7 @@ template&lt;typename Container &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="artifact_8cpp_source.html#l00032">rng()</a>, and <a class="el" href="om__direction_8h_source.html#l00027">om_direction::size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l01211">get_random_index()</a>, <a class="el" href="monattack_8cpp_source.html#l05586">grenade_helper()</a>, and <a class="el" href="monattack_8cpp_source.html#l01216">mattack::science()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l01211">get_random_index()</a>, <a class="el" href="monattack_8cpp_source.html#l05596">grenade_helper()</a>, and <a class="el" href="monattack_8cpp_source.html#l01216">mattack::science()</a>.</p>
 
 </div>
 </div>
@@ -836,89 +836,89 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monattack_8cpp_source.html#l05586">5586</a> of file <a class="el" href="monattack_8cpp_source.html">monattack.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l05588" name="l05588"></a><span class="lineno"> 5588</span>{</div>
-<div class="line"><a id="l05589" name="l05589"></a><span class="lineno"> 5589</span>    <span class="comment">// Can&#39;t do anything if we can&#39;t act</span></div>
-<div class="line"><a id="l05590" name="l05590"></a><span class="lineno"> 5590</span>    <span class="keywordflow">if</span>( !z-&gt;<a class="code hl_function" href="classmonster.html#a0f83a7ee7bd8d96efc80200c5a5caf5b">can_act</a>() ) {</div>
-<div class="line"><a id="l05591" name="l05591"></a><span class="lineno"> 5591</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l05592" name="l05592"></a><span class="lineno"> 5592</span>    }</div>
-<div class="line"><a id="l05593" name="l05593"></a><span class="lineno"> 5593</span>    <span class="comment">// Too far or we can&#39;t target them</span></div>
-<div class="line"><a id="l05594" name="l05594"></a><span class="lineno"> 5594</span>    <span class="keywordflow">if</span>( !<a class="code hl_function" href="monattack_8cpp.html#a2239aa1914a4ff939b923ada5faf247d">within_target_range</a>( z, target, dist ) ) {</div>
-<div class="line"><a id="l05595" name="l05595"></a><span class="lineno"> 5595</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l05596" name="l05596"></a><span class="lineno"> 5596</span>    }</div>
-<div class="line"><a id="l05597" name="l05597"></a><span class="lineno"> 5597</span>    <span class="comment">// We need an open space for these attacks</span></div>
-<div class="line"><a id="l05598" name="l05598"></a><span class="lineno"> 5598</span>    <span class="keyword">const</span> <span class="keyword">auto</span> empty_neighbors = <a class="code hl_function" href="monattack_8cpp.html#afe0996fe2093499cd8a828c3f9e0a01e">find_empty_neighbors</a>( *z );</div>
-<div class="line"><a id="l05599" name="l05599"></a><span class="lineno"> 5599</span>    <span class="keyword">const</span> <span class="keywordtype">size_t</span> empty_neighbor_count = empty_neighbors.second;</div>
-<div class="line"><a id="l05600" name="l05600"></a><span class="lineno"> 5600</span>    <span class="keywordflow">if</span>( !empty_neighbor_count ) {</div>
+<p class="definition">Definition at line <a class="el" href="monattack_8cpp_source.html#l05596">5596</a> of file <a class="el" href="monattack_8cpp_source.html">monattack.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l05598" name="l05598"></a><span class="lineno"> 5598</span>{</div>
+<div class="line"><a id="l05599" name="l05599"></a><span class="lineno"> 5599</span>    <span class="comment">// Can&#39;t do anything if we can&#39;t act</span></div>
+<div class="line"><a id="l05600" name="l05600"></a><span class="lineno"> 5600</span>    <span class="keywordflow">if</span>( !z-&gt;<a class="code hl_function" href="classmonster.html#a0f83a7ee7bd8d96efc80200c5a5caf5b">can_act</a>() ) {</div>
 <div class="line"><a id="l05601" name="l05601"></a><span class="lineno"> 5601</span>        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l05602" name="l05602"></a><span class="lineno"> 5602</span>    }</div>
-<div class="line"><a id="l05603" name="l05603"></a><span class="lineno"> 5603</span> </div>
-<div class="line"><a id="l05604" name="l05604"></a><span class="lineno"> 5604</span>    <span class="keywordtype">int</span> total_ammo = 0;</div>
-<div class="line"><a id="l05605" name="l05605"></a><span class="lineno"> 5605</span>    <span class="comment">// Sum up the ammo entries to get a ratio.</span></div>
-<div class="line"><a id="l05606" name="l05606"></a><span class="lineno"> 5606</span>    <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;ammo_entry : z-&gt;<a class="code hl_variable" href="classmonster.html#aa30f973bf524ba275ada847f6118b048">type</a>-&gt;<a class="code hl_variable" href="structmtype.html#a9a7a3165f2cd86b6e9b68c748ed7f4c0">starting_ammo</a> ) {</div>
-<div class="line"><a id="l05607" name="l05607"></a><span class="lineno"> 5607</span>        total_ammo += ammo_entry.second;</div>
-<div class="line"><a id="l05608" name="l05608"></a><span class="lineno"> 5608</span>    }</div>
-<div class="line"><a id="l05609" name="l05609"></a><span class="lineno"> 5609</span>    <span class="keywordflow">if</span>( total_ammo == 0 ) {</div>
-<div class="line"><a id="l05610" name="l05610"></a><span class="lineno"> 5610</span>        <span class="comment">// Should never happen, but protect us from a div/0 if it does.</span></div>
-<div class="line"><a id="l05611" name="l05611"></a><span class="lineno"> 5611</span>        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l05603" name="l05603"></a><span class="lineno"> 5603</span>    <span class="comment">// Too far or we can&#39;t target them</span></div>
+<div class="line"><a id="l05604" name="l05604"></a><span class="lineno"> 5604</span>    <span class="keywordflow">if</span>( !<a class="code hl_function" href="monattack_8cpp.html#a2239aa1914a4ff939b923ada5faf247d">within_target_range</a>( z, target, dist ) ) {</div>
+<div class="line"><a id="l05605" name="l05605"></a><span class="lineno"> 5605</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l05606" name="l05606"></a><span class="lineno"> 5606</span>    }</div>
+<div class="line"><a id="l05607" name="l05607"></a><span class="lineno"> 5607</span>    <span class="comment">// We need an open space for these attacks</span></div>
+<div class="line"><a id="l05608" name="l05608"></a><span class="lineno"> 5608</span>    <span class="keyword">const</span> <span class="keyword">auto</span> empty_neighbors = <a class="code hl_function" href="monattack_8cpp.html#afe0996fe2093499cd8a828c3f9e0a01e">find_empty_neighbors</a>( *z );</div>
+<div class="line"><a id="l05609" name="l05609"></a><span class="lineno"> 5609</span>    <span class="keyword">const</span> <span class="keywordtype">size_t</span> empty_neighbor_count = empty_neighbors.second;</div>
+<div class="line"><a id="l05610" name="l05610"></a><span class="lineno"> 5610</span>    <span class="keywordflow">if</span>( !empty_neighbor_count ) {</div>
+<div class="line"><a id="l05611" name="l05611"></a><span class="lineno"> 5611</span>        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l05612" name="l05612"></a><span class="lineno"> 5612</span>    }</div>
 <div class="line"><a id="l05613" name="l05613"></a><span class="lineno"> 5613</span> </div>
-<div class="line"><a id="l05614" name="l05614"></a><span class="lineno"> 5614</span>    <span class="comment">// Find how much ammo we currently have to get the total ratio</span></div>
-<div class="line"><a id="l05615" name="l05615"></a><span class="lineno"> 5615</span>    <span class="keywordtype">int</span> curr_ammo = 0;</div>
-<div class="line"><a id="l05616" name="l05616"></a><span class="lineno"> 5616</span>    <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;amm : z-&gt;<a class="code hl_variable" href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">ammo</a> ) {</div>
-<div class="line"><a id="l05617" name="l05617"></a><span class="lineno"> 5617</span>        curr_ammo += amm.second;</div>
+<div class="line"><a id="l05614" name="l05614"></a><span class="lineno"> 5614</span>    <span class="keywordtype">int</span> total_ammo = 0;</div>
+<div class="line"><a id="l05615" name="l05615"></a><span class="lineno"> 5615</span>    <span class="comment">// Sum up the ammo entries to get a ratio.</span></div>
+<div class="line"><a id="l05616" name="l05616"></a><span class="lineno"> 5616</span>    <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;ammo_entry : z-&gt;<a class="code hl_variable" href="classmonster.html#aa30f973bf524ba275ada847f6118b048">type</a>-&gt;<a class="code hl_variable" href="structmtype.html#a9a7a3165f2cd86b6e9b68c748ed7f4c0">starting_ammo</a> ) {</div>
+<div class="line"><a id="l05617" name="l05617"></a><span class="lineno"> 5617</span>        total_ammo += ammo_entry.second;</div>
 <div class="line"><a id="l05618" name="l05618"></a><span class="lineno"> 5618</span>    }</div>
-<div class="line"><a id="l05619" name="l05619"></a><span class="lineno"> 5619</span>    <span class="keywordtype">float</span> rat = curr_ammo / <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>( total_ammo );</div>
-<div class="line"><a id="l05620" name="l05620"></a><span class="lineno"> 5620</span> </div>
-<div class="line"><a id="l05621" name="l05621"></a><span class="lineno"> 5621</span>    <span class="keywordflow">if</span>( curr_ammo == 0 ) {</div>
-<div class="line"><a id="l05622" name="l05622"></a><span class="lineno"> 5622</span>        <span class="comment">// We&#39;ve run out of ammo, get angry and toggle the special off.</span></div>
-<div class="line"><a id="l05623" name="l05623"></a><span class="lineno"> 5623</span>        z-&gt;<a class="code hl_variable" href="classmonster.html#a7b22fe8719e4783fe1896429cedefa8d">anger</a> = 100;</div>
-<div class="line"><a id="l05624" name="l05624"></a><span class="lineno"> 5624</span>        <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l05625" name="l05625"></a><span class="lineno"> 5625</span>    }</div>
-<div class="line"><a id="l05626" name="l05626"></a><span class="lineno"> 5626</span> </div>
-<div class="line"><a id="l05627" name="l05627"></a><span class="lineno"> 5627</span>    <span class="comment">// Hey look! another weighted list!</span></div>
-<div class="line"><a id="l05628" name="l05628"></a><span class="lineno"> 5628</span>    <span class="comment">// Grab all attacks that pass their chance check and we&#39;ve spent enough ammo for</span></div>
-<div class="line"><a id="l05629" name="l05629"></a><span class="lineno"> 5629</span>    <a class="code hl_struct" href="structweighted__float__list.html">weighted_float_list&lt;itype_id&gt;</a> possible_attacks;</div>
-<div class="line"><a id="l05630" name="l05630"></a><span class="lineno"> 5630</span>    <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;amm : z-&gt;<a class="code hl_variable" href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">ammo</a> ) {</div>
-<div class="line"><a id="l05631" name="l05631"></a><span class="lineno"> 5631</span>        <span class="keywordflow">if</span>( amm.second &gt; 0 &amp;&amp; data[amm.first].ammo_percentage &gt;= rat ) {</div>
-<div class="line"><a id="l05632" name="l05632"></a><span class="lineno"> 5632</span>            possible_attacks.<a class="code hl_function" href="structweighted__list.html#a7e0f038800c67af8c42c67940ca9c061">add</a>( amm.first, 1.0 / data[amm.first].chance );</div>
-<div class="line"><a id="l05633" name="l05633"></a><span class="lineno"> 5633</span>        }</div>
-<div class="line"><a id="l05634" name="l05634"></a><span class="lineno"> 5634</span>    }</div>
-<div class="line"><a id="l05635" name="l05635"></a><span class="lineno"> 5635</span>    <a class="code hl_class" href="classstring__id.html">itype_id</a> att = *possible_attacks.<a class="code hl_function" href="structweighted__list.html#a8aff784597b2a8f2c0fc9c9028d93256">pick</a>();</div>
+<div class="line"><a id="l05619" name="l05619"></a><span class="lineno"> 5619</span>    <span class="keywordflow">if</span>( total_ammo == 0 ) {</div>
+<div class="line"><a id="l05620" name="l05620"></a><span class="lineno"> 5620</span>        <span class="comment">// Should never happen, but protect us from a div/0 if it does.</span></div>
+<div class="line"><a id="l05621" name="l05621"></a><span class="lineno"> 5621</span>        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l05622" name="l05622"></a><span class="lineno"> 5622</span>    }</div>
+<div class="line"><a id="l05623" name="l05623"></a><span class="lineno"> 5623</span> </div>
+<div class="line"><a id="l05624" name="l05624"></a><span class="lineno"> 5624</span>    <span class="comment">// Find how much ammo we currently have to get the total ratio</span></div>
+<div class="line"><a id="l05625" name="l05625"></a><span class="lineno"> 5625</span>    <span class="keywordtype">int</span> curr_ammo = 0;</div>
+<div class="line"><a id="l05626" name="l05626"></a><span class="lineno"> 5626</span>    <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;amm : z-&gt;<a class="code hl_variable" href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">ammo</a> ) {</div>
+<div class="line"><a id="l05627" name="l05627"></a><span class="lineno"> 5627</span>        curr_ammo += amm.second;</div>
+<div class="line"><a id="l05628" name="l05628"></a><span class="lineno"> 5628</span>    }</div>
+<div class="line"><a id="l05629" name="l05629"></a><span class="lineno"> 5629</span>    <span class="keywordtype">float</span> rat = curr_ammo / <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>( total_ammo );</div>
+<div class="line"><a id="l05630" name="l05630"></a><span class="lineno"> 5630</span> </div>
+<div class="line"><a id="l05631" name="l05631"></a><span class="lineno"> 5631</span>    <span class="keywordflow">if</span>( curr_ammo == 0 ) {</div>
+<div class="line"><a id="l05632" name="l05632"></a><span class="lineno"> 5632</span>        <span class="comment">// We&#39;ve run out of ammo, get angry and toggle the special off.</span></div>
+<div class="line"><a id="l05633" name="l05633"></a><span class="lineno"> 5633</span>        z-&gt;<a class="code hl_variable" href="classmonster.html#a7b22fe8719e4783fe1896429cedefa8d">anger</a> = 100;</div>
+<div class="line"><a id="l05634" name="l05634"></a><span class="lineno"> 5634</span>        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l05635" name="l05635"></a><span class="lineno"> 5635</span>    }</div>
 <div class="line"><a id="l05636" name="l05636"></a><span class="lineno"> 5636</span> </div>
-<div class="line"><a id="l05637" name="l05637"></a><span class="lineno"> 5637</span>    z-&gt;<a class="code hl_variable" href="classCreature.html#a8c5a392caa213bee9581b47e9f0e2052">moves</a> -= moves;</div>
-<div class="line"><a id="l05638" name="l05638"></a><span class="lineno"> 5638</span>    z-&gt;<a class="code hl_variable" href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">ammo</a>[att]--;</div>
-<div class="line"><a id="l05639" name="l05639"></a><span class="lineno"> 5639</span> </div>
-<div class="line"><a id="l05640" name="l05640"></a><span class="lineno"> 5640</span>    <span class="comment">// if the player can see it</span></div>
-<div class="line"><a id="l05641" name="l05641"></a><span class="lineno"> 5641</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u.sees( *z ) ) {</div>
-<div class="line"><a id="l05642" name="l05642"></a><span class="lineno"> 5642</span>        <span class="keywordflow">if</span>( data[att].<a class="code hl_variable" href="namespacemapgen__defer.html#a616ad2c7ee2eb002b683b41b04a888c1">message</a>.empty() ) {</div>
-<div class="line"><a id="l05643" name="l05643"></a><span class="lineno"> 5643</span>            <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096ea9855e523119c93601d8f67718994df05">m_debug</a>, <span class="stringliteral">&quot;Invalid ammo message in grenadier special.&quot;</span> );</div>
-<div class="line"><a id="l05644" name="l05644"></a><span class="lineno"> 5644</span>        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l05645" name="l05645"></a><span class="lineno"> 5645</span>            <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096ea72e7b82d57a6df0d4263c2043139b1b1">m_bad</a>, data[att].<a class="code hl_variable" href="namespacemapgen__defer.html#a616ad2c7ee2eb002b683b41b04a888c1">message</a>, z-&gt;<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>() );</div>
-<div class="line"><a id="l05646" name="l05646"></a><span class="lineno"> 5646</span>        }</div>
-<div class="line"><a id="l05647" name="l05647"></a><span class="lineno"> 5647</span>    }</div>
-<div class="line"><a id="l05648" name="l05648"></a><span class="lineno"> 5648</span> </div>
-<div class="line"><a id="l05649" name="l05649"></a><span class="lineno"> 5649</span>    <span class="comment">// Get our monster type</span></div>
-<div class="line"><a id="l05650" name="l05650"></a><span class="lineno"> 5650</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structuse__function.html">use_function</a> *<a class="code hl_enumeration" href="craft__command_8h.html#a5684f219761d78b4f98e7b2869dd1726">usage</a> = att-&gt;<a class="code hl_function" href="structitype.html#a304367633fdfe6c63a53bdce0caced92">get_use</a>( <span class="stringliteral">&quot;place_monster&quot;</span> );</div>
-<div class="line"><a id="l05651" name="l05651"></a><span class="lineno"> 5651</span>    <span class="keywordflow">if</span>( <a class="code hl_enumeration" href="craft__command_8h.html#a5684f219761d78b4f98e7b2869dd1726">usage</a> == <span class="keyword">nullptr</span> ) {</div>
-<div class="line"><a id="l05652" name="l05652"></a><span class="lineno"> 5652</span>        <span class="comment">// Invalid bomb item usage, Toggle this special off so we stop processing</span></div>
-<div class="line"><a id="l05653" name="l05653"></a><span class="lineno"> 5653</span>        <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096ea9855e523119c93601d8f67718994df05">m_debug</a>, <span class="stringliteral">&quot;Invalid bomb item usage in grenadier special for %s.&quot;</span>, z-&gt;<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>() );</div>
-<div class="line"><a id="l05654" name="l05654"></a><span class="lineno"> 5654</span>        <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l05655" name="l05655"></a><span class="lineno"> 5655</span>    }</div>
-<div class="line"><a id="l05656" name="l05656"></a><span class="lineno"> 5656</span>    <span class="keyword">auto</span> *actor = <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code hl_class" href="classplace__monster__iuse.html">place_monster_iuse</a> *<span class="keyword">&gt;</span>( <a class="code hl_enumeration" href="craft__command_8h.html#a5684f219761d78b4f98e7b2869dd1726">usage</a>-&gt;get_actor_ptr() );</div>
-<div class="line"><a id="l05657" name="l05657"></a><span class="lineno"> 5657</span>    <span class="keywordflow">if</span>( actor == <span class="keyword">nullptr</span> ) {</div>
-<div class="line"><a id="l05658" name="l05658"></a><span class="lineno"> 5658</span>        <span class="comment">// Invalid bomb item, Toggle this special off so we stop processing</span></div>
-<div class="line"><a id="l05659" name="l05659"></a><span class="lineno"> 5659</span>        <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096ea9855e523119c93601d8f67718994df05">m_debug</a>, <span class="stringliteral">&quot;Invalid bomb type in grenadier special for %s.&quot;</span>, z-&gt;<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>() );</div>
-<div class="line"><a id="l05660" name="l05660"></a><span class="lineno"> 5660</span>        <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l05661" name="l05661"></a><span class="lineno"> 5661</span>    }</div>
-<div class="line"><a id="l05662" name="l05662"></a><span class="lineno"> 5662</span> </div>
-<div class="line"><a id="l05663" name="l05663"></a><span class="lineno"> 5663</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structtripoint.html">tripoint</a> where = empty_neighbors.first[<a class="code hl_function" href="monattack_8cpp.html#a249f9c28fb794544f38efa09455f524c">get_random_index</a>( empty_neighbor_count )];</div>
-<div class="line"><a id="l05664" name="l05664"></a><span class="lineno"> 5664</span> </div>
-<div class="line"><a id="l05665" name="l05665"></a><span class="lineno"> 5665</span>    <span class="keywordflow">if</span>( <a class="code hl_class" href="classmonster.html">monster</a> *<span class="keyword">const</span> hack = <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;place_critter_at( actor-&gt;mtypeid, where ) ) {</div>
-<div class="line"><a id="l05666" name="l05666"></a><span class="lineno"> 5666</span>        hack-&gt;make_ally( *z );</div>
-<div class="line"><a id="l05667" name="l05667"></a><span class="lineno"> 5667</span>    }</div>
-<div class="line"><a id="l05668" name="l05668"></a><span class="lineno"> 5668</span>    <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a id="l05669" name="l05669"></a><span class="lineno"> 5669</span>}</div>
+<div class="line"><a id="l05637" name="l05637"></a><span class="lineno"> 5637</span>    <span class="comment">// Hey look! another weighted list!</span></div>
+<div class="line"><a id="l05638" name="l05638"></a><span class="lineno"> 5638</span>    <span class="comment">// Grab all attacks that pass their chance check and we&#39;ve spent enough ammo for</span></div>
+<div class="line"><a id="l05639" name="l05639"></a><span class="lineno"> 5639</span>    <a class="code hl_struct" href="structweighted__float__list.html">weighted_float_list&lt;itype_id&gt;</a> possible_attacks;</div>
+<div class="line"><a id="l05640" name="l05640"></a><span class="lineno"> 5640</span>    <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;amm : z-&gt;<a class="code hl_variable" href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">ammo</a> ) {</div>
+<div class="line"><a id="l05641" name="l05641"></a><span class="lineno"> 5641</span>        <span class="keywordflow">if</span>( amm.second &gt; 0 &amp;&amp; data[amm.first].ammo_percentage &gt;= rat ) {</div>
+<div class="line"><a id="l05642" name="l05642"></a><span class="lineno"> 5642</span>            possible_attacks.<a class="code hl_function" href="structweighted__list.html#a7e0f038800c67af8c42c67940ca9c061">add</a>( amm.first, 1.0 / data[amm.first].chance );</div>
+<div class="line"><a id="l05643" name="l05643"></a><span class="lineno"> 5643</span>        }</div>
+<div class="line"><a id="l05644" name="l05644"></a><span class="lineno"> 5644</span>    }</div>
+<div class="line"><a id="l05645" name="l05645"></a><span class="lineno"> 5645</span>    <a class="code hl_class" href="classstring__id.html">itype_id</a> att = *possible_attacks.<a class="code hl_function" href="structweighted__list.html#a8aff784597b2a8f2c0fc9c9028d93256">pick</a>();</div>
+<div class="line"><a id="l05646" name="l05646"></a><span class="lineno"> 5646</span> </div>
+<div class="line"><a id="l05647" name="l05647"></a><span class="lineno"> 5647</span>    z-&gt;<a class="code hl_variable" href="classCreature.html#a8c5a392caa213bee9581b47e9f0e2052">moves</a> -= moves;</div>
+<div class="line"><a id="l05648" name="l05648"></a><span class="lineno"> 5648</span>    z-&gt;<a class="code hl_variable" href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">ammo</a>[att]--;</div>
+<div class="line"><a id="l05649" name="l05649"></a><span class="lineno"> 5649</span> </div>
+<div class="line"><a id="l05650" name="l05650"></a><span class="lineno"> 5650</span>    <span class="comment">// if the player can see it</span></div>
+<div class="line"><a id="l05651" name="l05651"></a><span class="lineno"> 5651</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u.sees( *z ) ) {</div>
+<div class="line"><a id="l05652" name="l05652"></a><span class="lineno"> 5652</span>        <span class="keywordflow">if</span>( data[att].<a class="code hl_variable" href="namespacemapgen__defer.html#a616ad2c7ee2eb002b683b41b04a888c1">message</a>.empty() ) {</div>
+<div class="line"><a id="l05653" name="l05653"></a><span class="lineno"> 5653</span>            <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096ea9855e523119c93601d8f67718994df05">m_debug</a>, <span class="stringliteral">&quot;Invalid ammo message in grenadier special.&quot;</span> );</div>
+<div class="line"><a id="l05654" name="l05654"></a><span class="lineno"> 5654</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l05655" name="l05655"></a><span class="lineno"> 5655</span>            <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096ea72e7b82d57a6df0d4263c2043139b1b1">m_bad</a>, data[att].<a class="code hl_variable" href="namespacemapgen__defer.html#a616ad2c7ee2eb002b683b41b04a888c1">message</a>, z-&gt;<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>() );</div>
+<div class="line"><a id="l05656" name="l05656"></a><span class="lineno"> 5656</span>        }</div>
+<div class="line"><a id="l05657" name="l05657"></a><span class="lineno"> 5657</span>    }</div>
+<div class="line"><a id="l05658" name="l05658"></a><span class="lineno"> 5658</span> </div>
+<div class="line"><a id="l05659" name="l05659"></a><span class="lineno"> 5659</span>    <span class="comment">// Get our monster type</span></div>
+<div class="line"><a id="l05660" name="l05660"></a><span class="lineno"> 5660</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structuse__function.html">use_function</a> *<a class="code hl_enumeration" href="craft__command_8h.html#a5684f219761d78b4f98e7b2869dd1726">usage</a> = att-&gt;<a class="code hl_function" href="structitype.html#a304367633fdfe6c63a53bdce0caced92">get_use</a>( <span class="stringliteral">&quot;place_monster&quot;</span> );</div>
+<div class="line"><a id="l05661" name="l05661"></a><span class="lineno"> 5661</span>    <span class="keywordflow">if</span>( <a class="code hl_enumeration" href="craft__command_8h.html#a5684f219761d78b4f98e7b2869dd1726">usage</a> == <span class="keyword">nullptr</span> ) {</div>
+<div class="line"><a id="l05662" name="l05662"></a><span class="lineno"> 5662</span>        <span class="comment">// Invalid bomb item usage, Toggle this special off so we stop processing</span></div>
+<div class="line"><a id="l05663" name="l05663"></a><span class="lineno"> 5663</span>        <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096ea9855e523119c93601d8f67718994df05">m_debug</a>, <span class="stringliteral">&quot;Invalid bomb item usage in grenadier special for %s.&quot;</span>, z-&gt;<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>() );</div>
+<div class="line"><a id="l05664" name="l05664"></a><span class="lineno"> 5664</span>        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l05665" name="l05665"></a><span class="lineno"> 5665</span>    }</div>
+<div class="line"><a id="l05666" name="l05666"></a><span class="lineno"> 5666</span>    <span class="keyword">auto</span> *actor = <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code hl_class" href="classplace__monster__iuse.html">place_monster_iuse</a> *<span class="keyword">&gt;</span>( <a class="code hl_enumeration" href="craft__command_8h.html#a5684f219761d78b4f98e7b2869dd1726">usage</a>-&gt;get_actor_ptr() );</div>
+<div class="line"><a id="l05667" name="l05667"></a><span class="lineno"> 5667</span>    <span class="keywordflow">if</span>( actor == <span class="keyword">nullptr</span> ) {</div>
+<div class="line"><a id="l05668" name="l05668"></a><span class="lineno"> 5668</span>        <span class="comment">// Invalid bomb item, Toggle this special off so we stop processing</span></div>
+<div class="line"><a id="l05669" name="l05669"></a><span class="lineno"> 5669</span>        <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096ea9855e523119c93601d8f67718994df05">m_debug</a>, <span class="stringliteral">&quot;Invalid bomb type in grenadier special for %s.&quot;</span>, z-&gt;<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>() );</div>
+<div class="line"><a id="l05670" name="l05670"></a><span class="lineno"> 5670</span>        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l05671" name="l05671"></a><span class="lineno"> 5671</span>    }</div>
+<div class="line"><a id="l05672" name="l05672"></a><span class="lineno"> 5672</span> </div>
+<div class="line"><a id="l05673" name="l05673"></a><span class="lineno"> 5673</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structtripoint.html">tripoint</a> where = empty_neighbors.first[<a class="code hl_function" href="monattack_8cpp.html#a249f9c28fb794544f38efa09455f524c">get_random_index</a>( empty_neighbor_count )];</div>
+<div class="line"><a id="l05674" name="l05674"></a><span class="lineno"> 5674</span> </div>
+<div class="line"><a id="l05675" name="l05675"></a><span class="lineno"> 5675</span>    <span class="keywordflow">if</span>( <a class="code hl_class" href="classmonster.html">monster</a> *<span class="keyword">const</span> hack = <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;place_critter_at( actor-&gt;mtypeid, where ) ) {</div>
+<div class="line"><a id="l05676" name="l05676"></a><span class="lineno"> 5676</span>        hack-&gt;make_ally( *z );</div>
+<div class="line"><a id="l05677" name="l05677"></a><span class="lineno"> 5677</span>    }</div>
+<div class="line"><a id="l05678" name="l05678"></a><span class="lineno"> 5678</span>    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a id="l05679" name="l05679"></a><span class="lineno"> 5679</span>}</div>
 <div class="ttc" id="aclassCreature_html_a8c5a392caa213bee9581b47e9f0e2052"><div class="ttname"><a href="classCreature.html#a8c5a392caa213bee9581b47e9f0e2052">Creature::moves</a></div><div class="ttdeci">int moves</div><div class="ttdef"><b>Definition:</b> <a href="creature_8h_source.html#l00578">creature.h:578</a></div></div>
 <div class="ttc" id="aclassmonster_html"><div class="ttname"><a href="classmonster.html">monster</a></div><div class="ttdef"><b>Definition:</b> <a href="monster_8h_source.html#l00084">monster.h:85</a></div></div>
 <div class="ttc" id="aclassmonster_html_a0f83a7ee7bd8d96efc80200c5a5caf5b"><div class="ttname"><a href="classmonster.html#a0f83a7ee7bd8d96efc80200c5a5caf5b">monster::can_act</a></div><div class="ttdeci">bool can_act() const</div><div class="ttdef"><b>Definition:</b> <a href="monster_8cpp_source.html#l00960">monster.cpp:960</a></div></div>
@@ -943,7 +943,7 @@ template&lt;typename Container &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="weighted__list_8h_source.html#l00033">weighted_list&lt; W, T &gt;::add()</a>, <a class="el" href="messages_8cpp_source.html#l00910">add_msg()</a>, <a class="el" href="monster_8h_source.html#l00511">monster::ammo</a>, <a class="el" href="monster_8h_source.html#l00471">monster::anger</a>, <a class="el" href="monster_8cpp_source.html#l00960">monster::can_act()</a>, <a class="el" href="monattack_8cpp_source.html#l01169">find_empty_neighbors()</a>, <a class="el" href="game_8cpp_source.html#l00281">g</a>, <a class="el" href="monattack_8cpp_source.html#l01201">get_random_index()</a>, <a class="el" href="itype_8cpp_source.html#l00166">itype::get_use()</a>, <a class="el" href="enums_8h_source.html#l00261">m_bad</a>, <a class="el" href="enums_8h_source.html#l00271">m_debug</a>, <a class="el" href="mapgen_8cpp_source.html#l00411">mapgen_defer::message</a>, <a class="el" href="creature_8h_source.html#l00578">Creature::moves</a>, <a class="el" href="monster_8cpp_source.html#l00493">monster::name()</a>, <a class="el" href="weighted__list_8h_source.html#l00094">weighted_list&lt; W, T &gt;::pick()</a>, <a class="el" href="mtype_8h_source.html#l00242">mtype::starting_ammo</a>, <a class="el" href="monster_8h_source.html#l00477">monster::type</a>, and <a class="el" href="monattack_8cpp_source.html#l00216">within_target_range()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05671">mattack::grenadier()</a>, and <a class="el" href="monattack_8cpp_source.html#l05702">mattack::grenadier_elite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05681">mattack::grenadier()</a>, and <a class="el" href="monattack_8cpp_source.html#l05712">mattack::grenadier_elite()</a>.</p>
 
 </div>
 </div>
@@ -1028,7 +1028,7 @@ template&lt;typename Container &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="monmove_8cpp_source.html#l00251">monster::can_squeeze_to()</a>, <a class="el" href="game_8cpp_source.html#l00281">g</a>, <a class="el" href="classCreature.html#a45926a7ba63ccc9be744f87a4d540b7d">Creature::pos()</a>, <a class="el" href="monster_8cpp_source.html#l00256">monster::pos()</a>, <a class="el" href="classCreature.html#a3a3ada596854cf8084b3a728b633a9db">Creature::posz()</a>, <a class="el" href="monster_8h_source.html#l00500">monster::posz()</a>, <a class="el" href="coordinates_8h_source.html#l00519">rl_dist()</a>, and <a class="el" href="mapdata_8cpp_source.html#l00729">t_open_air</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l00640">mattack::acid_barf()</a>, <a class="el" href="monattack_8cpp_source.html#l05372">mattack::bio_op_disarm()</a>, <a class="el" href="monattack_8cpp_source.html#l05291">mattack::bio_op_impale()</a>, <a class="el" href="monattack_8cpp_source.html#l05152">mattack::bio_op_random_biojutsu()</a>, <a class="el" href="monattack_8cpp_source.html#l05196">mattack::bio_op_takedown()</a>, <a class="el" href="monattack_8cpp_source.html#l03780">mattack::copbot()</a>, <a class="el" href="monattack_8cpp_source.html#l02138">mattack::dermatik()</a>, <a class="el" href="monattack_8cpp_source.html#l04928">mattack::evolve_kill_strike()</a>, <a class="el" href="monattack_8cpp_source.html#l04222">mattack::flesh_golem()</a>, <a class="el" href="monattack_8cpp_source.html#l01857">mattack::fungus_bristle()</a>, <a class="el" href="monattack_8cpp_source.html#l02691">mattack::grab()</a>, <a class="el" href="monattack_8cpp_source.html#l02080">mattack::impale()</a>, <a class="el" href="monattack_8cpp_source.html#l04413">mattack::longswipe()</a>, <a class="el" href="monattack_8cpp_source.html#l04338">mattack::lunge()</a>, <a class="el" href="monattack_8cpp_source.html#l04727">mattack::riotbot()</a>, <a class="el" href="monattack_8cpp_source.html#l01114">mattack::smash()</a>, <a class="el" href="monattack_8cpp_source.html#l01102">mattack::smash_specific()</a>, <a class="el" href="monattack_8cpp_source.html#l03277">mattack::tazer()</a>, and <a class="el" href="monattack_8cpp_source.html#l04674">mattack::thrown_by_judo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l00640">mattack::acid_barf()</a>, <a class="el" href="monattack_8cpp_source.html#l05382">mattack::bio_op_disarm()</a>, <a class="el" href="monattack_8cpp_source.html#l05301">mattack::bio_op_impale()</a>, <a class="el" href="monattack_8cpp_source.html#l05162">mattack::bio_op_random_biojutsu()</a>, <a class="el" href="monattack_8cpp_source.html#l05206">mattack::bio_op_takedown()</a>, <a class="el" href="monattack_8cpp_source.html#l03780">mattack::copbot()</a>, <a class="el" href="monattack_8cpp_source.html#l02138">mattack::dermatik()</a>, <a class="el" href="monattack_8cpp_source.html#l04928">mattack::evolve_kill_strike()</a>, <a class="el" href="monattack_8cpp_source.html#l04222">mattack::flesh_golem()</a>, <a class="el" href="monattack_8cpp_source.html#l01857">mattack::fungus_bristle()</a>, <a class="el" href="monattack_8cpp_source.html#l02691">mattack::grab()</a>, <a class="el" href="monattack_8cpp_source.html#l02080">mattack::impale()</a>, <a class="el" href="monattack_8cpp_source.html#l04413">mattack::longswipe()</a>, <a class="el" href="monattack_8cpp_source.html#l04338">mattack::lunge()</a>, <a class="el" href="monattack_8cpp_source.html#l04727">mattack::riotbot()</a>, <a class="el" href="monattack_8cpp_source.html#l01114">mattack::smash()</a>, <a class="el" href="monattack_8cpp_source.html#l01102">mattack::smash_specific()</a>, <a class="el" href="monattack_8cpp_source.html#l03277">mattack::tazer()</a>, and <a class="el" href="monattack_8cpp_source.html#l04674">mattack::thrown_by_judo()</a>.</p>
 
 </div>
 </div>
@@ -1425,7 +1425,7 @@ template&lt;typename Container &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classCreature.html#a45926a7ba63ccc9be744f87a4d540b7d">Creature::pos()</a>, <a class="el" href="monster_8cpp_source.html#l00256">monster::pos()</a>, <a class="el" href="coordinates_8h_source.html#l00519">rl_dist()</a>, and <a class="el" href="creature_8cpp_source.html#l00204">Creature::sees()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05586">grenade_helper()</a>, <a class="el" href="monattack_8cpp_source.html#l05449">mattack::kamikaze()</a>, <a class="el" href="monattack_8cpp_source.html#l00968">mattack::resurrect()</a>, <a class="el" href="monattack_8cpp_source.html#l05438">mattack::suicide()</a>, and <a class="el" href="monattack_8cpp_source.html#l04033">mattack::upgrade()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05596">grenade_helper()</a>, <a class="el" href="monattack_8cpp_source.html#l05459">mattack::kamikaze()</a>, <a class="el" href="monattack_8cpp_source.html#l00968">mattack::resurrect()</a>, <a class="el" href="monattack_8cpp_source.html#l05448">mattack::suicide()</a>, and <a class="el" href="monattack_8cpp_source.html#l04033">mattack::upgrade()</a>.</p>
 
 </div>
 </div>
@@ -1779,7 +1779,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05291">mattack::bio_op_impale()</a>, <a class="el" href="monattack_8cpp_source.html#l02080">mattack::impale()</a>, <a class="el" href="monattack_8cpp_source.html#l04413">mattack::longswipe()</a>, and <a class="el" href="monattack_8cpp_source.html#l04618">mattack::slimespring()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05301">mattack::bio_op_impale()</a>, <a class="el" href="monattack_8cpp_source.html#l02080">mattack::impale()</a>, <a class="el" href="monattack_8cpp_source.html#l04413">mattack::longswipe()</a>, and <a class="el" href="monattack_8cpp_source.html#l04618">mattack::slimespring()</a>.</p>
 
 </div>
 </div>
@@ -1891,7 +1891,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05449">mattack::kamikaze()</a>, and <a class="el" href="monattack_8cpp_source.html#l02922">mattack::nurse_check_up()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05459">mattack::kamikaze()</a>, and <a class="el" href="monattack_8cpp_source.html#l02922">mattack::nurse_check_up()</a>.</p>
 
 </div>
 </div>
@@ -2031,7 +2031,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05196">mattack::bio_op_takedown()</a>, <a class="el" href="monattack_8cpp_source.html#l04222">mattack::flesh_golem()</a>, <a class="el" href="monattack_8cpp_source.html#l02080">mattack::impale()</a>, <a class="el" href="monattack_8cpp_source.html#l04338">mattack::lunge()</a>, and <a class="el" href="monattack_8cpp_source.html#l04674">mattack::thrown_by_judo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05206">mattack::bio_op_takedown()</a>, <a class="el" href="monattack_8cpp_source.html#l04222">mattack::flesh_golem()</a>, <a class="el" href="monattack_8cpp_source.html#l02080">mattack::impale()</a>, <a class="el" href="monattack_8cpp_source.html#l04338">mattack::lunge()</a>, and <a class="el" href="monattack_8cpp_source.html#l04674">mattack::thrown_by_judo()</a>.</p>
 
 </div>
 </div>
@@ -2255,7 +2255,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05819">mattack::zombie_fuse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05829">mattack::zombie_fuse()</a>.</p>
 
 </div>
 </div>
@@ -2899,7 +2899,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05671">mattack::grenadier()</a>, and <a class="el" href="monattack_8cpp_source.html#l05702">mattack::grenadier_elite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05681">mattack::grenadier()</a>, and <a class="el" href="monattack_8cpp_source.html#l05712">mattack::grenadier_elite()</a>.</p>
 
 </div>
 </div>
@@ -2927,7 +2927,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05671">mattack::grenadier()</a>, and <a class="el" href="monattack_8cpp_source.html#l05702">mattack::grenadier_elite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05681">mattack::grenadier()</a>, and <a class="el" href="monattack_8cpp_source.html#l05712">mattack::grenadier_elite()</a>.</p>
 
 </div>
 </div>
@@ -2955,7 +2955,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05671">mattack::grenadier()</a>, and <a class="el" href="monattack_8cpp_source.html#l05702">mattack::grenadier_elite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05681">mattack::grenadier()</a>, and <a class="el" href="monattack_8cpp_source.html#l05712">mattack::grenadier_elite()</a>.</p>
 
 </div>
 </div>
@@ -2983,7 +2983,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05702">mattack::grenadier_elite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05712">mattack::grenadier_elite()</a>.</p>
 
 </div>
 </div>
@@ -3039,7 +3039,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05702">mattack::grenadier_elite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05712">mattack::grenadier_elite()</a>.</p>
 
 </div>
 </div>
@@ -3067,7 +3067,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05671">mattack::grenadier()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05681">mattack::grenadier()</a>.</p>
 
 </div>
 </div>
@@ -3095,7 +3095,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05449">mattack::kamikaze()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05459">mattack::kamikaze()</a>.</p>
 
 </div>
 </div>
@@ -3123,7 +3123,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05449">mattack::kamikaze()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05459">mattack::kamikaze()</a>.</p>
 
 </div>
 </div>
@@ -3179,7 +3179,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05449">mattack::kamikaze()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05459">mattack::kamikaze()</a>.</p>
 
 </div>
 </div>
@@ -3207,7 +3207,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05449">mattack::kamikaze()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05459">mattack::kamikaze()</a>.</p>
 
 </div>
 </div>
@@ -3235,7 +3235,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l04997">mattack::leech_spawner()</a>, and <a class="el" href="monattack_8cpp_source.html#l05029">mattack::mon_leech_evolution()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l04997">mattack::leech_spawner()</a>, and <a class="el" href="monattack_8cpp_source.html#l05039">mattack::mon_leech_evolution()</a>.</p>
 
 </div>
 </div>
@@ -3795,7 +3795,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05053">mattack::tindalos_teleport()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05063">mattack::tindalos_teleport()</a>.</p>
 
 </div>
 </div>
@@ -3823,7 +3823,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05029">mattack::mon_leech_evolution()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05039">mattack::mon_leech_evolution()</a>.</p>
 
 </div>
 </div>
@@ -4075,7 +4075,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05096">mattack::flesh_tendril()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05106">mattack::flesh_tendril()</a>.</p>
 
 </div>
 </div>
@@ -4103,7 +4103,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05096">mattack::flesh_tendril()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05106">mattack::flesh_tendril()</a>.</p>
 
 </div>
 </div>
@@ -4159,7 +4159,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05849">mattack::doot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05859">mattack::doot()</a>.</p>
 
 </div>
 </div>
@@ -4243,7 +4243,7 @@ template&lt;typename Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05372">mattack::bio_op_disarm()</a>, <a class="el" href="monattack_8cpp_source.html#l02138">mattack::dermatik()</a>, and <a class="el" href="monattack_8cpp_source.html#l00787">mattack::pull_metal_weapon()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monattack_8cpp_source.html#l05382">mattack::bio_op_disarm()</a>, <a class="el" href="monattack_8cpp_source.html#l02138">mattack::dermatik()</a>, and <a class="el" href="monattack_8cpp_source.html#l00787">mattack::pull_metal_weapon()</a>.</p>
 
 </div>
 </div>
@@ -4729,7 +4729,7 @@ template&lt;typename Container &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="monattack_8cpp.html">monattack.cpp</a></li>
-    <li class="footer">Generated on Mon Apr 24 2023 00:27:00 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Mon Apr 24 2023 07:23:59 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
