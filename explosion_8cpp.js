@@ -37,6 +37,7 @@ var explosion_8cpp =
     [ "effect_teleglow", "explosion_8cpp.html#a0c073c8608c88bb092d72f27944a7df1", null ],
     [ "EXPLOSION_CALIBRATION_POWER", "explosion_8cpp.html#a32f66c60a716590477b2146c3b780d8f", null ],
     [ "FLING_MAX_RANGE", "explosion_8cpp.html#ac4b919136103ca5eb8f769428f79979b", null ],
+    [ "FLING_SLOWDOWN", "explosion_8cpp.html#ad6858b89662b48ecfbd3b82251299dc4", null ],
     [ "FLING_THRESHOLD", "explosion_8cpp.html#ad1cc0f9b671f3ddf8de188e51a48f983", null ],
     [ "GROUP_NETHER", "explosion_8cpp.html#a4e23e64852e8ca64da0132c32c40ea70", null ],
     [ "ITEM_FLING_FACTOR", "explosion_8cpp.html#a47530022cd90a1eb082dcddf4877636a", null ],

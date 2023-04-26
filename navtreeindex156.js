@@ -1,5 +1,11 @@
 var NAVTREEINDEX156 =
 {
+"structplayer__morale_1_1mutation__data.html#af0e7474ba5c1c1b1a2552c2e1064f108":[36,0,759,3,5],
+"structpoint.html":[36,0,761],
+"structpoint.html#a0ae76f3db3bb89bf0abac6cb66673ba6":[36,0,761,12],
+"structpoint.html#a0dfd85db92c6f213476cc1d488c6f76f":[36,0,761,1],
+"structpoint.html#a12434ec4f65ca6872728b278f9a51390":[36,0,761,14],
+"structpoint.html#a1a6efb95f36bd0b962c87ba994376ade":[36,0,761,9],
 "structpoint.html#a32f67d442593e2e9d252fa6d217810f4":[36,0,761,20],
 "structpoint.html#a33909e1b8b6a8fa8a75f48f0cefd3b7b":[36,0,761,15],
 "structpoint.html#a45e830060d971f5334f7643ebe3201b8":[36,0,761,11],
@@ -243,11 +249,5 @@ var NAVTREEINDEX156 =
 "structreader__detail_1_1handler_3_01std_1_1bitset_3_01N_01_4_01_4.html#a3b6209828538a27d573ad846871d6963":[36,0,35,2,1],
 "structreader__detail_1_1handler_3_01std_1_1bitset_3_01N_01_4_01_4.html#a63b921e3562721875d7cdb4ba3ad9548":[35,0,160,2,2],
 "structreader__detail_1_1handler_3_01std_1_1bitset_3_01N_01_4_01_4.html#a63b921e3562721875d7cdb4ba3ad9548":[36,0,35,2,2],
-"structreader__detail_1_1handler_3_01std_1_1bitset_3_01N_01_4_01_4.html#aab8096db1d0339aa8b74e77605c67c20":[35,0,160,2,3],
-"structreader__detail_1_1handler_3_01std_1_1bitset_3_01N_01_4_01_4.html#aab8096db1d0339aa8b74e77605c67c20":[36,0,35,2,3],
-"structreader__detail_1_1handler_3_01std_1_1set_3_01T_01_4_01_4.html":[36,0,35,3],
-"structreader__detail_1_1handler_3_01std_1_1set_3_01T_01_4_01_4.html":[35,0,160,3],
-"structreader__detail_1_1handler_3_01std_1_1set_3_01T_01_4_01_4.html#a11b0da134ff2feca5b42a99fddaabbbd":[36,0,35,3,3],
-"structreader__detail_1_1handler_3_01std_1_1set_3_01T_01_4_01_4.html#a11b0da134ff2feca5b42a99fddaabbbd":[35,0,160,3,3],
-"structreader__detail_1_1handler_3_01std_1_1set_3_01T_01_4_01_4.html#a4b20a04206096112e83fc51ae7f35f33":[35,0,160,3,1]
+"structreader__detail_1_1handler_3_01std_1_1bitset_3_01N_01_4_01_4.html#aab8096db1d0339aa8b74e77605c67c20":[35,0,160,2,3]
 };

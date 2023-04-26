@@ -289,6 +289,8 @@ Variables</h2></td></tr>
 <tr class="separator:ad1cc0f9b671f3ddf8de188e51a48f983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4b919136103ca5eb8f769428f79979b"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExplosionConstants.html#ac4b919136103ca5eb8f769428f79979b">ExplosionConstants::FLING_MAX_RANGE</a> = 50.0</td></tr>
 <tr class="separator:ac4b919136103ca5eb8f769428f79979b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6858b89662b48ecfbd3b82251299dc4"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExplosionConstants.html#ad6858b89662b48ecfbd3b82251299dc4">ExplosionConstants::FLING_SLOWDOWN</a> = 5.0</td></tr>
+<tr class="separator:ad6858b89662b48ecfbd3b82251299dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a3e958e72611b8856c724b02f2711ffc4" name="a3e958e72611b8856c724b02f2711ffc4"></a>
@@ -323,12 +325,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="explosion_8cpp_source.html#l01928">1928</a> of file <a class="el" href="explosion_8cpp_source.html">explosion.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l01930" name="l01930"></a><span class="lineno"> 1930</span>{</div>
-<div class="line"><a id="l01931" name="l01931"></a><span class="lineno"> 1931</span>    <span class="keywordflow">return</span> std::max( cumulative_obstacle, current_obstacle ) + 1;</div>
-<div class="line"><a id="l01932" name="l01932"></a><span class="lineno"> 1932</span>}</div>
+<p class="definition">Definition at line <a class="el" href="explosion_8cpp_source.html#l01967">1967</a> of file <a class="el" href="explosion_8cpp_source.html">explosion.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l01969" name="l01969"></a><span class="lineno"> 1969</span>{</div>
+<div class="line"><a id="l01970" name="l01970"></a><span class="lineno"> 1970</span>    <span class="keywordflow">return</span> std::max( cumulative_obstacle, current_obstacle ) + 1;</div>
+<div class="line"><a id="l01971" name="l01971"></a><span class="lineno"> 1971</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01064">explosion_handler::legacy_shrapnel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01103">explosion_handler::legacy_shrapnel()</a>.</p>
 
 </div>
 </div>
@@ -401,7 +403,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="magic_8cpp_source.html#l01032">c</a>, <a class="el" href="creature_8h_source.html#l00062">MS_HUGE</a>, <a class="el" href="creature_8h_source.html#l00061">MS_LARGE</a>, <a class="el" href="creature_8h_source.html#l00060">MS_MEDIUM</a>, <a class="el" href="creature_8h_source.html#l00059">MS_SMALL</a>, and <a class="el" href="creature_8h_source.html#l00058">MS_TINY</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l00620">explosion_handler::ExplosionProcess::blast_tile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l00657">explosion_handler::ExplosionProcess::blast_tile()</a>.</p>
 
 </div>
 </div>
@@ -429,7 +431,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -457,7 +459,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -501,7 +503,7 @@ Variables</h2></td></tr>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordflow">return</span> radius_reduction;</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l00620">explosion_handler::ExplosionProcess::blast_tile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l00657">explosion_handler::ExplosionProcess::blast_tile()</a>.</p>
 
 </div>
 </div>
@@ -564,12 +566,12 @@ Variables</h2></td></tr>
 <div class="ttc" id="aclassJsonObject_html_a9e628525564a9e7ef3755c10e0c9fac4"><div class="ttname"><a href="classJsonObject.html#a9e628525564a9e7ef3755c10e0c9fac4">JsonObject::get_bool</a></div><div class="ttdeci">bool get_bool(const std::string &amp;name) const</div><div class="ttdef"><b>Definition:</b> <a href="json_8cpp_source.html#l00334">json.cpp:334</a></div></div>
 <div class="ttc" id="aclassJsonObject_html_ae66d47f9cb4993dfaf79819ec2aff2f8"><div class="ttname"><a href="classJsonObject.html#ae66d47f9cb4993dfaf79819ec2aff2f8">JsonObject::read</a></div><div class="ttdeci">bool read(const std::string &amp;name, T &amp;t, bool throw_on_error=true) const</div><div class="ttdef"><b>Definition:</b> <a href="json_8h_source.html#l00941">json.h:941</a></div></div>
 <div class="ttc" id="anamespacecata_1_1hash64__detail_html_a5ca825db6fd06946302c60daa97333e4"><div class="ttname"><a href="namespacecata_1_1hash64__detail.html#a5ca825db6fd06946302c60daa97333e4">cata::hash64_detail::ret</a></div><div class="ttdeci">T ret</div><div class="ttdef"><b>Definition:</b> <a href="hash__utils_8h_source.html#l00097">hash_utils.h:97</a></div></div>
-<div class="ttc" id="anamespaceexplosion__handler_html_a008fb6ff5a676c0abbe9c7582e1ac056"><div class="ttname"><a href="namespaceexplosion__handler.html#a008fb6ff5a676c0abbe9c7582e1ac056">explosion_handler::blast_radius_from_legacy</a></div><div class="ttdeci">float blast_radius_from_legacy(int power, float distance_factor)</div><div class="ttdef"><b>Definition:</b> <a href="explosion_8cpp_source.html#l01874">explosion.cpp:1874</a></div></div>
-<div class="ttc" id="anamespaceexplosion__handler_html_a2c40af797a6cd200a462c88ed90c16de"><div class="ttname"><a href="namespaceexplosion__handler.html#a2c40af797a6cd200a462c88ed90c16de">explosion_handler::shrapnel_from_legacy</a></div><div class="ttdeci">projectile shrapnel_from_legacy(int power, float blast_radius)</div><div class="ttdef"><b>Definition:</b> <a href="explosion_8cpp_source.html#l01861">explosion.cpp:1861</a></div></div>
+<div class="ttc" id="anamespaceexplosion__handler_html_a008fb6ff5a676c0abbe9c7582e1ac056"><div class="ttname"><a href="namespaceexplosion__handler.html#a008fb6ff5a676c0abbe9c7582e1ac056">explosion_handler::blast_radius_from_legacy</a></div><div class="ttdeci">float blast_radius_from_legacy(int power, float distance_factor)</div><div class="ttdef"><b>Definition:</b> <a href="explosion_8cpp_source.html#l01913">explosion.cpp:1913</a></div></div>
+<div class="ttc" id="anamespaceexplosion__handler_html_a2c40af797a6cd200a462c88ed90c16de"><div class="ttname"><a href="namespaceexplosion__handler.html#a2c40af797a6cd200a462c88ed90c16de">explosion_handler::shrapnel_from_legacy</a></div><div class="ttdeci">projectile shrapnel_from_legacy(int power, float blast_radius)</div><div class="ttdef"><b>Definition:</b> <a href="explosion_8cpp_source.html#l01900">explosion.cpp:1900</a></div></div>
 <div class="ttc" id="anamespaceexplosion__handler_html_a9c14d4b89fb43f26bd681e7bb4ba7dab"><div class="ttname"><a href="namespaceexplosion__handler.html#a9c14d4b89fb43f26bd681e7bb4ba7dab">explosion_handler::power_to_dmg_mult</a></div><div class="ttdeci">constexpr float power_to_dmg_mult</div><div class="ttdef"><b>Definition:</b> <a href="explosion_8h_source.html#l00049">explosion.h:49</a></div></div>
 <div class="ttc" id="astructexplosion__data_html"><div class="ttname"><a href="structexplosion__data.html">explosion_data</a></div><div class="ttdef"><b>Definition:</b> <a href="explosion_8h_source.html#l00014">explosion.h:14</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="explosion_8cpp_source.html#l01874">explosion_handler::blast_radius_from_legacy()</a>, <a class="el" href="json_8cpp_source.html#l00334">JsonObject::get_bool()</a>, <a class="el" href="json_8cpp_source.html#l00366">JsonObject::get_float()</a>, <a class="el" href="json_8cpp_source.html#l00350">JsonObject::get_int()</a>, <a class="el" href="json_8cpp_source.html#l00429">JsonObject::get_object()</a>, <a class="el" href="json_8h_source.html#l00925">JsonObject::has_int()</a>, <a class="el" href="json_8cpp_source.html#l00493">JsonObject::has_object()</a>, <a class="el" href="explosion_8h_source.html#l00049">explosion_handler::power_to_dmg_mult</a>, <a class="el" href="json_8h_source.html#l00941">JsonObject::read()</a>, <a class="el" href="hash__utils_8h_source.html#l00097">cata::hash64_detail::ret</a>, and <a class="el" href="explosion_8cpp_source.html#l01861">explosion_handler::shrapnel_from_legacy()</a>.</p>
+<p class="reference">References <a class="el" href="explosion_8cpp_source.html#l01913">explosion_handler::blast_radius_from_legacy()</a>, <a class="el" href="json_8cpp_source.html#l00334">JsonObject::get_bool()</a>, <a class="el" href="json_8cpp_source.html#l00366">JsonObject::get_float()</a>, <a class="el" href="json_8cpp_source.html#l00350">JsonObject::get_int()</a>, <a class="el" href="json_8cpp_source.html#l00429">JsonObject::get_object()</a>, <a class="el" href="json_8h_source.html#l00925">JsonObject::has_int()</a>, <a class="el" href="json_8cpp_source.html#l00493">JsonObject::has_object()</a>, <a class="el" href="explosion_8h_source.html#l00049">explosion_handler::power_to_dmg_mult</a>, <a class="el" href="json_8h_source.html#l00941">JsonObject::read()</a>, <a class="el" href="hash__utils_8h_source.html#l00097">cata::hash64_detail::ret</a>, and <a class="el" href="explosion_8cpp_source.html#l01900">explosion_handler::shrapnel_from_legacy()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="ammo__effect_8cpp_source.html#l00065">ammo_effect::load()</a>, <a class="el" href="iuse__actor_8cpp_source.html#l00521">explosion_iuse::load()</a>, and <a class="el" href="item__factory_8cpp_source.html#l02408">Item_factory::load_basic_info()</a>.</p>
 
@@ -614,7 +616,7 @@ Variables</h2></td></tr>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="namespaceovermap__ui.html#a5cd0d32854b59999d3a728288bc7daaaaa74ec9c5b6882f79e32a8fbd8da90c1b">distance</a> &gt; range ? 0.0f : <a class="code hl_enumvalue" href="namespaceovermap__ui.html#a5cd0d32854b59999d3a728288bc7daaaaa74ec9c5b6882f79e32a8fbd8da90c1b">distance</a> &gt; range / 2 ? 0.5f : 1.0f;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l00620">explosion_handler::ExplosionProcess::blast_tile()</a>, and <a class="el" href="explosion_8cpp_source.html#l01238">explosion_handler::legacy_blast()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l00657">explosion_handler::ExplosionProcess::blast_tile()</a>, and <a class="el" href="explosion_8cpp_source.html#l01277">explosion_handler::legacy_blast()</a>.</p>
 
 </div>
 </div>
@@ -650,13 +652,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="explosion_8cpp_source.html#l01913">1913</a> of file <a class="el" href="explosion_8cpp_source.html">explosion.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l01914" name="l01914"></a><span class="lineno"> 1914</span>{</div>
-<div class="line"><a id="l01915" name="l01915"></a><span class="lineno"> 1915</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="namespacefields.html#af8bc739ca8fbe535a44afc02da973280a04bb0ec2d0e931c59f606510558e55a1">intensity</a> - last_obstacle;</div>
-<div class="line"><a id="l01916" name="l01916"></a><span class="lineno"> 1916</span>}</div>
+<p class="definition">Definition at line <a class="el" href="explosion_8cpp_source.html#l01952">1952</a> of file <a class="el" href="explosion_8cpp_source.html">explosion.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l01953" name="l01953"></a><span class="lineno"> 1953</span>{</div>
+<div class="line"><a id="l01954" name="l01954"></a><span class="lineno"> 1954</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="namespacefields.html#af8bc739ca8fbe535a44afc02da973280a04bb0ec2d0e931c59f606510558e55a1">intensity</a> - last_obstacle;</div>
+<div class="line"><a id="l01955" name="l01955"></a><span class="lineno"> 1955</span>}</div>
 <div class="ttc" id="anamespacefields_html_af8bc739ca8fbe535a44afc02da973280a04bb0ec2d0e931c59f606510558e55a1"><div class="ttname"><a href="namespacefields.html#af8bc739ca8fbe535a44afc02da973280a04bb0ec2d0e931c59f606510558e55a1">fields::stacking_type::intensity</a></div><div class="ttdeci">@ intensity</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01064">explosion_handler::legacy_shrapnel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01103">explosion_handler::legacy_shrapnel()</a>.</p>
 
 </div>
 </div>
@@ -686,12 +688,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="explosion_8cpp_source.html#l01918">1918</a> of file <a class="el" href="explosion_8cpp_source.html">explosion.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l01919" name="l01919"></a><span class="lineno"> 1919</span>{</div>
-<div class="line"><a id="l01920" name="l01920"></a><span class="lineno"> 1920</span>    <span class="keywordflow">return</span> last_intensity - obstacle &gt; 0.0f;</div>
-<div class="line"><a id="l01921" name="l01921"></a><span class="lineno"> 1921</span>}</div>
+<p class="definition">Definition at line <a class="el" href="explosion_8cpp_source.html#l01957">1957</a> of file <a class="el" href="explosion_8cpp_source.html">explosion.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l01958" name="l01958"></a><span class="lineno"> 1958</span>{</div>
+<div class="line"><a id="l01959" name="l01959"></a><span class="lineno"> 1959</span>    <span class="keywordflow">return</span> last_intensity - obstacle &gt; 0.0f;</div>
+<div class="line"><a id="l01960" name="l01960"></a><span class="lineno"> 1960</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01064">explosion_handler::legacy_shrapnel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01103">explosion_handler::legacy_shrapnel()</a>.</p>
 
 </div>
 </div>
@@ -727,12 +729,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="explosion_8cpp_source.html#l01923">1923</a> of file <a class="el" href="explosion_8cpp_source.html">explosion.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l01924" name="l01924"></a><span class="lineno"> 1924</span>{</div>
-<div class="line"><a id="l01925" name="l01925"></a><span class="lineno"> 1925</span>    output = std::max( output, new_intensity );</div>
-<div class="line"><a id="l01926" name="l01926"></a><span class="lineno"> 1926</span>}</div>
+<p class="definition">Definition at line <a class="el" href="explosion_8cpp_source.html#l01962">1962</a> of file <a class="el" href="explosion_8cpp_source.html">explosion.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l01963" name="l01963"></a><span class="lineno"> 1963</span>{</div>
+<div class="line"><a id="l01964" name="l01964"></a><span class="lineno"> 1964</span>    output = std::max( output, new_intensity );</div>
+<div class="line"><a id="l01965" name="l01965"></a><span class="lineno"> 1965</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01064">explosion_handler::legacy_shrapnel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01103">explosion_handler::legacy_shrapnel()</a>.</p>
 
 </div>
 </div>
@@ -761,7 +763,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01064">explosion_handler::legacy_shrapnel()</a>, and <a class="el" href="explosion_8cpp_source.html#l00557">explosion_handler::ExplosionProcess::project_shrapnel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01103">explosion_handler::legacy_shrapnel()</a>, and <a class="el" href="explosion_8cpp_source.html#l00594">explosion_handler::ExplosionProcess::project_shrapnel()</a>.</p>
 
 </div>
 </div>
@@ -789,7 +791,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -817,7 +819,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -845,7 +847,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -873,7 +875,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -901,7 +903,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01632">explosion_handler::emp_blast()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01671">explosion_handler::emp_blast()</a>.</p>
 
 </div>
 </div>
@@ -929,7 +931,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -957,7 +959,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01764">explosion_handler::explosion_funcs::resonance_cascade()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01803">explosion_handler::explosion_funcs::resonance_cascade()</a>.</p>
 
 </div>
 </div>
@@ -985,7 +987,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01764">explosion_handler::explosion_funcs::resonance_cascade()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01803">explosion_handler::explosion_funcs::resonance_cascade()</a>.</p>
 
 </div>
 </div>
@@ -1013,7 +1015,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01632">explosion_handler::emp_blast()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01671">explosion_handler::emp_blast()</a>.</p>
 
 </div>
 </div>
@@ -1041,7 +1043,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01632">explosion_handler::emp_blast()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01671">explosion_handler::emp_blast()</a>.</p>
 
 </div>
 </div>
@@ -1069,7 +1071,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -1097,7 +1099,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -1125,7 +1127,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01582">explosion_handler::explosion_funcs::shockwave()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01621">explosion_handler::explosion_funcs::shockwave()</a>.</p>
 
 </div>
 </div>
@@ -1153,7 +1155,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -1181,7 +1183,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01522">explosion_handler::explosion_funcs::flashbang()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="explosion_8cpp_source.html#l01561">explosion_handler::explosion_funcs::flashbang()</a>.</p>
 
 </div>
 </div>
@@ -1191,7 +1193,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="explosion_8cpp.html">explosion.cpp</a></li>
-    <li class="footer">Generated on Tue Apr 25 2023 12:28:37 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 26 2023 13:54:16 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

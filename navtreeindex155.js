@@ -1,5 +1,11 @@
 var NAVTREEINDEX155 =
 {
+"structovermap__static__spawns.html#aeb89c4cef64a60f9abd2e9b2c3684853":[36,0,731,2],
+"structovermap__ui_1_1draw__data__t.html":[36,0,31,0],
+"structovermap__ui_1_1draw__data__t.html":[35,0,155,0],
+"structovermap__ui_1_1draw__data__t.html#a57ef4ad6104353c9c370300d9aa8c30b":[36,0,31,0,4],
+"structovermap__ui_1_1draw__data__t.html#a57ef4ad6104353c9c370300d9aa8c30b":[35,0,155,0,4],
+"structovermap__ui_1_1draw__data__t.html#aa066df6351b79d4cf82cd7a9fa440487":[36,0,31,0,1],
 "structovermap__ui_1_1draw__data__t.html#aa066df6351b79d4cf82cd7a9fa440487":[35,0,155,0,1],
 "structovermap__ui_1_1draw__data__t.html#aa54aa7c154abb92f5603e94bec6e6607":[36,0,31,0,0],
 "structovermap__ui_1_1draw__data__t.html#aa54aa7c154abb92f5603e94bec6e6607":[35,0,155,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX155 =
 "structplayer__morale_1_1mutation__data.html#a8349a77998dbfac574e8bdadf5b55a13":[36,0,759,3,1],
 "structplayer__morale_1_1mutation__data.html#ac46a238c490417e9d095aec2c240cea3":[36,0,759,3,8],
 "structplayer__morale_1_1mutation__data.html#add757c2e7b2d726b6230420556495d31":[36,0,759,3,6],
-"structplayer__morale_1_1mutation__data.html#aeda3d4eecf07eed052c5a38a0210132a":[36,0,759,3,2],
-"structplayer__morale_1_1mutation__data.html#af0e7474ba5c1c1b1a2552c2e1064f108":[36,0,759,3,5],
-"structpoint.html":[36,0,761],
-"structpoint.html#a0ae76f3db3bb89bf0abac6cb66673ba6":[36,0,761,12],
-"structpoint.html#a0dfd85db92c6f213476cc1d488c6f76f":[36,0,761,1],
-"structpoint.html#a12434ec4f65ca6872728b278f9a51390":[36,0,761,14],
-"structpoint.html#a1a6efb95f36bd0b962c87ba994376ade":[36,0,761,9]
+"structplayer__morale_1_1mutation__data.html#aeda3d4eecf07eed052c5a38a0210132a":[36,0,759,3,2]
 };

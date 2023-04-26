@@ -1,5 +1,11 @@
 var NAVTREEINDEX154 =
 {
+"structnpc__short__term__cache.html#a0f00a09e500a57a83a2eb5a92b79626a":[36,0,694,4],
+"structnpc__short__term__cache.html#a2f847c6cd66e6f7738dec088ffae2264":[36,0,694,1],
+"structnpc__short__term__cache.html#a30e9e46d0c2222553b591a4f5ed1a3ad":[36,0,694,14],
+"structnpc__short__term__cache.html#a63cc27e2a68257bdfb9da4edfc021ee8":[36,0,694,6],
+"structnpc__short__term__cache.html#a7a7d0193975d0535d2fd311299ebebae":[36,0,694,12],
+"structnpc__short__term__cache.html#a87ae0d72618e5cfa212bab6722d1df45":[36,0,694,13],
 "structnpc__short__term__cache.html#aa0a891ed2c8f48d72ddb341986bd3463":[36,0,694,0],
 "structnpc__short__term__cache.html#aa6b8e0edc5a63b7a63c28c7b1e15478c":[36,0,694,8],
 "structnpc__short__term__cache.html#aac51460e7bb6bc9c44bb79e9954d460c":[36,0,694,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX154 =
 "structovermap__special__terrain.html#aa6d67e0a2999bf57abf2a54000df7beb":[36,0,730,5],
 "structovermap__static__spawns.html":[36,0,731],
 "structovermap__static__spawns.html#a8e2bb39e6b74ad8f2f31b2c8939a0f4f":[36,0,731,0],
-"structovermap__static__spawns.html#aca44d3d712c0ce01e359ec92eeb952e7":[36,0,731,1],
-"structovermap__static__spawns.html#aeb89c4cef64a60f9abd2e9b2c3684853":[36,0,731,2],
-"structovermap__ui_1_1draw__data__t.html":[36,0,31,0],
-"structovermap__ui_1_1draw__data__t.html":[35,0,155,0],
-"structovermap__ui_1_1draw__data__t.html#a57ef4ad6104353c9c370300d9aa8c30b":[36,0,31,0,4],
-"structovermap__ui_1_1draw__data__t.html#a57ef4ad6104353c9c370300d9aa8c30b":[35,0,155,0,4],
-"structovermap__ui_1_1draw__data__t.html#aa066df6351b79d4cf82cd7a9fa440487":[36,0,31,0,1]
+"structovermap__static__spawns.html#aca44d3d712c0ce01e359ec92eeb952e7":[36,0,731,1]
 };

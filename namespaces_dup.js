@@ -536,6 +536,7 @@ var namespaces_dup =
       [ "BASH_RANDOM_FACTOR", "namespaceExplosionConstants.html#a8c563e08c54ce17d320c4f2612d0ecee", null ],
       [ "EXPLOSION_CALIBRATION_POWER", "namespaceExplosionConstants.html#a32f66c60a716590477b2146c3b780d8f", null ],
       [ "FLING_MAX_RANGE", "namespaceExplosionConstants.html#ac4b919136103ca5eb8f769428f79979b", null ],
+      [ "FLING_SLOWDOWN", "namespaceExplosionConstants.html#ad6858b89662b48ecfbd3b82251299dc4", null ],
       [ "FLING_THRESHOLD", "namespaceExplosionConstants.html#ad1cc0f9b671f3ddf8de188e51a48f983", null ],
       [ "ITEM_FLING_FACTOR", "namespaceExplosionConstants.html#a47530022cd90a1eb082dcddf4877636a", null ],
       [ "ITEM_FLING_RANDOM_FACTOR", "namespaceExplosionConstants.html#a832a873f1c16de84289be23662512362", null ],

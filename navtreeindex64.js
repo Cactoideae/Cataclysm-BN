@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"classscent__map.html#af731393514d1ceb6cc88900cf9221a89":[36,0,825,9],
+"classscent__map.html#af8194e788fb41147bd4c95dbf09b95fb":[36,0,825,8],
+"classscent__trace.html":[36,0,826],
+"classscent__trace.html#a73a378c9d733e2aedbf09d6832265885":[36,0,826,0],
 "classscent__trace.html#a8844ead2e6d3c42b4d208bf412d750cc":[36,0,826,3],
 "classscent__trace.html#afaae5b5e3a84f4a1d71182c000303018":[36,0,826,2],
 "classscent__trace.html#affb069867cf923a879959c40b150acba":[36,0,826,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "classsokoban__game.html#a6669505fc57cb71ff16bf6771deebf85":[36,0,858,6],
 "classsokoban__game.html#a6b787dad35c5e8ebc4ef7a43d8fe5589":[36,0,858,13],
 "classsokoban__game.html#a880116a608d25eab847624f859c1118c":[36,0,858,12],
-"classsokoban__game.html#a8c59f9a186426fa821d57e4817923667":[36,0,858,9],
-"classsokoban__game.html#a9bb973ef1409c0be6e7a5e38f249066b":[36,0,858,10],
-"classsokoban__game.html#aa137323ee2b21e5606c0dffae9b09347":[36,0,858,7],
-"classsokoban__game.html#adfb484af4486e2da51564a925d1c0478":[36,0,858,15],
-"classsokoban__game.html#af6dd524b9fae5ec55b6f93818f590125":[36,0,858,1]
+"classsokoban__game.html#a8c59f9a186426fa821d57e4817923667":[36,0,858,9]
 };

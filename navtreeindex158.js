@@ -1,5 +1,11 @@
 var NAVTREEINDEX158 =
 {
+"structsocial__modifiers.html#a72dbc9c44c4deba81d97d202dd07d48a":[36,0,857,0],
+"structsocial__modifiers.html#a840fb4d8f6996ba120f889bd192dfd31":[36,0,857,1],
+"structsocial__modifiers.html#a9812d8adb1701480a878506e1dbe9932":[36,0,857,2],
+"structsound__event.html":[36,0,860],
+"structsound__event.html#a20ef7e4640cfdb76e40d32d804b98e6d":[36,0,860,5],
+"structsound__event.html#a2e0aadf42fa2c9fb51bcbc19dd69c189":[36,0,860,4],
 "structsound__event.html#a486a17e6f698663f5329eb643aede3f0":[36,0,860,6],
 "structsound__event.html#a7dc20b3001019d04992cf086dbc5f2b2":[36,0,860,1],
 "structsound__event.html#a901189f3819c04dce30e7f6a62846f81":[36,0,860,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX158 =
 "structtalk__response.html#af4cd60d1c945cd510d8e007c33a09293":[36,0,908,13],
 "structtalk__topic.html":[36,0,909],
 "structtalk__topic.html#a0338329b3ab39b9e209bc1f583338cd2":[36,0,909,3],
-"structtalk__topic.html#a9d6a1c6c153013048c53e837c4b254e9":[36,0,909,2],
-"structtalk__topic.html#acf0cfea7efe782c33b0b951a50fb35fd":[36,0,909,0],
-"structtalk__topic.html#ad8e4ad510315bdbd4d4183b2f4d5bf08":[36,0,909,1],
-"structtalk__trial.html":[36,0,910],
-"structtalk__trial.html#a0bb996c2d6adc3ac181f44291ba31639":[36,0,910,4],
-"structtalk__trial.html#a18e35838a09c8fe6c706c68399198422":[36,0,910,2],
-"structtalk__trial.html#a1bea935282a6f93162a7050d18bf992e":[36,0,910,7]
+"structtalk__topic.html#a9d6a1c6c153013048c53e837c4b254e9":[36,0,909,2]
 };
