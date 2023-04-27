@@ -2159,11 +2159,11 @@ template&lt;float mutation_branch::* member&gt; </div>
 
 <p>Returns true if the player has a psyshield artifact, or sometimes if wearing tinfoil. </p>
 
-<p class="definition">Definition at line <a class="el" href="character_8cpp_source.html#l10574">10574</a> of file <a class="el" href="character_8cpp_source.html">character.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l10575" name="l10575"></a><span class="lineno">10575</span>{</div>
-<div class="line"><a id="l10576" name="l10576"></a><span class="lineno">10576</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="magic_8cpp.html#a6753ecfe87da659675b18c2f81d6ec12">c</a>.has_artifact_with( <a class="code hl_enumvalue" href="enums_8h.html#abbe6432d5446acdbb3c80999ba5a4621a13b47bda414a8f80cf669e3c07d867b7">AEP_PSYSHIELD</a> ) ||</div>
-<div class="line"><a id="l10577" name="l10577"></a><span class="lineno">10577</span>           ( <a class="code hl_variable" href="magic_8cpp.html#a6753ecfe87da659675b18c2f81d6ec12">c</a>.worn_with_flag( <span class="stringliteral">&quot;PSYSHIELD_PARTIAL&quot;</span> ) &amp;&amp; <a class="code hl_function" href="rng_8cpp.html#aad28bdad07401a34ecf9912708f8b750">one_in</a>( partial_chance ) );</div>
-<div class="line"><a id="l10578" name="l10578"></a><span class="lineno">10578</span>}</div>
+<p class="definition">Definition at line <a class="el" href="character_8cpp_source.html#l10570">10570</a> of file <a class="el" href="character_8cpp_source.html">character.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l10571" name="l10571"></a><span class="lineno">10571</span>{</div>
+<div class="line"><a id="l10572" name="l10572"></a><span class="lineno">10572</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="magic_8cpp.html#a6753ecfe87da659675b18c2f81d6ec12">c</a>.has_artifact_with( <a class="code hl_enumvalue" href="enums_8h.html#abbe6432d5446acdbb3c80999ba5a4621a13b47bda414a8f80cf669e3c07d867b7">AEP_PSYSHIELD</a> ) ||</div>
+<div class="line"><a id="l10573" name="l10573"></a><span class="lineno">10573</span>           ( <a class="code hl_variable" href="magic_8cpp.html#a6753ecfe87da659675b18c2f81d6ec12">c</a>.worn_with_flag( <span class="stringliteral">&quot;PSYSHIELD_PARTIAL&quot;</span> ) &amp;&amp; <a class="code hl_function" href="rng_8cpp.html#aad28bdad07401a34ecf9912708f8b750">one_in</a>( partial_chance ) );</div>
+<div class="line"><a id="l10574" name="l10574"></a><span class="lineno">10574</span>}</div>
 <div class="ttc" id="aenums_8h_html_abbe6432d5446acdbb3c80999ba5a4621a13b47bda414a8f80cf669e3c07d867b7"><div class="ttname"><a href="enums_8h.html#abbe6432d5446acdbb3c80999ba5a4621a13b47bda414a8f80cf669e3c07d867b7">AEP_PSYSHIELD</a></div><div class="ttdeci">@ AEP_PSYSHIELD</div><div class="ttdef"><b>Definition:</b> <a href="enums_8h_source.html#l00116">enums.h:116</a></div></div>
 <div class="ttc" id="amagic_8cpp_html_a6753ecfe87da659675b18c2f81d6ec12"><div class="ttname"><a href="magic_8cpp.html#a6753ecfe87da659675b18c2f81d6ec12">c</a></div><div class="ttdeci">constexpr double c</div><div class="ttdef"><b>Definition:</b> <a href="magic_8cpp_source.html#l01032">magic.cpp:1032</a></div></div>
 <div class="ttc" id="arng_8cpp_html_aad28bdad07401a34ecf9912708f8b750"><div class="ttname"><a href="rng_8cpp.html#aad28bdad07401a34ecf9912708f8b750">one_in</a></div><div class="ttdeci">bool one_in(int chance)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8cpp_source.html#l00065">rng.cpp:65</a></div></div>
@@ -2952,7 +2952,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10460">Character::has_distant_destination()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10456">Character::has_distant_destination()</a>.</p>
 
 </div>
 </div>
@@ -3204,7 +3204,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10255">Character::hearing_ability()</a>, and <a class="el" href="character_8cpp_source.html#l04477">Character::is_deaf()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10251">Character::hearing_ability()</a>, and <a class="el" href="character_8cpp_source.html#l04477">Character::is_deaf()</a>.</p>
 
 </div>
 </div>
@@ -3232,7 +3232,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10255">Character::hearing_ability()</a>, <a class="el" href="character_8cpp_source.html#l04477">Character::is_deaf()</a>, and <a class="el" href="character_8cpp_source.html#l06093">Character::is_immune_effect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10251">Character::hearing_ability()</a>, <a class="el" href="character_8cpp_source.html#l04477">Character::is_deaf()</a>, and <a class="el" href="character_8cpp_source.html#l06093">Character::is_immune_effect()</a>.</p>
 
 </div>
 </div>
@@ -4408,7 +4408,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10255">Character::hearing_ability()</a>, <a class="el" href="character_8cpp_source.html#l04477">Character::is_deaf()</a>, and <a class="el" href="character_8cpp_source.html#l06093">Character::is_immune_effect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10251">Character::hearing_ability()</a>, <a class="el" href="character_8cpp_source.html#l04477">Character::is_deaf()</a>, and <a class="el" href="character_8cpp_source.html#l06093">Character::is_immune_effect()</a>.</p>
 
 </div>
 </div>
@@ -4464,7 +4464,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10654">Character::impact()</a>, <a class="el" href="character_8cpp_source.html#l06093">Character::is_immune_effect()</a>, <a class="el" href="character_8cpp_source.html#l00886">Character::is_on_ground()</a>, <a class="el" href="character_8cpp_source.html#l01459">Character::move_effects()</a>, <a class="el" href="character_8cpp_source.html#l08254">Character::on_hit()</a>, <a class="el" href="character_8cpp_source.html#l06006">Character::symbol_color()</a>, <a class="el" href="character_8cpp_source.html#l01258">try_remove_downed()</a>, and <a class="el" href="character_8cpp_source.html#l01510">Character::wait_effects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10650">Character::impact()</a>, <a class="el" href="character_8cpp_source.html#l06093">Character::is_immune_effect()</a>, <a class="el" href="character_8cpp_source.html#l00886">Character::is_on_ground()</a>, <a class="el" href="character_8cpp_source.html#l01459">Character::move_effects()</a>, <a class="el" href="character_8cpp_source.html#l08254">Character::on_hit()</a>, <a class="el" href="character_8cpp_source.html#l06006">Character::symbol_color()</a>, <a class="el" href="character_8cpp_source.html#l01258">try_remove_downed()</a>, and <a class="el" href="character_8cpp_source.html#l01510">Character::wait_effects()</a>.</p>
 
 </div>
 </div>
@@ -4520,7 +4520,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10255">Character::hearing_ability()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10251">Character::hearing_ability()</a>.</p>
 
 </div>
 </div>
@@ -5584,7 +5584,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l05976">Character::basic_symbol_color()</a>, <a class="el" href="character_8cpp_source.html#l10792">Character::knock_back_to()</a>, and <a class="el" href="character_8cpp_source.html#l08254">Character::on_hit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l05976">Character::basic_symbol_color()</a>, <a class="el" href="character_8cpp_source.html#l10788">Character::knock_back_to()</a>, and <a class="el" href="character_8cpp_source.html#l08254">Character::on_hit()</a>.</p>
 
 </div>
 </div>
@@ -5724,7 +5724,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10088">Character::place_corpse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10084">Character::place_corpse()</a>.</p>
 
 </div>
 </div>
@@ -6088,7 +6088,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10088">Character::place_corpse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10084">Character::place_corpse()</a>.</p>
 
 </div>
 </div>
@@ -6116,7 +6116,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10088">Character::place_corpse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10084">Character::place_corpse()</a>.</p>
 
 </div>
 </div>
@@ -6450,7 +6450,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10224">Character::avoid_trap()</a>, <a class="el" href="character_8cpp_source.html#l10625">Character::fall_damage_mod()</a>, <a class="el" href="character_8cpp_source.html#l05703">Character::get_dodge_base()</a>, and <a class="el" href="character_8cpp_source.html#l08215">Character::on_dodge()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10220">Character::avoid_trap()</a>, <a class="el" href="character_8cpp_source.html#l10621">Character::fall_damage_mod()</a>, <a class="el" href="character_8cpp_source.html#l05703">Character::get_dodge_base()</a>, and <a class="el" href="character_8cpp_source.html#l08215">Character::on_dodge()</a>.</p>
 
 </div>
 </div>
@@ -6478,7 +6478,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10904">Character::item_reload_cost()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10900">Character::item_reload_cost()</a>.</p>
 
 </div>
 </div>
@@ -6646,7 +6646,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l02733">Character::can_wear()</a>, and <a class="el" href="character_8cpp_source.html#l10410">Character::sees()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l02733">Character::can_wear()</a>, and <a class="el" href="character_8cpp_source.html#l10406">Character::sees()</a>.</p>
 
 </div>
 </div>
@@ -8046,7 +8046,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10625">Character::fall_damage_mod()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10621">Character::fall_damage_mod()</a>.</p>
 
 </div>
 </div>
@@ -8130,7 +8130,7 @@ Strength increases chance to escape webs
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10255">Character::hearing_ability()</a>, <a class="el" href="character_8cpp_source.html#l01613">Character::recalc_sight_limits()</a>, and <a class="el" href="character_8cpp_source.html#l00696">Character::sight_impaired()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="character_8cpp_source.html#l10251">Character::hearing_ability()</a>, <a class="el" href="character_8cpp_source.html#l01613">Character::recalc_sight_limits()</a>, and <a class="el" href="character_8cpp_source.html#l00696">Character::sight_impaired()</a>.</p>
 
 </div>
 </div>
@@ -9008,7 +9008,7 @@ Strength increases chance to escape webs
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="character_8cpp.html">character.cpp</a></li>
-    <li class="footer">Generated on Wed Apr 26 2023 19:01:10 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 26 2023 23:59:53 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
