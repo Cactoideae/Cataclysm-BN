@@ -1,5 +1,17 @@
 var NAVTREEINDEX49 =
 {
+"classjson__flag.html#a116550b9bcfefea576120c23a1aeccde":[36,0,529,22],
+"classjson__flag.html#a21f85c344cc0383ae72fba25ab63061a":[36,0,529,14],
+"classjson__flag.html#a37e3a357317b99a0548b5dbbc927bde7":[36,0,529,12],
+"classjson__flag.html#a38eb62fbd05cc7f91a0ed202dda2914a":[36,0,529,0],
+"classjson__flag.html#a3a982be6c6fc73b71260b68c663ea136":[36,0,529,21],
+"classjson__flag.html#a3ad741288a2b9d5adcc5f9ba44d0ebec":[36,0,529,26],
+"classjson__flag.html#a3d53f3efa32ee19b3d374ab5ac601610":[36,0,529,1],
+"classjson__flag.html#a4e37aa18092793ee949dda50f9fd5ad2":[36,0,529,7],
+"classjson__flag.html#a549172ad6fd26815dfa06033c1e00090":[36,0,529,25],
+"classjson__flag.html#a5e860ec76a70296551a40ca54a9f6428":[36,0,529,19],
+"classjson__flag.html#a78f24cfb8a2e8584aa223c18286e3223":[36,0,529,13],
+"classjson__flag.html#a887794276677f611f952a123a00c37de":[36,0,529,4],
 "classjson__flag.html#a8c224e9340ff9189219bcf81a43d2e07":[36,0,529,16],
 "classjson__flag.html#a8d1dd82aa5821d5408505c59669cb6d6":[36,0,529,10],
 "classjson__flag.html#a912a264c527a8a80f6ce8ecd26676767":[36,0,529,17],
@@ -237,17 +249,5 @@ var NAVTREEINDEX49 =
 "classma__buff__effect__type.html#a488224e0c3267905d4123ab7f8be5246":[36,0,572,0],
 "classma__buff__reader.html":[36,0,573],
 "classma__buff__reader.html#a6aa85ecc2421d35f23e0bd22bd44527f":[36,0,573,0],
-"classma__skill__reader.html":[36,0,575],
-"classma__skill__reader.html#a68202df346a7647994239981403df28d":[36,0,575,0],
-"classma__skill__reader.html#ae4358bcb6df81676ca9d6ac4a15a04cf":[36,0,575,1],
-"classma__style__callback.html":[36,0,576],
-"classma__style__callback.html#a4f46fdd43625c234f64ac7001ef7ca14":[36,0,576,1],
-"classma__style__callback.html#a53c99759e84b8cac3ed46cc004cf774e":[36,0,576,4],
-"classma__style__callback.html#a5e469bd10850fe9e9673e253fe6c0c4c":[36,0,576,3],
-"classma__style__callback.html#a89d7753c79cbc97b2f9eca0aa327c5fd":[36,0,576,2],
-"classma__style__callback.html#abd6bd53b347a34d0b1eea5215ad4d92e":[36,0,576,0],
-"classma__technique.html":[36,0,577],
-"classma__technique.html#a01af96c4949312ceb7bf8992926a4304":[36,0,577,40],
-"classma__technique.html#a038e515a0272f6969e5293ca60352dea":[36,0,577,32],
-"classma__technique.html#a052d74344c87aa3c3bd4e8649d3d0ab3":[36,0,577,37]
+"classma__skill__reader.html":[36,0,575]
 };

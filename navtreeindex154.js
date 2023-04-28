@@ -1,5 +1,17 @@
 var NAVTREEINDEX154 =
 {
+"structnpc__opinion.html#ad3164c3f59f022a0d38a1eb69ec837a4":[36,0,692,4],
+"structnpc__opinion.html#ae30f2e7ca0b4c62ba71c648c63921d67":[36,0,692,6],
+"structnpc__personality.html":[36,0,693],
+"structnpc__personality.html#a2ccfa35e0a49e2eb82b9b49bc3776d4b":[36,0,693,6],
+"structnpc__personality.html#a4bfaebc016d64db4d1fd351ef5b84404":[36,0,693,2],
+"structnpc__personality.html#a6c462d15cbb291bd95018896c99511c6":[36,0,693,0],
+"structnpc__personality.html#a7e9e147a18545b4159dba520e6646bcd":[36,0,693,3],
+"structnpc__personality.html#a8dab854ac7e2cb781072c39f22be102c":[36,0,693,1],
+"structnpc__personality.html#ac70a63afb254214ac7a82bd01972ec72":[36,0,693,5],
+"structnpc__personality.html#ad4dc031dbceccb58e8910b2f21b61e52":[36,0,693,4],
+"structnpc__short__term__cache.html":[36,0,694],
+"structnpc__short__term__cache.html#a0c8464dc785d8b0b9ebea26e1904ad04":[36,0,694,11],
 "structnpc__short__term__cache.html#a0f00a09e500a57a83a2eb5a92b79626a":[36,0,694,4],
 "structnpc__short__term__cache.html#a2f847c6cd66e6f7738dec088ffae2264":[36,0,694,1],
 "structnpc__short__term__cache.html#a30e9e46d0c2222553b591a4f5ed1a3ad":[36,0,694,14],
@@ -237,17 +249,5 @@ var NAVTREEINDEX154 =
 "structovermap__special__placement.html#a55347294df77224490a7d8bdf0aea87a":[36,0,728,0],
 "structovermap__special__placement.html#a56b9f74e16ca69fc54ac4c8f883e0c94":[36,0,728,1],
 "structovermap__special__spawns.html":[36,0,729],
-"structovermap__special__spawns.html#a5e31bdf6b8e0d7a14ea1c5a0fb129338":[36,0,729,2],
-"structovermap__special__spawns.html#aae696410e83c37ac5b9a07fc08d0dff0":[36,0,729,0],
-"structovermap__special__spawns.html#adbcc56344f6c0bef883e62aad2091ae9":[36,0,729,1],
-"structovermap__special__terrain.html":[36,0,730],
-"structovermap__special__terrain.html#a36a7f7794fd22ba03f0ed91b3dea6945":[36,0,730,2],
-"structovermap__special__terrain.html#a4077da81a0755f23c2784f66eb26f8ea":[36,0,730,1],
-"structovermap__special__terrain.html#a6df46f8fd697e52eb1c621b6e36a4883":[36,0,730,0],
-"structovermap__special__terrain.html#a7389b653202d8f361c400fdb5624b511":[36,0,730,4],
-"structovermap__special__terrain.html#a8c047fb10bba197032cb3cc2aca2a0e2":[36,0,730,3],
-"structovermap__special__terrain.html#aa6d67e0a2999bf57abf2a54000df7beb":[36,0,730,5],
-"structovermap__static__spawns.html":[36,0,731],
-"structovermap__static__spawns.html#a8e2bb39e6b74ad8f2f31b2c8939a0f4f":[36,0,731,0],
-"structovermap__static__spawns.html#aca44d3d712c0ce01e359ec92eeb952e7":[36,0,731,1]
+"structovermap__special__spawns.html#a5e31bdf6b8e0d7a14ea1c5a0fb129338":[36,0,729,2]
 };

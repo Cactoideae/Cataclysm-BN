@@ -1,5 +1,17 @@
 var NAVTREEINDEX65 =
 {
+"classsokoban__game.html#a03512ceeecd782234c8ef3228c8cf626":[36,0,858,5],
+"classsokoban__game.html#a042c801807af706825bd2c82db077a37":[36,0,858,2],
+"classsokoban__game.html#a1b24340513e309549f449782dc040c95":[36,0,858,16],
+"classsokoban__game.html#a218af8e3e04c5958f7ecbd6f8bb43c8b":[36,0,858,14],
+"classsokoban__game.html#a2310b33cd0d7d0e0784180c371480f56":[36,0,858,11],
+"classsokoban__game.html#a257a23ddc454c50bbdcc2bcd2e602c29":[36,0,858,3],
+"classsokoban__game.html#a5298b76b9e6f5a9361c370bbd4186892":[36,0,858,4],
+"classsokoban__game.html#a5db21354e286cfef0ea30f15c0adea86":[36,0,858,8],
+"classsokoban__game.html#a6669505fc57cb71ff16bf6771deebf85":[36,0,858,6],
+"classsokoban__game.html#a6b787dad35c5e8ebc4ef7a43d8fe5589":[36,0,858,13],
+"classsokoban__game.html#a880116a608d25eab847624f859c1118c":[36,0,858,12],
+"classsokoban__game.html#a8c59f9a186426fa821d57e4817923667":[36,0,858,9],
 "classsokoban__game.html#a9bb973ef1409c0be6e7a5e38f249066b":[36,0,858,10],
 "classsokoban__game.html#aa137323ee2b21e5606c0dffae9b09347":[36,0,858,7],
 "classsokoban__game.html#adfb484af4486e2da51564a925d1c0478":[36,0,858,15],
@@ -237,17 +249,5 @@ var NAVTREEINDEX65 =
 "classstats__tracker.html#a8379127169d82ae424bb130fde95841e":[36,0,879,15],
 "classstats__tracker.html#a87c646df0ba7b69a2ec15f5737e36841":[36,0,879,3],
 "classstats__tracker.html#a90747ae5dccb29b1651231a1cc5bc267":[36,0,879,8],
-"classstats__tracker.html#a937dc0d90e55847eda504de1bf66d627":[36,0,879,4],
-"classstats__tracker.html#aa49db44ba755a3bd19aaaf662bc31099":[36,0,879,2],
-"classstats__tracker.html#aa50047d6b332d7421c5098c8588a43e2":[36,0,879,0],
-"classstats__tracker.html#aad166551a76a6ad932bafbd0e3a9c813":[36,0,879,23],
-"classstats__tracker.html#ac2d2a80e08975f0723a74ebf7e3633c0":[36,0,879,5],
-"classstats__tracker.html#aca9a812d5fbce3d5d17be51c47b4046a":[36,0,879,19],
-"classstats__tracker__state.html":[36,0,880],
-"classstats__tracker__state.html#af81ad2fb7849a2b4b16934e67860e4e1":[36,0,880,0],
-"classsteady__consumer__tile.html":[36,0,881],
-"classsteady__consumer__tile.html#a10cc1ca407e166c167b27e5270b0c233":[36,0,881,0],
-"classsteady__consumer__tile.html#a23c456512e6829c20cfce3854497ddee":[36,0,881,6],
-"classsteady__consumer__tile.html#a2e9fb520eee0f94214bca3f23f656043":[36,0,881,3],
-"classsteady__consumer__tile.html#a3239ddb157aa42a2c75f9c14391afa5f":[36,0,881,1]
+"classstats__tracker.html#a937dc0d90e55847eda504de1bf66d627":[36,0,879,4]
 };

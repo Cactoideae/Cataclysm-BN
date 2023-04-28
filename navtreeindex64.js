@@ -1,5 +1,17 @@
 var NAVTREEINDEX64 =
 {
+"classscent__map.html#a55c51947e481f387010888565ec7ba7c":[36,0,825,7],
+"classscent__map.html#a82b4bf9afaf3b7fe6fee9db534f47564":[36,0,825,10],
+"classscent__map.html#a8ec282a1b79c0360adee9305bc9f38ca":[36,0,825,1],
+"classscent__map.html#a99aff3e6d8963d7f34618216a8448c8c":[36,0,825,5],
+"classscent__map.html#ab2b3dc27d29d9512b110f22cc345c739":[36,0,825,4],
+"classscent__map.html#ac13815e99b83748dd512ff2cfe4bd517":[36,0,825,0],
+"classscent__map.html#ad8b0a7178e3c13ec8ab07e45bfdafb5d":[36,0,825,12],
+"classscent__map.html#ad9be51c2bd0fd659dce27294af5caed6":[36,0,825,15],
+"classscent__map.html#adbe18277eab6860d0c5135c9994a7dfe":[36,0,825,14],
+"classscent__map.html#add25deef4f30b6f5db04431d243cf503":[36,0,825,19],
+"classscent__map.html#aeef64862b0f54e92002d1ff1673418c5":[36,0,825,11],
+"classscent__map.html#aef8ec1c29840e5f9ec6972d462d83450":[36,0,825,17],
 "classscent__map.html#af731393514d1ceb6cc88900cf9221a89":[36,0,825,9],
 "classscent__map.html#af8194e788fb41147bd4c95dbf09b95fb":[36,0,825,8],
 "classscent__trace.html":[36,0,826],
@@ -237,17 +249,5 @@ var NAVTREEINDEX64 =
 "classsnippet__library.html#ac95d52c7f23d13cbf2882164d81e0662":[36,0,856,12],
 "classsnippet__library.html#af2445197cd872aac751100ea5b609243":[36,0,856,3],
 "classsnippet__library.html#aff12dd426e9f0340f5e861ddd291cea3":[36,0,856,13],
-"classsokoban__game.html":[36,0,858],
-"classsokoban__game.html#a03512ceeecd782234c8ef3228c8cf626":[36,0,858,5],
-"classsokoban__game.html#a042c801807af706825bd2c82db077a37":[36,0,858,2],
-"classsokoban__game.html#a1b24340513e309549f449782dc040c95":[36,0,858,16],
-"classsokoban__game.html#a218af8e3e04c5958f7ecbd6f8bb43c8b":[36,0,858,14],
-"classsokoban__game.html#a2310b33cd0d7d0e0784180c371480f56":[36,0,858,11],
-"classsokoban__game.html#a257a23ddc454c50bbdcc2bcd2e602c29":[36,0,858,3],
-"classsokoban__game.html#a5298b76b9e6f5a9361c370bbd4186892":[36,0,858,4],
-"classsokoban__game.html#a5db21354e286cfef0ea30f15c0adea86":[36,0,858,8],
-"classsokoban__game.html#a6669505fc57cb71ff16bf6771deebf85":[36,0,858,6],
-"classsokoban__game.html#a6b787dad35c5e8ebc4ef7a43d8fe5589":[36,0,858,13],
-"classsokoban__game.html#a880116a608d25eab847624f859c1118c":[36,0,858,12],
-"classsokoban__game.html#a8c59f9a186426fa821d57e4817923667":[36,0,858,9]
+"classsokoban__game.html":[36,0,858]
 };

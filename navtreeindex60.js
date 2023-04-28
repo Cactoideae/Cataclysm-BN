@@ -1,5 +1,17 @@
 var NAVTREEINDEX60 =
 {
+"classpickup__activity__actor.html#a858d58cf744548c5dea176dc69a2536e":[36,0,744,9],
+"classpickup__activity__actor.html#aa60301f81b9a744e95249b85807262e1":[36,0,744,3],
+"classpickup__activity__actor.html#aad422be3227b52882177ebee8a333bfe":[36,0,744,8],
+"classpickup__activity__actor.html#ac05b1358a9b90f1c9dd01381748d490a":[36,0,744,1],
+"classpickup__activity__actor.html#ad0a7e1e7496cf619b31241c8cc498fdc":[36,0,744,0],
+"classpickup__inventory__preset.html":[36,0,746],
+"classpickup__inventory__preset.html#a1472df0a01a7b6f7ded737c1f7450efc":[36,0,746,2],
+"classpickup__inventory__preset.html#a88f49666ff1b0606763ea556bee73cbe":[36,0,746,1],
+"classpickup__inventory__preset.html#a8b745d1032692cb06190c5bdb6d66b35":[36,0,746,0],
+"classpimpl.html":[36,0,747],
+"classpimpl.html#a12a9be16353271feea291339505bec83":[36,0,747,2],
+"classpimpl.html#a3d119d2374e818d64da42ad5c8f3d3ec":[36,0,747,5],
 "classpimpl.html#a48b940a39de0e101552e0c0722adc3ea":[36,0,747,4],
 "classpimpl.html#a6cbb56d4d6feecd0a3b60f1f6dab6800":[36,0,747,7],
 "classpimpl.html#a9c1b2da13b2b9af3bdc2a74c858c61f4":[36,0,747,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX60 =
 "classplayer__morale.html#a0a721ca1c9917b62b4308c2ef6bc7052":[36,0,759,28],
 "classplayer__morale.html#a1056cd7d4a7291b62742feb18f03d933":[36,0,759,15],
 "classplayer__morale.html#a1091e8c83f77b530086c4b7e23602409":[36,0,759,52],
-"classplayer__morale.html#a12b55f0aea0b8c2c649c38a8618d758b":[36,0,759,46],
-"classplayer__morale.html#a249e230423d8372b142af029d1a77bbf":[36,0,759,37],
-"classplayer__morale.html#a2ee4eebede11ebcd696ae5d2ae41f7dc":[36,0,759,59],
-"classplayer__morale.html#a2fa821577990c1451a739dfffe6fc7a1":[36,0,759,54],
-"classplayer__morale.html#a31ea691c997e9eb81a35ca2612f03c2a":[36,0,759,61],
-"classplayer__morale.html#a343b6a375b56fe1dd6c2a10a4a1acc51":[36,0,759,26],
-"classplayer__morale.html#a357c7f7ca8ffd78fe045846ba8ed6332":[36,0,759,18],
-"classplayer__morale.html#a3f13658c696d2a4293d29494277b6161":[36,0,759,29],
-"classplayer__morale.html#a45b1cd2f3ada97412f1859ede28ed145":[36,0,759,19],
-"classplayer__morale.html#a480bc0b6d6049d68b071ed593bba7d7b":[36,0,759,41],
-"classplayer__morale.html#a4cd5b512935ace10f185989c63c8fab1":[36,0,759,56],
-"classplayer__morale.html#a4fcda667b5d6b3a73e02458d791716bb":[36,0,759,23],
-"classplayer__morale.html#a53eae03c795d7ecdf79c1a98a7af37b5":[36,0,759,24]
+"classplayer__morale.html#a12b55f0aea0b8c2c649c38a8618d758b":[36,0,759,46]
 };

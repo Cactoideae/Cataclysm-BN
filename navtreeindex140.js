@@ -1,5 +1,17 @@
 var NAVTREEINDEX140 =
 {
+"structcity__settings.html#a032aa33186ef6574bced0a88ea157090":[36,0,151,6],
+"structcity__settings.html#a0daeb9995450d16707d710656c331f3b":[36,0,151,9],
+"structcity__settings.html#a24992f21b043d181a66f6192f1d390e0":[36,0,151,2],
+"structcity__settings.html#a54dcb5b3d7718c2dda5315cf769422be":[36,0,151,7],
+"structcity__settings.html#a8460b5b37c295dc424b3b3795845d37d":[36,0,151,8],
+"structcity__settings.html#a91dc2c563c12eaeea51d16ee9451dad8":[36,0,151,5],
+"structcity__settings.html#a98fd07102383438a81386d96c024d321":[36,0,151,3],
+"structcity__settings.html#a9dd5b8cc2ae5e3326ca275c25b8dfd78":[36,0,151,4],
+"structcity__settings.html#abb910a7a986fa690ccad31142511747b":[36,0,151,0],
+"structcity__settings.html#ac0e5ad5f63b8b53f9edbaa86981108ac":[36,0,151,1],
+"structcity__settings.html#afa13434d85f3dc9778429ce4c6d4a624":[36,0,151,10],
+"structclothing__mod.html":[36,0,152],
 "structclothing__mod.html#a02f5f1354c64e8761907a95229b6bd8a":[36,0,152,11],
 "structclothing__mod.html#a22ff2f4b9f81c23be202325e55defee8":[36,0,152,9],
 "structclothing__mod.html#a305b2756674f8cb23b9250c5c70f0558":[36,0,152,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX140 =
 "structcoord__transformation.html#ae8ac8d1224a7ff14eb2a80ba94c23529":[36,0,182,7],
 "structcoord__transformation.html#afa6bd80e3628176c1e70cd8c146f74c0":[36,0,182,1],
 "structcoords_1_1project__to__impl.html":[35,0,93,1],
-"structcoords_1_1project__to__impl.html":[36,0,19,1],
-"structcoords_1_1project__to__impl_3_010_00_01ScaleDown_00_01ResultScale_01_4.html":[36,0,19,2],
-"structcoords_1_1project__to__impl_3_010_00_01ScaleDown_00_01ResultScale_01_4.html":[35,0,93,2],
-"structcoords_1_1project__to__impl_3_010_00_01ScaleDown_00_01ResultScale_01_4.html#a8b31d76deeb4113d1c1b58f565bb63f2":[36,0,19,2,0],
-"structcoords_1_1project__to__impl_3_010_00_01ScaleDown_00_01ResultScale_01_4.html#a8b31d76deeb4113d1c1b58f565bb63f2":[35,0,93,2,0],
-"structcoords_1_1project__to__impl_3_01ScaleUp_00_010_00_01ResultScale_01_4.html":[36,0,19,3],
-"structcoords_1_1project__to__impl_3_01ScaleUp_00_010_00_01ResultScale_01_4.html":[35,0,93,3],
-"structcoords_1_1project__to__impl_3_01ScaleUp_00_010_00_01ResultScale_01_4.html#a5ad298c1e37bbaa5c14a241bef478aee":[36,0,19,3,0],
-"structcoords_1_1project__to__impl_3_01ScaleUp_00_010_00_01ResultScale_01_4.html#a5ad298c1e37bbaa5c14a241bef478aee":[35,0,93,3,0],
-"structcoords_1_1quotient__remainder__helper.html":[36,0,19,4],
-"structcoords_1_1quotient__remainder__helper.html":[35,0,93,4],
-"structcoords_1_1quotient__remainder__helper.html#a08872f8bcb637345723149629d35c3cc":[36,0,19,4,0],
-"structcoords_1_1quotient__remainder__helper.html#a08872f8bcb637345723149629d35c3cc":[35,0,93,4,0]
+"structcoords_1_1project__to__impl.html":[36,0,19,1]
 };

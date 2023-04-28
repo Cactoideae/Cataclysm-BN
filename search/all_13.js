@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['r_0',['R',['../classtileset__loader.html#a2489c18e56fa2888d1b1dc047382f622',1,'tileset_loader']]],
-  ['r_1',['r',['../structdisass__prompt__result.html#a5d3dfc334696743c14bc7adcbb4e3f19',1,'disass_prompt_result']]],
+  ['r_0',['r',['../structdisass__prompt__result.html#a5d3dfc334696743c14bc7adcbb4e3f19',1,'disass_prompt_result']]],
+  ['r_1',['R',['../classtileset__loader.html#a2489c18e56fa2888d1b1dc047382f622',1,'tileset_loader']]],
   ['racing_5fterrain_5fmod_2',['racing_terrain_mod',['../veh__type_8cpp.html#aa393039637b7050f24b707107fe6b1f3',1,'veh_type.cpp']]],
   ['rad_3',['rad',['../relic_8h.html#a4beeee7f54b2b6d8a7f559714d979139a340f7c2dcaedeae68e4a62c281c7350b',1,'rad():&#160;relic.h'],['../structmaptile__soa.html#a69034b688361c90fa77b04e9707f9597',1,'maptile_soa::rad()']]],
   ['rad_5fbadge_5fcolor_4',['rad_badge_color',['../item_8h.html#a38423160898700c390ca36810499c8be',1,'rad_badge_color(int rad):&#160;item.cpp'],['../item_8cpp.html#ae169987d464a24207dd3cb77921c329a',1,'rad_badge_color(const int rad):&#160;item.cpp']]],
@@ -205,8 +205,8 @@ var searchData=
   ['reassign_5fcustom_5finvlets_202',['reassign_custom_invlets',['../classinventory__column.html#aaf8720113391fba2d09959e10370d145',1,'inventory_column']]],
   ['reassign_5fitem_203',['reassign_item',['../classinventory.html#aa6048276bd408eea6a3229705bffc4c0',1,'inventory']]],
   ['reassign_5fletter_204',['reassign_letter',['../namespacegame__menus_1_1inv.html#a46e32edf6a68be757202eb9b8c2cf1ea',1,'game_menus::inv']]],
-  ['reassigning_205',['REASSIGNING',['../namespaceanonymous__namespace_02bionics__ui_8cpp_03.html#a5c0207ceed27b37688307dc484baf852a126c90436d82af15857677148147631d',1,'anonymous_namespace{bionics_ui.cpp}']]],
-  ['reassigning_206',['reassigning',['../mutation__ui_8cpp.html#afaa5795d732cc701e687f01178799df1ac71a14a0fff89b7d853a6c70c6ac612c',1,'mutation_ui.cpp']]],
+  ['reassigning_205',['reassigning',['../mutation__ui_8cpp.html#afaa5795d732cc701e687f01178799df1ac71a14a0fff89b7d853a6c70c6ac612c',1,'mutation_ui.cpp']]],
+  ['reassigning_206',['REASSIGNING',['../namespaceanonymous__namespace_02bionics__ui_8cpp_03.html#a5c0207ceed27b37688307dc484baf852a126c90436d82af15857677148147631d',1,'anonymous_namespace{bionics_ui.cpp}']]],
   ['reboot_207',['reboot',['../classnpc.html#a1cd786257d681caecd6d51655a8cd5ff',1,'npc']]],
   ['rebuild_5fcache_208',['rebuild_cache',['../classCreature__tracker.html#a6a593d5147b79f1fe50ccbf3514cbc0c',1,'Creature_tracker']]],
   ['rebuild_5fmutation_5fcache_209',['rebuild_mutation_cache',['../classCharacter.html#af42d5b979b1ccff52b5694aa632e18a7',1,'Character']]],

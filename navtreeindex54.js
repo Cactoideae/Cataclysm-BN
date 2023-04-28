@@ -1,5 +1,17 @@
 var NAVTREEINDEX54 =
 {
+"classmelee__actor.html#a92cb72a622be7a81a6bd0c2d524c4112":[36,0,616,16],
+"classmelee__actor.html#a97f7d6df1bbb539266e810809d936304":[36,0,616,1],
+"classmelee__actor.html#a9db702bb54c08ade250a6fd7be51c632":[36,0,616,2],
+"classmelee__actor.html#aa9915b2d5566c6152fe4a58a244c2979":[36,0,616,12],
+"classmelee__actor.html#aac47b3b5b6f1df04e7b92cdf53c5f4ca":[36,0,616,10],
+"classmelee__actor.html#acc4fbaf257656f4b21208720b100778b":[36,0,616,14],
+"classmelee__actor.html#ad8720570e53584eb5f98651e40eaf4f1":[36,0,616,4],
+"classmelee__actor.html#aee3ddb96d30ef51512af82e9ad9445c4":[36,0,616,13],
+"classmelee__actor.html#af8a0a34aa809bd31de3df51863c96527":[36,0,616,8],
+"classmemorial__logger.html":[36,0,618],
+"classmemorial__logger.html#a05e4e13d001a672f5d608adfba3bf49b":[36,0,618,8],
+"classmemorial__logger.html#a16ca8dbf82eccb296ee1860bbeb99243":[36,0,618,3],
 "classmemorial__logger.html#a372dd7d2488cef0e179b6f43b9f8e37a":[36,0,618,0],
 "classmemorial__logger.html#a69ed5d540db4f6af7b8433f9748ac75a":[36,0,618,6],
 "classmemorial__logger.html#a73483eb53f5f5cc79109c4ad64dc8734":[36,0,618,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX54 =
 "classmonster.html#a241bdfccd5d6b2200c0bfd5eca9ce8ab":[36,0,651,56],
 "classmonster.html#a275d73e1bf3d08e2ea1a0704ac898f7e":[36,0,651,243],
 "classmonster.html#a2770dc53f5c38123c19ed18a116e09db":[36,0,651,44],
-"classmonster.html#a2801a2f23fcaf2199b904c8bbf9fcab0":[36,0,651,97],
-"classmonster.html#a2881507933646bca97ef83c7112595ac":[36,0,651,261],
-"classmonster.html#a2d0e466b9d25796cd99402ddd5d3ce20":[36,0,651,98],
-"classmonster.html#a2da5761457621a98dedfc6c711259594":[36,0,651,84],
-"classmonster.html#a2ef1adf3108d29bbdd668da96f446b04":[36,0,651,247],
-"classmonster.html#a2f9d03ffee51f0193855490a75511596":[36,0,651,252],
-"classmonster.html#a2fea7476e637e72ea95d48e4b1a4218c":[36,0,651,176],
-"classmonster.html#a304aeb741c4ac28d879d3951dee4cf30":[36,0,651,109],
-"classmonster.html#a31796e0c637397ee99aa363d9fff619a":[36,0,651,21],
-"classmonster.html#a31d55a6e7da021f2e33f73f7af1443cc":[36,0,651,179],
-"classmonster.html#a325bdd1f920294d677cc67ead42e4e3c":[36,0,651,186],
-"classmonster.html#a32a4800fc20a7d229c66cce32ce9e417":[36,0,651,38],
-"classmonster.html#a33b23afe9e525edecfd1c9f2edff0593":[36,0,651,194]
+"classmonster.html#a2801a2f23fcaf2199b904c8bbf9fcab0":[36,0,651,97]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX78 =
 {
+"coordinate__conversions_8cpp.html#a037672d14e64edf9e2908f5d1e13b31e":[37,0,1,136,9],
+"coordinate__conversions_8cpp.html#a042cb0b2c9d677aa151fbf35d6da7e00":[37,0,1,136,11],
+"coordinate__conversions_8cpp.html#a15e4cae771b7012ee213f527a55cbc5e":[37,0,1,136,33],
+"coordinate__conversions_8cpp.html#a162ac1a3a0949e25134e2834bd66477a":[37,0,1,136,6],
+"coordinate__conversions_8cpp.html#a188b1ffc5326dd8b042fcbfec44c7166":[37,0,1,136,35],
+"coordinate__conversions_8cpp.html#a19e3e91f11926707e5583547807bf1ea":[37,0,1,136,31],
+"coordinate__conversions_8cpp.html#a1cd50b99d08ed45ef62c6a58b496afca":[37,0,1,136,13],
+"coordinate__conversions_8cpp.html#a24fce5d0632043832b87aacb9155d6de":[37,0,1,136,12],
+"coordinate__conversions_8cpp.html#a2bf515b374ec0b2c4d85454722c97fc8":[37,0,1,136,30],
+"coordinate__conversions_8cpp.html#a323c60830f00fd61265b99b34992bf31":[37,0,1,136,24],
+"coordinate__conversions_8cpp.html#a481b3187afa558b82160a205ab4aafb5":[37,0,1,136,19],
+"coordinate__conversions_8cpp.html#a4dd64fffee0e7726a68dbedde5f80d9d":[37,0,1,136,29],
 "coordinate__conversions_8cpp.html#a573d447f57f176524f9b409222f14fb6":[37,0,1,136,27],
 "coordinate__conversions_8cpp.html#a607ed005c552708dbde523f5df450adc":[37,0,1,136,17],
 "coordinate__conversions_8cpp.html#a64f0cb6bf9cbae50a272da86680b15b2":[37,0,1,136,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX78 =
 "crafting_8cpp_source.html":[37,0,1,142],
 "crafting_8h.html":[37,0,1,143],
 "crafting_8h.html#a011b9ef80a917cadf5cb708f54b67ff9":[37,0,1,143,9],
-"crafting_8h.html#a07496c9e8d995433ae9debe590894c3e":[37,0,1,143,22],
-"crafting_8h.html#a0a4980f8517a4d5d4f65621c3355d1d9":[37,0,1,143,23],
-"crafting_8h.html#a0d310e1d954941b884e3806116ae6f7b":[37,0,1,143,15],
-"crafting_8h.html#a1d2a7cb3089df9947e11010194801609":[37,0,1,143,14],
-"crafting_8h.html#a22e3c95d08749d4a4a07b9aaf64db9e8":[37,0,1,143,16],
-"crafting_8h.html#a33e973ebbe76aa946752c7f3b4a4392d":[37,0,1,143,3],
-"crafting_8h.html#a64975cca8f4337f6e791f11ba44c0bfd":[37,0,1,143,20],
-"crafting_8h.html#a653e8b3027cf7e8256c46600bdea2697":[37,0,1,143,5],
-"crafting_8h.html#a6582cc1f2797909d958c3123c33cf414":[37,0,1,143,17],
-"crafting_8h.html#a66f83eefe72e71cf1a8831fde5afe0aa":[37,0,1,143,4],
-"crafting_8h.html#a6895224ef92a2b991f276b2ea25ca15f":[37,0,1,143,8],
-"crafting_8h.html#a6bd0760f7e4a7e545662d263469fb277":[37,0,1,143,6],
-"crafting_8h.html#a6e0fbc3f9cae7380bb61c26f60dbd821":[37,0,1,143,12]
+"crafting_8h.html#a07496c9e8d995433ae9debe590894c3e":[37,0,1,143,22]
 };

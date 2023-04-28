@@ -1,5 +1,17 @@
 var NAVTREEINDEX155 =
 {
+"structovermap__special__spawns.html#aae696410e83c37ac5b9a07fc08d0dff0":[36,0,729,0],
+"structovermap__special__spawns.html#adbcc56344f6c0bef883e62aad2091ae9":[36,0,729,1],
+"structovermap__special__terrain.html":[36,0,730],
+"structovermap__special__terrain.html#a36a7f7794fd22ba03f0ed91b3dea6945":[36,0,730,2],
+"structovermap__special__terrain.html#a4077da81a0755f23c2784f66eb26f8ea":[36,0,730,1],
+"structovermap__special__terrain.html#a6df46f8fd697e52eb1c621b6e36a4883":[36,0,730,0],
+"structovermap__special__terrain.html#a7389b653202d8f361c400fdb5624b511":[36,0,730,4],
+"structovermap__special__terrain.html#a8c047fb10bba197032cb3cc2aca2a0e2":[36,0,730,3],
+"structovermap__special__terrain.html#aa6d67e0a2999bf57abf2a54000df7beb":[36,0,730,5],
+"structovermap__static__spawns.html":[36,0,731],
+"structovermap__static__spawns.html#a8e2bb39e6b74ad8f2f31b2c8939a0f4f":[36,0,731,0],
+"structovermap__static__spawns.html#aca44d3d712c0ce01e359ec92eeb952e7":[36,0,731,1],
 "structovermap__static__spawns.html#aeb89c4cef64a60f9abd2e9b2c3684853":[36,0,731,2],
 "structovermap__ui_1_1draw__data__t.html":[36,0,31,0],
 "structovermap__ui_1_1draw__data__t.html":[35,0,155,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX155 =
 "structplayer__morale_1_1body__part__data.html":[36,0,759,0],
 "structplayer__morale_1_1body__part__data.html#a0264037fad22166937e4e6c3b2e340aa":[36,0,759,0,0],
 "structplayer__morale_1_1body__part__data.html#a35d773161766a259d9d27088bf017d29":[36,0,759,0,1],
-"structplayer__morale_1_1body__part__data.html#a61ad41a22450cfc5f841009b0700e011":[36,0,759,0,3],
-"structplayer__morale_1_1body__part__data.html#a7b43f3edebe1fe63057563d3488bd13e":[36,0,759,0,4],
-"structplayer__morale_1_1body__part__data.html#ab8d3e8f4e4726cdb5ffde4c045b49ab9":[36,0,759,0,2],
-"structplayer__morale_1_1body__part__data.html#acea42d90424510f4fca1c0547a274f6b":[36,0,759,0,5],
-"structplayer__morale_1_1mutation__data.html":[36,0,759,3],
-"structplayer__morale_1_1mutation__data.html#a032c686bb9a3d934edddd291a14c8a28":[36,0,759,3,3],
-"structplayer__morale_1_1mutation__data.html#a13a461eb407104740770e2d79fef6182":[36,0,759,3,7],
-"structplayer__morale_1_1mutation__data.html#a36df4a6844cd8011d67826ec3edf92a1":[36,0,759,3,0],
-"structplayer__morale_1_1mutation__data.html#a622741f91da0d4cc78957d56f4b5ab4a":[36,0,759,3,4],
-"structplayer__morale_1_1mutation__data.html#a8349a77998dbfac574e8bdadf5b55a13":[36,0,759,3,1],
-"structplayer__morale_1_1mutation__data.html#ac46a238c490417e9d095aec2c240cea3":[36,0,759,3,8],
-"structplayer__morale_1_1mutation__data.html#add757c2e7b2d726b6230420556495d31":[36,0,759,3,6],
-"structplayer__morale_1_1mutation__data.html#aeda3d4eecf07eed052c5a38a0210132a":[36,0,759,3,2]
+"structplayer__morale_1_1body__part__data.html#a61ad41a22450cfc5f841009b0700e011":[36,0,759,0,3]
 };

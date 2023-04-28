@@ -1,5 +1,17 @@
 var NAVTREEINDEX143 =
 {
+"structdetail_1_1dragonbox_1_1decimal__fp.html":[35,0,96,1,3],
+"structdetail_1_1dragonbox_1_1decimal__fp.html":[36,0,21,0,3],
+"structdetail_1_1dragonbox_1_1decimal__fp.html#a77c491ed8ef6cc88d11a9eaa41d43a2d":[35,0,96,1,3,1],
+"structdetail_1_1dragonbox_1_1decimal__fp.html#a77c491ed8ef6cc88d11a9eaa41d43a2d":[36,0,21,0,3,1],
+"structdetail_1_1dragonbox_1_1decimal__fp.html#a9a1a44ded7f0233dfa196d8b1c101e0e":[36,0,21,0,3,2],
+"structdetail_1_1dragonbox_1_1decimal__fp.html#a9a1a44ded7f0233dfa196d8b1c101e0e":[35,0,96,1,3,2],
+"structdetail_1_1dragonbox_1_1decimal__fp.html#ac76d233464776427ee705d60eb1a5d9b":[35,0,96,1,3,0],
+"structdetail_1_1dragonbox_1_1decimal__fp.html#ac76d233464776427ee705d60eb1a5d9b":[36,0,21,0,3,0],
+"structdetail_1_1dragonbox_1_1float__info.html":[35,0,96,1,4],
+"structdetail_1_1dragonbox_1_1float__info.html":[36,0,21,0,4],
+"structdetail_1_1dragonbox_1_1float__info_3_01double_01_4.html":[35,0,96,1,5],
+"structdetail_1_1dragonbox_1_1float__info_3_01double_01_4.html":[36,0,21,0,5],
 "structdetail_1_1dragonbox_1_1float__info_3_01double_01_4.html#a0bbe79e34c6327d5bf019fc0b2214d9a":[36,0,21,0,5,18],
 "structdetail_1_1dragonbox_1_1float__info_3_01double_01_4.html#a0bbe79e34c6327d5bf019fc0b2214d9a":[35,0,96,1,5,18],
 "structdetail_1_1dragonbox_1_1float__info_3_01double_01_4.html#a11517968ddaea58303b95c34877855d3":[36,0,21,0,5,14],
@@ -237,17 +249,5 @@ var NAVTREEINDEX143 =
 "structdetail_1_1id__adapter.html#a2bb5700c76f8642833acc62e3457017f":[36,0,21,50,5],
 "structdetail_1_1id__adapter.html#a2bb5700c76f8642833acc62e3457017f":[35,0,96,51,5],
 "structdetail_1_1id__adapter.html#a483f4927256eaa6543263ea9ced8b686":[36,0,21,50,0],
-"structdetail_1_1id__adapter.html#a483f4927256eaa6543263ea9ced8b686":[35,0,96,51,0],
-"structdetail_1_1id__adapter.html#aba4cda6bf9c1c3a2bc2c147c8fc5d7b2":[35,0,96,51,2],
-"structdetail_1_1id__adapter.html#aba4cda6bf9c1c3a2bc2c147c8fc5d7b2":[36,0,21,50,2],
-"structdetail_1_1int128__t.html":[35,0,96,52],
-"structdetail_1_1int128__t.html":[36,0,21,51],
-"structdetail_1_1int__checker.html":[36,0,21,52],
-"structdetail_1_1int__checker.html":[35,0,96,53],
-"structdetail_1_1int__checker.html#a1fc60ded6848308cbcb4c5002c2a7dd6":[36,0,21,52,1],
-"structdetail_1_1int__checker.html#a1fc60ded6848308cbcb4c5002c2a7dd6":[35,0,96,53,1],
-"structdetail_1_1int__checker.html#a41bd398cf46ff9c60edcc14d2fe64218":[36,0,21,52,0],
-"structdetail_1_1int__checker.html#a41bd398cf46ff9c60edcc14d2fe64218":[35,0,96,53,0],
-"structdetail_1_1int__checker_3_01true_01_4.html":[35,0,96,54],
-"structdetail_1_1int__checker_3_01true_01_4.html":[36,0,21,53]
+"structdetail_1_1id__adapter.html#a483f4927256eaa6543263ea9ced8b686":[35,0,96,51,0]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX88 =
 {
+"game__constants_8h.html#a8ed501038659216d69578cb28ec3d716":[37,0,1,240,21],
+"game__constants_8h.html#a93be8e1dbd093081622d8b52a75869c6":[37,0,1,240,9],
+"game__constants_8h.html#a94a763d34daa1acd627b67cf6f7e6aaa":[37,0,1,240,55],
+"game__constants_8h.html#a94c935fd5d4eb8e778ca6c85f463d2ea":[37,0,1,240,45],
+"game__constants_8h.html#a9a0de4360143c33059120b35030853cf":[37,0,1,240,63],
+"game__constants_8h.html#a9c7c7934ca11833d32605b6af00f4572":[37,0,1,240,61],
+"game__constants_8h.html#a9f523a38a9f55c0f553288964f823f38":[37,0,1,240,53],
+"game__constants_8h.html#aa03835b04cd4fa56d0c4ff2a8c90b228":[37,0,1,240,13],
+"game__constants_8h.html#aa0f298c7e2726e5eddd1879b7288b748":[37,0,1,240,72],
+"game__constants_8h.html#aa5931cb2f162c829bae20f0df39ae014":[37,0,1,240,25],
+"game__constants_8h.html#aa9b58885a6b5dbbdfcbaffba73c0ae32":[37,0,1,240,27],
+"game__constants_8h.html#aab036a4da2106dbf42da388fdb4c0d44":[37,0,1,240,36],
 "game__constants_8h.html#aac8ef5aacb6df37bef3b2ef7f47ce578":[37,0,1,240,67],
 "game__constants_8h.html#aad0eacfa516a8f7e005674027d7640fe":[37,0,1,240,58],
 "game__constants_8h.html#ab4f6aee0718ae4c2d33e35bcccc19eb3":[37,0,1,240,48],
@@ -237,17 +249,5 @@ var NAVTREEINDEX88 =
 "gates_8cpp_source.html":[37,0,1,251],
 "gates_8h.html":[37,0,1,252],
 "gates_8h.html#a0eeda5c9b391c2d30f63a1dad75b043b":[37,0,1,252,3],
-"gates_8h.html#a3ef5351e05e4b2d492562205261db96c":[37,0,1,252,1],
-"gates_8h.html#a5dd64a7f99b8c324cbb945ad7dc37702":[37,0,1,252,0],
-"gates_8h.html#a84015d35b252bacce5c6ee9ae9f6fde2":[37,0,1,252,6],
-"gates_8h.html#ac6c523200a835b37be9b28bf9fc539b2":[37,0,1,252,5],
-"gates_8h.html#ac8730a42296c6b07c8effd83106ddb08":[37,0,1,252,4],
-"gates_8h.html#acc8efe27aeed04f754930b76a29d0c2a":[37,0,1,252,2],
-"gates_8h_source.html":[37,0,1,252],
-"generic__factory_8cpp.html":[37,0,1,253],
-"generic__factory_8cpp.html#a079efdb0a054d93f3d027084fa963268":[37,0,1,253,0],
-"generic__factory_8cpp.html#a87f1cd034d9829b6ba4dc68f3203bf25":[37,0,1,253,1],
-"generic__factory_8cpp_source.html":[37,0,1,253],
-"generic__factory_8h.html":[37,0,1,254],
-"generic__factory_8h.html#a079efdb0a054d93f3d027084fa963268":[37,0,1,254,10]
+"gates_8h.html#a3ef5351e05e4b2d492562205261db96c":[37,0,1,252,1]
 };

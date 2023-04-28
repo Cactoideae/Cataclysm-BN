@@ -1,5 +1,17 @@
 var NAVTREEINDEX142 =
 {
+"structdetail_1_1arg__mapper.html#a003dbf6b08bea14d092782fd8a58b639":[36,0,21,7,22],
+"structdetail_1_1arg__mapper.html#a003dbf6b08bea14d092782fd8a58b639":[35,0,96,8,22],
+"structdetail_1_1arg__mapper.html#a058909528318f2dba2c78515f60b3753":[35,0,96,8,23],
+"structdetail_1_1arg__mapper.html#a058909528318f2dba2c78515f60b3753":[36,0,21,7,23],
+"structdetail_1_1arg__mapper.html#a05ad76c492609f51fa74bf94f77c3643":[35,0,96,8,25],
+"structdetail_1_1arg__mapper.html#a05ad76c492609f51fa74bf94f77c3643":[36,0,21,7,25],
+"structdetail_1_1arg__mapper.html#a0898dca256f00e0b3992695438af3057":[36,0,21,7,31],
+"structdetail_1_1arg__mapper.html#a0898dca256f00e0b3992695438af3057":[35,0,96,8,31],
+"structdetail_1_1arg__mapper.html#a0ef5cc8260e0ec2aac37ef46d401c1ac":[35,0,96,8,28],
+"structdetail_1_1arg__mapper.html#a0ef5cc8260e0ec2aac37ef46d401c1ac":[36,0,21,7,28],
+"structdetail_1_1arg__mapper.html#a135f53479fdff0f8c1259067970fa189":[35,0,96,8,20],
+"structdetail_1_1arg__mapper.html#a135f53479fdff0f8c1259067970fa189":[36,0,21,7,20],
 "structdetail_1_1arg__mapper.html#a1b983eec278c7719b7d6c6e865b92c9d":[35,0,96,8,12],
 "structdetail_1_1arg__mapper.html#a1b983eec278c7719b7d6c6e865b92c9d":[36,0,21,7,12],
 "structdetail_1_1arg__mapper.html#a1d7396baff2c9e763013f39931e5e8f2":[36,0,21,7,34],
@@ -237,17 +249,5 @@ var NAVTREEINDEX142 =
 "structdetail_1_1dragonbox_1_1cache__accessor_3_01float_01_4.html#ae3ebd943e7483634cac5a5451fab4f98":[36,0,21,0,2,6],
 "structdetail_1_1dragonbox_1_1cache__accessor_3_01float_01_4.html#ae3ebd943e7483634cac5a5451fab4f98":[35,0,96,1,2,6],
 "structdetail_1_1dragonbox_1_1cache__accessor_3_01float_01_4.html#af0eb8e51423e0688f4d9aff1707268e8":[36,0,21,0,2,7],
-"structdetail_1_1dragonbox_1_1cache__accessor_3_01float_01_4.html#af0eb8e51423e0688f4d9aff1707268e8":[35,0,96,1,2,7],
-"structdetail_1_1dragonbox_1_1decimal__fp.html":[35,0,96,1,3],
-"structdetail_1_1dragonbox_1_1decimal__fp.html":[36,0,21,0,3],
-"structdetail_1_1dragonbox_1_1decimal__fp.html#a77c491ed8ef6cc88d11a9eaa41d43a2d":[35,0,96,1,3,1],
-"structdetail_1_1dragonbox_1_1decimal__fp.html#a77c491ed8ef6cc88d11a9eaa41d43a2d":[36,0,21,0,3,1],
-"structdetail_1_1dragonbox_1_1decimal__fp.html#a9a1a44ded7f0233dfa196d8b1c101e0e":[36,0,21,0,3,2],
-"structdetail_1_1dragonbox_1_1decimal__fp.html#a9a1a44ded7f0233dfa196d8b1c101e0e":[35,0,96,1,3,2],
-"structdetail_1_1dragonbox_1_1decimal__fp.html#ac76d233464776427ee705d60eb1a5d9b":[35,0,96,1,3,0],
-"structdetail_1_1dragonbox_1_1decimal__fp.html#ac76d233464776427ee705d60eb1a5d9b":[36,0,21,0,3,0],
-"structdetail_1_1dragonbox_1_1float__info.html":[35,0,96,1,4],
-"structdetail_1_1dragonbox_1_1float__info.html":[36,0,21,0,4],
-"structdetail_1_1dragonbox_1_1float__info_3_01double_01_4.html":[35,0,96,1,5],
-"structdetail_1_1dragonbox_1_1float__info_3_01double_01_4.html":[36,0,21,0,5]
+"structdetail_1_1dragonbox_1_1cache__accessor_3_01float_01_4.html#af0eb8e51423e0688f4d9aff1707268e8":[35,0,96,1,2,7]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX129 =
 {
+"panels_8cpp.html#adb8c16c9872b5c7882ccffa616234d96":[37,0,1,488,24],
+"panels_8cpp.html#ade2189d5201c70d4166718b58f24edcd":[37,0,1,488,10],
+"panels_8cpp.html#ae1cb8b354dd2e47fc67f2a99e82c7a53":[37,0,1,488,28],
+"panels_8cpp.html#ae228a6ec8c555c53cccb2f6ebda5cbe5":[37,0,1,488,19],
+"panels_8cpp.html#ae7be0577c6c2986d5440e42aaadf5889":[37,0,1,488,63],
+"panels_8cpp.html#aeadccf5419410944a5e6027777fa475d":[37,0,1,488,25],
+"panels_8cpp.html#aeb9868886ca326e9f43ec02697e4665d":[37,0,1,488,62],
+"panels_8cpp.html#aec7d0b16a7ad083ab6452573b83d48cc":[37,0,1,488,56],
+"panels_8cpp.html#aed8c83e6cfb4dfde76be5c4915e479be":[37,0,1,488,47],
+"panels_8cpp.html#aef914174537d29b9a04c67b44154e36f":[37,0,1,488,35],
+"panels_8cpp.html#af15d01504a2b628d5c4b6c6889c343e6":[37,0,1,488,42],
+"panels_8cpp.html#afa28313bb85330c6ddbd78dd8f63c40c":[37,0,1,488,80],
 "panels_8cpp.html#afb04c2bad593f931b9c080356686539a":[37,0,1,488,57],
 "panels_8cpp.html#affdd16f2e8bfcbb7ce1b223f69d06b44":[37,0,1,488,39],
 "panels_8cpp_source.html":[37,0,1,488],
@@ -237,17 +249,5 @@ var NAVTREEINDEX129 =
 "player__hardcoded__effects_8cpp.html#a074b87b8d18347675f51ed9e6d7e8787":[37,0,1,509,25],
 "player__hardcoded__effects_8cpp.html#a08481f62adb6937636ea44b855311037":[37,0,1,509,33],
 "player__hardcoded__effects_8cpp.html#a08ed8f8240259a6a457502b0db459e08":[37,0,1,509,38],
-"player__hardcoded__effects_8cpp.html#a09e952ef4d27618e2f60ec737a8d1bae":[37,0,1,509,23],
-"player__hardcoded__effects_8cpp.html#a0a3de1e6679128988d176115710ddd03":[37,0,1,509,29],
-"player__hardcoded__effects_8cpp.html#a0c073c8608c88bb092d72f27944a7df1":[37,0,1,509,59],
-"player__hardcoded__effects_8cpp.html#a13af1ce0f1c5467c2718b3d683c13c28":[37,0,1,509,31],
-"player__hardcoded__effects_8cpp.html#a151e6b162a8a2cdbdb11c407013076eb":[37,0,1,509,22],
-"player__hardcoded__effects_8cpp.html#a1a6476e8888f0929f469fd9af2d629bc":[37,0,1,509,47],
-"player__hardcoded__effects_8cpp.html#a1b24df80fb6fce16dd4527cc4a6fa6ca":[37,0,1,509,16],
-"player__hardcoded__effects_8cpp.html#a1de43fa1f6d16ce87ab7a3a49e47c463":[37,0,1,509,43],
-"player__hardcoded__effects_8cpp.html#a1e2a085a78738d789a7447af81ed3deb":[37,0,1,509,28],
-"player__hardcoded__effects_8cpp.html#a224033af2e0bc90d812b116312d34365":[37,0,1,509,20],
-"player__hardcoded__effects_8cpp.html#a24886ecb2b3812c98899a8ceaf5d29fa":[37,0,1,509,53],
-"player__hardcoded__effects_8cpp.html#a2dde49329eef942ec57d25db274942c0":[37,0,1,509,19],
-"player__hardcoded__effects_8cpp.html#a2ebc0d3c09d8f2896a466db2794c2845":[37,0,1,509,18]
+"player__hardcoded__effects_8cpp.html#a09e952ef4d27618e2f60ec737a8d1bae":[37,0,1,509,23]
 };

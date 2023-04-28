@@ -1,5 +1,17 @@
 var NAVTREEINDEX125 =
 {
+"npc__class_8h.html#a91c04131124dfaf7095b72616764c9e0":[37,0,1,457,4],
+"npc__class_8h.html#aa7e5d9dfb7060d7bb41e06671c02a063":[37,0,1,457,23],
+"npc__class_8h.html#abfce8afc3705c20e69c09a836e43e3e3":[37,0,1,457,8],
+"npc__class_8h.html#ac5b4af2a81c687fa719c00742d0c8502":[37,0,1,457,5],
+"npc__class_8h.html#acf27af057e4b7a4c9d00ce2be261b757":[37,0,1,457,12],
+"npc__class_8h.html#ad973309e8d924c7e07ce25d87165f7ad":[37,0,1,457,22],
+"npc__class_8h.html#ae3f1cece1d66bfd85dc4849a34caa8df":[37,0,1,457,9],
+"npc__class_8h.html#aec89ae38fe21f9696eec540d31bb3298":[37,0,1,457,6],
+"npc__class_8h.html#af3a9c71005daa298b6ad72ca91d04352":[37,0,1,457,18],
+"npc__class_8h.html#afd2bdbbf3171d48a0f69ac0e4cd09787":[37,0,1,457,15],
+"npc__class_8h_source.html":[37,0,1,457],
+"npc__favor_8h.html":[37,0,1,458],
 "npc__favor_8h.html#a1b123de76fcab9d724db1d2dd0d2f28f":[37,0,1,458,1],
 "npc__favor_8h.html#a4737784755634fe9d44330d3181524f8":[37,0,1,458,2],
 "npc__favor_8h.html#a4737784755634fe9d44330d3181524f8a01906c38f483b4ebeb1104e0be13e907":[37,0,1,458,2,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX125 =
 "npctalk_8h.html#a8a0788dcd2fdd0566ec4de95ab92a502":[37,0,1,461,11],
 "npctalk_8h.html#a8d9f01912c3e85f48a84cc2a691bf063":[37,0,1,461,66],
 "npctalk_8h.html#a8e6de809e24e4e4911809bc8d8469d26":[37,0,1,461,12],
-"npctalk_8h.html#a912de7bc2b225db59d95210cac351977":[37,0,1,461,71],
-"npctalk_8h.html#a93343ca60b298038287929b3b29013fa":[37,0,1,461,22],
-"npctalk_8h.html#a95fdb714dfad7eb77b07677c1a71897a":[37,0,1,461,41],
-"npctalk_8h.html#a9b67fe62bed13f93256bda2c7c29ce91":[37,0,1,461,10],
-"npctalk_8h.html#a9cd01ba5b40a94111cc7e2bfd61d8397":[37,0,1,461,8],
-"npctalk_8h.html#aa5c78b37864dc843f1c3f0242f8b9326":[37,0,1,461,33],
-"npctalk_8h.html#aa7ba4e81b745617f8cea23c35e74e516":[37,0,1,461,39],
-"npctalk_8h.html#aac894d028f2e52af5baf45a241e2a175":[37,0,1,461,1],
-"npctalk_8h.html#aad7de690b587210e827931a996ba7fc8":[37,0,1,461,15],
-"npctalk_8h.html#ab04f4e5723bd78e8166c37f76f3a9382":[37,0,1,461,28],
-"npctalk_8h.html#ab0d5dee3121ea59aab9cf0dea32e37a7":[37,0,1,461,5],
-"npctalk_8h.html#ab53ae4221076a52d8e77dea5e5652b6d":[37,0,1,461,60],
-"npctalk_8h.html#ab7a3d44743e165bcd67ee1a39ee2d94c":[37,0,1,461,44]
+"npctalk_8h.html#a912de7bc2b225db59d95210cac351977":[37,0,1,461,71]
 };
