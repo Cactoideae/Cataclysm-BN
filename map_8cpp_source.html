@@ -2149,7 +2149,7 @@ $(document).ready(function(){initNavTree('map_8cpp_source.html',''); initResizab
 <div class="line"><a id="l02060" name="l02060"></a><span class="lineno"> 2060</span>    }</div>
 <div class="line"><a id="l02061" name="l02061"></a><span class="lineno"> 2061</span> </div>
 <div class="line"><a id="l02062" name="l02062"></a><span class="lineno"> 2062</span>    <span class="comment">// TODO: Make this more sensible - check opposite sides, not just movement blocker count</span></div>
-<div class="line"><a id="l02063" name="l02063"></a><span class="lineno"> 2063</span>    <span class="keywordflow">return</span> best_difficulty - blocks_movement;</div>
+<div class="line"><a id="l02063" name="l02063"></a><span class="lineno"> 2063</span>    <span class="keywordflow">return</span> std::max( 0, best_difficulty - blocks_movement );</div>
 <div class="line"><a id="l02064" name="l02064"></a><span class="lineno"> 2064</span>}</div>
 <div class="line"><a id="l02065" name="l02065"></a><span class="lineno"> 2065</span> </div>
 <div class="line"><a id="l02066" name="l02066"></a><span class="lineno"><a class="line" href="classmap.html#ad11eaa007e285dcfe4c6ffb6f1ce46d3"> 2066</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="classmap.html#ad11eaa007e285dcfe4c6ffb6f1ce46d3">map::has_floor</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structtripoint.html">tripoint</a> &amp;p )<span class="keyword"> const</span></div>
@@ -10590,7 +10590,7 @@ $(document).ready(function(){initNavTree('map_8cpp_source.html',''); initResizab
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="map_8cpp.html">map.cpp</a></li>
-    <li class="footer">Generated on Fri Apr 28 2023 16:04:07 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Fri Apr 28 2023 19:50:20 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
