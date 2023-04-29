@@ -3613,7 +3613,7 @@ $(document).ready(function(){initNavTree('vehicle_8cpp_source.html',''); initRes
 <div class="line"><a id="l03524" name="l03524"></a><span class="lineno"> 3524</span>                m2c *= 0.6;</div>
 <div class="line"><a id="l03525" name="l03525"></a><span class="lineno"> 3525</span>            }</div>
 <div class="line"><a id="l03526" name="l03526"></a><span class="lineno"> 3526</span>            pwr += <a class="code hl_function" href="classvehicle.html#a5246baeafa78272d858f6cce466579e4">part_vpower_w</a>( p ) * m2c / 100;</div>
-<div class="line"><a id="l03527" name="l03527"></a><span class="lineno"> 3527</span>            cnt++;</div>
+<div class="line"><a id="l03527" name="l03527"></a><span class="lineno"> 3527</span>            cnt += <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>( !<a class="code hl_function" href="classvehicle.html#aab4917d0f78fe4df1c8f5303fdf2b86d">part_info</a>( p ).<a class="code hl_function" href="classvpart__info.html#aea0fdb1ef9041e28d7856afae97dcc87">has_flag</a>( <span class="stringliteral">&quot;E_NO_POWER_DECAY&quot;</span> ) );</div>
 <div class="line"><a id="l03528" name="l03528"></a><span class="lineno"> 3528</span>        }</div>
 <div class="line"><a id="l03529" name="l03529"></a><span class="lineno"> 3529</span>    }</div>
 <div class="line"><a id="l03530" name="l03530"></a><span class="lineno"> 3530</span> </div>
@@ -8214,7 +8214,7 @@ $(document).ready(function(){initNavTree('vehicle_8cpp_source.html',''); initRes
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="vehicle_8cpp.html">vehicle.cpp</a></li>
-    <li class="footer">Generated on Sat Apr 29 2023 12:33:23 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sat Apr 29 2023 13:38:19 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
