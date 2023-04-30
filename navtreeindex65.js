@@ -1,7 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"classsokoban__game.html#a03512ceeecd782234c8ef3228c8cf626":[36,0,858,5],
-"classsokoban__game.html#a042c801807af706825bd2c82db077a37":[36,0,858,2],
 "classsokoban__game.html#a1b24340513e309549f449782dc040c95":[36,0,858,16],
 "classsokoban__game.html#a218af8e3e04c5958f7ecbd6f8bb43c8b":[36,0,858,14],
 "classsokoban__game.html#a2310b33cd0d7d0e0784180c371480f56":[36,0,858,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX65 =
 "classstats__tracker.html#a8379127169d82ae424bb130fde95841e":[36,0,879,15],
 "classstats__tracker.html#a87c646df0ba7b69a2ec15f5737e36841":[36,0,879,3],
 "classstats__tracker.html#a90747ae5dccb29b1651231a1cc5bc267":[36,0,879,8],
-"classstats__tracker.html#a937dc0d90e55847eda504de1bf66d627":[36,0,879,4]
+"classstats__tracker.html#a937dc0d90e55847eda504de1bf66d627":[36,0,879,4],
+"classstats__tracker.html#aa49db44ba755a3bd19aaaf662bc31099":[36,0,879,2],
+"classstats__tracker.html#aa50047d6b332d7421c5098c8588a43e2":[36,0,879,0]
 };

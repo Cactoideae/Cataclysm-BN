@@ -1,10 +1,5 @@
 var NAVTREEINDEX154 =
 {
-"structnpc__opinion.html#ad3164c3f59f022a0d38a1eb69ec837a4":[36,0,692,4],
-"structnpc__opinion.html#ae30f2e7ca0b4c62ba71c648c63921d67":[36,0,692,6],
-"structnpc__personality.html":[36,0,693],
-"structnpc__personality.html#a2ccfa35e0a49e2eb82b9b49bc3776d4b":[36,0,693,6],
-"structnpc__personality.html#a4bfaebc016d64db4d1fd351ef5b84404":[36,0,693,2],
 "structnpc__personality.html#a6c462d15cbb291bd95018896c99511c6":[36,0,693,0],
 "structnpc__personality.html#a7e9e147a18545b4159dba520e6646bcd":[36,0,693,3],
 "structnpc__personality.html#a8dab854ac7e2cb781072c39f22be102c":[36,0,693,1],
@@ -65,12 +60,12 @@ var NAVTREEINDEX154 =
 "structobject__names__collection.html#acf248c3160c87b79784dcaabba79aa22":[36,0,702,2],
 "structom__lines_1_1type.html":[36,0,29,0],
 "structom__lines_1_1type.html":[35,0,148,0],
-"structom__lines_1_1type.html#a1ac3e349ea5ee7ec5433fe2507015c4d":[35,0,148,0,1],
 "structom__lines_1_1type.html#a1ac3e349ea5ee7ec5433fe2507015c4d":[36,0,29,0,1],
-"structom__lines_1_1type.html#a2511ff3039454c926ec0451f16d96e36":[35,0,148,0,3],
+"structom__lines_1_1type.html#a1ac3e349ea5ee7ec5433fe2507015c4d":[35,0,148,0,1],
 "structom__lines_1_1type.html#a2511ff3039454c926ec0451f16d96e36":[36,0,29,0,3],
-"structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[35,0,148,0,2],
+"structom__lines_1_1type.html#a2511ff3039454c926ec0451f16d96e36":[35,0,148,0,3],
 "structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[36,0,29,0,2],
+"structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[35,0,148,0,2],
 "structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[35,0,148,0,4],
 "structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[36,0,29,0,4],
 "structom__lines_1_1type.html#ad37beb8f13a55a1f2547f9785ca9df35":[35,0,148,0,0],
@@ -249,5 +244,10 @@ var NAVTREEINDEX154 =
 "structovermap__special__placement.html#a55347294df77224490a7d8bdf0aea87a":[36,0,728,0],
 "structovermap__special__placement.html#a56b9f74e16ca69fc54ac4c8f883e0c94":[36,0,728,1],
 "structovermap__special__spawns.html":[36,0,729],
-"structovermap__special__spawns.html#a5e31bdf6b8e0d7a14ea1c5a0fb129338":[36,0,729,2]
+"structovermap__special__spawns.html#a5e31bdf6b8e0d7a14ea1c5a0fb129338":[36,0,729,2],
+"structovermap__special__spawns.html#aae696410e83c37ac5b9a07fc08d0dff0":[36,0,729,0],
+"structovermap__special__spawns.html#adbcc56344f6c0bef883e62aad2091ae9":[36,0,729,1],
+"structovermap__special__terrain.html":[36,0,730],
+"structovermap__special__terrain.html#a36a7f7794fd22ba03f0ed91b3dea6945":[36,0,730,2],
+"structovermap__special__terrain.html#a4077da81a0755f23c2784f66eb26f8ea":[36,0,730,1]
 };

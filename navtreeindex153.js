@@ -1,10 +1,5 @@
 var NAVTREEINDEX153 =
 {
-"structmutation__branch.html#a47e84e29e1d8622962a99479ef99bf0f":[36,0,670,41],
-"structmutation__branch.html#a49f8e51c968f14198fc162e82c6c44ec":[36,0,670,20],
-"structmutation__branch.html#a4a2b6ebb21a47acb41fd712575a81dc4":[36,0,670,55],
-"structmutation__branch.html#a4a3cbe5bcc26a4ff63a25be31397b4f0":[36,0,670,118],
-"structmutation__branch.html#a4ad134c5049aec165d4070e7b5fd8007":[36,0,670,0],
 "structmutation__branch.html#a4ad1db3b5501401bfb7100a139c2e28b":[36,0,670,51],
 "structmutation__branch.html#a4ad2ec13af458a5374c13bf9b7e71503":[36,0,670,83],
 "structmutation__branch.html#a4bce9097577caf8ba70e5978dd6c49a7":[36,0,670,36],
@@ -249,5 +244,10 @@ var NAVTREEINDEX153 =
 "structnpc__opinion.html#a409e7d1cc276941c7f621393a3e5f2f3":[36,0,692,2],
 "structnpc__opinion.html#a544114b24a1332d5fc31b1ec814684bd":[36,0,692,8],
 "structnpc__opinion.html#a9732c70ea8fd35cc133c425b70158394":[36,0,692,0],
-"structnpc__opinion.html#ac3e3687fbefeca03878ed52f641d4bf7":[36,0,692,7]
+"structnpc__opinion.html#ac3e3687fbefeca03878ed52f641d4bf7":[36,0,692,7],
+"structnpc__opinion.html#ad3164c3f59f022a0d38a1eb69ec837a4":[36,0,692,4],
+"structnpc__opinion.html#ae30f2e7ca0b4c62ba71c648c63921d67":[36,0,692,6],
+"structnpc__personality.html":[36,0,693],
+"structnpc__personality.html#a2ccfa35e0a49e2eb82b9b49bc3776d4b":[36,0,693,6],
+"structnpc__personality.html#a4bfaebc016d64db4d1fd351ef5b84404":[36,0,693,2]
 };

@@ -39,7 +39,6 @@ var bionics_8cpp =
     [ "bio_meteorologist", "bionics_8cpp.html#a66c720d938ceced6fcbf5e2f47d12dd7", null ],
     [ "bio_nanobots", "bionics_8cpp.html#a3bfe78dbc0d8cfc6819f0f24c7729adc", null ],
     [ "bio_painkiller", "bionics_8cpp.html#a15450ecf5b34a615affe959125bf1626", null ],
-    [ "bio_plutdump", "bionics_8cpp.html#a30ef845ba0075f127a7b000b85bd5a2a", null ],
     [ "bio_power_storage", "bionics_8cpp.html#a5998fd340ee876cbfcff37251cf027cd", null ],
     [ "bio_power_storage_mkII", "bionics_8cpp.html#ac095a9d5df7beadb44d07075e22740dd", null ],
     [ "bio_probability_travel", "bionics_8cpp.html#ab5724f8e26e287fadc2a025cd49e43b2", null ],

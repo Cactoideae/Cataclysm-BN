@@ -30,6 +30,7 @@ var structbionic__data =
     [ "flags", "structbionic__data.html#a766feddba8a47ff5b9fc95d9dded831a", null ],
     [ "fuel_capacity", "structbionic__data.html#a2b5ec44e1d06dc01de34f0efd9483dbc", null ],
     [ "fuel_efficiency", "structbionic__data.html#adc21bfb66fbff7f76ef8097457986075", null ],
+    [ "fuel_multiplier", "structbionic__data.html#a3a4f60b1b0188a3af666b31fa7620ccd", null ],
     [ "fuel_opts", "structbionic__data.html#a8138c18ab3e2346f1404295246389393", null ],
     [ "id", "structbionic__data.html#ac6d9ed2427a13c48a40a678d2a6aee2f", null ],
     [ "included", "structbionic__data.html#af1f4706ffd11a7b7f044c2d67ddb2b92", null ],

@@ -46,8 +46,6 @@ var npcmove_8cpp =
     [ "wants_to_reload", "npcmove_8cpp.html#ae13383d17599d8687f2e570bf75bbac9", null ],
     [ "wants_to_reload_with", "npcmove_8cpp.html#abb15a2e894a280b84a6cb51ea9761fa6", null ],
     [ "ACT_PULP", "npcmove_8cpp.html#aa93f72dcd6663590417f2f8fd001d032", null ],
-    [ "ammo_plutonium", "npcmove_8cpp.html#a686a459612f167b3e27e754951dc7b21", null ],
-    [ "ammo_reactor_slurry", "npcmove_8cpp.html#adc96c8b3b7f78b2a78285d3eaad01cd7", null ],
     [ "avoidance_vehicles_radius", "npcmove_8cpp.html#a14108754d46e7a886364e08c7817615b", null ],
     [ "bio_ads", "npcmove_8cpp.html#a99bde006d277d411e266b003163d9f05", null ],
     [ "bio_advreactor", "npcmove_8cpp.html#af240157d33eeab40ef36bc04dd472e75", null ],

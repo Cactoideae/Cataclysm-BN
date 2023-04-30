@@ -1,9 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"mod__tracker_8h.html#a3b738b00b6e774a736318e4337f6207c":[37,0,1,416,3],
-"mod__tracker_8h.html#a4f2b09e84caf006d8b04ea33014ae4f7":[37,0,1,416,2],
-"mod__tracker_8h_source.html":[37,0,1,416],
-"modules.html":[34],
 "monattack_8cpp.html":[37,0,1,417],
 "monattack_8cpp.html#a02a4844a7fb68c13a34dc40b0a9e94d8":[37,0,1,417,52],
 "monattack_8cpp.html#a02ed1ef06d6f12fde82b64232c55a749":[37,0,1,417,59],
@@ -249,5 +245,9 @@ var NAVTREEINDEX107 =
 "mondeath_8cpp.html":[37,0,1,419],
 "mondeath_8cpp.html#a039c3acd23099e1631feefe7748f49ac":[37,0,1,419,14],
 "mondeath_8cpp.html#a041e74f49f2eab98904a956d5d5e473a":[37,0,1,419,19],
-"mondeath_8cpp.html#a0781c8bcbb6f6f615b022a1b308a21f7":[37,0,1,419,24]
+"mondeath_8cpp.html#a0781c8bcbb6f6f615b022a1b308a21f7":[37,0,1,419,24],
+"mondeath_8cpp.html#a0e701368604950da9eae27352af9044b":[37,0,1,419,9],
+"mondeath_8cpp.html#a1274db01551e337ca6c69d003d280e98":[37,0,1,419,21],
+"mondeath_8cpp.html#a1318a41f2960032c7f2043f0e9c9b951":[37,0,1,419,23],
+"mondeath_8cpp.html#a1ce9db8f1e355ba884db835013d78b41":[37,0,1,419,26]
 };

@@ -1,10 +1,5 @@
 var NAVTREEINDEX149 =
 {
-"structislot__gun.html#a2d29bbe1ed9f259a916d19764646cfa2":[36,0,459,12],
-"structislot__gun.html#a2ef0c3807de1294df7fb8c425c48ef81":[36,0,459,2],
-"structislot__gun.html#a40255e8d661dc99204ed70dbe6013a02":[36,0,459,8],
-"structislot__gun.html#a544f0cb6bc9627268d120be64d70054e":[36,0,459,18],
-"structislot__gun.html#a5a7e4998071d2cd8f7ecd9504003968b":[36,0,459,6],
 "structislot__gun.html#a68eca15622f086d544820aabcb2a865a":[36,0,459,11],
 "structislot__gun.html#a7935d9d8bac12aee90f3b36c7130ee8d":[36,0,459,4],
 "structislot__gun.html#a815bf7350cfb03b311b04e3fb4f182c9":[36,0,459,9],
@@ -119,8 +114,8 @@ var NAVTREEINDEX149 =
 "structitem__info__data.html#aebc34b872c27347457cc489fc5d4c15f":[36,0,479,20],
 "structitem__internal_1_1scoped__goes__bad__cache.html":[35,0,120,0],
 "structitem__internal_1_1scoped__goes__bad__cache.html":[36,0,26,0],
-"structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[36,0,26,0,1],
 "structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[35,0,120,0,1],
+"structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[36,0,26,0,1],
 "structitem__internal_1_1scoped__goes__bad__cache.html#aa1469bdfabcf1a484d40c1a7c96fcd98":[36,0,26,0,0],
 "structitem__internal_1_1scoped__goes__bad__cache.html#aa1469bdfabcf1a484d40c1a7c96fcd98":[35,0,120,0,0],
 "structitem__reference.html":[36,0,484],
@@ -249,5 +244,10 @@ var NAVTREEINDEX149 =
 "structitype.html#af120b48958f64cb16301d76d95d57d6a":[36,0,490,95],
 "structitype.html#af238865694d157c403d1c7d0b74106dc":[36,0,490,21],
 "structitype.html#af2971652c35b420d02faa9337c51c00b":[36,0,490,3],
-"structitype.html#af4a7035d85d1258ac55efae66eea72eb":[36,0,490,39]
+"structitype.html#af4a7035d85d1258ac55efae66eea72eb":[36,0,490,39],
+"structitype.html#af4d6fc9396d1e09f23d2008f974ac757":[36,0,490,33],
+"structitype.html#afa43bb71000c037c9918d907fdacf0b5":[36,0,490,98],
+"structitype.html#afc46b586361661f16219f0a465b71c1d":[36,0,490,4],
+"structiuse__location.html":[36,0,494],
+"structiuse__location.html#a29aec7600a82f71e49beea6f65d933bf":[36,0,494,5]
 };

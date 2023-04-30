@@ -1,15 +1,13 @@
 var NAVTREEINDEX70 =
 {
-"classunits_1_1quantity.html#acf9dfcd649300780358fadde8d98b167":[35,0,182,5,1],
-"classunits_1_1quantity.html#acf9dfcd649300780358fadde8d98b167":[36,0,38,5,1],
 "classunits_1_1quantity.html#ad74904085d02e3ed9c5648a5d54f1b15":[35,0,182,5,0],
 "classunits_1_1quantity.html#ad74904085d02e3ed9c5648a5d54f1b15":[36,0,38,5,0],
-"classunits_1_1quantity.html#adac53107eb0abffda85b087444e686c3":[35,0,182,5,17],
 "classunits_1_1quantity.html#adac53107eb0abffda85b087444e686c3":[36,0,38,5,17],
+"classunits_1_1quantity.html#adac53107eb0abffda85b087444e686c3":[35,0,182,5,17],
 "classunits_1_1quantity.html#af5e212413e066dea129ffa0dad1ad391":[35,0,182,5,9],
 "classunits_1_1quantity.html#af5e212413e066dea129ffa0dad1ad391":[36,0,38,5,9],
-"classunits_1_1temperature__in__millidegree__celsius__tag.html":[36,0,38,8],
 "classunits_1_1temperature__in__millidegree__celsius__tag.html":[35,0,182,8],
+"classunits_1_1temperature__in__millidegree__celsius__tag.html":[36,0,38,8],
 "classunits_1_1volume__in__milliliter__tag.html":[35,0,182,9],
 "classunits_1_1volume__in__milliliter__tag.html":[36,0,38,9],
 "classunpack__actor.html":[36,0,965],
@@ -249,5 +247,7 @@ var NAVTREEINDEX70 =
 "classvehicle.html#a2eb76e28ca0f8caf364eaa4a79f1eaa0":[36,0,973,34],
 "classvehicle.html#a2ecd7bbfce4b780111a1cbf5d8251d9b":[36,0,973,224],
 "classvehicle.html#a2fcad9b54e438d79b12f2e369511ffa8":[36,0,973,208],
-"classvehicle.html#a2fd45081157bdeb69cec2567bf2cbeaa":[36,0,973,124]
+"classvehicle.html#a2fd45081157bdeb69cec2567bf2cbeaa":[36,0,973,124],
+"classvehicle.html#a30b8e7b1d09c18caa89f069d64d37205":[36,0,973,24],
+"classvehicle.html#a31bcfe9c61adc2fe500315a59e1bb690":[36,0,973,401]
 };
