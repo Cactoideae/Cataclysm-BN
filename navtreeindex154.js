@@ -1,5 +1,10 @@
 var NAVTREEINDEX154 =
 {
+"structnpc__opinion.html":[36,0,692],
+"structnpc__opinion.html#a0403230893b785efdbda1188b6a99702":[36,0,692,1],
+"structnpc__opinion.html#a0e4060d5037e997fd22c635066b7cb59":[36,0,692,5],
+"structnpc__opinion.html#a226e3f6e994da6f7da79a9668455c186":[36,0,692,3],
+"structnpc__opinion.html#a33fc4533430debe24fb3a9a38acfabbe":[36,0,692,10],
 "structnpc__opinion.html#a3dd84c1d61aba9d6486853542c43dd42":[36,0,692,9],
 "structnpc__opinion.html#a409e7d1cc276941c7f621393a3e5f2f3":[36,0,692,2],
 "structnpc__opinion.html#a544114b24a1332d5fc31b1ec814684bd":[36,0,692,8],
@@ -70,14 +75,14 @@ var NAVTREEINDEX154 =
 "structobject__names__collection.html#acf248c3160c87b79784dcaabba79aa22":[36,0,702,2],
 "structom__lines_1_1type.html":[36,0,29,0],
 "structom__lines_1_1type.html":[35,0,148,0],
-"structom__lines_1_1type.html#a1ac3e349ea5ee7ec5433fe2507015c4d":[36,0,29,0,1],
 "structom__lines_1_1type.html#a1ac3e349ea5ee7ec5433fe2507015c4d":[35,0,148,0,1],
-"structom__lines_1_1type.html#a2511ff3039454c926ec0451f16d96e36":[36,0,29,0,3],
+"structom__lines_1_1type.html#a1ac3e349ea5ee7ec5433fe2507015c4d":[36,0,29,0,1],
 "structom__lines_1_1type.html#a2511ff3039454c926ec0451f16d96e36":[35,0,148,0,3],
-"structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[36,0,29,0,2],
+"structom__lines_1_1type.html#a2511ff3039454c926ec0451f16d96e36":[36,0,29,0,3],
 "structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[35,0,148,0,2],
-"structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[36,0,29,0,4],
+"structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[36,0,29,0,2],
 "structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[35,0,148,0,4],
+"structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[36,0,29,0,4],
 "structom__lines_1_1type.html#ad37beb8f13a55a1f2547f9785ca9df35":[35,0,148,0,0],
 "structom__lines_1_1type.html#ad37beb8f13a55a1f2547f9785ca9df35":[36,0,29,0,0],
 "structom__map__extra.html":[36,0,705],
@@ -244,10 +249,5 @@ var NAVTREEINDEX154 =
 "structovermap__spawns.html#a5fc075addea376935cec15a65d406ebc":[36,0,724,1],
 "structovermap__spawns.html#ad91286dc49d31226690cd5af48541164":[36,0,724,2],
 "structovermap__special__connection.html":[36,0,727],
-"structovermap__special__connection.html#a143b5363d069e98926785999f57268f2":[36,0,727,2],
-"structovermap__special__connection.html#a8e6853e683d0db0bc90df33a70c906db":[36,0,727,3],
-"structovermap__special__connection.html#a98bed238f560571eaaa87acc970be445":[36,0,727,4],
-"structovermap__special__connection.html#ae389b29df37f23373266ffc69a2c86d5":[36,0,727,0],
-"structovermap__special__connection.html#af4995adf51a0c8127d145da108e23029":[36,0,727,5],
-"structovermap__special__connection.html#afcf558b79eb33c0285a620f2d59ecefd":[36,0,727,1]
+"structovermap__special__connection.html#a143b5363d069e98926785999f57268f2":[36,0,727,2]
 };

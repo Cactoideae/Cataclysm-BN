@@ -1,5 +1,10 @@
 var NAVTREEINDEX153 =
 {
+"structmutation__branch.html#a333b9003068ab6c868a05a4f22948352":[36,0,670,31],
+"structmutation__branch.html#a35c5078b89339f6298622069062ea54d":[36,0,670,3],
+"structmutation__branch.html#a35eb3d4284f1507eb4a7d7ba109c8043":[36,0,670,73],
+"structmutation__branch.html#a3b2b97dbbfc2bb45a13e5abced6a5e12":[36,0,670,54],
+"structmutation__branch.html#a3cdaad731d70c1b025246d994f958b5c":[36,0,670,19],
 "structmutation__branch.html#a3cfda8d1a3caf5e2af76b22ffead46fc":[36,0,670,75],
 "structmutation__branch.html#a3d5ac4ccc031223bdbdc90094c2a3a7b":[36,0,670,44],
 "structmutation__branch.html#a3f1c1950af3dc2a8ee75f8e45e469136":[36,0,670,8],
@@ -244,10 +249,5 @@ var NAVTREEINDEX153 =
 "structnpc__follower__rules.html#af611f5a5762fd4e173e69363a4471f2a":[36,0,691,5],
 "structnpc__follower__rules.html#af7f57605c02d48aba09224adee9d260f":[36,0,691,19],
 "structnpc__follower__rules.html#af929f56ad23d6e4e653359fd31425f5e":[36,0,691,21],
-"structnpc__follower__rules.html#afe9d1e91d4b55d09c98b60a279d24b7d":[36,0,691,15],
-"structnpc__opinion.html":[36,0,692],
-"structnpc__opinion.html#a0403230893b785efdbda1188b6a99702":[36,0,692,1],
-"structnpc__opinion.html#a0e4060d5037e997fd22c635066b7cb59":[36,0,692,5],
-"structnpc__opinion.html#a226e3f6e994da6f7da79a9668455c186":[36,0,692,3],
-"structnpc__opinion.html#a33fc4533430debe24fb3a9a38acfabbe":[36,0,692,10]
+"structnpc__follower__rules.html#afe9d1e91d4b55d09c98b60a279d24b7d":[36,0,691,15]
 };
