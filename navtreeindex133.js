@@ -1,5 +1,15 @@
 var NAVTREEINDEX133 =
 {
+"shadowcasting_8h.html#a7df0cbde1dcbe2fe3e1530adc91b8c39":[37,0,1,576,3],
+"shadowcasting_8h.html#a7df0cbde1dcbe2fe3e1530adc91b8c39a172b03053216c6158fe380805998ad6c":[37,0,1,576,3,4],
+"shadowcasting_8h.html#a7df0cbde1dcbe2fe3e1530adc91b8c39a6f56aa4e2561eb66f17f6d8de8070a77":[37,0,1,576,3,2],
+"shadowcasting_8h.html#a7df0cbde1dcbe2fe3e1530adc91b8c39a7f39ac71e81132daad44925b3bdfde5a":[37,0,1,576,3,3],
+"shadowcasting_8h.html#a7df0cbde1dcbe2fe3e1530adc91b8c39adc33066c3993e0d50896e533fd692ce0":[37,0,1,576,3,0],
+"shadowcasting_8h.html#a7df0cbde1dcbe2fe3e1530adc91b8c39af003c44deab679aa2edfaff864c77402":[37,0,1,576,3,1],
+"shadowcasting_8h.html#a9dd766691b97b838374b2a13fdfbba3e":[37,0,1,576,2],
+"shadowcasting_8h.html#aa0a935fafac4951387c32780c74fb5c2":[37,0,1,576,8],
+"shadowcasting_8h.html#aa3242d6c5ccc433fa4bd2e72613a9a43":[37,0,1,576,10],
+"shadowcasting_8h.html#ab72a18c24c4cd86e19ad9f74de5a5fa4":[37,0,1,576,5],
 "shadowcasting_8h.html#abb443d832076bbf7e40c4768faf57ce2":[37,0,1,576,11],
 "shadowcasting_8h.html#aca28982e9214bac1258086ebe070210c":[37,0,1,576,9],
 "shadowcasting_8h.html#af768cd177db1f5b42a89e90bc72b9ac4":[37,0,1,576,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX133 =
 "start__location_8h.html#a41b44cb2f31129de070bded0186760bc":[37,0,1,593,5],
 "start__location_8h.html#a51a73a1cc625792c24ab1887acdac1bd":[37,0,1,593,2],
 "start__location_8h.html#a62985f6ea18efd9c8a7056e4eba5605a":[37,0,1,593,3],
-"start__location_8h.html#a982c275c4c650fe3e5f20966db0b0913":[37,0,1,593,4],
-"start__location_8h.html#ac18aea8f9fb7dbd95c0e7e3cade25396":[37,0,1,593,6],
-"start__location_8h_source.html":[37,0,1,593],
-"stats__tracker_8cpp.html":[37,0,1,594],
-"stats__tracker_8cpp.html#a72ca329faede1c8e09df798047a0bb8d":[37,0,1,594,0],
-"stats__tracker_8cpp_source.html":[37,0,1,594],
-"stats__tracker_8h.html":[37,0,1,595],
-"stats__tracker_8h_source.html":[37,0,1,595],
-"stomach_8cpp.html":[37,0,1,596],
-"stomach_8cpp_source.html":[37,0,1,596],
-"stomach_8h.html":[37,0,1,597]
+"start__location_8h.html#a982c275c4c650fe3e5f20966db0b0913":[37,0,1,593,4]
 };
