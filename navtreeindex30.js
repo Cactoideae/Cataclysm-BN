@@ -1,8 +1,8 @@
 var NAVTREEINDEX30 =
 {
 "classcatacurses_1_1window.html#a54ddd79d27421b1da357757c3a5fa8a8":[35,0,78,0,5],
-"classcatacurses_1_1window.html#a8afbd1925d293cb03e3a913075249887":[35,0,78,0,1],
 "classcatacurses_1_1window.html#a8afbd1925d293cb03e3a913075249887":[36,0,17,0,1],
+"classcatacurses_1_1window.html#a8afbd1925d293cb03e3a913075249887":[35,0,78,0,1],
 "classcatacurses_1_1window.html#a9411dcd946165d408ea51644b0fb3f99":[36,0,17,0,4],
 "classcatacurses_1_1window.html#a9411dcd946165d408ea51644b0fb3f99":[35,0,78,0,4],
 "classcatacurses_1_1window.html#ab399d7c205c8c6b31063b2b51be67b9b":[35,0,78,0,6],

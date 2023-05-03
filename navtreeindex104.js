@@ -1,5 +1,10 @@
 var NAVTREEINDEX104 =
 {
+"mapgen_8cpp.html#ae8c006d3476bb4046919e833d1baea63":[37,0,1,373,60],
+"mapgen_8cpp.html#ae9e0172b9a2fda25903a62bfb234ac42":[37,0,1,373,77],
+"mapgen_8cpp.html#af48c12e8ec72f49f2b1cde0f65fd4756":[37,0,1,373,74],
+"mapgen_8cpp.html#af585d4bf35b770504d1c7a5ebc9bf4ea":[37,0,1,373,33],
+"mapgen_8cpp.html#af6cc2c9dd319faeca5143d10b2e2304a":[37,0,1,373,99],
 "mapgen_8cpp.html#afaeee6da5de683a160e3bd7fbb979965":[37,0,1,373,31],
 "mapgen_8cpp.html#afd0e2ef8aa011e6199da96b484b9588c":[37,0,1,373,79],
 "mapgen_8cpp.html#afe9cd73ba69ea8ed6186e2dd5302c605":[37,0,1,373,89],
@@ -244,10 +249,5 @@ var NAVTREEINDEX104 =
 "martialarts_8cpp.html#a47e8666a1e458f8836fd4beb7c2e00b7":[37,0,1,383,28],
 "martialarts_8cpp.html#a4f7c3de213e2505c0cc47fafdd2567d0":[37,0,1,383,21],
 "martialarts_8cpp.html#a587ef2648b0f57c82429af975597f155":[37,0,1,383,22],
-"martialarts_8cpp.html#a614e20af50995a2d1c6e9710b61c0573":[37,0,1,383,10],
-"martialarts_8cpp.html#a63233aaf936955f4df6542d8f786116f":[37,0,1,383,8],
-"martialarts_8cpp.html#a753a9aea9c41572680b66b8a8f7fc259":[37,0,1,383,6],
-"martialarts_8cpp.html#a863b5e05d6e9a301dbcddd6bbb61ab28":[37,0,1,383,7],
-"martialarts_8cpp.html#aae3f3de3b7baac697dfacb78ad4a80ea":[37,0,1,383,25],
-"martialarts_8cpp.html#ab0bd6bdef185fe017fcb2b8bfada66c0":[37,0,1,383,9]
+"martialarts_8cpp.html#a614e20af50995a2d1c6e9710b61c0573":[37,0,1,383,10]
 };

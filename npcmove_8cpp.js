@@ -19,6 +19,7 @@ var npcmove_8cpp =
       [ "npc_follow_embarked", "npcmove_8cpp.html#a7c7cb0a59b3544321a40899fa7b4ced7af446f836ab49f08db0f16c95e6f26c85", null ],
       [ "npc_talk_to_player", "npcmove_8cpp.html#a7c7cb0a59b3544321a40899fa7b4ced7a30c4f16c4a66425e87f3e462c987d762", null ],
       [ "npc_mug_player", "npcmove_8cpp.html#a7c7cb0a59b3544321a40899fa7b4ced7a85155639ee95331052d51900b16fdbb1", null ],
+      [ "npc_goto_to_this_pos", "npcmove_8cpp.html#a7c7cb0a59b3544321a40899fa7b4ced7a320566dc8704d228e05b9fa1191726d8", null ],
       [ "npc_goto_destination", "npcmove_8cpp.html#a7c7cb0a59b3544321a40899fa7b4ced7a1acf1db108dede49616801b1e7cb295f", null ],
       [ "npc_avoid_friendly_fire", "npcmove_8cpp.html#a7c7cb0a59b3544321a40899fa7b4ced7a6afb1482ed3f94beb6473c2f9b3b8189", null ],
       [ "npc_escape_explosion", "npcmove_8cpp.html#a7c7cb0a59b3544321a40899fa7b4ced7a6fd72bcdd3524d15de954838ceb03e5a", null ],

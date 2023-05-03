@@ -1,5 +1,10 @@
 var NAVTREEINDEX73 =
 {
+"classvisitable.html#a2d2cb1acccff210289e90eb29ca02db8":[36,0,995,10],
+"classvisitable.html#a2e4e7da175b68a48e9186cdfe48900aa":[36,0,995,21],
+"classvisitable.html#a3755702ea4b3eb37b385bcfb375c89a8":[36,0,995,3],
+"classvisitable.html#a3e80572268abd951cf016d275febe4e6":[36,0,995,9],
+"classvisitable.html#a43defd8edf8aecf5b04da50c75fdda56":[36,0,995,25],
 "classvisitable.html#a517e20b6f6c13b8316d5cce8e310b871":[36,0,995,1],
 "classvisitable.html#a5b3c37fbe8209cab68aa26d3cc7f4300":[36,0,995,8],
 "classvisitable.html#a62ad0b8f7866ec171a709c56e4a25ff2":[36,0,995,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX73 =
 "classweather__manager.html#ad3ea47132cda00f52a4c589ab1c671ad":[36,0,1016,13],
 "classweather__manager.html#ae21ca8b6895d5b684f224a35590e54a5":[36,0,1016,22],
 "classweather__manager.html#ae3a0fada13f5c0e5d8fbe1a33b0fbc33":[36,0,1016,17],
-"classweather__manager.html#aedfd9ff7feb773f8b3eafdb030ca9739":[36,0,1016,20],
-"classweigh__self__actor.html":[36,0,1021],
-"classweigh__self__actor.html#a2ea2cfa39afcf1202c5be3fef8bdc63f":[36,0,1021,4],
-"classweigh__self__actor.html#a4ec741c11477e0bb0013081c269213f6":[36,0,1021,2],
-"classweigh__self__actor.html#a881413a74948acc1ce82bce85e3c8bd7":[36,0,1021,1],
-"classweigh__self__actor.html#a92086b5fe853be980f72b56c9b7158cc":[36,0,1021,5]
+"classweather__manager.html#aedfd9ff7feb773f8b3eafdb030ca9739":[36,0,1016,20]
 };
