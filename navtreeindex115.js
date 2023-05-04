@@ -1,5 +1,7 @@
 var NAVTREEINDEX115 =
 {
+"namespacecoords.html#a5402450b0cf62d5bad4f0ca2e95b93c2":[35,0,93,30],
+"namespacecoords.html#a55e95a528c3b73dc891cb1badf632176":[35,0,93,15],
 "namespacecoords.html#a6159d6053e92473d31f47afe1f1fffd2":[35,0,93,20],
 "namespacecoords.html#a725b3ab8d672fbb4fda8182455c062f5":[35,0,93,12],
 "namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962":[35,0,93,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX115 =
 "namespacedetail.html#a6c6e0604e89fc0ef840b154b8e8b0524":[35,0,96,140],
 "namespacedetail.html#a6d3fb50aed591a58636fa8e2b39222f9":[35,0,96,134],
 "namespacedetail.html#a6d3fb50aed591a58636fa8e2b39222f9a958153f1b8b96ec4c4eb2147429105d9":[35,0,96,134,0],
-"namespacedetail.html#a6d3fb50aed591a58636fa8e2b39222f9ab0ab0254bd58eb87eaee3172ba49fefb":[35,0,96,134,1],
-"namespacedetail.html#a6d3fb50aed591a58636fa8e2b39222f9ab8d1b43eae73587ba56baef574709ecb":[35,0,96,134,3],
-"namespacedetail.html#a6d3fb50aed591a58636fa8e2b39222f9acec315e3d0975e5cc2811d5d8725f149":[35,0,96,134,2]
+"namespacedetail.html#a6d3fb50aed591a58636fa8e2b39222f9ab0ab0254bd58eb87eaee3172ba49fefb":[35,0,96,134,1]
 };

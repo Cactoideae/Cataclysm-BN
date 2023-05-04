@@ -36,6 +36,7 @@ var npcmove_8cpp =
     [ "clear_shot_reach", "npcmove_8cpp.html#acecb5c4379ee38c8382ddfa3c9a1a6d0", null ],
     [ "compare_sound_alert", "npcmove_8cpp.html#afbadedc2f23ae322e4a2e30157fd0585", null ],
     [ "distance_string", "npcmove_8cpp.html#a83fe1228206b802a472fee52c99565ec", null ],
+    [ "flag_SPLINT", "npcmove_8cpp.html#ac515c71f173b6c81dbc78f60ce2b89d2", null ],
     [ "most_damaged_hp_part", "npcmove_8cpp.html#a7306932d4126b7b3922f26f147c41eb4", null ],
     [ "nearest_passable", "npcmove_8cpp.html#ae354299f0c3b90cfd86276a52dd521f0", null ],
     [ "npc_action_name", "npcmove_8cpp.html#a8d1c3c3d8e1c9281ac6f0a333487c414", null ],

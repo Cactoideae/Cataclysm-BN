@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"crafting_8cpp.html#ad66d76d379c8d5dcdbb69ceac398607b":[37,0,1,142,28],
+"crafting_8cpp.html#adfc1b4868ddc5498f554a34fd3104973":[37,0,1,142,7],
 "crafting_8cpp.html#ae0a6efc65dd587028e5fbf37af06bdfc":[37,0,1,142,49],
 "crafting_8cpp.html#ae3bfcfd5d23b65697c08d657d179ef26":[37,0,1,142,42],
 "crafting_8cpp.html#af4dc51f886647b644d25e4e7d45de094":[37,0,1,142,37],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "debug_8cpp.html#a6df73e3dfe021638f778bba543d0685b":[37,0,1,158,19],
 "debug_8cpp.html#a79825f7113926da477d17181f70d40a4":[37,0,1,158,30],
 "debug_8cpp.html#a83a7ddf0ed043073e2270178b2aa0e06":[37,0,1,158,18],
-"debug_8cpp.html#a8b3048f54a8bdcedc4260653b3fe6dbe":[37,0,1,158,15],
-"debug_8cpp.html#a8ba8ff20486fa80587a14c753e0da767":[37,0,1,158,21],
-"debug_8cpp.html#a9deab9b43bb2ea3fc5d5e7a0b888142c":[37,0,1,158,32]
+"debug_8cpp.html#a8b3048f54a8bdcedc4260653b3fe6dbe":[37,0,1,158,15]
 };

@@ -1,10 +1,5 @@
 var NAVTREEINDEX166 =
 {
-"visitable_8h.html#aa872f25fbac30cbf9e03c0153587613dab85df04e922fe1dd3c1f0692faeaacef":[37,0,1,673,2,2],
-"visitable_8h.html#ae9149cfdce1b52a6d2198594145efb66":[37,0,1,673,1],
-"visitable_8h_source.html":[37,0,1,673],
-"vitamin_8cpp.html":[37,0,1,674],
-"vitamin_8cpp.html#a20f0be55ac9f93329ceddf769153d475":[37,0,1,674,0],
 "vitamin_8cpp.html#aa15ff2003177891ca834a3fa8ab60955":[37,0,1,674,1],
 "vitamin_8cpp_source.html":[37,0,1,674],
 "vitamin_8h.html":[37,0,1,675],

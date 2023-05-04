@@ -14,6 +14,7 @@ var bionics_8cpp =
     [ "flag_SAFE_FUEL_OFF", "bionics_8cpp.html#a21f137e9f8be14651aae029d7de07f1d", null ],
     [ "flag_SEALED", "bionics_8cpp.html#a90bacb8d8788e6013599506ca4c8d034", null ],
     [ "flag_SEMITANGIBLE", "bionics_8cpp.html#a7925cbcd56fed3ac49d8f00b1f75eab5", null ],
+    [ "flag_SPLINT", "bionics_8cpp.html#ac515c71f173b6c81dbc78f60ce2b89d2", null ],
     [ "force_comedown", "bionics_8cpp.html#a217a4d44be7e71f2eb8ab84004a8731b", null ],
     [ "get_occupied_bodyparts", "bionics_8cpp.html#a0299103032df4a0375bddc6d09acf0af", null ],
     [ "list_occupied_bps", "bionics_8cpp.html#a4d3af7661fa38a46bad775d2ee5419b5", null ],

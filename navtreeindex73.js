@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"classvisitable.html#a0a76a71d6a905414cc81236e86a7e649":[36,0,995,18],
+"classvisitable.html#a0f314e4c2cf16dde306d92b73a60ff9f":[36,0,995,0],
 "classvisitable.html#a2d2cb1acccff210289e90eb29ca02db8":[36,0,995,10],
 "classvisitable.html#a2e4e7da175b68a48e9186cdfe48900aa":[36,0,995,21],
 "classvisitable.html#a3755702ea4b3eb37b385bcfb375c89a8":[36,0,995,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "classweather__manager.html#a7900f28733571347e2e3ba0266a314dc":[36,0,1016,18],
 "classweather__manager.html#a97154b21975ecffe52266b1a4deea3d7":[36,0,1016,8],
 "classweather__manager.html#ad3ea47132cda00f52a4c589ab1c671ad":[36,0,1016,13],
-"classweather__manager.html#ae21ca8b6895d5b684f224a35590e54a5":[36,0,1016,22],
-"classweather__manager.html#ae3a0fada13f5c0e5d8fbe1a33b0fbc33":[36,0,1016,17],
-"classweather__manager.html#aedfd9ff7feb773f8b3eafdb030ca9739":[36,0,1016,20]
+"classweather__manager.html#ae21ca8b6895d5b684f224a35590e54a5":[36,0,1016,22]
 };
