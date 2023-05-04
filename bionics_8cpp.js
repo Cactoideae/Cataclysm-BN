@@ -109,7 +109,6 @@ var bionics_8cpp =
     [ "itype_burnt_out_bionic", "bionics_8cpp.html#acd1ad649d97f9df1d802a220a97b9b99", null ],
     [ "itype_radiocontrol", "bionics_8cpp.html#af7b870955687e2d237ddb584b60e3862", null ],
     [ "itype_remotevehcontrol", "bionics_8cpp.html#aadc7160f35bdf5f2483615fae780a7d4", null ],
-    [ "itype_UPS", "bionics_8cpp.html#a55a80a9bbab1925d5462d46d355c2b6e", null ],
     [ "itype_UPS_off", "bionics_8cpp.html#ae89306fd36cf36b57fe05dad0db3f71b", null ],
     [ "itype_water_clean", "bionics_8cpp.html#a04c0f30be5943072fbaecacc8a0cf848", null ],
     [ "skill_computer", "bionics_8cpp.html#a55717f512921183ce304b4024c20015c", null ],

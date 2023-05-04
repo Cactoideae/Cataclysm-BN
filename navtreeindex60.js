@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classpanel__manager.html#af881314eadb622f1e032469a3df68b27":[36,0,737,2],
 "classpanel__manager.html#af968f9f61eeca5d31a1b2aa0ea7c42c4":[36,0,737,11],
 "classpick__lock__actor.html":[36,0,743],
 "classpick__lock__actor.html#a1e767aa8f5d6b1ec25c671d84c0b5148":[36,0,743,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classplayer__activity.html#abdf6c56838ec753586dbec644ee0143f":[36,0,758,11],
 "classplayer__activity.html#abecfb3ed21a7ab0d7ac168ae9fc135e1":[36,0,758,7],
 "classplayer__activity.html#aca09f19b9a36866a33a46cf0c8ee484d":[36,0,758,49],
-"classplayer__activity.html#acb34f48d1d26a1fd6081edc929265609":[36,0,758,18],
-"classplayer__activity.html#ad178291b5e3a19aab5cbc56c45d77dcb":[36,0,758,37]
+"classplayer__activity.html#acb34f48d1d26a1fd6081edc929265609":[36,0,758,18]
 };

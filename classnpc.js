@@ -272,6 +272,7 @@ var classnpc =
     [ "base_location", "classnpc.html#acf6304b234b508736e313750b37d6e79", null ],
     [ "cbm_active", "classnpc.html#a361ace69e9465a59e674d275c58a5e4f", null ],
     [ "cbm_fake_active", "classnpc.html#ae7f6f620f1f4919dc643d48e06689129", null ],
+    [ "cbm_fake_toggled", "classnpc.html#a34869d365e8ca98a063e9620a46d970e", null ],
     [ "cbm_toggled", "classnpc.html#a481afff1cc59a4a0cdf7b4e796c2101a", null ],
     [ "chair_pos", "classnpc.html#ac7e0e9bea274ee8c4286a4d3e670688f", null ],
     [ "chatbin", "classnpc.html#a55382df8142ce05c7346c9511fecf2d6", null ],

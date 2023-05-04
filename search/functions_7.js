@@ -1259,7 +1259,7 @@ var searchData=
   ['gun_5fto_5fmodify_1256',['gun_to_modify',['../namespacegame__menus_1_1inv.html#af7d31e1e849ba97bb8b40f1f36b09ed6',1,'game_menus::inv']]],
   ['gun_5ftype_1257',['gun_type',['../classitem.html#ac988f5071585ba014e6f72a485c3f9cf',1,'item']]],
   ['gun_5ftype_5ftype_1258',['gun_type_type',['../classgun__type__type.html#a8c83a85479504aff64a9cfa8aa624ef0',1,'gun_type_type']]],
-  ['gun_5fvalue_1259',['gun_value',['../namespacenpc__ai.html#a5c5459430d6784750802cae43cd87732',1,'npc_ai']]],
+  ['gun_5fvalue_1259',['gun_value',['../namespacenpc__ai.html#a198ce7a4cff534bf1df12f584bff1197',1,'npc_ai']]],
   ['gunmod_5fadd_1260',['gunmod_add',['../namespaceavatar__funcs.html#a33caecf3332887bbdf26598147a39ebc',1,'avatar_funcs']]],
   ['gunmod_5fadd_5ffinish_1261',['gunmod_add_finish',['../namespaceactivity__handlers.html#a4a8d3fa9f0cc7e49b6886eff4a4e59fd',1,'activity_handlers']]],
   ['gunmod_5fattach_1262',['gunmod_attach',['../namespaceiuse.html#aee6388125347281819df5c608e1e2008',1,'iuse']]],
