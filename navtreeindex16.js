@@ -1,5 +1,9 @@
 var NAVTREEINDEX16 =
 {
+"classCreature.html#afb957c944f2a65000030415bf9041280":[36,0,186,48],
+"classCreature.html#afbfbda1c9112c0551c654337b6176915":[36,0,186,202],
+"classCreature.html#afd2f1b1e5bafdef20afddbb704b1d5a5":[36,0,186,260],
+"classCreature.html#afedb5874d4d3438d3c82cb2104ec49fa":[36,0,186,246],
 "classCreature.html#aff08a0fd32630c9d3ea6dd7320048028":[36,0,186,13],
 "classCreature.html#aff1d211fe3b960fc3046db5f3dfcf793":[36,0,186,52],
 "classCreature__tracker.html":[36,0,187],
@@ -245,9 +249,5 @@ var NAVTREEINDEX16 =
 "classJsonArray.html#a513b7a4eb1438938d9806d9446d90803":[36,0,535,33],
 "classJsonArray.html#a51facd97f0831346327c4c515c03d305":[36,0,535,34],
 "classJsonArray.html#a522bdbfb153c52a969b96b6e6a0f269e":[36,0,535,1],
-"classJsonArray.html#a61648ce4a4925d08873cc015b6d3112b":[36,0,535,18],
-"classJsonArray.html#a62646db1d92b58b6a5e629e46f962c01":[36,0,535,46],
-"classJsonArray.html#a67976f3eddb348023e1a77a813b4a7bf":[36,0,535,47],
-"classJsonArray.html#a69fd6411b45c2d465163659c29c7aa8d":[36,0,535,56],
-"classJsonArray.html#a6ad0f7fc5df92268d30e317dd1b38901":[36,0,535,24]
+"classJsonArray.html#a61648ce4a4925d08873cc015b6d3112b":[36,0,535,18]
 };

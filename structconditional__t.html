@@ -838,14 +838,14 @@ template&lt;class T &gt; </div>
 <div class="line"><a id="l00760" name="l00760"></a><span class="lineno">  760</span>        <span class="keywordflow">if</span>( is_npc ) {</div>
 <div class="line"><a id="l00761" name="l00761"></a><span class="lineno">  761</span>            actor = <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="classplayer.html">player</a> *<span class="keyword">&gt;</span>( d.beta );</div>
 <div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span>        }</div>
-<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span>        <span class="keywordflow">return</span> !actor-&gt;<a class="code hl_function" href="classCharacter.html#adb0f054c128c0a8386c44e8d9ef0f108">unarmed_attack</a>() &amp;&amp; actor-&gt;<a class="code hl_function" href="classCharacter.html#a9194d4ec193c9a26488fb7ccde73437c">can_pick_volume</a>( actor-&gt;<a class="code hl_variable" href="classCharacter.html#ae68b7a6565646ba662e448bded8b6599">weapon</a> );</div>
+<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span>        <span class="keywordflow">return</span> !actor-&gt;<a class="code hl_function" href="classCharacter.html#adb0f054c128c0a8386c44e8d9ef0f108">unarmed_attack</a>() &amp;&amp; actor-&gt;<a class="code hl_function" href="classCharacter.html#a9194d4ec193c9a26488fb7ccde73437c">can_pick_volume</a>( actor-&gt;<a class="code hl_function" href="classCharacter.html#a9cec37becf60e594b4978cb8f8c5278b">primary_weapon</a>() );</div>
 <div class="line"><a id="l00764" name="l00764"></a><span class="lineno">  764</span>    };</div>
 <div class="line"><a id="l00765" name="l00765"></a><span class="lineno">  765</span>}</div>
 <div class="ttc" id="aclassCharacter_html_a9194d4ec193c9a26488fb7ccde73437c"><div class="ttname"><a href="classCharacter.html#a9194d4ec193c9a26488fb7ccde73437c">Character::can_pick_volume</a></div><div class="ttdeci">bool can_pick_volume(const item &amp;it) const</div><div class="ttdef"><b>Definition:</b> <a href="character_8cpp_source.html#l02690">character.cpp:2690</a></div></div>
-<div class="ttc" id="aclassCharacter_html_adb0f054c128c0a8386c44e8d9ef0f108"><div class="ttname"><a href="classCharacter.html#adb0f054c128c0a8386c44e8d9ef0f108">Character::unarmed_attack</a></div><div class="ttdeci">bool unarmed_attack() const</div><div class="ttdoc">True if unarmed or wielding a weapon with the UNARMED_WEAPON flag.</div><div class="ttdef"><b>Definition:</b> <a href="melee_8cpp_source.html#l00154">melee.cpp:154</a></div></div>
-<div class="ttc" id="aclassCharacter_html_ae68b7a6565646ba662e448bded8b6599"><div class="ttname"><a href="classCharacter.html#ae68b7a6565646ba662e448bded8b6599">Character::weapon</a></div><div class="ttdeci">item weapon</div><div class="ttdef"><b>Definition:</b> <a href="character_8h_source.html#l01556">character.h:1556</a></div></div>
+<div class="ttc" id="aclassCharacter_html_a9cec37becf60e594b4978cb8f8c5278b"><div class="ttname"><a href="classCharacter.html#a9cec37becf60e594b4978cb8f8c5278b">Character::primary_weapon</a></div><div class="ttdeci">item &amp; primary_weapon()</div><div class="ttdoc">Legacy code hack, don't use.</div><div class="ttdef"><b>Definition:</b> <a href="melee_8cpp_source.html#l00154">melee.cpp:154</a></div></div>
+<div class="ttc" id="aclassCharacter_html_adb0f054c128c0a8386c44e8d9ef0f108"><div class="ttname"><a href="classCharacter.html#adb0f054c128c0a8386c44e8d9ef0f108">Character::unarmed_attack</a></div><div class="ttdeci">bool unarmed_attack() const</div><div class="ttdoc">True if unarmed or wielding a weapon with the UNARMED_WEAPON flag.</div><div class="ttdef"><b>Definition:</b> <a href="melee_8cpp_source.html#l00182">melee.cpp:182</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="character_8cpp_source.html#l02690">Character::can_pick_volume()</a>, <a class="el" href="melee_8cpp_source.html#l00154">Character::unarmed_attack()</a>, and <a class="el" href="character_8h_source.html#l01556">Character::weapon</a>.</p>
+<p class="reference">References <a class="el" href="character_8cpp_source.html#l02690">Character::can_pick_volume()</a>, <a class="el" href="melee_8cpp_source.html#l00154">Character::primary_weapon()</a>, and <a class="el" href="melee_8cpp_source.html#l00182">Character::unarmed_attack()</a>.</p>
 
 </div>
 </div>
@@ -994,11 +994,11 @@ template&lt;class T &gt; </div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    };</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>}</div>
-<div class="ttc" id="aclassCharacter_html_a20839520f569c4f05876a55e89f67361"><div class="ttname"><a href="classCharacter.html#a20839520f569c4f05876a55e89f67361">Character::activity</a></div><div class="ttdeci">player_activity activity</div><div class="ttdef"><b>Definition:</b> <a href="character_8h_source.html#l01551">character.h:1551</a></div></div>
+<div class="ttc" id="aclassCharacter_html_a20839520f569c4f05876a55e89f67361"><div class="ttname"><a href="classCharacter.html#a20839520f569c4f05876a55e89f67361">Character::activity</a></div><div class="ttdeci">player_activity activity</div><div class="ttdef"><b>Definition:</b> <a href="character_8h_source.html#l01570">character.h:1570</a></div></div>
 <div class="ttc" id="aclassCharacter_html_a6186c819cc348b5a060e140b5bab8226"><div class="ttname"><a href="classCharacter.html#a6186c819cc348b5a060e140b5bab8226">Character::has_activity</a></div><div class="ttdeci">bool has_activity(const activity_id &amp;type) const</div><div class="ttdoc">Check if player currently has a given activity.</div><div class="ttdef"><b>Definition:</b> <a href="character_8cpp_source.html#l09196">character.cpp:9196</a></div></div>
 <div class="ttc" id="aclassplayer__activity_html_aac0ed0719997b097dd5d891c77e2b333"><div class="ttname"><a href="classplayer__activity.html#aac0ed0719997b097dd5d891c77e2b333">player_activity::is_null</a></div><div class="ttdeci">bool is_null() const</div><div class="ttdef"><b>Definition:</b> <a href="player__activity_8h_source.html#l00090">player_activity.h:90</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="character_8h_source.html#l01551">Character::activity</a>, <a class="el" href="character_8cpp_source.html#l09196">Character::has_activity()</a>, and <a class="el" href="player__activity_8h_source.html#l00090">player_activity::is_null()</a>.</p>
+<p class="reference">References <a class="el" href="character_8h_source.html#l01570">Character::activity</a>, <a class="el" href="character_8cpp_source.html#l09196">Character::has_activity()</a>, and <a class="el" href="player__activity_8h_source.html#l00090">player_activity::is_null()</a>.</p>
 
 </div>
 </div>
@@ -1158,9 +1158,9 @@ template&lt;class T &gt; </div>
 <div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>}</div>
 <div class="ttc" id="acata__variant_8h_html_adfe42687fffdd05d233096b4e7dac2f4a965ba98fb0eca1e875b86fcf2bc91ab8"><div class="ttname"><a href="cata__variant_8h.html#adfe42687fffdd05d233096b4e7dac2f4a965ba98fb0eca1e875b86fcf2bc91ab8">cata_variant_type::bionic_id</a></div><div class="ttdeci">@ bionic_id</div></div>
 <div class="ttc" id="aclassCharacter_html_a5751b689e5a4ecd43b6de5c3e2d31541"><div class="ttname"><a href="classCharacter.html#a5751b689e5a4ecd43b6de5c3e2d31541">Character::has_bionic</a></div><div class="ttdeci">bool has_bionic(const bionic_id &amp;b) const</div><div class="ttdoc">Returns true if the player has the entered bionic id.</div><div class="ttdef"><b>Definition:</b> <a href="character_8cpp_source.html#l01800">character.cpp:1800</a></div></div>
-<div class="ttc" id="aclassCharacter_html_a8812cc13467389b4c55812f86225bd81"><div class="ttname"><a href="classCharacter.html#a8812cc13467389b4c55812f86225bd81">Character::has_bionics</a></div><div class="ttdeci">bool has_bionics() const</div><div class="ttdoc">Whether character has any bionics installed.</div><div class="ttdef"><b>Definition:</b> <a href="bionics_8cpp_source.html#l02723">bionics.cpp:2723</a></div></div>
+<div class="ttc" id="aclassCharacter_html_a8812cc13467389b4c55812f86225bd81"><div class="ttname"><a href="classCharacter.html#a8812cc13467389b4c55812f86225bd81">Character::has_bionics</a></div><div class="ttdeci">bool has_bionics() const</div><div class="ttdoc">Whether character has any bionics installed.</div><div class="ttdef"><b>Definition:</b> <a href="bionics_8cpp_source.html#l02725">bionics.cpp:2725</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="json_8cpp_source.html#l00382">JsonObject::get_string()</a>, <a class="el" href="character_8cpp_source.html#l01800">Character::has_bionic()</a>, <a class="el" href="bionics_8cpp_source.html#l02723">Character::has_bionics()</a>, and <a class="el" href="mapgen_8cpp_source.html#l00410">mapgen_defer::member</a>.</p>
+<p class="reference">References <a class="el" href="json_8cpp_source.html#l00382">JsonObject::get_string()</a>, <a class="el" href="character_8cpp_source.html#l01800">Character::has_bionic()</a>, <a class="el" href="bionics_8cpp_source.html#l02725">Character::has_bionics()</a>, and <a class="el" href="mapgen_8cpp_source.html#l00410">mapgen_defer::member</a>.</p>
 
 </div>
 </div>
@@ -1364,10 +1364,10 @@ template&lt;class T &gt; </div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    };</div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>}</div>
 <div class="ttc" id="aclassstring__id_html"><div class="ttname"><a href="classstring__id.html">string_id&lt; itype &gt;</a></div></div>
-<div class="ttc" id="aclassvisitable_html_a517e20b6f6c13b8316d5cce8e310b871"><div class="ttname"><a href="classvisitable.html#a517e20b6f6c13b8316d5cce8e310b871">visitable::charges_of</a></div><div class="ttdeci">int charges_of(const itype_id &amp;what, int limit=INT_MAX, const std::function&lt; bool(const item &amp;)&gt; &amp;filter=return_true&lt; item &gt;, std::function&lt; void(int)&gt; visitor=nullptr) const</div><div class="ttdoc">Count maximum available charges from this instance and any contained items.</div><div class="ttdef"><b>Definition:</b> <a href="visitable_8cpp_source.html#l00943">visitable.cpp:943</a></div></div>
-<div class="ttc" id="aclassvisitable_html_ac50bc4422d4636a70a97d41787f22d0d"><div class="ttname"><a href="classvisitable.html#ac50bc4422d4636a70a97d41787f22d0d">visitable::has_amount</a></div><div class="ttdeci">bool has_amount(const itype_id &amp;what, int qty, bool pseudo=true, const std::function&lt; bool(const item &amp;)&gt; &amp;filter=return_true&lt; item &gt;) const</div><div class="ttdoc">Check instance provides at least qty of an item (.</div><div class="ttdef"><b>Definition:</b> <a href="visitable_8cpp_source.html#l01108">visitable.cpp:1108</a></div></div>
+<div class="ttc" id="aclassvisitable_html_a517e20b6f6c13b8316d5cce8e310b871"><div class="ttname"><a href="classvisitable.html#a517e20b6f6c13b8316d5cce8e310b871">visitable::charges_of</a></div><div class="ttdeci">int charges_of(const itype_id &amp;what, int limit=INT_MAX, const std::function&lt; bool(const item &amp;)&gt; &amp;filter=return_true&lt; item &gt;, std::function&lt; void(int)&gt; visitor=nullptr) const</div><div class="ttdoc">Count maximum available charges from this instance and any contained items.</div><div class="ttdef"><b>Definition:</b> <a href="visitable_8cpp_source.html#l00944">visitable.cpp:944</a></div></div>
+<div class="ttc" id="aclassvisitable_html_ac50bc4422d4636a70a97d41787f22d0d"><div class="ttname"><a href="classvisitable.html#ac50bc4422d4636a70a97d41787f22d0d">visitable::has_amount</a></div><div class="ttdeci">bool has_amount(const itype_id &amp;what, int qty, bool pseudo=true, const std::function&lt; bool(const item &amp;)&gt; &amp;filter=return_true&lt; item &gt;) const</div><div class="ttdoc">Check instance provides at least qty of an item (.</div><div class="ttdef"><b>Definition:</b> <a href="visitable_8cpp_source.html#l01109">visitable.cpp:1109</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="visitable_8cpp_source.html#l00943">visitable&lt; T &gt;::charges_of()</a>, <a class="el" href="json_8cpp_source.html#l00382">JsonObject::get_string()</a>, <a class="el" href="visitable_8cpp_source.html#l01108">visitable&lt; T &gt;::has_amount()</a>, and <a class="el" href="mapgen_8cpp_source.html#l00410">mapgen_defer::member</a>.</p>
+<p class="reference">References <a class="el" href="visitable_8cpp_source.html#l00944">visitable&lt; T &gt;::charges_of()</a>, <a class="el" href="json_8cpp_source.html#l00382">JsonObject::get_string()</a>, <a class="el" href="visitable_8cpp_source.html#l01109">visitable&lt; T &gt;::has_amount()</a>, and <a class="el" href="mapgen_8cpp_source.html#l00410">mapgen_defer::member</a>.</p>
 
 </div>
 </div>
@@ -1494,7 +1494,7 @@ template&lt;class T &gt; </div>
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>}</div>
 <div class="ttc" id="aclassCharacter_html_a9bff3208a5e121c4e3a71b81b378e4e7"><div class="ttname"><a href="classCharacter.html#a9bff3208a5e121c4e3a71b81b378e4e7">Character::has_charges</a></div><div class="ttdeci">bool has_charges(const itype_id &amp;it, int quantity, const std::function&lt; bool(const item &amp;)&gt; &amp;filter=return_true&lt; item &gt;) const</div><div class="ttdef"><b>Definition:</b> <a href="character_8cpp_source.html#l09575">character.cpp:9575</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="fmtlib__core_8h_source.html#l01073">detail::count()</a>, <a class="el" href="json_8cpp_source.html#l00350">JsonObject::get_int()</a>, <a class="el" href="json_8cpp_source.html#l00429">JsonObject::get_object()</a>, <a class="el" href="json_8cpp_source.html#l00382">JsonObject::get_string()</a>, <a class="el" href="visitable_8cpp_source.html#l01108">visitable&lt; T &gt;::has_amount()</a>, <a class="el" href="character_8cpp_source.html#l09575">Character::has_charges()</a>, <a class="el" href="json_8h_source.html#l00925">JsonObject::has_int()</a>, <a class="el" href="json_8cpp_source.html#l00473">JsonObject::has_string()</a>, and <a class="el" href="mapgen_8cpp_source.html#l00410">mapgen_defer::member</a>.</p>
+<p class="reference">References <a class="el" href="fmtlib__core_8h_source.html#l01073">detail::count()</a>, <a class="el" href="json_8cpp_source.html#l00350">JsonObject::get_int()</a>, <a class="el" href="json_8cpp_source.html#l00429">JsonObject::get_object()</a>, <a class="el" href="json_8cpp_source.html#l00382">JsonObject::get_string()</a>, <a class="el" href="visitable_8cpp_source.html#l01109">visitable&lt; T &gt;::has_amount()</a>, <a class="el" href="character_8cpp_source.html#l09575">Character::has_charges()</a>, <a class="el" href="json_8h_source.html#l00925">JsonObject::has_int()</a>, <a class="el" href="json_8cpp_source.html#l00473">JsonObject::has_string()</a>, and <a class="el" href="mapgen_8cpp_source.html#l00410">mapgen_defer::member</a>.</p>
 
 </div>
 </div>
@@ -1976,7 +1976,7 @@ template&lt;class T &gt; </div>
 <div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>    };</div>
 <div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="melee_8cpp_source.html#l00154">Character::unarmed_attack()</a>.</p>
+<p class="reference">References <a class="el" href="melee_8cpp_source.html#l00182">Character::unarmed_attack()</a>.</p>
 
 </div>
 </div>
@@ -2107,9 +2107,9 @@ template&lt;class T &gt; </div>
 <div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span>        <span class="keywordflow">return</span> actor-&gt;<a class="code hl_variable" href="classCharacter.html#a8e6a78e6c4497a9aa7b8cc127dcdd4e3">male</a> == is_male;</div>
 <div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>    };</div>
 <div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>}</div>
-<div class="ttc" id="aclassCharacter_html_a8e6a78e6c4497a9aa7b8cc127dcdd4e3"><div class="ttname"><a href="classCharacter.html#a8e6a78e6c4497a9aa7b8cc127dcdd4e3">Character::male</a></div><div class="ttdeci">bool male</div><div class="ttdef"><b>Definition:</b> <a href="character_8h_source.html#l01540">character.h:1540</a></div></div>
+<div class="ttc" id="aclassCharacter_html_a8e6a78e6c4497a9aa7b8cc127dcdd4e3"><div class="ttname"><a href="classCharacter.html#a8e6a78e6c4497a9aa7b8cc127dcdd4e3">Character::male</a></div><div class="ttdeci">bool male</div><div class="ttdef"><b>Definition:</b> <a href="character_8h_source.html#l01559">character.h:1559</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="character_8h_source.html#l01540">Character::male</a>.</p>
+<p class="reference">References <a class="el" href="character_8h_source.html#l01559">Character::male</a>.</p>
 
 </div>
 </div>
@@ -3165,7 +3165,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structconditional__t.html">conditional_t</a></li>
-    <li class="footer">Generated on Sun May 7 2023 20:37:53 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Mon May 8 2023 10:26:56 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX154 =
 {
+"structnpc__follower__rules.html#ad18222c3175298f3468ec4805775a374":[36,0,691,22],
+"structnpc__follower__rules.html#ad7640dd1f35a94964cb6bb5cc97a9f3b":[36,0,691,8],
+"structnpc__follower__rules.html#ada7e2b4584005bd57b2f2a54c8adf7dd":[36,0,691,13],
+"structnpc__follower__rules.html#aec3d578e145e0c7c6aaf2712ff638f1a":[36,0,691,1],
 "structnpc__follower__rules.html#af611f5a5762fd4e173e69363a4471f2a":[36,0,691,5],
 "structnpc__follower__rules.html#af7f57605c02d48aba09224adee9d260f":[36,0,691,19],
 "structnpc__follower__rules.html#af929f56ad23d6e4e653359fd31425f5e":[36,0,691,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX154 =
 "structovermap__path__params.html#ac4b50c309e633843829bcd87fe329ba1":[36,0,723,11],
 "structovermap__path__params.html#acde7ad344516e6dab5f4dd77285ae00e":[36,0,723,1],
 "structovermap__path__params.html#ad02eca66fb33d82206fb27c84e27d8e9":[36,0,723,16],
-"structovermap__path__params.html#ae464972ab88e3cea2c42cebece7201b6":[36,0,723,9],
-"structovermap__spawns.html":[36,0,724],
-"structovermap__spawns.html#a0b2590ae8a3567d99269d8c9c59c6b6f":[36,0,724,4],
-"structovermap__spawns.html#a36fb092d5d0d490ae20856e31025fb93":[36,0,724,0],
-"structovermap__spawns.html#a5abd858fc156a6d05bb4ad817b9c342b":[36,0,724,3]
+"structovermap__path__params.html#ae464972ab88e3cea2c42cebece7201b6":[36,0,723,9]
 };
