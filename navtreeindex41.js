@@ -1,6 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"classgame.html#ae5015fec90944fd63ff84c41b6f136bd":[36,0,375,208],
 "classgame.html#ae5325e076757766d76a4624a52a7c5bc":[36,0,375,52],
 "classgame.html#ae5f6346d3ecd3367a6e8a1196be83376":[36,0,375,348],
 "classgame.html#ae6dff56415b5a6a59434f437ff1c0dfe":[36,0,375,122],
@@ -249,5 +248,6 @@ var NAVTREEINDEX41 =
 "classhacking__activity__actor.html#af5676b0fb5f0a4aed0b529d2e8576249":[36,0,389,8],
 "classharvest__list.html":[36,0,393],
 "classharvest__list.html#a01e8fea7c733fee9641f63079343fded":[36,0,393,22],
-"classharvest__list.html#a03da1cf9688a8925ee83c4d3e6e287ff":[36,0,393,16]
+"classharvest__list.html#a03da1cf9688a8925ee83c4d3e6e287ff":[36,0,393,16],
+"classharvest__list.html#a092b5fbd75286999a487c7c247b5bb0f":[36,0,393,12]
 };

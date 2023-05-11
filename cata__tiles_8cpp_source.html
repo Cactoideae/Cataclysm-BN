@@ -1291,7 +1291,7 @@ $(document).ready(function(){initNavTree('cata__tiles_8cpp_source.html',''); ini
 <div class="line"><a id="l01202" name="l01202"></a><span class="lineno"> 1202</span> </div>
 <div class="line"><a id="l01203" name="l01203"></a><span class="lineno"> 1203</span>    <span class="comment">//retrieve night vision goggle status once per draw</span></div>
 <div class="line"><a id="l01204" name="l01204"></a><span class="lineno"> 1204</span>    <span class="keyword">auto</span> vision_cache = <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u.get_vision_modes();</div>
-<div class="line"><a id="l01205" name="l01205"></a><span class="lineno"> 1205</span>    <a class="code hl_variable" href="classcata__tiles.html#abaa4bbb7b90014344f69332d5e6504fa">nv_goggles_activated</a> = vision_cache[<a class="code hl_enumvalue" href="character_8h.html#ad87be595004034c31843cf782d41c0b5acd90043f9adf49fd333cd2109af3f2f5">NV_GOGGLES</a>];</div>
+<div class="line"><a id="l01205" name="l01205"></a><span class="lineno"> 1205</span>    <a class="code hl_variable" href="classcata__tiles.html#abaa4bbb7b90014344f69332d5e6504fa">nv_goggles_activated</a> = vision_cache[<a class="code hl_enumvalue" href="character_8h.html#ad87be595004034c31843cf782d41c0b5a3237fa835c78d6e2b82d10446c76532d">NV_GOGGLES</a>];</div>
 <div class="line"><a id="l01206" name="l01206"></a><span class="lineno"> 1206</span> </div>
 <div class="line"><a id="l01207" name="l01207"></a><span class="lineno"> 1207</span>    <span class="comment">// check that the creature for which we&#39;ll draw the visibility map is still alive at that point</span></div>
 <div class="line"><a id="l01208" name="l01208"></a><span class="lineno"> 1208</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;display_overlay_state( <a class="code hl_enumvalue" href="action_8h.html#a14769f0512c139a614db195c6477c667acf112c2ce5f44400e21524b61bb5b107">ACTION_DISPLAY_VISIBILITY</a> ) &amp;&amp; <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;displaying_visibility_creature ) {</div>
@@ -4160,7 +4160,7 @@ $(document).ready(function(){initNavTree('cata__tiles_8cpp_source.html',''); ini
 <div class="ttc" id="acatacharset_8h_html"><div class="ttname"><a href="catacharset_8h.html">catacharset.h</a></div></div>
 <div class="ttc" id="acatacharset_8h_html_a87e4d06df10657ae54780a7b95378480"><div class="ttname"><a href="catacharset_8h.html#a87e4d06df10657ae54780a7b95378480">UNKNOWN_UNICODE</a></div><div class="ttdeci">#define UNKNOWN_UNICODE</div><div class="ttdef"><b>Definition:</b> <a href="catacharset_8h_source.html#l00013">catacharset.h:13</a></div></div>
 <div class="ttc" id="acharacter_8h_html"><div class="ttname"><a href="character_8h.html">character.h</a></div></div>
-<div class="ttc" id="acharacter_8h_html_ad87be595004034c31843cf782d41c0b5acd90043f9adf49fd333cd2109af3f2f5"><div class="ttname"><a href="character_8h.html#ad87be595004034c31843cf782d41c0b5acd90043f9adf49fd333cd2109af3f2f5">NV_GOGGLES</a></div><div class="ttdeci">@ NV_GOGGLES</div><div class="ttdef"><b>Definition:</b> <a href="character_8h_source.html#l00088">character.h:88</a></div></div>
+<div class="ttc" id="acharacter_8h_html_ad87be595004034c31843cf782d41c0b5a3237fa835c78d6e2b82d10446c76532d"><div class="ttname"><a href="character_8h.html#ad87be595004034c31843cf782d41c0b5a3237fa835c78d6e2b82d10446c76532d">vision_modes::NV_GOGGLES</a></div><div class="ttdeci">@ NV_GOGGLES</div></div>
 <div class="ttc" id="acharacter__id_8h_html"><div class="ttname"><a href="character__id_8h.html">character_id.h</a></div></div>
 <div class="ttc" id="aclassCharacter_html"><div class="ttname"><a href="classCharacter.html">Character</a></div><div class="ttdef"><b>Definition:</b> <a href="character_8h_source.html#l00225">character.h:226</a></div></div>
 <div class="ttc" id="aclassCharacter_html_a69e8c31ee828c335c4fdaa4f0daac7a7"><div class="ttname"><a href="classCharacter.html#a69e8c31ee828c335c4fdaa4f0daac7a7">Character::get_overlay_ids</a></div><div class="ttdeci">std::vector&lt; std::string &gt; get_overlay_ids() const</div><div class="ttdoc">Returns a list of the IDs of overlays on this character, sorted from &quot;lowest&quot; to &quot;highest&quot;.</div><div class="ttdef"><b>Definition:</b> <a href="character_8cpp_source.html#l03267">character.cpp:3267</a></div></div>
@@ -4831,7 +4831,7 @@ $(document).ready(function(){initNavTree('cata__tiles_8cpp_source.html',''); ini
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="cata__tiles_8cpp.html">cata_tiles.cpp</a></li>
-    <li class="footer">Generated on Thu May 11 2023 04:46:15 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu May 11 2023 04:50:02 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

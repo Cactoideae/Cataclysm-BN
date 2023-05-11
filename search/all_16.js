@@ -274,7 +274,7 @@ var searchData=
   ['urgent_271',['urgent',['../structmission__type.html#a938be92bf77efbfa45d9c569d62e5842',1,'mission_type']]],
   ['url_5futility_2ecpp_272',['url_utility.cpp',['../url__utility_8cpp.html',1,'']]],
   ['url_5futility_2eh_273',['url_utility.h',['../url__utility_8h.html',1,'']]],
-  ['ursine_5fvision_274',['URSINE_VISION',['../character_8h.html#ad87be595004034c31843cf782d41c0b5a582ec79b4a071ed1e03262170e9d3300',1,'character.h']]],
+  ['ursine_5fvision_274',['URSINE_VISION',['../character_8h.html#ad87be595004034c31843cf782d41c0b5a3b8adf803574d977ffdb2bd274433ea7',1,'character.h']]],
   ['usable_275',['usable',['../structislot__gunmod.html#a26912068d3e61f67c23ed9fa4a59b18a',1,'islot_gunmod']]],
   ['usage_276',['usage',['../craft__command_8h.html#a5684f219761d78b4f98e7b2869dd1726',1,'craft_command.h']]],
   ['usage_5fflag_277',['usage_flag',['../namespaceName.html#a23547f568d0b56f1c8864ca9e138db99',1,'Name']]],
