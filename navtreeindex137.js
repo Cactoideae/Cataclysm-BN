@@ -1,7 +1,5 @@
 var NAVTREEINDEX137 =
 {
-"structbionic__data.html#a6fd3ecf7bcc95e8bb5363fae0b712c31":[36,0,112,11],
-"structbionic__data.html#a766feddba8a47ff5b9fc95d9dded831a":[36,0,112,27],
 "structbionic__data.html#a7fbd91c61e6ffee8d81d2001e4558398":[36,0,112,46],
 "structbionic__data.html#a8138c18ab3e2346f1404295246389393":[36,0,112,31],
 "structbionic__data.html#a842a1345ca93d72c33b5d63cb416f827":[36,0,112,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX137 =
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1crosses__mycus__threshold_01_4.html":[35,0,73,0,23],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1crosses__mycus__threshold_01_4.html":[36,0,14,0,23],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1dermatik__eggs__hatch_01_4.html":[35,0,73,0,24],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1dermatik__eggs__hatch_01_4.html":[36,0,14,0,24]
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1dermatik__eggs__hatch_01_4.html":[36,0,14,0,24],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1dermatik__eggs__injected_01_4.html":[35,0,73,0,25],
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1dermatik__eggs__injected_01_4.html":[36,0,14,0,25]
 };

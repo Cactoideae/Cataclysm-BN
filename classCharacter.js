@@ -790,8 +790,6 @@ var classCharacter =
     [ "last_climate_control_ret", "classCharacter.html#a01f7c1192555be1ab5da42eac485989c", null ],
     [ "last_item", "classCharacter.html#a1819679d2d4e9f8ba5d62ae26737f34c", null ],
     [ "last_sleep_check", "classCharacter.html#a5315b433514914a1e7e08939dde1e58a", null ],
-    [ "last_target", "classCharacter.html#a15520bb61b6da84f9bd753fa43dcbabc", null ],
-    [ "last_target_pos", "classCharacter.html#a6b1320339a403e092d041e141e62e6ba", null ],
     [ "learned_recipes", "classCharacter.html#a08e837f7a509fac43e564514bb6d4009", null ],
     [ "magic", "classCharacter.html#af2ff32cce5f17bcf04be958121abe524", null ],
     [ "male", "classCharacter.html#a8e6a78e6c4497a9aa7b8cc127dcdd4e3", null ],

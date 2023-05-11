@@ -1,7 +1,5 @@
 var NAVTREEINDEX141 =
 {
-"structconsumption__event.html#aae31d9467bd78265b298659dc808b612":[36,0,179,1],
-"structconsumption__event.html#ae8ccb6bd97c295530db359ef8a9cf19e":[36,0,179,6],
 "structconsumption__event.html#af25f2a22ce1b57d634dfdab388d08f5d":[36,0,179,0],
 "structconsumption__history__t.html":[36,0,180],
 "structconsumption__history__t.html#a65c07184bcd050eb95d33ab31b44b37e":[36,0,180,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX141 =
 "structdetail_1_1arg__formatter__base_1_1char__spec__handler.html#a5fc690c3b2b764042644d6d18ee2dc99":[35,0,96,7,0,4],
 "structdetail_1_1arg__formatter__base_1_1char__spec__handler.html#a5fc690c3b2b764042644d6d18ee2dc99":[36,0,21,6,0,4],
 "structdetail_1_1arg__formatter__base_1_1char__spec__handler.html#a6b76cbfa3dc6674c085191fe2f6a965e":[36,0,21,6,0,3],
-"structdetail_1_1arg__formatter__base_1_1char__spec__handler.html#a6b76cbfa3dc6674c085191fe2f6a965e":[35,0,96,7,0,3]
+"structdetail_1_1arg__formatter__base_1_1char__spec__handler.html#a6b76cbfa3dc6674c085191fe2f6a965e":[35,0,96,7,0,3],
+"structdetail_1_1arg__formatter__base_1_1char__spec__handler.html#a8f188a2895d3f35a0512aff10621a9d6":[35,0,96,7,0,0],
+"structdetail_1_1arg__formatter__base_1_1char__spec__handler.html#a8f188a2895d3f35a0512aff10621a9d6":[36,0,21,6,0,0]
 };

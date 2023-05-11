@@ -1,7 +1,5 @@
 var NAVTREEINDEX145 =
 {
-"structdiary__page.html#a5cc37c1f40f91f1842b9b60dd57f76b5":[36,0,214,4],
-"structdiary__page.html#a5d054f340835490c5243fa62addffb4e":[36,0,214,8],
 "structdiary__page.html#a63ca9723270bc3628a401e3b629ec304":[36,0,214,7],
 "structdiary__page.html#a72dc8545b196b6f00ddb5cec974eb735":[36,0,214,15],
 "structdiary__page.html#a75918244b5570a92f5a13deca32bb360":[36,0,214,16],
@@ -249,5 +247,7 @@ var NAVTREEINDEX145 =
 "structenum__traits_3_01usage_01_4.html":[36,0,303],
 "structenum__traits_3_01usage_01_4.html#a99f978e8b01b36d4452c2c0e18e01556":[36,0,303,0],
 "structenum__traits_3_01valid__target_01_4.html":[36,0,304],
-"structenum__traits_3_01valid__target_01_4.html#ae57f494b751b5d462616be048c06d06c":[36,0,304,0]
+"structenum__traits_3_01valid__target_01_4.html#ae57f494b751b5d462616be048c06d06c":[36,0,304,0],
+"structenum__traits_3_01vitamin__type_01_4.html":[36,0,305],
+"structenum__traits_3_01vitamin__type_01_4.html#ad44ce8c2b5713f1b4e6a0f3f526d92a6":[36,0,305,0]
 };
