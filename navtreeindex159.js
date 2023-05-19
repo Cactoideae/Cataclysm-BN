@@ -1,5 +1,6 @@
 var NAVTREEINDEX159 =
 {
+"structtalk__effect__t.html#a2a8d6087601850a4feddae73c5bb7b70":[36,0,907,12],
 "structtalk__effect__t.html#a39aff730944a50c8d104f40b05751e2b":[36,0,907,6],
 "structtalk__effect__t.html#a52fa0697f1c378cdea64c440e735e16d":[36,0,907,14],
 "structtalk__effect__t.html#a5417a6ff10da384635b7b8def79ac0b9":[36,0,907,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX159 =
 "structui__adaptor_1_1debug__message__ui.html":[36,0,958,0],
 "structui__adaptor_1_1disable__uis__below.html":[36,0,958,1],
 "structuilist_1_1pos__scalar_1_1auto__assign.html":[36,0,959,0,0],
-"structuilist_1_1size__scalar_1_1auto__assign.html":[36,0,959,1,0],
-"structuilist__entry.html":[36,0,961]
+"structuilist_1_1size__scalar_1_1auto__assign.html":[36,0,959,1,0]
 };

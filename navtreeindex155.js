@@ -1,5 +1,6 @@
 var NAVTREEINDEX155 =
 {
+"structovermap__path__params.html#ae464972ab88e3cea2c42cebece7201b6":[36,0,723,9],
 "structovermap__spawns.html":[36,0,724],
 "structovermap__spawns.html#a0b2590ae8a3567d99269d8c9c59c6b6f":[36,0,724,4],
 "structovermap__spawns.html#a36fb092d5d0d490ae20856e31025fb93":[36,0,724,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX155 =
 "structpixel__minimap__settings.html#a472f00bcc7b59d32b42331c17db6329b":[36,0,752,3],
 "structpixel__minimap__settings.html#a97fbfd571c802c8828693390e3305b18":[36,0,752,0],
 "structpixel__minimap__settings.html#ad4bb822f7824630cd19dd92c95c559be":[36,0,752,1],
-"structpixel__minimap__settings.html#af820244d601ab274db059fbf365af3d9":[36,0,752,4],
-"structplace__trap__actor_1_1data.html":[36,0,755,0]
+"structpixel__minimap__settings.html#af820244d601ab274db059fbf365af3d9":[36,0,752,4]
 };

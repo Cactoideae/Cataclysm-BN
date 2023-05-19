@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['r_0',['r',['../structdisass__prompt__result.html#a5d3dfc334696743c14bc7adcbb4e3f19',1,'disass_prompt_result']]],
-  ['r_1',['R',['../classtileset__loader.html#a2489c18e56fa2888d1b1dc047382f622',1,'tileset_loader']]],
+  ['r_0',['R',['../classtileset__loader.html#a2489c18e56fa2888d1b1dc047382f622',1,'tileset_loader']]],
+  ['r_1',['r',['../structdisass__prompt__result.html#a5d3dfc334696743c14bc7adcbb4e3f19',1,'disass_prompt_result']]],
   ['racing_5fterrain_5fmod_2',['racing_terrain_mod',['../veh__type_8cpp.html#aa393039637b7050f24b707107fe6b1f3',1,'veh_type.cpp']]],
   ['rad_3',['rad',['../relic_8h.html#a4beeee7f54b2b6d8a7f559714d979139a340f7c2dcaedeae68e4a62c281c7350b',1,'rad():&#160;relic.h'],['../structmaptile__soa.html#a69034b688361c90fa77b04e9707f9597',1,'maptile_soa::rad()']]],
   ['rad_5fbadge_5fcolor_4',['rad_badge_color',['../item_8h.html#a38423160898700c390ca36810499c8be',1,'rad_badge_color(int rad):&#160;item.cpp'],['../item_8cpp.html#ae169987d464a24207dd3cb77921c329a',1,'rad_badge_color(const int rad):&#160;item.cpp']]],
@@ -376,8 +376,8 @@ var searchData=
   ['relic_5frecharge_373',['relic_recharge',['../classrelic__recharge.html',1,'']]],
   ['relic_5frecharge_5freq_374',['relic_recharge_req',['../relic_8h.html#a4beeee7f54b2b6d8a7f559714d979139',1,'relic.h']]],
   ['relic_5frecharge_5ftype_375',['relic_recharge_type',['../relic_8h.html#a37cd9dd49ee6b62891ec331828640ddc',1,'relic.h']]],
-  ['reload_376',['Reload',['../classtarget__ui.html#aa98e28471bb023e99404674ad6331ad6a4d1c8263ba1036754f8db14a98f9f006',1,'target_ui']]],
-  ['reload_377',['reload',['../classitem.html#af964cdb27cc2d5a69fa8ffd48d1c8b23',1,'item::reload()'],['../namespaceavatar__action.html#a03cf09d521b2df8ec4e14523b73804b4',1,'avatar_action::reload()'],['../classbandolier__actor.html#a15676310b4cd73ec01ec19ff27e3a84f',1,'bandolier_actor::reload()']]],
+  ['reload_376',['reload',['../classitem.html#af964cdb27cc2d5a69fa8ffd48d1c8b23',1,'item::reload()'],['../classbandolier__actor.html#a15676310b4cd73ec01ec19ff27e3a84f',1,'bandolier_actor::reload()'],['../namespaceavatar__action.html#a03cf09d521b2df8ec4e14523b73804b4',1,'avatar_action::reload()']]],
+  ['reload_377',['Reload',['../classtarget__ui.html#aa98e28471bb023e99404674ad6331ad6a4d1c8263ba1036754f8db14a98f9f006',1,'target_ui']]],
   ['reload_5fcatalogues_378',['reload_catalogues',['../namespacel10n__data.html#a89fefa27042cc9ebe1bb0cdeab0a020c',1,'l10n_data']]],
   ['reload_5fcost_5ftext_379',['reload_cost_text',['../character__display_8cpp.html#a5b1ff96040dd0a315fe6bfbcb572538f',1,'character_display.cpp']]],
   ['reload_5ffinish_380',['reload_finish',['../namespaceactivity__handlers.html#a6732cf8984badc76d0bd11ac5ae583d4',1,'activity_handlers']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX160 =
 {
+"structuilist__entry.html":[36,0,961],
 "structuilist__entry.html#a0aaad21c27babe7480c04d8fc27aee73":[36,0,961,8],
 "structuilist__entry.html#a0edfd4db5df099465b333b398fa22a47":[36,0,961,5],
 "structuilist__entry.html#a2656a0d0dc45ca5bfc3005beb11fec21":[36,0,961,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX160 =
 "structw__map.html#afe524d3fb3965a5e3b7ce2519787fb7b":[36,0,1005,2],
 "structw__point.html":[36,0,1006],
 "structw__point.html#a142a166349f910f8903f84698f0dc565":[36,0,1006,0],
-"structw__point.html#a3002b10d38744db5d25fa1011e28e09e":[36,0,1006,3],
-"structw__point.html#a4af89c0235da5a6b4e9e1b86f2485d6f":[36,0,1006,6]
+"structw__point.html#a3002b10d38744db5d25fa1011e28e09e":[36,0,1006,3]
 };

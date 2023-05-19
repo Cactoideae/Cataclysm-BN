@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"functions_type_f.html":[36,3,3,6],
 "functions_type_g.html":[36,3,3,7],
 "functions_type_h.html":[36,3,3,8],
 "functions_type_i.html":[36,3,3,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "game__constants_8h.html#a48b9330c21bc6a0b8f99d7a3414cfe9f":[37,0,1,240,62],
 "game__constants_8h.html#a4953ed0c08a7703148272111eb4dd01b":[37,0,1,240,50],
 "game__constants_8h.html#a4cfa35de359af17f7bc6c2a424339eb5":[37,0,1,240,66],
-"game__constants_8h.html#a5a06390523dece882dfcd256d94aaa76":[37,0,1,240,49],
-"game__constants_8h.html#a5b20c03d64052c70188dad8a659eb8d0":[37,0,1,240,71]
+"game__constants_8h.html#a5a06390523dece882dfcd256d94aaa76":[37,0,1,240,49]
 };
