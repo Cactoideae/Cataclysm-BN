@@ -1171,14 +1171,14 @@ Private Attributes</h2></td></tr>
 <div class="line"><a id="l01502" name="l01502"></a><span class="lineno"> 1502</span>    <span class="comment">// Store the monster using coordinates local to the overmap.</span></div>
 <div class="line"><a id="l01503" name="l01503"></a><span class="lineno"> 1503</span>    <a class="code hl_variable" href="namespacecoords.html#ab3261fe84f776b15113e1cec5fe3a560">om</a>.monster_map-&gt;insert( std::make_pair( <a class="code hl_variable" href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">sm</a>, critter ) );</div>
 <div class="line"><a id="l01504" name="l01504"></a><span class="lineno"> 1504</span>}</div>
-<div class="ttc" id="aclassmonster_html_a55d95177d49525c0da7649f135a6306d"><div class="ttname"><a href="classmonster.html#a55d95177d49525c0da7649f135a6306d">monster::pos</a></div><div class="ttdeci">const tripoint &amp; pos() const override</div><div class="ttdef"><b>Definition:</b> <a href="monster_8cpp_source.html#l00256">monster.cpp:256</a></div></div>
+<div class="ttc" id="aclassmonster_html_a55d95177d49525c0da7649f135a6306d"><div class="ttname"><a href="classmonster.html#a55d95177d49525c0da7649f135a6306d">monster::pos</a></div><div class="ttdeci">const tripoint &amp; pos() const override</div><div class="ttdef"><b>Definition:</b> <a href="monster_8cpp_source.html#l00249">monster.cpp:249</a></div></div>
 <div class="ttc" id="aclassovermapbuffer_html_a14b04aaa75e9d6e106d888dc24fbefc1"><div class="ttname"><a href="classovermapbuffer.html#a14b04aaa75e9d6e106d888dc24fbefc1">overmapbuffer::get</a></div><div class="ttdeci">overmap &amp; get(const point_abs_om &amp;)</div><div class="ttdoc">Uses overmap coordinates, that means x and y are directly compared with the position of the overmap.</div><div class="ttdef"><b>Definition:</b> <a href="overmapbuffer_8cpp_source.html#l00083">overmapbuffer.cpp:83</a></div></div>
 <div class="ttc" id="acoordinate__conversions_8cpp_html_a037672d14e64edf9e2908f5d1e13b31e"><div class="ttname"><a href="coordinate__conversions_8cpp.html#a037672d14e64edf9e2908f5d1e13b31e">ms_to_sm_copy</a></div><div class="ttdeci">point ms_to_sm_copy(point p)</div><div class="ttdef"><b>Definition:</b> <a href="coordinate__conversions_8cpp_source.html#l00125">coordinate_conversions.cpp:125</a></div></div>
 <div class="ttc" id="amap_8cpp_html_acb0b34be6e497bdd2f9f40ae6929d562"><div class="ttname"><a href="map_8cpp.html#acb0b34be6e497bdd2f9f40ae6929d562">get_map</a></div><div class="ttdeci">map &amp; get_map()</div><div class="ttdef"><b>Definition:</b> <a href="map_8cpp_source.html#l00147">map.cpp:147</a></div></div>
 <div class="ttc" id="anamespacecoords_html_a7457d0a4e8c8e6407a2c0ee89d275962"><div class="ttname"><a href="namespacecoords.html#a7457d0a4e8c8e6407a2c0ee89d275962">coords::sm</a></div><div class="ttdeci">constexpr scale sm</div><div class="ttdef"><b>Definition:</b> <a href="coordinates_8h_source.html#l00031">coordinates.h:31</a></div></div>
 <div class="ttc" id="anamespacecoords_html_ab3261fe84f776b15113e1cec5fe3a560"><div class="ttname"><a href="namespacecoords.html#ab3261fe84f776b15113e1cec5fe3a560">coords::om</a></div><div class="ttdeci">constexpr scale om</div><div class="ttdef"><b>Definition:</b> <a href="coordinates_8h_source.html#l00034">coordinates.h:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="overmapbuffer_8cpp_source.html#l00083">get()</a>, <a class="el" href="map_8cpp_source.html#l00147">get_map()</a>, <a class="el" href="coordinate__conversions_8cpp_source.html#l00125">ms_to_sm_copy()</a>, <a class="el" href="coordinates_8h_source.html#l00034">coords::om</a>, <a class="el" href="monster_8cpp_source.html#l00256">monster::pos()</a>, and <a class="el" href="coordinates_8h_source.html#l00031">coords::sm</a>.</p>
+<p class="reference">References <a class="el" href="overmapbuffer_8cpp_source.html#l00083">get()</a>, <a class="el" href="map_8cpp_source.html#l00147">get_map()</a>, <a class="el" href="coordinate__conversions_8cpp_source.html#l00125">ms_to_sm_copy()</a>, <a class="el" href="coordinates_8h_source.html#l00034">coords::om</a>, <a class="el" href="monster_8cpp_source.html#l00249">monster::pos()</a>, and <a class="el" href="coordinates_8h_source.html#l00031">coords::sm</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="game_8cpp_source.html#l11002">game::despawn_monster()</a>.</p>
 
@@ -3373,7 +3373,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="mongroup_8cpp_source.html#l00049">mongroup::empty()</a>, <a class="el" href="overmapbuffer_8cpp_source.html#l00083">get()</a>, <a class="el" href="overmapbuffer_8cpp_source.html#l00289">has()</a>, <a class="el" href="coordinates_8h_source.html#l00034">coords::om</a>, <a class="el" href="coordinates_8h_source.html#l00130">coords::coord_point&lt; Point, Origin, Scale &gt;::xy()</a>, and <a class="el" href="coordinates_8h_source.html#l00133">coords::coord_point&lt; Point, Origin, Scale &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="monster_8cpp_source.html#l02276">monster::die()</a>, <a class="el" href="overmapbuffer_8cpp_source.html#l00508">monsters_at()</a>, and <a class="el" href="map_8cpp_source.html#l07762">map::spawn_monsters_submap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monster_8cpp_source.html#l02269">monster::die()</a>, <a class="el" href="overmapbuffer_8cpp_source.html#l00508">monsters_at()</a>, and <a class="el" href="map_8cpp_source.html#l07762">map::spawn_monsters_submap()</a>.</p>
 
 </div>
 </div>
@@ -5412,7 +5412,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classovermapbuffer.html">overmapbuffer</a></li>
-    <li class="footer">Generated on Fri May 19 2023 12:17:21 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Fri May 19 2023 12:20:47 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
