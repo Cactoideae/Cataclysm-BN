@@ -1,7 +1,12 @@
 var NAVTREEINDEX140 =
 {
-"structcharacter__funcs_1_1comfort__response__t.html#a884dc3843bf221f63b408da4d979cf23":[35,0,84,0,0],
+"structchar__trait__data.html#a5b531c4f590b8e35b4ada86c84f70eb2":[36,0,143,1],
+"structchar__trait__data.html#a813c6dd85c425b7ec1e86b0a897a2f21":[36,0,143,2],
+"structchar__trait__data.html#add5d63768920df50958e8051b10e26b1":[36,0,143,3],
+"structcharacter__funcs_1_1comfort__response__t.html":[36,0,18,0],
+"structcharacter__funcs_1_1comfort__response__t.html":[35,0,84,0],
 "structcharacter__funcs_1_1comfort__response__t.html#a884dc3843bf221f63b408da4d979cf23":[36,0,18,0,0],
+"structcharacter__funcs_1_1comfort__response__t.html#a884dc3843bf221f63b408da4d979cf23":[35,0,84,0,0],
 "structcharacter__funcs_1_1comfort__response__t.html#af678f41d1dfcd14b9504c107a946ff14":[35,0,84,0,1],
 "structcharacter__funcs_1_1comfort__response__t.html#af678f41d1dfcd14b9504c107a946ff14":[36,0,18,0,1],
 "structcity.html":[36,0,149],
@@ -244,10 +249,5 @@ var NAVTREEINDEX140 =
 "structconstruction__sequence.html#a23d723565beef02778b2fb917b28500f":[36,0,177,4],
 "structconstruction__sequence.html#a6e4ce5e0d3e03d61fe0f84696afcdd04":[36,0,177,3],
 "structconstruction__sequence.html#aa628eb19c9110cedf6c3e519f195db5a":[36,0,177,6],
-"structconstruction__sequence.html#acc0c82b188c1bd6a10891ac5e5f16690":[36,0,177,5],
-"structconstruction__sequence.html#adcf472c5b94a0ce74f2725b53d118fce":[36,0,177,2],
-"structconsumption__event.html":[36,0,179],
-"structconsumption__event.html#a14550f96f563a9649b3f785317e652ba":[36,0,179,5],
-"structconsumption__event.html#a27011e98cd23d548c64566b0484fc2a9":[36,0,179,3],
-"structconsumption__event.html#a8bd22e7e99c473ff0bc630bf92846aab":[36,0,179,4]
+"structconstruction__sequence.html#acc0c82b188c1bd6a10891ac5e5f16690":[36,0,177,5]
 };

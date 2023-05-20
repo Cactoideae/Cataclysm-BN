@@ -1290,11 +1290,12 @@ var namespaces_dup =
       [ "random_good_trait", "namespacenewcharacter.html#af26bc6eecdfca795bacbc3ac398f4578", null ]
     ] ],
     [ "npc_ai", "namespacenpc__ai.html", [
+      [ "best_mode_for_range", "namespacenpc__ai.html#a0e953b9c8d447ec25fc27c06a6e3d55c", null ],
       [ "gun_value", "namespacenpc__ai.html#a198ce7a4cff534bf1df12f584bff1197", null ],
       [ "melee_value", "namespacenpc__ai.html#a15c5ded877137a648d04762228055b66", null ],
       [ "unarmed_value", "namespacenpc__ai.html#a64daf871b45496787e445f932f4381d3", null ],
       [ "weapon_value", "namespacenpc__ai.html#a6fa541a904a63a5b95b20ce9000254d8", null ],
-      [ "wielded_value", "namespacenpc__ai.html#a9faf14aeb5366ab3ab7efb40e267907d", null ]
+      [ "wielded_value", "namespacenpc__ai.html#a03081587a4844207a7386844f8a31cd5", null ]
     ] ],
     [ "npc_factions", "namespacenpc__factions.html", [
       [ "relationship", "namespacenpc__factions.html#af09ec48d0dc133795062d1424c486686", [

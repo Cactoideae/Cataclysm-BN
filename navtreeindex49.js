@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"classjob__data.html#aca3077a1f027955aadf8c2139c278e04":[36,0,527,0],
 "classjson__dynamic__line__effect.html":[36,0,528],
 "classjson__dynamic__line__effect.html#a110d936cc5c8f49edb74f12b2a654564":[36,0,528,0],
 "classjson__dynamic__line__effect.html#a17f3120314d73db5bc4033ad817315cc":[36,0,528,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "classma__buff.html#ab7a39e81bd9b2d5aa0a6c5084ac5b654":[36,0,571,3],
 "classma__buff.html#ab86825637b6f6e130b46249dfa8d1072":[36,0,571,23],
 "classma__buff.html#abe2ee31444b5b86b1835799a7487fe56":[36,0,571,25],
-"classma__buff.html#ac487ddb8a63d4f1a5a5f393a019b4603":[36,0,571,14],
-"classma__buff.html#ad5a381652f0ea068af8ede21bfb745f7":[36,0,571,15]
+"classma__buff.html#ac487ddb8a63d4f1a5a5f393a019b4603":[36,0,571,14]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX112 =
 {
+"namespacePATH__INFO.html#ab1b96ecc4661a605f4a04c4388e9fd41":[35,0,157,12],
+"namespacePATH__INFO.html#ab54385d5de0d0a6b5acc0c36a77521c6":[35,0,157,5],
 "namespacePATH__INFO.html#ab978d9b250099fb9c1e175207d2b49cf":[35,0,157,47],
 "namespacePATH__INFO.html#ab9cfc682b74d86c8dfdcd379f41c316b":[35,0,157,58],
 "namespacePATH__INFO.html#abc584c3ee2ff9eec6fe948a8e4ee05e8":[35,0,157,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX112 =
 "namespaceanonymous__namespace_02clothing__mod_8cpp_03.html":[35,0,18],
 "namespaceanonymous__namespace_02clothing__mod_8cpp_03.html#a5f31d58dfc5fbaa8a5da0103182a3e81":[35,0,18,0],
 "namespaceanonymous__namespace_02clzones_8cpp_03.html":[35,0,19],
-"namespaceanonymous__namespace_02clzones_8cpp_03.html#a406c1737dfc42cacbea5c69e6fa78a15":[35,0,19,0],
-"namespaceanonymous__namespace_02construction_8cpp_03.html":[35,0,20],
-"namespaceanonymous__namespace_02construction_8cpp_03.html#a5da2e229b1546f7772edc48fa79116e6":[35,0,20,0]
+"namespaceanonymous__namespace_02clzones_8cpp_03.html#a406c1737dfc42cacbea5c69e6fa78a15":[35,0,19,0]
 };

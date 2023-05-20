@@ -1,5 +1,10 @@
 var NAVTREEINDEX149 =
 {
+"structislot__comestible.html#aecc91e5454fc8c79df0fe6535690f246":[36,0,455,15],
+"structislot__comestible.html#af0c402e9f8df019dedb20f589e4e93c4":[36,0,455,3],
+"structislot__comestible.html#af16829f31a1d2c5a4a42a88ce92496c2":[36,0,455,5],
+"structislot__comestible.html#af31717492158516482445bf13c446b0f":[36,0,455,25],
+"structislot__container.html":[36,0,456],
 "structislot__container.html#a334c04f45db71597927588a4c5ddcd9f":[36,0,456,1],
 "structislot__container.html#a46eae754ec55d20409156ede5eb53256":[36,0,456,2],
 "structislot__container.html#a4d0811772aeaace91c05f187ab26fc31":[36,0,456,0],
@@ -138,8 +143,8 @@ var NAVTREEINDEX149 =
 "structitem__info__data.html#aebc34b872c27347457cc489fc5d4c15f":[36,0,479,20],
 "structitem__internal_1_1scoped__goes__bad__cache.html":[36,0,26,0],
 "structitem__internal_1_1scoped__goes__bad__cache.html":[35,0,121,0],
-"structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[35,0,121,0,1],
 "structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[36,0,26,0,1],
+"structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[35,0,121,0,1],
 "structitem__internal_1_1scoped__goes__bad__cache.html#aa1469bdfabcf1a484d40c1a7c96fcd98":[35,0,121,0,0],
 "structitem__internal_1_1scoped__goes__bad__cache.html#aa1469bdfabcf1a484d40c1a7c96fcd98":[36,0,26,0,0],
 "structitem__reference.html":[36,0,484],
@@ -244,10 +249,5 @@ var NAVTREEINDEX149 =
 "structitype.html#abc2596bacfc718fba56ab8076bab5d6b":[36,0,490,13],
 "structitype.html#abc40aeb7a2a01ece2eebbf809af37737":[36,0,490,20],
 "structitype.html#abd1f0b721206f746d2a645b4ef6f804b":[36,0,490,57],
-"structitype.html#abd3ca12912367ae92d488864e09ea921":[36,0,490,99],
-"structitype.html#abef0d8869ced8040dc3004db7db39d57":[36,0,490,72],
-"structitype.html#ac59fb8f044e4a3841db679ecf8e646a7":[36,0,490,91],
-"structitype.html#ac93d9775de15087ba59da8d48e89cb6f":[36,0,490,46],
-"structitype.html#acaa924a27717e1a4f5fa3fb17a84383c":[36,0,490,35],
-"structitype.html#acbc6974858332fd6933f71a304312d7f":[36,0,490,42]
+"structitype.html#abd3ca12912367ae92d488864e09ea921":[36,0,490,99]
 };

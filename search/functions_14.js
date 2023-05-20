@@ -152,7 +152,7 @@ var searchData=
   ['time_5freq_5fcompleted_149',['time_req_completed',['../achievement_8cpp.html#ad46bce69f8a83ef46372adcfa5e13d03',1,'time_req_completed(const achievement &amp;ach):&#160;achievement.cpp'],['../achievement_8h.html#ad46bce69f8a83ef46372adcfa5e13d03',1,'time_req_completed(const achievement &amp;ach):&#160;achievement.cpp']]],
   ['time_5fscale_150',['time_scale',['../structconstruction.html#ad7c75ab4b42d656e538ee720801aa96b',1,'construction']]],
   ['time_5fsince_5fate_151',['time_since_ate',['../classstomach__contents.html#ace65447c3d3c8aea9d16531303d58a24',1,'stomach_contents']]],
-  ['time_5fto_5fattack_152',['time_to_attack',['../ranged_8cpp.html#a638db6e0db76944effa8b6913f708d34',1,'time_to_attack():&#160;ranged.cpp'],['../classSkill.html#a879f0e8d0da73f0cdebd825134cd32d6',1,'Skill::time_to_attack()']]],
+  ['time_5fto_5fattack_152',['time_to_attack',['../namespaceranged.html#ad3183129b44ab2775b50bb90da5c5333',1,'ranged::time_to_attack()'],['../classSkill.html#a879f0e8d0da73f0cdebd825134cd32d6',1,'Skill::time_to_attack()']]],
   ['time_5fto_5fcut_5fup_153',['time_to_cut_up',['../classsalvage__actor.html#acc238969ca63682b43627cd3f7157147',1,'salvage_actor']]],
   ['time_5fto_5fdo_154',['time_to_do',['../classdelayed__transform__iuse.html#a083d8a58f26d025d8331f01e5c41c6ab',1,'delayed_transform_iuse']]],
   ['time_5fto_5ffood_155',['time_to_food',['../faction__camp_8cpp.html#a94a6eb71c1dd738dde2dc2fed50a2c92',1,'faction_camp.cpp']]],

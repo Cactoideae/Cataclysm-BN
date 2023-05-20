@@ -1,5 +1,7 @@
 var NAVTREEINDEX89 =
 {
+"gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eeacf70ec37c9688a0776dc4f76f36fd8c5":[37,0,1,250,4,17],
+"gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eead5fd4ce8f0351b17d0c28f0254082f95":[37,0,1,250,4,25],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eead9306a877449e338e44196ee0f704327":[37,0,1,250,4,31],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eeadcbbf524cb3a23e19f7c85dd9e2f08f2":[37,0,1,250,4,9],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eeade8b392e896fce21b8c8dc5597afd7dc":[37,0,1,250,4,26],
@@ -55,8 +57,8 @@ var NAVTREEINDEX89 =
 "globals_b.html":[37,1,0,2],
 "globals_c.html":[37,1,0,3],
 "globals_d.html":[37,1,0,4],
-"globals_defs.html":[37,1,6],
 "globals_defs.html":[37,1,6,0],
+"globals_defs.html":[37,1,6],
 "globals_defs_a.html":[37,1,6,1],
 "globals_defs_b.html":[37,1,6,2],
 "globals_defs_c.html":[37,1,6,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX89 =
 "group__Weather.html#ga2dbed22a00ed1bfb19f18ce60a8dd200":[34,2,45],
 "group__Weather.html#ga3a87174f8d5ac7f4c8153f2001df4737":[34,2,18],
 "group__Weather.html#ga3b6c37e7f8086254c46acb9572ea97d1":[34,2,13],
-"group__Weather.html#ga3fcb6802dadec5fef6581ffc25f19c9c":[34,2,25],
-"group__Weather.html#ga46edb1dc77a5ccdb14caad851bc78a9b":[34,2,16],
-"group__Weather.html#ga4dbb145f0b2ee7032f0cc2c044660171":[34,2,43]
+"group__Weather.html#ga3fcb6802dadec5fef6581ffc25f19c9c":[34,2,25]
 };

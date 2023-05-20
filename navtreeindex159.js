@@ -1,5 +1,10 @@
 var NAVTREEINDEX159 =
 {
+"structtalk__effect__t.html":[36,0,907],
+"structtalk__effect__t.html#a023566a8a58cfe398f303bd45a799dab":[36,0,907,8],
+"structtalk__effect__t.html#a026cf6f25b8c7226baba54b751eaa7a8":[36,0,907,1],
+"structtalk__effect__t.html#a17422297763d9784a262fe552a38ad4b":[36,0,907,13],
+"structtalk__effect__t.html#a1789efdfa3df06e113e53196391f42fa":[36,0,907,3],
 "structtalk__effect__t.html#a2a8d6087601850a4feddae73c5bb7b70":[36,0,907,12],
 "structtalk__effect__t.html#a39aff730944a50c8d104f40b05751e2b":[36,0,907,6],
 "structtalk__effect__t.html#a52fa0697f1c378cdea64c440e735e16d":[36,0,907,14],
@@ -244,10 +249,5 @@ var NAVTREEINDEX159 =
 "structtutorial__game.html#aa53fa661be65ecc08eec76b3126d8ee7":[36,0,955,3],
 "structtutorial__game.html#aeca17437ccd82168fc7c607b2775f154":[36,0,955,0],
 "structtutorial__game.html#af45b870557df1fadb74d171998c44bc8":[36,0,955,6],
-"structtype__identity.html":[36,0,956],
-"structtype__identity.html#abe86f80604d12518b04a2195d56136ed":[36,0,956,0],
-"structui__adaptor_1_1debug__message__ui.html":[36,0,958,0],
-"structui__adaptor_1_1disable__uis__below.html":[36,0,958,1],
-"structuilist_1_1pos__scalar_1_1auto__assign.html":[36,0,959,0,0],
-"structuilist_1_1size__scalar_1_1auto__assign.html":[36,0,959,1,0]
+"structtype__identity.html":[36,0,956]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX160 =
 {
+"structtype__identity.html#abe86f80604d12518b04a2195d56136ed":[36,0,956,0],
+"structui__adaptor_1_1debug__message__ui.html":[36,0,958,0],
+"structui__adaptor_1_1disable__uis__below.html":[36,0,958,1],
+"structuilist_1_1pos__scalar_1_1auto__assign.html":[36,0,959,0,0],
+"structuilist_1_1size__scalar_1_1auto__assign.html":[36,0,959,1,0],
 "structuilist__entry.html":[36,0,961],
 "structuilist__entry.html#a0aaad21c27babe7480c04d8fc27aee73":[36,0,961,8],
 "structuilist__entry.html#a0edfd4db5df099465b333b398fa22a47":[36,0,961,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX160 =
 "structvpslot__workbench.html#a51292d8de1e4d390a0f5489f7cabd4d0":[36,0,1004,0],
 "structw__map.html":[36,0,1005],
 "structw__map.html#a259d5954f6ec7b7dd8ec9cf92fc1e0f7":[36,0,1005,0],
-"structw__map.html#aa67d9f448f3567af4f95e51a12b08434":[36,0,1005,1],
-"structw__map.html#aeb8cda952c0742623080905567baaee8":[36,0,1005,3],
-"structw__map.html#afe524d3fb3965a5e3b7ce2519787fb7b":[36,0,1005,2],
-"structw__point.html":[36,0,1006],
-"structw__point.html#a142a166349f910f8903f84698f0dc565":[36,0,1006,0],
-"structw__point.html#a3002b10d38744db5d25fa1011e28e09e":[36,0,1006,3]
+"structw__map.html#aa67d9f448f3567af4f95e51a12b08434":[36,0,1005,1]
 };
