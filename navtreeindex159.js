@@ -1,5 +1,16 @@
 var NAVTREEINDEX159 =
 {
+"structtalk__effect__fun__t.html#a91298ef082ae2de7ea92e5f01a26f55c":[36,0,906,32],
+"structtalk__effect__fun__t.html#a9b3aa02213852872bc6ee066f1c194b4":[36,0,906,27],
+"structtalk__effect__fun__t.html#abcff575cff5d3aa4555e3f62f54f7005":[36,0,906,25],
+"structtalk__effect__fun__t.html#abda3c3dc865a139d66adaa089417d38a":[36,0,906,1],
+"structtalk__effect__fun__t.html#ad0bbceecdbc81b07dc9fe94840cef232":[36,0,906,36],
+"structtalk__effect__fun__t.html#ae195bb77d77f00fb8f61394c22f147e0":[36,0,906,28],
+"structtalk__effect__fun__t.html#ae222ccc63cbd96f79b20891fd315057c":[36,0,906,3],
+"structtalk__effect__fun__t.html#aead594d6700523395693091c47be26af":[36,0,906,9],
+"structtalk__effect__fun__t.html#aed9a90ea7c1135c719f8f2a25cb63845":[36,0,906,6],
+"structtalk__effect__fun__t.html#af1cd39473c74422dd65ce8ec595f1bfc":[36,0,906,10],
+"structtalk__effect__fun__t.html#af913f7b3dbb08423243815af7b0f83d2":[36,0,906,19],
 "structtalk__effect__t.html":[36,0,907],
 "structtalk__effect__t.html#a023566a8a58cfe398f303bd45a799dab":[36,0,907,8],
 "structtalk__effect__t.html#a026cf6f25b8c7226baba54b751eaa7a8":[36,0,907,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX159 =
 "structtripoint__distance.html#a1ff0407511bb30de8766ee39717c34ca":[36,0,952,1],
 "structtripoint__distance.html#a890096aff91ff77c9bd7d6c1f065a307":[36,0,952,2],
 "structtripoint__distance.html#a9102e576bacda7c7c99d92b9529e1af3":[36,0,952,4],
-"structtripoint__distance.html#abc9bed955e1a7a65dfe916553810fd65":[36,0,952,0],
-"structtripoint__distance.html#ad286425c97ef4c067cbd0ef939465f52":[36,0,952,5],
-"structtutorial__game.html":[36,0,955],
-"structtutorial__game.html#a040bc33a254c73e418aa27466e375f14":[36,0,955,2],
-"structtutorial__game.html#a1c6bedd67b5637f2c1f8211115b0f2e8":[36,0,955,7],
-"structtutorial__game.html#a246df1231852dda24f0c222f0610b8d7":[36,0,955,5],
-"structtutorial__game.html#a31ce75fb8345053b34c144b177a559ff":[36,0,955,4],
-"structtutorial__game.html#a435dfe483d7351089cc07c2a3868adfd":[36,0,955,1],
-"structtutorial__game.html#aa53fa661be65ecc08eec76b3126d8ee7":[36,0,955,3],
-"structtutorial__game.html#aeca17437ccd82168fc7c607b2775f154":[36,0,955,0],
-"structtutorial__game.html#af45b870557df1fadb74d171998c44bc8":[36,0,955,6],
-"structtype__identity.html":[36,0,956]
+"structtripoint__distance.html#abc9bed955e1a7a65dfe916553810fd65":[36,0,952,0]
 };

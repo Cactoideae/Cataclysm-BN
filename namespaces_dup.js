@@ -131,6 +131,13 @@ var namespaces_dup =
       [ "highlight_good_bad_none", "namespaceanonymous__namespace_02game__inventory_8cpp_03.html#a3533436c1886981d1f001d1a0a43469d", null ]
     ] ],
     [ "anonymous_namespace{gates.cpp}", "namespaceanonymous__namespace_02gates_8cpp_03.html", "namespaceanonymous__namespace_02gates_8cpp_03" ],
+    [ "anonymous_namespace{grab.cpp}", "namespaceanonymous__namespace_02grab_8cpp_03.html", [
+      [ "base_str_req", "namespaceanonymous__namespace_02grab_8cpp_03.html#a02d6d34fc7964eadb7cf756dea36cb65", null ],
+      [ "get_effective_wheels", "namespaceanonymous__namespace_02grab_8cpp_03.html#ad35dd5b4feeeb22a3b4a987aa2c21843", null ],
+      [ "get_grabbed_vehicle_movecost", "namespaceanonymous__namespace_02grab_8cpp_03.html#a3bff6e6ccc49620f17943476f63de2cd", null ],
+      [ "get_vehicle_str_requirement", "namespaceanonymous__namespace_02grab_8cpp_03.html#aa5d7deac48d30d89041438a436a6377c", null ],
+      [ "make_scraping_noise", "namespaceanonymous__namespace_02grab_8cpp_03.html#ad70d62f6a74dcedb50a8d77cdcd3ad08", null ]
+    ] ],
     [ "anonymous_namespace{iexamine.cpp}", "namespaceanonymous__namespace_02iexamine_8cpp_03.html", "namespaceanonymous__namespace_02iexamine_8cpp_03" ],
     [ "anonymous_namespace{item_category.cpp}", "namespaceanonymous__namespace_02item__category_8cpp_03.html", [
       [ "item_category_factory", "namespaceanonymous__namespace_02item__category_8cpp_03.html#af08a772fbabbbc0c65e9f8f29b163d2e", null ]
