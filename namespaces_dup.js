@@ -55,6 +55,22 @@ var namespaces_dup =
     [ "anonymous_namespace{bodypart.cpp}", "namespaceanonymous__namespace_02bodypart_8cpp_03.html", [
       [ "body_part_factory", "namespaceanonymous__namespace_02bodypart_8cpp_03.html#aaae7b9ce256ab1fee1bd36587d67cf19", null ]
     ] ],
+    [ "anonymous_namespace{character.cpp}", "namespaceanonymous__namespace_02character_8cpp_03.html", [
+      [ "ShieldLevel", "namespaceanonymous__namespace_02character_8cpp_03.html#a84cb26eb0a6ff55af0d1eb4733bb17e7", [
+        [ "None", "namespaceanonymous__namespace_02character_8cpp_03.html#a84cb26eb0a6ff55af0d1eb4733bb17e7a6adf97f83acf6453d4a6a4b1070f3754", null ],
+        [ "Block1", "namespaceanonymous__namespace_02character_8cpp_03.html#a84cb26eb0a6ff55af0d1eb4733bb17e7ab3e25d19bfd437de6063953f0f4ac6ac", null ],
+        [ "Block2", "namespaceanonymous__namespace_02character_8cpp_03.html#a84cb26eb0a6ff55af0d1eb4733bb17e7a3fbe9f2beae8654b86e2d9570f63d4e2", null ],
+        [ "Block3", "namespaceanonymous__namespace_02character_8cpp_03.html#a84cb26eb0a6ff55af0d1eb4733bb17e7af7c48a040d5301f4e2deff0e83dd9244", null ]
+      ] ],
+      [ "coverage_modifier_by_technic", "namespaceanonymous__namespace_02character_8cpp_03.html#a2dbc388919a1f34a120f5c043d47e3bc", null ],
+      [ "get_block_amount", "namespaceanonymous__namespace_02character_8cpp_03.html#a7f0ce55771bd1369be517a11b734dca9", null ],
+      [ "get_shield_resist", "namespaceanonymous__namespace_02character_8cpp_03.html#a6b3d7543fe85797fc18fb46c69b26e27", null ],
+      [ "is_covered_by_shield", "namespaceanonymous__namespace_02character_8cpp_03.html#acbaa7822725451c89b842e3fb47fc247", null ],
+      [ "is_foot_hit", "namespaceanonymous__namespace_02character_8cpp_03.html#a1c95f1950f2aa4201bb83df8ce528eaf", null ],
+      [ "is_leg_hit", "namespaceanonymous__namespace_02character_8cpp_03.html#aa151a61e3844b320a98c7bb19e2d0d4f", null ],
+      [ "is_valid_hallucination", "namespaceanonymous__namespace_02character_8cpp_03.html#a5355d5836149e55a0eefe7f7decff790", null ],
+      [ "shield_level", "namespaceanonymous__namespace_02character_8cpp_03.html#aa51773b9eedf01d70677bec3940d23da", null ]
+    ] ],
     [ "anonymous_namespace{character_display.cpp}", "namespaceanonymous__namespace_02character__display_8cpp_03.html", [
       [ "player_display_tab", "namespaceanonymous__namespace_02character__display_8cpp_03.html#a5960c87973f8859f2e6997206a97fb09", [
         [ "stats", "namespaceanonymous__namespace_02character__display_8cpp_03.html#a5960c87973f8859f2e6997206a97fb09a446501053769c06c565094b26d26e8ef", null ],
