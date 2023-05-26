@@ -1,5 +1,7 @@
 var NAVTREEINDEX154 =
 {
+"structnode__data.html#ac3aff1810fa3ee7c253ade89152d02a5":[36,0,683,0],
+"structnote__color.html":[36,0,684],
 "structnote__color.html#a5b13480ff463948685181426f226bae6":[36,0,684,1],
 "structnote__color.html#a827a10be059585ddd6f93ecf0875e6fb":[36,0,684,0],
 "structnpc__chatbin.html":[36,0,686],
@@ -133,14 +135,14 @@ var NAVTREEINDEX154 =
 "structobject__names__collection.html#acf248c3160c87b79784dcaabba79aa22":[36,0,702,2],
 "structom__lines_1_1type.html":[36,0,29,0],
 "structom__lines_1_1type.html":[35,0,151,0],
-"structom__lines_1_1type.html#a1ac3e349ea5ee7ec5433fe2507015c4d":[36,0,29,0,1],
 "structom__lines_1_1type.html#a1ac3e349ea5ee7ec5433fe2507015c4d":[35,0,151,0,1],
+"structom__lines_1_1type.html#a1ac3e349ea5ee7ec5433fe2507015c4d":[36,0,29,0,1],
 "structom__lines_1_1type.html#a2511ff3039454c926ec0451f16d96e36":[35,0,151,0,3],
 "structom__lines_1_1type.html#a2511ff3039454c926ec0451f16d96e36":[36,0,29,0,3],
-"structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[36,0,29,0,2],
 "structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[35,0,151,0,2],
-"structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[36,0,29,0,4],
+"structom__lines_1_1type.html#a72f063e7322b094d73e1d3e6bbed50e6":[36,0,29,0,2],
 "structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[35,0,151,0,4],
+"structom__lines_1_1type.html#a8ba069694c8c0a81376987197d850202":[36,0,29,0,4],
 "structom__lines_1_1type.html#ad37beb8f13a55a1f2547f9785ca9df35":[35,0,151,0,0],
 "structom__lines_1_1type.html#ad37beb8f13a55a1f2547f9785ca9df35":[36,0,29,0,0],
 "structom__map__extra.html":[36,0,705],
@@ -247,7 +249,5 @@ var NAVTREEINDEX154 =
 "structovermap__connection_1_1cache.html#a7e527887a2803ad35f0f0b205368afb2":[36,0,717,0,1],
 "structovermap__connection_1_1cache.html#aa7514397af4ef46c1dd6207018547928":[36,0,717,0,0],
 "structovermap__feature__flag__settings.html":[36,0,718],
-"structovermap__feature__flag__settings.html#a03478b6f5281acf2c514f76d643dccce":[36,0,718,2],
-"structovermap__feature__flag__settings.html#a44c15045900e08c8d59022a6fbbc3ac6":[36,0,718,3],
-"structovermap__feature__flag__settings.html#a6b1074fce0b1452142190c291bfe79cc":[36,0,718,4]
+"structovermap__feature__flag__settings.html#a03478b6f5281acf2c514f76d643dccce":[36,0,718,2]
 };

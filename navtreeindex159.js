@@ -1,5 +1,7 @@
 var NAVTREEINDEX159 =
 {
+"structsupports__relative_3_01bool_01_4.html":[36,0,900],
+"structsupports__relative_3_01std_1_1string_01_4.html":[36,0,901],
 "structtalk__data.html":[36,0,905],
 "structtalk__data.html#a4c096230dc94ba876a2b520222366cd4":[36,0,905,1],
 "structtalk__data.html#aaf0761d9f9f285671261868efb7f801c":[36,0,905,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX159 =
 "structtrap.html#afffbc9e94465251d8486a7a7ff31e76c":[36,0,950,8],
 "structtripoint.html":[36,0,951],
 "structtripoint.html#a07ecb5e49ce255c639090f40f8ed4002":[36,0,951,10],
-"structtripoint.html#a1574f5dd845eee2b29843fbb8360b64f":[36,0,951,9],
-"structtripoint.html#a202ff1fa006b5d3b7762a2c3e28fcccb":[36,0,951,4],
-"structtripoint.html#a2e41003bfa8a7df6ff611195e3e3956e":[36,0,951,3]
+"structtripoint.html#a1574f5dd845eee2b29843fbb8360b64f":[36,0,951,9]
 };

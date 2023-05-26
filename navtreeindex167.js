@@ -1,5 +1,7 @@
 var NAVTREEINDEX167 =
 {
+"wisheffect_8cpp.html#a46422819ca5b0ee740207ca9a8073b7a":[37,0,1,690,4],
+"wisheffect_8cpp.html#a706d96c329cca42e5083512fa6704e57":[37,0,1,690,5],
 "wisheffect_8cpp.html#a7cf86baf52033bd5f60fd0e1ec518470":[37,0,1,690,7],
 "wisheffect_8cpp.html#aba92afbf34609388238cd0e1e2aa4a72":[37,0,1,690,11],
 "wisheffect_8cpp.html#aca47405643264588ee074e13106cb7b0":[37,0,1,690,10],
