@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea6cd317fdd1143933f35c613956007353":[37,0,1,250,4,13],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea71307ef9574904bf65cab9eb0b624a4f":[37,0,1,250,4,22],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea728c69aa3d36bebe6384733088e77568":[37,0,1,250,4,27],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea76382cc033ab4103550770d5a225e796":[37,0,1,250,4,36],
@@ -70,8 +71,8 @@ var NAVTREEINDEX89 =
 "get__version_8h.html#a2ff8e2d8c8d901aee375b52bfea6cee6":[37,0,1,256,1],
 "get__version_8h.html#a9f120ab779553d2c1e829c98c17bf57d":[37,0,1,256,0],
 "get__version_8h_source.html":[37,0,1,256],
-"globals.html":[37,1,0],
 "globals.html":[37,1,0,0],
+"globals.html":[37,1,0],
 "globals_a.html":[37,1,0,1],
 "globals_b.html":[37,1,0,2],
 "globals_c.html":[37,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX89 =
 "group__UI.html#ga8d2a3cfa540841a6e3c9c01d3d151cff":[34,1,14],
 "group__UI.html#ga8fff45085986bb78b76ef95e46994f6f":[34,1,24],
 "group__UI.html#ga936e38521cb23329cc6c3b85f90900cd":[34,1,2],
-"group__UI.html#ga93f381e783bfe32daea2b16b8f99c749":[34,1,6],
-"group__UI.html#gaa8f87e88186f3d22a7fbc051aa3fa12b":[34,1,17]
+"group__UI.html#ga93f381e783bfe32daea2b16b8f99c749":[34,1,6]
 };

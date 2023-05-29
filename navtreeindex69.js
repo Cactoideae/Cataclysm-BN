@@ -244,10 +244,10 @@ var NAVTREEINDEX69 =
 "classunit__reader.html#af1f853adf992273f49107a383b3e891c":[36,0,964,2],
 "classunits_1_1angle__in__radians__tag.html":[35,0,185,0],
 "classunits_1_1angle__in__radians__tag.html":[36,0,38,0],
-"classunits_1_1energy__in__joule__tag.html":[35,0,185,1],
 "classunits_1_1energy__in__joule__tag.html":[36,0,38,1],
-"classunits_1_1mass__in__milligram__tag.html":[35,0,185,2],
+"classunits_1_1energy__in__joule__tag.html":[35,0,185,1],
 "classunits_1_1mass__in__milligram__tag.html":[36,0,38,2],
+"classunits_1_1mass__in__milligram__tag.html":[35,0,185,2],
 "classunits_1_1money__in__cent__tag.html":[36,0,38,3],
 "classunits_1_1money__in__cent__tag.html":[35,0,185,3]
 };
