@@ -1,6 +1,6 @@
 var NAVTREEINDEX7 =
 {
-"bodypart_8h.html#afd8bbe90714363f51584e69e0eaf7f72":[37,0,1,68,34],
+"bodypart_8h.html#afd8bbe90714363f51584e69e0eaf7f72":[37,0,1,68,35],
 "bodypart_8h_source.html":[37,0,1,68],
 "bonuses_8cpp.html":[37,0,1,69],
 "bonuses_8cpp.html#a299f7957d469309d9fb386d5403b4371":[37,0,1,69,3],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"classgunmod__inventory__preset.html#ad90ba0ecc723bdf4e16030de58deb319":[36,0,387,6],
 "classgunmod__location.html":[36,0,388],
 "classgunmod__location.html#a13e673ad3b5f14c709d680fff1c63272":[36,0,388,2],
 "classgunmod__location.html#a2e5b5400155dec054e39662fc4e3f637":[36,0,388,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "classint__id.html#a17cb48694d019e1f5c09a117c90b3e04":[36,0,415,30],
 "classint__id.html#a253fc1f9825edb65bc15351d21959914":[36,0,415,0],
 "classint__id.html#a258a9aea4a1e207b0926a84e86418b7e":[36,0,415,28],
-"classint__id.html#a2930fb1a81b1c27ab83ffb6ea37aa124":[36,0,415,21],
-"classint__id.html#a315169d32cce4267b7c8dceff4b0d1d7":[36,0,415,44]
+"classint__id.html#a2930fb1a81b1c27ab83ffb6ea37aa124":[36,0,415,21]
 };

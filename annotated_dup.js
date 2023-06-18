@@ -1447,6 +1447,7 @@ var annotated_dup =
     [ "weighted_list", "structweighted__list.html", "structweighted__list" ],
     [ "weighted_object", "structweighted__object.html", "structweighted__object" ],
     [ "wformat_args", "structwformat__args.html", "structwformat__args" ],
+    [ "wield_status", "classwield__status.html", "classwield__status" ],
     [ "window_panel", "classwindow__panel.html", "classwindow__panel" ],
     [ "wish_item_callback", "classwish__item__callback.html", "classwish__item__callback" ],
     [ "wish_monster_callback", "classwish__monster__callback.html", "classwish__monster__callback" ],

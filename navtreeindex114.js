@@ -1,5 +1,10 @@
 var NAVTREEINDEX114 =
 {
+"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa4472ab93ea2696939b6ad21c5933110a":[35,0,73,2,2],
+"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa45f53e74cd776adb82ce8520ae3831b3":[35,0,73,2,1],
+"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa58dcecf18fb737f811f664aed3241243":[35,0,73,2,8],
+"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa6e1f8efeae2e322e9ba7c02ede951344":[35,0,73,2,7],
+"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa6e8a8d5731846de1e25dd7e6ac9949b5":[35,0,73,2,5],
 "namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa818c49316b9403bc7a6a3d8ec75901df":[35,0,73,2,3],
 "namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa9724074a463e0b317a69eafc0e616151":[35,0,73,2,4],
 "namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fae4e801d22eadca3f3ac30a9d27acc01a":[35,0,73,2,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX114 =
 "namespacecharacter__weight__category.html#ae41f48d3a0de12bbab86abc5d741f978":[35,0,87,0],
 "namespacecharge__removal__blacklist.html":[35,0,88],
 "namespacecharge__removal__blacklist.html#a4c420e5c73d867c7b481e35c55c00a3b":[35,0,88,0],
-"namespacecharge__removal__blacklist.html#a61cae1fe43e81e613c409438aee2d5d2":[35,0,88,1],
-"namespacecharge__removal__blacklist.html#a6bc36bb44f51d0369a8a7764f83708ed":[35,0,88,3],
-"namespacecharge__removal__blacklist.html#aaeadabf202652885cbe0c4ee67c0b3d8":[35,0,88,2],
-"namespacecity__buildings.html":[35,0,89],
-"namespacecity__buildings.html#a6be0b7f7107b43f1a3e7a3f3b1939266":[35,0,89,0],
-"namespaceclothing__mods.html":[35,0,90]
+"namespacecharge__removal__blacklist.html#a61cae1fe43e81e613c409438aee2d5d2":[35,0,88,1]
 };

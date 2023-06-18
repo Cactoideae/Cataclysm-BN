@@ -1,5 +1,10 @@
 var NAVTREEINDEX113 =
 {
+"namespaceanonymous__namespace_02armor__layers_8cpp_03.html#a693ca1203a93c5063785654e4299b0f7":[35,0,11,6],
+"namespaceanonymous__namespace_02armor__layers_8cpp_03.html#a6cc57fcc1de2dcac9e3c536b68675e68":[35,0,11,5],
+"namespaceanonymous__namespace_02armor__layers_8cpp_03.html#a85afec099b473eb41345b4fc409f337a":[35,0,11,1],
+"namespaceanonymous__namespace_02armor__layers_8cpp_03.html#a9ac375ee1fdc7ba334170d5dd5ab51c7":[35,0,11,3],
+"namespaceanonymous__namespace_02armor__layers_8cpp_03.html#abff94a30c8ca69e778c7cae2abf8b259":[35,0,11,4],
 "namespaceanonymous__namespace_02ascii__art_8cpp_03.html":[35,0,12],
 "namespaceanonymous__namespace_02ascii__art_8cpp_03.html#a931a174424c266b1b830f17c5ab78507":[35,0,12,0],
 "namespaceanonymous__namespace_02behavior_8cpp_03.html":[35,0,13],
@@ -244,10 +249,5 @@ var NAVTREEINDEX113 =
 "namespacebase__camps.html#a37484bd6058ac21028411c509951a457":[35,0,73,3],
 "namespacebase__camps.html#a514cbffdef2185c4d8b777f5feec390e":[35,0,73,10],
 "namespacebase__camps.html#a64d9c75a4dc27d18e1c8292e27946b28":[35,0,73,5],
-"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773f":[35,0,73,2],
-"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa4472ab93ea2696939b6ad21c5933110a":[35,0,73,2,2],
-"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa45f53e74cd776adb82ce8520ae3831b3":[35,0,73,2,1],
-"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa58dcecf18fb737f811f664aed3241243":[35,0,73,2,8],
-"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa6e1f8efeae2e322e9ba7c02ede951344":[35,0,73,2,7],
-"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773fa6e8a8d5731846de1e25dd7e6ac9949b5":[35,0,73,2,5]
+"namespacebase__camps.html#a7355c36e3472cb0ef0668630f341773f":[35,0,73,2]
 };

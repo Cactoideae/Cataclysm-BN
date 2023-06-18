@@ -1882,6 +1882,7 @@ var hierarchy =
     [ "weighted_object< W, T >", "structweighted__object.html", null ],
     [ "detail::width_adapter< SpecHandler, Char >", "structdetail_1_1width__adapter.html", null ],
     [ "detail::width_checker< ErrorHandler >", "classdetail_1_1width__checker.html", null ],
+    [ "wield_status", "classwield__status.html", null ],
     [ "catacurses::window", "classcatacurses_1_1window.html", null ],
     [ "window_panel", "classwindow__panel.html", null ],
     [ "wisheffect_state", "structwisheffect__state.html", null ],
