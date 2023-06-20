@@ -1,5 +1,11 @@
 var NAVTREEINDEX146 =
 {
+"structenum__traits_3_01bionic__ui__sort__mode_01_4.html":[36,0,261],
+"structenum__traits_3_01bionic__ui__sort__mode_01_4.html#a71a01fdbd85925b884b2aaf17996969b":[36,0,261,0],
+"structenum__traits_3_01body__part_01_4.html":[36,0,262],
+"structenum__traits_3_01body__part_01_4.html#a93ad50d760067654e9613e3c5bc709aa":[36,0,262,0],
+"structenum__traits_3_01cata__variant__type_01_4.html":[36,0,263],
+"structenum__traits_3_01cata__variant__type_01_4.html#abd87a470bfbbc11014a087b6da97c04e":[36,0,263,0],
 "structenum__traits_3_01character__movemode_01_4.html":[36,0,264],
 "structenum__traits_3_01character__movemode_01_4.html#a68447aa5ab83cb0fbf6bd38c16266a55":[36,0,264,0],
 "structenum__traits_3_01character__stat_01_4.html":[36,0,265],
@@ -243,11 +249,5 @@ var NAVTREEINDEX146 =
 "structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html":[36,0,24,1,0],
 "structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html":[35,0,109,2,0],
 "structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#a21619d341ec9d3932831f4afa92bfab1":[36,0,24,1,0,0],
-"structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#a21619d341ec9d3932831f4afa92bfab1":[35,0,109,2,0,0],
-"structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#a63f7c054374913967dabe223207cc822":[36,0,24,1,0,1],
-"structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#a63f7c054374913967dabe223207cc822":[35,0,109,2,0,1],
-"structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#adeabebb465378a4c723fa55b675125df":[36,0,24,1,0,2],
-"structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#adeabebb465378a4c723fa55b675125df":[35,0,109,2,0,2],
-"structexplosion__handler_1_1ExplosionEvent_1_1PropelledEntity.html":[36,0,24,1,1],
-"structexplosion__handler_1_1ExplosionEvent_1_1PropelledEntity.html":[35,0,109,2,1]
+"structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#a21619d341ec9d3932831f4afa92bfab1":[35,0,109,2,0,0]
 };
