@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"classjmapgen__vehicle.html#a3ca381dc61104c8c3b851ac28e84c034":[36,0,524,0],
 "classjmapgen__vehicle.html#a51f3c86655e4f13ee0d623a145876672":[36,0,524,3],
 "classjmapgen__vehicle.html#a63ce8ee6cdb7ca4ee58469fb828672b0":[36,0,524,6],
 "classjmapgen__vehicle.html#a8a1790013d7e02ecbc0f72b88183be9a":[36,0,524,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "classma__buff.html":[36,0,571],
 "classma__buff.html#a114a1f11b8c14b0090a90ce21a98de9e":[36,0,571,18],
 "classma__buff.html#a18a99687fe368099d0651e497a959369":[36,0,571,24],
-"classma__buff.html#a18f92931fcf450ac8dd278f2086d4793":[36,0,571,6],
-"classma__buff.html#a195274137fc388c7f14b9282dcd5be01":[36,0,571,2]
+"classma__buff.html#a18f92931fcf450ac8dd278f2086d4793":[36,0,571,6]
 };

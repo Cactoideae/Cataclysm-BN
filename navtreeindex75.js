@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"clone__ptr_8h_source.html":[37,0,1,109],
 "clothing__mod_8cpp.html":[37,0,1,110],
 "clothing__mod_8cpp.html#a24df55962855b615ae46bb335d144be5":[37,0,1,110,2],
 "clothing__mod_8cpp.html#a5f31d58dfc5fbaa8a5da0103182a3e81":[37,0,1,110,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "color_8h.html#a92219025bff743ee69ea01efc094ca44a55e86a9a5d97a2117f625d5ade475c70":[37,0,1,116,153,11],
 "color_8h.html#a92219025bff743ee69ea01efc094ca44a56c6995e15516502e676416d6820127d":[37,0,1,116,153,41],
 "color_8h.html#a92219025bff743ee69ea01efc094ca44a57ec88dccf97cb9803983f0e41eef3cb":[37,0,1,116,153,145],
-"color_8h.html#a92219025bff743ee69ea01efc094ca44a5be5685a9e6044dd78edeb195d44d101":[37,0,1,116,153,12],
-"color_8h.html#a92219025bff743ee69ea01efc094ca44a5e1c02b3c8d14308467d016542df26f9":[37,0,1,116,153,54]
+"color_8h.html#a92219025bff743ee69ea01efc094ca44a5be5685a9e6044dd78edeb195d44d101":[37,0,1,116,153,12]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classgame.html#ad560510eaf90df551770d2b2c8f364b8":[36,0,375,262],
 "classgame.html#ad6550b55d52f4d9535b8de22550c107f":[36,0,375,204],
 "classgame.html#ad82ab894e0e1e2ba54ef51aabe6887b7":[36,0,375,154],
 "classgame.html#ad8dd3e6783bcfb31626450815dc76a9e":[36,0,375,314],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classgunmod__inventory__preset.html#a045ec55dfd429112c7e91b338e62ed33":[36,0,387,0],
 "classgunmod__inventory__preset.html#a23bd4615c49064ca22933dcff5bbd0ea":[36,0,387,1],
 "classgunmod__inventory__preset.html#a3349da7bcba07c2fc81d7e2a2a2e0a1f":[36,0,387,5],
-"classgunmod__inventory__preset.html#a54808627ff35f3f1312f7034e57e95c6":[36,0,387,2],
-"classgunmod__inventory__preset.html#aa6efcebac3c8e4e41c76c2c2360614a2":[36,0,387,3]
+"classgunmod__inventory__preset.html#a54808627ff35f3f1312f7034e57e95c6":[36,0,387,2]
 };
