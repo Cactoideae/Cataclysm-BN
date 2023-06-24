@@ -1,5 +1,7 @@
 var NAVTREEINDEX89 =
 {
+"gamemode__tutorial_8h.html":[37,0,1,250],
+"gamemode__tutorial_8h.html#a14fdf411644cdd6efa63b7dedc98ef3b":[37,0,1,250,3],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9ee":[37,0,1,250,4],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea077082627e696380990750d093a45b64":[37,0,1,250,4,20],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea08bc635a91e64760aea464070a1ba9a8":[37,0,1,250,4,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX89 =
 "group__UI.html":[34,1],
 "group__UI.html#ga00bfc81300f171cb0315a23bb45cee99":[34,1,28],
 "group__UI.html#ga042cc59ad57f9042ac66166ae4b21b4d":[34,1,26],
-"group__UI.html#ga19547402796cbc91c5d00d73ea3600ac":[34,1,4],
-"group__UI.html#ga37138b3d51a326bdac5a3a50a26513a7":[34,1,27],
-"group__UI.html#ga410d553743dc2f17443928cde8cae312":[34,1,23]
+"group__UI.html#ga19547402796cbc91c5d00d73ea3600ac":[34,1,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX114 =
 {
+"namespaceavatar__funcs.html#ac216d229bfa88148e0e4afa8bdbe9ffc":[35,0,72,9],
+"namespaceavatar__funcs.html#ae3e48352faacf76db0e461d8d0e697ea":[35,0,72,7],
 "namespacebase__camps.html":[35,0,73],
 "namespacebase__camps.html#a04fa69b1c0952a34dc4a7d26b3f9f786":[35,0,73,12],
 "namespacebase__camps.html#a11becc5688aac40a12f2bc2e33d605c1":[35,0,73,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX114 =
 "namespacecharacter__funcs.html#ae7bfa36ae343bba14f1630cc9350f2d9":[35,0,86,24],
 "namespacecharacter__funcs.html#af0d4f519cd76c1891183b3c557bdf007":[35,0,86,12],
 "namespacecharacter__funcs.html#afa9463f9c384d1e193bdbc8dc337f8d3":[35,0,86,37],
-"namespacecharacter__funcs.html#afc55ada93348dbdeea0b7f69151956f5":[35,0,86,21],
-"namespacecharacter__weight__category.html":[35,0,87],
-"namespacecharacter__weight__category.html#a4796dc02b0d31bbc649f0d96a93fd600":[35,0,87,2]
+"namespacecharacter__funcs.html#afc55ada93348dbdeea0b7f69151956f5":[35,0,86,21]
 };

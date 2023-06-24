@@ -1,5 +1,7 @@
 var NAVTREEINDEX135 =
 {
+"structFastDistanceApproximation.html#aa95fa79f81604673c571240b8cd469c6":[36,0,335,4],
+"structFastDistanceApproximation.html#ac4af560443a1eef5ebeca859b8e45fd7":[36,0,335,1],
 "structFastDistanceApproximation.html#ae0f4833429dceb96cd029d28a741676c":[36,0,335,3],
 "structHeaderSkill.html":[36,0,398],
 "structHeaderSkill.html#a64228755c81de45358eefb2ff0eca99b":[36,0,398,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX135 =
 "structanonymous__namespace_02gates_8cpp_03_1_1gate__data.html#a6d78a1b55dfb033ad7751dccb0fab805":[35,0,34,0,2],
 "structanonymous__namespace_02gates_8cpp_03_1_1gate__data.html#a6d78a1b55dfb033ad7751dccb0fab805":[36,0,4,0,2],
 "structanonymous__namespace_02gates_8cpp_03_1_1gate__data.html#a71e749474fe075d26b5a23919f42e5ee":[35,0,34,0,1],
-"structanonymous__namespace_02gates_8cpp_03_1_1gate__data.html#a71e749474fe075d26b5a23919f42e5ee":[36,0,4,0,1],
-"structanonymous__namespace_02gates_8cpp_03_1_1gate__data.html#a7677a2a2fbb83659cfa5dd49e40e4205":[35,0,34,0,6],
-"structanonymous__namespace_02gates_8cpp_03_1_1gate__data.html#a7677a2a2fbb83659cfa5dd49e40e4205":[36,0,4,0,6]
+"structanonymous__namespace_02gates_8cpp_03_1_1gate__data.html#a71e749474fe075d26b5a23919f42e5ee":[36,0,4,0,1]
 };

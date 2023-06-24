@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"sounds_8h.html#a746a046c4c6989d32aa62d6799c2f496":[37,0,1,589,3],
+"sounds_8h.html#a746a046c4c6989d32aa62d6799c2f496a5b792cc4435ecdb505ea4f7915481a15":[37,0,1,589,3,3],
 "sounds_8h.html#a746a046c4c6989d32aa62d6799c2f496a6ab110a96d060b00e7149f410220dd10":[37,0,1,589,3,1],
 "sounds_8h.html#a746a046c4c6989d32aa62d6799c2f496a9ae9b0b3c809178ff736edf6232c0899":[37,0,1,589,3,2],
 "sounds_8h.html#a746a046c4c6989d32aa62d6799c2f496aaab92e69374e4c7b8c6741fe02e574b9":[37,0,1,589,3,0],
@@ -136,14 +138,14 @@ var NAVTREEINDEX134 =
 "string__formatter_8h.html#afb28482ebaeeaaacce0dda41d99605b7":[37,0,1,601,10],
 "string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,22],
 "string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,21],
-"string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,23],
-"string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,24],
-"string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,19],
 "string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,18],
 "string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,17],
 "string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,16],
 "string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,15],
 "string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,14],
+"string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,19],
+"string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,24],
+"string__formatter_8h.html#gaf6c1b09e9154ca0f0018624028929df5":[37,0,1,601,23],
 "string__formatter_8h_source.html":[37,0,1,601],
 "string__id_8cpp.html":[37,0,1,602],
 "string__id_8cpp.html#a0e0ec287dba7e750bdd14410887a0764":[37,0,1,602,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "structDynamicDataLoader_1_1cached__streams.html#aeec16b8bd7f3af2943d363f64308fc0c":[36,0,237,0,0],
 "structFastDistanceApproximation.html":[36,0,335],
 "structFastDistanceApproximation.html#a4b8627f3c0e23820c80193e987d15932":[36,0,335,0],
-"structFastDistanceApproximation.html#a85896baf60747da5fb4d9842413898ae":[36,0,335,2],
-"structFastDistanceApproximation.html#aa95fa79f81604673c571240b8cd469c6":[36,0,335,4],
-"structFastDistanceApproximation.html#ac4af560443a1eef5ebeca859b8e45fd7":[36,0,335,1]
+"structFastDistanceApproximation.html#a85896baf60747da5fb4d9842413898ae":[36,0,335,2]
 };

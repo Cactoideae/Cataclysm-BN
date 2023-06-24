@@ -1,5 +1,7 @@
 var NAVTREEINDEX155 =
 {
+"structoter__type__t.html#a1343f893487902b8296b02cd4782a433":[36,0,715,14],
+"structoter__type__t.html#a27213e59517d8cef2dfefefc67472077":[36,0,715,12],
 "structoter__type__t.html#a27aaa0de7a8628785d8f4cb94a66e902":[36,0,715,23],
 "structoter__type__t.html#a27e07d2930d3ea08c22a46787b06dab3":[36,0,715,28],
 "structoter__type__t.html#a4466ac0ab7fde40326cb838a09d90c76":[36,0,715,22],
@@ -215,12 +217,12 @@ var NAVTREEINDEX155 =
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a6e73915d672ef4b2182873654c46945b":[35,0,161,0,0,3],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a74a2cff68362dc3619928744e781375b":[36,0,32,0,0,0],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a74a2cff68362dc3619928744e781375b":[35,0,161,0,0,0],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a7eab3637e7c45a0be57b8847979e4067":[36,0,32,0,0,4],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a7eab3637e7c45a0be57b8847979e4067":[35,0,161,0,0,4],
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a7eab3637e7c45a0be57b8847979e4067":[36,0,32,0,0,4],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a973912ac2aa381a928a3ca779a2e51a2":[36,0,32,0,0,2],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a973912ac2aa381a928a3ca779a2e51a2":[35,0,161,0,0,2],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#abc3775a75d41f1621409b2bd03e028d0":[36,0,32,0,0,1],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#abc3775a75d41f1621409b2bd03e028d0":[35,0,161,0,0,1],
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#abc3775a75d41f1621409b2bd03e028d0":[36,0,32,0,0,1],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1point__node.html":[35,0,161,0,1],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1point__node.html":[36,0,32,0,1],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1point__node.html#a06694a90e53a4fd4263e5dc08b36c433":[36,0,32,0,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX155 =
 "structpf_1_1directed__node.html#a4a6124c404afcce36de84771e09b6115":[36,0,32,1,1],
 "structpf_1_1directed__node.html#a5d0e4301467d9ea654460d0d9ed6469d":[35,0,161,1,0],
 "structpf_1_1directed__node.html#a5d0e4301467d9ea654460d0d9ed6469d":[36,0,32,1,0],
-"structpf_1_1directed__node.html#af504819e11a3a8c20594e4f2052031f8":[35,0,161,1,2],
-"structpf_1_1directed__node.html#af504819e11a3a8c20594e4f2052031f8":[36,0,32,1,2],
-"structpf_1_1directed__path.html":[35,0,161,2]
+"structpf_1_1directed__node.html#af504819e11a3a8c20594e4f2052031f8":[35,0,161,1,2]
 };
