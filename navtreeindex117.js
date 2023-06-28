@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"namespacedetail_1_1dragonbox.html":[35,0,99,1],
 "namespacedetail_1_1dragonbox.html#a0bf49114abef82fbaac1b6b5abfab666":[35,0,99,1,27],
 "namespacedetail_1_1dragonbox.html#a12286781195aa157eabfe1437ee271fa":[35,0,99,1,25],
 "namespacedetail_1_1dragonbox.html#a233f206f3f73d9c426e5fb0c69df38c1":[35,0,99,1,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "namespaceiexamine.html#a774f651039acdb513863b4ab929bcadb":[35,0,118,94],
 "namespaceiexamine.html#a79cb04ffc3e5850531236742eb36b4de":[35,0,118,38],
 "namespaceiexamine.html#a7ea00a0b58ab0716a30e1f15785cdcb8":[35,0,118,83],
-"namespaceiexamine.html#a8076e42db14f124567108b5754caa31a":[35,0,118,80],
-"namespaceiexamine.html#a82fa11f641d3792302e86cdbec0e4011":[35,0,118,58]
+"namespaceiexamine.html#a8076e42db14f124567108b5754caa31a":[35,0,118,80]
 };

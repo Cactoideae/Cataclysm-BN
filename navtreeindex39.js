@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"classfaction__template.html#a6729976e14fae273d4b251bff5e6aa76":[36,0,332,2],
 "classfaction__template.html#a687953528db4da27e7926b80868e318c":[36,0,332,10],
 "classfaction__template.html#a7d31d07f4f9cf6d639be77e0a2fa201e":[36,0,332,18],
 "classfaction__template.html#a866ed25b1b04e963795226bf17f6a0be":[36,0,332,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "classgame.html#a1e7f8a354d22296b09c868c1d78ee175":[36,0,375,367],
 "classgame.html#a1ec865d3fc66e82fdd3590ae8b3d62c5":[36,0,375,55],
 "classgame.html#a1ecbb2865e171e08147ce58bbb9cdc2a":[36,0,375,151],
-"classgame.html#a1eeaf2ecd3e0a634af448b60e3b25640":[36,0,375,205],
-"classgame.html#a2036b791250d5dcfb191ce7180c27e7d":[36,0,375,347]
+"classgame.html#a1eeaf2ecd3e0a634af448b60e3b25640":[36,0,375,205]
 };

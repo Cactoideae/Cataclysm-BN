@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classitem.html#a8fa0e7e29e67b75e159deaf2a9b1f766":[36,0,470,21],
 "classitem.html#a900f0ca8b2a7d8f0738202c519313d0d":[36,0,470,276],
 "classitem.html#a910393f5651f273b5df0bdd576bef78d":[36,0,470,376],
 "classitem.html#a9113a7b590ad5a3d343de910de33aff2":[36,0,470,228],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classitem_1_1craft__data.html#aa082fa5f08b35638560da4a22fe4ffe5":[36,0,470,0,7],
 "classitem__action.html":[36,0,471],
 "classitem__action.html#a0a29044f2d2ee641cb0a5574ab51d38c":[36,0,471,1],
-"classitem__action.html#a67769be9d03c33476333c18a07fe2bc7":[36,0,471,0],
-"classitem__action__generator.html":[36,0,472]
+"classitem__action.html#a67769be9d03c33476333c18a07fe2bc7":[36,0,471,0]
 };

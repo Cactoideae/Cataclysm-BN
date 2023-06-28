@@ -1,5 +1,6 @@
 var NAVTREEINDEX149 =
 {
+"structislot__ammo.html#ad7649b801b4ed0d8bec314b40f18f1db":[36,0,448,8],
 "structislot__ammo.html#ad7743be28bd769a29d5856ed7263a49a":[36,0,448,5],
 "structislot__ammo.html#ad9a53dda94d7cfa1f8992582af96d503":[36,0,448,0],
 "structislot__ammo.html#ae7c805a4cc439968737d63dc5dc0fbd7":[36,0,448,4],
@@ -224,12 +225,12 @@ var NAVTREEINDEX149 =
 "structitem__info__data.html#adefe1f08fb60d74b4e8befd73da74d52":[36,0,479,11],
 "structitem__info__data.html#ae21c7618dbb6387bdc604ad7cf552dc9":[36,0,479,9],
 "structitem__info__data.html#aebc34b872c27347457cc489fc5d4c15f":[36,0,479,20],
-"structitem__internal_1_1scoped__goes__bad__cache.html":[35,0,123,0],
 "structitem__internal_1_1scoped__goes__bad__cache.html":[36,0,26,0],
-"structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[36,0,26,0,1],
+"structitem__internal_1_1scoped__goes__bad__cache.html":[35,0,123,0],
 "structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[35,0,123,0,1],
-"structitem__internal_1_1scoped__goes__bad__cache.html#aa1469bdfabcf1a484d40c1a7c96fcd98":[35,0,123,0,0],
+"structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[36,0,26,0,1],
 "structitem__internal_1_1scoped__goes__bad__cache.html#aa1469bdfabcf1a484d40c1a7c96fcd98":[36,0,26,0,0],
+"structitem__internal_1_1scoped__goes__bad__cache.html#aa1469bdfabcf1a484d40c1a7c96fcd98":[35,0,123,0,0],
 "structitem__reference.html":[36,0,484],
 "structitem__reference.html#a39088ef0fffbac57621a06913246eab1":[36,0,484,0],
 "structitem__reference.html#aa5f61b515d64cb6b440911cd9f181518":[36,0,484,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX149 =
 "structiteminfo.html#a52b3543e16cce6f69f2e5cdb021c1e16aba076bfbbc0221d2216b5f699d66b801":[36,0,488,0,4],
 "structiteminfo.html#a52b3543e16cce6f69f2e5cdb021c1e16acd4efabc933c1eb5ed469082a5eacaaa":[36,0,488,0,5],
 "structiteminfo.html#a7f6c25802ea562031e5ffbfb998a0686":[36,0,488,10],
-"structiteminfo.html#a8ac438e68c259d85bce4bad7b0734dd1":[36,0,488,1],
-"structiteminfo.html#ab85666284bdac5599ffd8c19391b1be5":[36,0,488,9]
+"structiteminfo.html#a8ac438e68c259d85bce4bad7b0734dd1":[36,0,488,1]
 };

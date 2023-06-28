@@ -1,5 +1,6 @@
 var NAVTREEINDEX113 =
 {
+"namespaceanonymous__namespace_02animation_8cpp_03.html#a969b3608caea7d2243aaae720383cbf1":[35,0,10,20],
 "namespaceanonymous__namespace_02animation_8cpp_03.html#a98dee93c997ae0c4a02d0f35206866e1":[35,0,10,19],
 "namespaceanonymous__namespace_02animation_8cpp_03.html#a9b0efafac10ab3e71a3cc1bca498c240":[35,0,10,6],
 "namespaceanonymous__namespace_02animation_8cpp_03.html#a9d3fbd2d49b9955d5e302a03994eaacd":[35,0,10,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX113 =
 "namespaceavatar__funcs.html#a97e418d541f419827d11e0460916ad33":[35,0,72,8],
 "namespaceavatar__funcs.html#a9987c049e9795d0bb04521808e5f7151":[35,0,72,14],
 "namespaceavatar__funcs.html#aaef06fa3af228d5fa10ce372a8d95fb9":[35,0,72,5],
-"namespaceavatar__funcs.html#abca10e5194d32b19cc88d6ffd07c56d6":[35,0,72,13],
-"namespaceavatar__funcs.html#ac14b6f126d2c2b3e9a34e3ae6f99827f":[35,0,72,2]
+"namespaceavatar__funcs.html#abca10e5194d32b19cc88d6ffd07c56d6":[35,0,72,13]
 };

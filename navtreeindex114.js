@@ -1,5 +1,6 @@
 var NAVTREEINDEX114 =
 {
+"namespaceavatar__funcs.html#ac14b6f126d2c2b3e9a34e3ae6f99827f":[35,0,72,2],
 "namespaceavatar__funcs.html#ac216d229bfa88148e0e4afa8bdbe9ffc":[35,0,72,9],
 "namespaceavatar__funcs.html#ae3e48352faacf76db0e461d8d0e697ea":[35,0,72,7],
 "namespacebase__camps.html":[35,0,73],
@@ -248,6 +249,5 @@ var NAVTREEINDEX114 =
 "namespacecharacter__funcs.html#adda4d5fd10b7216c49a0f9b6010de579":[35,0,86,14],
 "namespacecharacter__funcs.html#ae7bfa36ae343bba14f1630cc9350f2d9":[35,0,86,24],
 "namespacecharacter__funcs.html#af0d4f519cd76c1891183b3c557bdf007":[35,0,86,12],
-"namespacecharacter__funcs.html#afa9463f9c384d1e193bdbc8dc337f8d3":[35,0,86,37],
-"namespacecharacter__funcs.html#afc55ada93348dbdeea0b7f69151956f5":[35,0,86,21]
+"namespacecharacter__funcs.html#afa9463f9c384d1e193bdbc8dc337f8d3":[35,0,86,37]
 };

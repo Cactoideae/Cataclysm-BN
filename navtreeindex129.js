@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"overmap__ui_8cpp.html#ae37a6fd9fbb942ebb7cc9ee1efb7a357":[37,0,1,484,21],
 "overmap__ui_8cpp.html#af7f96e7f02a9482efbf5a918dff3f6bd":[37,0,1,484,7],
 "overmap__ui_8cpp_source.html":[37,0,1,484],
 "overmap__ui_8h.html":[37,0,1,485],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "pathfinding_8h.html#ac36279cd21bb581045b6cefc9b45cddd":[37,0,1,495,6],
 "pathfinding_8h.html#acfb1beb8ce7e973fac5bdfe4040c4c9f":[37,0,1,495,5],
 "pathfinding_8h.html#ad4fb18e6e70f8406c209ab1bb25dbb55":[37,0,1,495,3],
-"pathfinding_8h.html#ad4fb18e6e70f8406c209ab1bb25dbb55a05850be5e3f2c1bfcbaad5d43fa8b366":[37,0,1,495,3,3],
-"pathfinding_8h.html#ad4fb18e6e70f8406c209ab1bb25dbb55a19b842b59c62891e6a86c1b22752b2d9":[37,0,1,495,3,2]
+"pathfinding_8h.html#ad4fb18e6e70f8406c209ab1bb25dbb55a05850be5e3f2c1bfcbaad5d43fa8b366":[37,0,1,495,3,3]
 };
