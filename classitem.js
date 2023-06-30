@@ -232,7 +232,6 @@ var classitem =
     [ "gun_recoil_multiplier", "classitem.html#ae4ecf94591fd2a0df49e940e93255a59", null ],
     [ "gun_set_mode", "classitem.html#afcc181d2e2fe380ac28dd70f814798c2", null ],
     [ "gun_skill", "classitem.html#a3d8542661f2e2a82e8cb3792584912f3", null ],
-    [ "gun_type", "classitem.html#ac988f5071585ba014e6f72a485c3f9cf", null ],
     [ "gunmod_find", "classitem.html#a26ffce6c038cc9d398103dcd296275bd", null ],
     [ "gunmod_find", "classitem.html#a08d1d73decd26ea36f942c53cf7c037b", null ],
     [ "gunmod_info", "classitem.html#a0ad233b27797b39be495f7713e9ec6c0", null ],

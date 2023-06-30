@@ -657,32 +657,32 @@ Variables</h2></td></tr>
 <dd>
 rot_chart </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l05604">5604</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l05605" name="l05605"></a><span class="lineno"> 5605</span>{</div>
-<div class="line"><a id="l05606" name="l05606"></a><span class="lineno"> 5606</span>    <span class="comment">// default temp = 65, so generic-&gt;rotten() assumes 600 decay points per hour</span></div>
-<div class="line"><a id="l05607" name="l05607"></a><span class="lineno"> 5607</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> dropoff = 38;     <span class="comment">// ditch our fancy equation and do a linear approach to 0 rot at 31f</span></div>
-<div class="line"><a id="l05608" name="l05608"></a><span class="lineno"> 5608</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> cutoff = 105;     <span class="comment">// stop torturing the player at this temperature, which is</span></div>
-<div class="line"><a id="l05609" name="l05609"></a><span class="lineno"> 5609</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> cutoffrot = 21240; <span class="comment">// ..almost 6 times the base rate. bacteria hate the heat too</span></div>
-<div class="line"><a id="l05610" name="l05610"></a><span class="lineno"> 5610</span> </div>
-<div class="line"><a id="l05611" name="l05611"></a><span class="lineno"> 5611</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> dsteps = dropoff - <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">units::to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#a6fe2961d424ef5406871b8ee32764330">temperatures::freezing</a> );</div>
-<div class="line"><a id="l05612" name="l05612"></a><span class="lineno"> 5612</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> dstep = ( 215.46 * std::pow( 2.0, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>( dropoff ) / 16.0 ) / dsteps );</div>
-<div class="line"><a id="l05613" name="l05613"></a><span class="lineno"> 5613</span> </div>
-<div class="line"><a id="l05614" name="l05614"></a><span class="lineno"> 5614</span>    <span class="keywordflow">if</span>( temp &lt; <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">units::to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#a6fe2961d424ef5406871b8ee32764330">temperatures::freezing</a> ) ) {</div>
-<div class="line"><a id="l05615" name="l05615"></a><span class="lineno"> 5615</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l05616" name="l05616"></a><span class="lineno"> 5616</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>( temp &gt; cutoff ) {</div>
-<div class="line"><a id="l05617" name="l05617"></a><span class="lineno"> 5617</span>        <span class="keywordflow">return</span> cutoffrot;</div>
-<div class="line"><a id="l05618" name="l05618"></a><span class="lineno"> 5618</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>( temp &lt; dropoff ) {</div>
-<div class="line"><a id="l05619" name="l05619"></a><span class="lineno"> 5619</span>        <span class="keywordflow">return</span> ( temp - <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">units::to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#a6fe2961d424ef5406871b8ee32764330">temperatures::freezing</a> ) ) * dstep;</div>
-<div class="line"><a id="l05620" name="l05620"></a><span class="lineno"> 5620</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l05621" name="l05621"></a><span class="lineno"> 5621</span>        <span class="keywordflow">return</span> std::lround( 215.46 * std::pow( 2.0, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>( temp ) / 16.0 ) );</div>
-<div class="line"><a id="l05622" name="l05622"></a><span class="lineno"> 5622</span>    }</div>
-<div class="line"><a id="l05623" name="l05623"></a><span class="lineno"> 5623</span>}</div>
+<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l05621">5621</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l05622" name="l05622"></a><span class="lineno"> 5622</span>{</div>
+<div class="line"><a id="l05623" name="l05623"></a><span class="lineno"> 5623</span>    <span class="comment">// default temp = 65, so generic-&gt;rotten() assumes 600 decay points per hour</span></div>
+<div class="line"><a id="l05624" name="l05624"></a><span class="lineno"> 5624</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> dropoff = 38;     <span class="comment">// ditch our fancy equation and do a linear approach to 0 rot at 31f</span></div>
+<div class="line"><a id="l05625" name="l05625"></a><span class="lineno"> 5625</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> cutoff = 105;     <span class="comment">// stop torturing the player at this temperature, which is</span></div>
+<div class="line"><a id="l05626" name="l05626"></a><span class="lineno"> 5626</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> cutoffrot = 21240; <span class="comment">// ..almost 6 times the base rate. bacteria hate the heat too</span></div>
+<div class="line"><a id="l05627" name="l05627"></a><span class="lineno"> 5627</span> </div>
+<div class="line"><a id="l05628" name="l05628"></a><span class="lineno"> 5628</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> dsteps = dropoff - <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">units::to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#a6fe2961d424ef5406871b8ee32764330">temperatures::freezing</a> );</div>
+<div class="line"><a id="l05629" name="l05629"></a><span class="lineno"> 5629</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> dstep = ( 215.46 * std::pow( 2.0, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>( dropoff ) / 16.0 ) / dsteps );</div>
+<div class="line"><a id="l05630" name="l05630"></a><span class="lineno"> 5630</span> </div>
+<div class="line"><a id="l05631" name="l05631"></a><span class="lineno"> 5631</span>    <span class="keywordflow">if</span>( temp &lt; <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">units::to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#a6fe2961d424ef5406871b8ee32764330">temperatures::freezing</a> ) ) {</div>
+<div class="line"><a id="l05632" name="l05632"></a><span class="lineno"> 5632</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l05633" name="l05633"></a><span class="lineno"> 5633</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>( temp &gt; cutoff ) {</div>
+<div class="line"><a id="l05634" name="l05634"></a><span class="lineno"> 5634</span>        <span class="keywordflow">return</span> cutoffrot;</div>
+<div class="line"><a id="l05635" name="l05635"></a><span class="lineno"> 5635</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>( temp &lt; dropoff ) {</div>
+<div class="line"><a id="l05636" name="l05636"></a><span class="lineno"> 5636</span>        <span class="keywordflow">return</span> ( temp - <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">units::to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#a6fe2961d424ef5406871b8ee32764330">temperatures::freezing</a> ) ) * dstep;</div>
+<div class="line"><a id="l05637" name="l05637"></a><span class="lineno"> 5637</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l05638" name="l05638"></a><span class="lineno"> 5638</span>        <span class="keywordflow">return</span> std::lround( 215.46 * std::pow( 2.0, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>( temp ) / 16.0 ) );</div>
+<div class="line"><a id="l05639" name="l05639"></a><span class="lineno"> 5639</span>    }</div>
+<div class="line"><a id="l05640" name="l05640"></a><span class="lineno"> 5640</span>}</div>
 <div class="ttc" id="anamespacetemperatures_html_a6fe2961d424ef5406871b8ee32764330"><div class="ttname"><a href="namespacetemperatures.html#a6fe2961d424ef5406871b8ee32764330">temperatures::freezing</a></div><div class="ttdeci">constexpr units::temperature freezing</div><div class="ttdef"><b>Definition:</b> <a href="game__constants_8h_source.html#l00097">game_constants.h:97</a></div></div>
 <div class="ttc" id="anamespaceunits_html_a375816854bc926ebda4d9240e7d6cf64"><div class="ttname"><a href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">units::to_fahrenheit</a></div><div class="ttdeci">constexpr value_type to_fahrenheit(const quantity&lt; value_type, temperature_in_millidegree_celsius_tag &gt; &amp;v)</div><div class="ttdef"><b>Definition:</b> <a href="units__temperature_8h_source.html#l00124">units_temperature.h:124</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="game__constants_8h_source.html#l00097">temperatures::freezing</a>, and <a class="el" href="units__temperature_8h_source.html#l00124">units::to_fahrenheit()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05629">calc_rot_array()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05646">calc_rot_array()</a>.</p>
 
 </div>
 </div>
@@ -713,21 +713,21 @@ rot_chart </dd></dl>
 <p>Initialize the rot table. </p>
 <dl class="section see"><dt>See also</dt><dd>rot_chart </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l05629">5629</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l05630" name="l05630"></a><span class="lineno"> 5630</span>{</div>
-<div class="line"><a id="l05631" name="l05631"></a><span class="lineno"> 5631</span>    std::vector&lt;int&gt; <a class="code hl_variable" href="namespacecata_1_1hash64__detail.html#a5ca825db6fd06946302c60daa97333e4">ret</a>;</div>
-<div class="line"><a id="l05632" name="l05632"></a><span class="lineno"> 5632</span>    <a class="code hl_variable" href="namespacecata_1_1hash64__detail.html#a5ca825db6fd06946302c60daa97333e4">ret</a>.reserve( cap );</div>
-<div class="line"><a id="l05633" name="l05633"></a><span class="lineno"> 5633</span>    <span class="keywordflow">for</span>( <span class="keywordtype">size_t</span> i = 0; i &lt; cap; ++i ) {</div>
-<div class="line"><a id="l05634" name="l05634"></a><span class="lineno"> 5634</span>        <a class="code hl_variable" href="namespacecata_1_1hash64__detail.html#a5ca825db6fd06946302c60daa97333e4">ret</a>.push_back( <a class="code hl_function" href="item_8cpp.html#a8e7250df12cca18746d4fb363021df76">calc_hourly_rotpoints_at_temp</a>( <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>( i ) ) );</div>
-<div class="line"><a id="l05635" name="l05635"></a><span class="lineno"> 5635</span>    }</div>
-<div class="line"><a id="l05636" name="l05636"></a><span class="lineno"> 5636</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="namespacecata_1_1hash64__detail.html#a5ca825db6fd06946302c60daa97333e4">ret</a>;</div>
-<div class="line"><a id="l05637" name="l05637"></a><span class="lineno"> 5637</span>}</div>
-<div class="ttc" id="aitem_8cpp_html_a8e7250df12cca18746d4fb363021df76"><div class="ttname"><a href="item_8cpp.html#a8e7250df12cca18746d4fb363021df76">calc_hourly_rotpoints_at_temp</a></div><div class="ttdeci">static int calc_hourly_rotpoints_at_temp(const int temp)</div><div class="ttdoc">Food decay calculation.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05604">item.cpp:5604</a></div></div>
+<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l05646">5646</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l05647" name="l05647"></a><span class="lineno"> 5647</span>{</div>
+<div class="line"><a id="l05648" name="l05648"></a><span class="lineno"> 5648</span>    std::vector&lt;int&gt; <a class="code hl_variable" href="namespacecata_1_1hash64__detail.html#a5ca825db6fd06946302c60daa97333e4">ret</a>;</div>
+<div class="line"><a id="l05649" name="l05649"></a><span class="lineno"> 5649</span>    <a class="code hl_variable" href="namespacecata_1_1hash64__detail.html#a5ca825db6fd06946302c60daa97333e4">ret</a>.reserve( cap );</div>
+<div class="line"><a id="l05650" name="l05650"></a><span class="lineno"> 5650</span>    <span class="keywordflow">for</span>( <span class="keywordtype">size_t</span> i = 0; i &lt; cap; ++i ) {</div>
+<div class="line"><a id="l05651" name="l05651"></a><span class="lineno"> 5651</span>        <a class="code hl_variable" href="namespacecata_1_1hash64__detail.html#a5ca825db6fd06946302c60daa97333e4">ret</a>.push_back( <a class="code hl_function" href="item_8cpp.html#a8e7250df12cca18746d4fb363021df76">calc_hourly_rotpoints_at_temp</a>( <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>( i ) ) );</div>
+<div class="line"><a id="l05652" name="l05652"></a><span class="lineno"> 5652</span>    }</div>
+<div class="line"><a id="l05653" name="l05653"></a><span class="lineno"> 5653</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="namespacecata_1_1hash64__detail.html#a5ca825db6fd06946302c60daa97333e4">ret</a>;</div>
+<div class="line"><a id="l05654" name="l05654"></a><span class="lineno"> 5654</span>}</div>
+<div class="ttc" id="aitem_8cpp_html_a8e7250df12cca18746d4fb363021df76"><div class="ttname"><a href="item_8cpp.html#a8e7250df12cca18746d4fb363021df76">calc_hourly_rotpoints_at_temp</a></div><div class="ttdeci">static int calc_hourly_rotpoints_at_temp(const int temp)</div><div class="ttdoc">Food decay calculation.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05621">item.cpp:5621</a></div></div>
 <div class="ttc" id="anamespacecata_1_1hash64__detail_html_a5ca825db6fd06946302c60daa97333e4"><div class="ttname"><a href="namespacecata_1_1hash64__detail.html#a5ca825db6fd06946302c60daa97333e4">cata::hash64_detail::ret</a></div><div class="ttdeci">T ret</div><div class="ttdef"><b>Definition:</b> <a href="hash__utils_8h_source.html#l00098">hash_utils.h:98</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="item_8cpp_source.html#l05604">calc_hourly_rotpoints_at_temp()</a>, and <a class="el" href="hash__utils_8h_source.html#l00098">cata::hash64_detail::ret</a>.</p>
+<p class="reference">References <a class="el" href="item_8cpp_source.html#l05621">calc_hourly_rotpoints_at_temp()</a>, and <a class="el" href="hash__utils_8h_source.html#l00098">cata::hash64_detail::ret</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05643">get_hourly_rotpoints_at_temp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05660">get_hourly_rotpoints_at_temp()</a>.</p>
 
 </div>
 </div>
@@ -765,27 +765,27 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l08964">8964</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l08966" name="l08966"></a><span class="lineno"> 8966</span>{</div>
-<div class="line"><a id="l08967" name="l08967"></a><span class="lineno"> 8967</span>    <span class="keywordflow">switch</span>( flag ) {</div>
-<div class="line"><a id="l08968" name="l08968"></a><span class="lineno"> 8968</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da97a8a8356c8e6ec71bc071918368ab20">temperature_flag::TEMP_NORMAL</a>:</div>
-<div class="line"><a id="l08969" name="l08969"></a><span class="lineno"> 8969</span>            <span class="comment">// Just use the temperature normally</span></div>
-<div class="line"><a id="l08970" name="l08970"></a><span class="lineno"> 8970</span>            <span class="keywordflow">return</span> <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a>;</div>
-<div class="line"><a id="l08971" name="l08971"></a><span class="lineno"> 8971</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5dad2e703e320bca1fe9991716791e958fb">temperature_flag::TEMP_FRIDGE</a>:</div>
-<div class="line"><a id="l08972" name="l08972"></a><span class="lineno"> 8972</span>            <span class="keywordflow">return</span> std::min( <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a>, <a class="code hl_variable" href="namespacetemperatures.html#a6ac4b0413305dd75769d62227081d8b1">temperatures::fridge</a> );</div>
-<div class="line"><a id="l08973" name="l08973"></a><span class="lineno"> 8973</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5daab79f10607e00f5f2377eaefe8c09a9a">temperature_flag::TEMP_FREEZER</a>:</div>
-<div class="line"><a id="l08974" name="l08974"></a><span class="lineno"> 8974</span>            <span class="keywordflow">return</span> std::min( <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a>, <a class="code hl_variable" href="namespacetemperatures.html#ab5323589e14984e5c09cafa3b62def7d">temperatures::freezer</a> );</div>
-<div class="line"><a id="l08975" name="l08975"></a><span class="lineno"> 8975</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da6d106a78eac33e56fc089873c46de0dd">temperature_flag::TEMP_HEATER</a>:</div>
-<div class="line"><a id="l08976" name="l08976"></a><span class="lineno"> 8976</span>            <span class="keywordflow">return</span> std::max( <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a>, <a class="code hl_variable" href="namespacetemperatures.html#a9f523a38a9f55c0f553288964f823f38">temperatures::normal</a> );</div>
-<div class="line"><a id="l08977" name="l08977"></a><span class="lineno"> 8977</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da485a07b934a4c717af6dd180aadcb207">temperature_flag::TEMP_ROOT_CELLAR</a>:</div>
-<div class="line"><a id="l08978" name="l08978"></a><span class="lineno"> 8978</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="namespacetemperatures.html#aed7454d776862538b76d7fef4965394d">temperatures::root_cellar</a>;</div>
-<div class="line"><a id="l08979" name="l08979"></a><span class="lineno"> 8979</span>        <span class="keywordflow">default</span>:</div>
-<div class="line"><a id="l08980" name="l08980"></a><span class="lineno"> 8980</span>            <a class="code hl_define" href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a>( <span class="stringliteral">&quot;Temperature flag enum not valid: %d.  Using current temperature.&quot;</span>,</div>
-<div class="line"><a id="l08981" name="l08981"></a><span class="lineno"> 8981</span>                      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>( flag ) );</div>
-<div class="line"><a id="l08982" name="l08982"></a><span class="lineno"> 8982</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l08983" name="l08983"></a><span class="lineno"> 8983</span>    }</div>
-<div class="line"><a id="l08984" name="l08984"></a><span class="lineno"> 8984</span>    <span class="keywordflow">return</span> <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a>;</div>
-<div class="line"><a id="l08985" name="l08985"></a><span class="lineno"> 8985</span>}</div>
+<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l08972">8972</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l08974" name="l08974"></a><span class="lineno"> 8974</span>{</div>
+<div class="line"><a id="l08975" name="l08975"></a><span class="lineno"> 8975</span>    <span class="keywordflow">switch</span>( flag ) {</div>
+<div class="line"><a id="l08976" name="l08976"></a><span class="lineno"> 8976</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da97a8a8356c8e6ec71bc071918368ab20">temperature_flag::TEMP_NORMAL</a>:</div>
+<div class="line"><a id="l08977" name="l08977"></a><span class="lineno"> 8977</span>            <span class="comment">// Just use the temperature normally</span></div>
+<div class="line"><a id="l08978" name="l08978"></a><span class="lineno"> 8978</span>            <span class="keywordflow">return</span> <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a>;</div>
+<div class="line"><a id="l08979" name="l08979"></a><span class="lineno"> 8979</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5dad2e703e320bca1fe9991716791e958fb">temperature_flag::TEMP_FRIDGE</a>:</div>
+<div class="line"><a id="l08980" name="l08980"></a><span class="lineno"> 8980</span>            <span class="keywordflow">return</span> std::min( <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a>, <a class="code hl_variable" href="namespacetemperatures.html#a6ac4b0413305dd75769d62227081d8b1">temperatures::fridge</a> );</div>
+<div class="line"><a id="l08981" name="l08981"></a><span class="lineno"> 8981</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5daab79f10607e00f5f2377eaefe8c09a9a">temperature_flag::TEMP_FREEZER</a>:</div>
+<div class="line"><a id="l08982" name="l08982"></a><span class="lineno"> 8982</span>            <span class="keywordflow">return</span> std::min( <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a>, <a class="code hl_variable" href="namespacetemperatures.html#ab5323589e14984e5c09cafa3b62def7d">temperatures::freezer</a> );</div>
+<div class="line"><a id="l08983" name="l08983"></a><span class="lineno"> 8983</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da6d106a78eac33e56fc089873c46de0dd">temperature_flag::TEMP_HEATER</a>:</div>
+<div class="line"><a id="l08984" name="l08984"></a><span class="lineno"> 8984</span>            <span class="keywordflow">return</span> std::max( <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a>, <a class="code hl_variable" href="namespacetemperatures.html#a9f523a38a9f55c0f553288964f823f38">temperatures::normal</a> );</div>
+<div class="line"><a id="l08985" name="l08985"></a><span class="lineno"> 8985</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da485a07b934a4c717af6dd180aadcb207">temperature_flag::TEMP_ROOT_CELLAR</a>:</div>
+<div class="line"><a id="l08986" name="l08986"></a><span class="lineno"> 8986</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="namespacetemperatures.html#aed7454d776862538b76d7fef4965394d">temperatures::root_cellar</a>;</div>
+<div class="line"><a id="l08987" name="l08987"></a><span class="lineno"> 8987</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><a id="l08988" name="l08988"></a><span class="lineno"> 8988</span>            <a class="code hl_define" href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a>( <span class="stringliteral">&quot;Temperature flag enum not valid: %d.  Using current temperature.&quot;</span>,</div>
+<div class="line"><a id="l08989" name="l08989"></a><span class="lineno"> 8989</span>                      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>( flag ) );</div>
+<div class="line"><a id="l08990" name="l08990"></a><span class="lineno"> 8990</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l08991" name="l08991"></a><span class="lineno"> 8991</span>    }</div>
+<div class="line"><a id="l08992" name="l08992"></a><span class="lineno"> 8992</span>    <span class="keywordflow">return</span> <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a>;</div>
+<div class="line"><a id="l08993" name="l08993"></a><span class="lineno"> 8993</span>}</div>
 <div class="ttc" id="adebug_8h_html_a87e509562277a7ada3a75330d00cb445"><div class="ttname"><a href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a></div><div class="ttdeci">#define debugmsg(...)</div><div class="ttdoc">Debug message of level DL::Error and class DC::DebugMsg, also includes the source file name and line,...</div><div class="ttdef"><b>Definition:</b> <a href="debug_8h_source.html#l00074">debug.h:74</a></div></div>
 <div class="ttc" id="aenums_8h_html_a5f18231241dd5fb662d1c5313636ec5da485a07b934a4c717af6dd180aadcb207"><div class="ttname"><a href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da485a07b934a4c717af6dd180aadcb207">temperature_flag::TEMP_ROOT_CELLAR</a></div><div class="ttdeci">@ TEMP_ROOT_CELLAR</div></div>
 <div class="ttc" id="aenums_8h_html_a5f18231241dd5fb662d1c5313636ec5da6d106a78eac33e56fc089873c46de0dd"><div class="ttname"><a href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da6d106a78eac33e56fc089873c46de0dd">temperature_flag::TEMP_HEATER</a></div><div class="ttdeci">@ TEMP_HEATER</div></div>
@@ -800,7 +800,7 @@ rot_chart </dd></dl>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="debug_8h_source.html#l00074">debugmsg</a>, <a class="el" href="game__constants_8h_source.html#l00094">temperatures::freezer</a>, <a class="el" href="game__constants_8h_source.html#l00088">temperatures::fridge</a>, <a class="el" href="game__constants_8h_source.html#l00085">temperatures::normal</a>, <a class="el" href="game__constants_8h_source.html#l00101">temperatures::root_cellar</a>, <a class="el" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5daab79f10607e00f5f2377eaefe8c09a9a">TEMP_FREEZER</a>, <a class="el" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5dad2e703e320bca1fe9991716791e958fb">TEMP_FRIDGE</a>, <a class="el" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da6d106a78eac33e56fc089873c46de0dd">TEMP_HEATER</a>, <a class="el" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da97a8a8356c8e6ec71bc071918368ab20">TEMP_NORMAL</a>, and <a class="el" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da485a07b934a4c717af6dd180aadcb207">TEMP_ROOT_CELLAR</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08987">item::process_rot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08995">item::process_rot()</a>.</p>
 
 </div>
 </div>
@@ -828,7 +828,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l10164">item::get_clothing_mod_val()</a>, and <a class="el" href="item_8cpp_source.html#l10171">item::update_clothing_mod_val()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l10172">item::get_clothing_mod_val()</a>, and <a class="el" href="item_8cpp_source.html#l10179">item::update_clothing_mod_val()</a>.</p>
 
 </div>
 </div>
@@ -856,7 +856,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06412">item::is_two_handed()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06429">item::is_two_handed()</a>.</p>
 
 </div>
 </div>
@@ -884,7 +884,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02535">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05883">item::get_layer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02552">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05900">item::get_layer()</a>.</p>
 
 </div>
 </div>
@@ -912,7 +912,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02535">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05883">item::get_layer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02552">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05900">item::get_layer()</a>.</p>
 
 </div>
 </div>
@@ -940,7 +940,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02020">item::gun_info()</a>, and <a class="el" href="item_8cpp_source.html#l07317">item::gun_recoil_multiplier()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02020">item::gun_info()</a>, and <a class="el" href="item_8cpp_source.html#l07321">item::gun_recoil_multiplier()</a>.</p>
 
 </div>
 </div>
@@ -968,7 +968,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08904">item::components_to_string()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08912">item::components_to_string()</a>.</p>
 
 </div>
 </div>
@@ -996,7 +996,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09646">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l09456">item::process_UPS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09654">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l09464">item::process_UPS()</a>.</p>
 
 </div>
 </div>
@@ -1052,7 +1052,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -1080,7 +1080,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08393">item::getlight_emit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08401">item::getlight_emit()</a>.</p>
 
 </div>
 </div>
@@ -1108,7 +1108,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08987">item::process_rot()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08995">item::process_rot()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -1136,7 +1136,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05112">item::volume()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05129">item::volume()</a>.</p>
 
 </div>
 </div>
@@ -1164,7 +1164,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06486">item::conductive()</a>, and <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06503">item::conductive()</a>, and <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>.</p>
 
 </div>
 </div>
@@ -1192,7 +1192,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>.</p>
 
 </div>
 </div>
@@ -1220,7 +1220,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06324">item::durability_indicator()</a>, <a class="el" href="item_8cpp_source.html#l06628">item::is_corpse()</a>, <a class="el" href="item_8cpp_source.html#l00374">item::item()</a>, and <a class="el" href="item_8cpp_source.html#l09872">item::type_name()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06341">item::durability_indicator()</a>, <a class="el" href="item_8cpp_source.html#l06645">item::is_corpse()</a>, <a class="el" href="item_8cpp_source.html#l00374">item::item()</a>, and <a class="el" href="item_8cpp_source.html#l09880">item::type_name()</a>.</p>
 
 </div>
 </div>
@@ -1248,8 +1248,6 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07203">item::gun_type()</a>.</p>
-
 </div>
 </div>
 <a id="ab0acf57079befb9cedabe275cc52035b" name="ab0acf57079befb9cedabe275cc52035b"></a>
@@ -1276,7 +1274,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09822">item::is_dangerous()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09830">item::is_dangerous()</a>.</p>
 
 </div>
 </div>
@@ -1304,7 +1302,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09288">item::process_extinguish()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09296">item::process_extinguish()</a>.</p>
 
 </div>
 </div>
@@ -1332,7 +1330,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05196">item::damage_melee()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05213">item::damage_melee()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -1360,7 +1358,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l07269">item::sight_dispersion()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l07273">item::sight_dispersion()</a>.</p>
 
 </div>
 </div>
@@ -1388,7 +1386,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08943">item::needs_processing()</a>, <a class="el" href="item_8cpp_source.html#l09646">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08951">item::needs_processing()</a>, <a class="el" href="item_8cpp_source.html#l09654">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -1416,7 +1414,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09646">item::process_internal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09654">item::process_internal()</a>.</p>
 
 </div>
 </div>
@@ -1444,7 +1442,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09646">item::process_internal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09654">item::process_internal()</a>.</p>
 
 </div>
 </div>
@@ -1472,7 +1470,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05659">item::calc_rot()</a>, <a class="el" href="item_8cpp_source.html#l05965">item::can_revive()</a>, <a class="el" href="item_8cpp_source.html#l05062">item::corpse_volume()</a>, and <a class="el" href="item_8cpp_source.html#l04966">item::weight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05676">item::calc_rot()</a>, <a class="el" href="item_8cpp_source.html#l05982">item::can_revive()</a>, <a class="el" href="item_8cpp_source.html#l05079">item::corpse_volume()</a>, and <a class="el" href="item_8cpp_source.html#l04983">item::weight()</a>.</p>
 
 </div>
 </div>
@@ -1500,7 +1498,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05965">item::can_revive()</a>, <a class="el" href="item_8cpp_source.html#l05062">item::corpse_volume()</a>, and <a class="el" href="item_8cpp_source.html#l04966">item::weight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05982">item::can_revive()</a>, <a class="el" href="item_8cpp_source.html#l05079">item::corpse_volume()</a>, and <a class="el" href="item_8cpp_source.html#l04983">item::weight()</a>.</p>
 
 </div>
 </div>
@@ -1528,7 +1526,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l10002">item::is_filthy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l10010">item::is_filthy()</a>.</p>
 
 </div>
 </div>
@@ -1556,7 +1554,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07465">item::ammo_required()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07469">item::ammo_required()</a>.</p>
 
 </div>
 </div>
@@ -1584,7 +1582,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07465">item::ammo_required()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07469">item::ammo_required()</a>.</p>
 
 </div>
 </div>
@@ -1612,7 +1610,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07465">item::ammo_required()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07469">item::ammo_required()</a>.</p>
 
 </div>
 </div>
@@ -1640,7 +1638,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>.</p>
 
 </div>
 </div>
@@ -1668,7 +1666,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02743">item::armor_fit_info()</a>, <a class="el" href="item_8cpp_source.html#l02535">item::armor_info()</a>, <a class="el" href="item_8cpp_source.html#l05828">item::get_encumber_when_containing()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02760">item::armor_fit_info()</a>, <a class="el" href="item_8cpp_source.html#l02552">item::armor_info()</a>, <a class="el" href="item_8cpp_source.html#l05845">item::get_encumber_when_containing()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -1696,7 +1694,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -1724,7 +1722,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -1752,7 +1750,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05062">item::corpse_volume()</a>, and <a class="el" href="item_8cpp_source.html#l04966">item::weight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05079">item::corpse_volume()</a>, and <a class="el" href="item_8cpp_source.html#l04983">item::weight()</a>.</p>
 
 </div>
 </div>
@@ -1780,7 +1778,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -1808,7 +1806,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02743">item::armor_fit_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02760">item::armor_fit_info()</a>.</p>
 
 </div>
 </div>
@@ -1836,7 +1834,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l01673">item::food_info()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l01673">item::food_info()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -1864,7 +1862,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l01673">item::food_info()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l01673">item::food_info()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -1892,7 +1890,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06783">item::is_irremovable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06800">item::is_irremovable()</a>.</p>
 
 </div>
 </div>
@@ -1920,7 +1918,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06712">item::is_armor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06729">item::is_armor()</a>.</p>
 
 </div>
 </div>
@@ -1948,7 +1946,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06706">item::is_pet_armor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06723">item::is_pet_armor()</a>.</p>
 
 </div>
 </div>
@@ -1976,7 +1974,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09646">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09654">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -2004,7 +2002,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>.</p>
 
 </div>
 </div>
@@ -2032,7 +2030,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04135">item::color_in_inventory()</a>, and <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04152">item::color_in_inventory()</a>, and <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>.</p>
 
 </div>
 </div>
@@ -2060,7 +2058,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09288">item::process_extinguish()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09296">item::process_extinguish()</a>.</p>
 
 </div>
 </div>
@@ -2088,7 +2086,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l10013">item::on_drop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l10021">item::on_drop()</a>.</p>
 
 </div>
 </div>
@@ -2116,7 +2114,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04135">item::color_in_inventory()</a>, <a class="el" href="item_8cpp_source.html#l09288">item::process_extinguish()</a>, <a class="el" href="item_8cpp_source.html#l09646">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04152">item::color_in_inventory()</a>, <a class="el" href="item_8cpp_source.html#l09296">item::process_extinguish()</a>, <a class="el" href="item_8cpp_source.html#l09654">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -2144,7 +2142,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06575">item::is_ammo_belt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06592">item::is_ammo_belt()</a>.</p>
 
 </div>
 </div>
@@ -2172,7 +2170,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07493">item::ammo_consume()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07497">item::ammo_consume()</a>.</p>
 
 </div>
 </div>
@@ -2200,7 +2198,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07493">item::ammo_consume()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07497">item::ammo_consume()</a>.</p>
 
 </div>
 </div>
@@ -2256,7 +2254,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -2284,7 +2282,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04418">item::on_wield()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04435">item::on_wield()</a>.</p>
 
 </div>
 </div>
@@ -2312,7 +2310,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07772">item::is_gunmod_compatible()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07776">item::is_gunmod_compatible()</a>.</p>
 
 </div>
 </div>
@@ -2368,7 +2366,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04966">item::weight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04983">item::weight()</a>.</p>
 
 </div>
 </div>
@@ -2424,7 +2422,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>, <a class="el" href="item_8cpp_source.html#l09851">item::is_reloadable()</a>, and <a class="el" href="item_8cpp_source.html#l01884">item::magazine_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>, <a class="el" href="item_8cpp_source.html#l09859">item::is_reloadable()</a>, and <a class="el" href="item_8cpp_source.html#l01884">item::magazine_info()</a>.</p>
 
 </div>
 </div>
@@ -2452,7 +2450,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06507">item::reinforceable()</a>, and <a class="el" href="item_8cpp_source.html#l06365">item::repaired_with()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06524">item::reinforceable()</a>, and <a class="el" href="item_8cpp_source.html#l06382">item::repaired_with()</a>.</p>
 
 </div>
 </div>
@@ -2480,7 +2478,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06917">item::is_salvageable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06934">item::is_salvageable()</a>.</p>
 
 </div>
 </div>
@@ -2536,7 +2534,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06486">item::conductive()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06503">item::conductive()</a>.</p>
 
 </div>
 </div>
@@ -2564,7 +2562,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02535">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05883">item::get_layer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02552">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05900">item::get_layer()</a>.</p>
 
 </div>
 </div>
@@ -2620,7 +2618,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02535">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05883">item::get_layer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02552">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05900">item::get_layer()</a>.</p>
 
 </div>
 </div>
@@ -2648,7 +2646,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02743">item::armor_fit_info()</a>, <a class="el" href="item_8cpp_source.html#l05794">item::is_power_armor()</a>, and <a class="el" href="item_8cpp_source.html#l00838">item::is_worn_only_with()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02760">item::armor_fit_info()</a>, <a class="el" href="item_8cpp_source.html#l05811">item::is_power_armor()</a>, and <a class="el" href="item_8cpp_source.html#l00838">item::is_worn_only_with()</a>.</p>
 
 </div>
 </div>
@@ -2676,7 +2674,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02743">item::armor_fit_info()</a>, <a class="el" href="item_8cpp_source.html#l05794">item::is_power_armor()</a>, and <a class="el" href="item_8cpp_source.html#l00838">item::is_worn_only_with()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02760">item::armor_fit_info()</a>, <a class="el" href="item_8cpp_source.html#l05811">item::is_power_armor()</a>, and <a class="el" href="item_8cpp_source.html#l00838">item::is_worn_only_with()</a>.</p>
 
 </div>
 </div>
@@ -2704,7 +2702,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05794">item::is_power_armor()</a>, <a class="el" href="item_8cpp_source.html#l00838">item::is_worn_only_with()</a>, and <a class="el" href="item_8cpp_source.html#l04300">item::on_wear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05811">item::is_power_armor()</a>, <a class="el" href="item_8cpp_source.html#l00838">item::is_worn_only_with()</a>, and <a class="el" href="item_8cpp_source.html#l04317">item::on_wear()</a>.</p>
 
 </div>
 </div>
@@ -2732,7 +2730,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05506">item::goes_bad()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05523">item::goes_bad()</a>.</p>
 
 </div>
 </div>
@@ -2760,7 +2758,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05547">item::set_relative_rot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05564">item::set_relative_rot()</a>.</p>
 
 </div>
 </div>
@@ -2788,7 +2786,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05965">item::can_revive()</a>, and <a class="el" href="item_8cpp_source.html#l04550">item::on_damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05982">item::can_revive()</a>, and <a class="el" href="item_8cpp_source.html#l04567">item::on_damage()</a>.</p>
 
 </div>
 </div>
@@ -2816,7 +2814,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07772">item::is_gunmod_compatible()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07776">item::is_gunmod_compatible()</a>.</p>
 
 </div>
 </div>
@@ -2844,7 +2842,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07772">item::is_gunmod_compatible()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07776">item::is_gunmod_compatible()</a>.</p>
 
 </div>
 </div>
@@ -2872,7 +2870,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05965">item::can_revive()</a>, <a class="el" href="item_8cpp_source.html#l05062">item::corpse_volume()</a>, and <a class="el" href="item_8cpp_source.html#l04966">item::weight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05982">item::can_revive()</a>, <a class="el" href="item_8cpp_source.html#l05079">item::corpse_volume()</a>, and <a class="el" href="item_8cpp_source.html#l04983">item::weight()</a>.</p>
 
 </div>
 </div>
@@ -2900,7 +2898,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l08943">item::needs_processing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l08951">item::needs_processing()</a>.</p>
 
 </div>
 </div>
@@ -2928,7 +2926,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>.</p>
 
 </div>
 </div>
@@ -2956,7 +2954,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -2984,7 +2982,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04135">item::color_in_inventory()</a>, and <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04152">item::color_in_inventory()</a>, and <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>.</p>
 
 </div>
 </div>
@@ -3012,7 +3010,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -3040,7 +3038,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -3068,7 +3066,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -3096,7 +3094,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09288">item::process_extinguish()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09296">item::process_extinguish()</a>.</p>
 
 </div>
 </div>
@@ -3124,7 +3122,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03401">item::combat_info()</a>, and <a class="el" href="item_8cpp_source.html#l05273">item::reach_range()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03418">item::combat_info()</a>, and <a class="el" href="item_8cpp_source.html#l05290">item::reach_range()</a>.</p>
 
 </div>
 </div>
@@ -3152,7 +3150,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03401">item::combat_info()</a>, <a class="el" href="item_8cpp_source.html#l02383">item::gunmod_info()</a>, and <a class="el" href="item_8cpp_source.html#l05273">item::reach_range()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03418">item::combat_info()</a>, <a class="el" href="item_8cpp_source.html#l02383">item::gunmod_info()</a>, and <a class="el" href="item_8cpp_source.html#l05290">item::reach_range()</a>.</p>
 
 </div>
 </div>
@@ -3180,7 +3178,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>.</p>
 
 </div>
 </div>
@@ -3208,7 +3206,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05196">item::damage_melee()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05213">item::damage_melee()</a>.</p>
 
 </div>
 </div>
@@ -3236,7 +3234,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04966">item::weight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04983">item::weight()</a>.</p>
 
 </div>
 </div>
@@ -3264,7 +3262,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04828">item::display_name()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04845">item::display_name()</a>.</p>
 
 </div>
 </div>
@@ -3292,7 +3290,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07772">item::is_gunmod_compatible()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07776">item::is_gunmod_compatible()</a>.</p>
 
 </div>
 </div>
@@ -3320,7 +3318,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02020">item::gun_info()</a>, and <a class="el" href="item_8cpp_source.html#l08059">item_reload_option::qty()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02020">item::gun_info()</a>, and <a class="el" href="item_8cpp_source.html#l08067">item_reload_option::qty()</a>.</p>
 
 </div>
 </div>
@@ -3348,7 +3346,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05973">item::ready_to_revive()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05990">item::ready_to_revive()</a>.</p>
 
 </div>
 </div>
@@ -3376,7 +3374,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -3404,7 +3402,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05965">item::can_revive()</a>, <a class="el" href="item_8cpp_source.html#l05062">item::corpse_volume()</a>, and <a class="el" href="item_8cpp_source.html#l04966">item::weight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05982">item::can_revive()</a>, <a class="el" href="item_8cpp_source.html#l05079">item::corpse_volume()</a>, and <a class="el" href="item_8cpp_source.html#l04983">item::weight()</a>.</p>
 
 </div>
 </div>
@@ -3432,7 +3430,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02535">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05883">item::get_layer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02552">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05900">item::get_layer()</a>.</p>
 
 </div>
 </div>
@@ -3460,7 +3458,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04418">item::on_wield()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04435">item::on_wield()</a>.</p>
 
 </div>
 </div>
@@ -3488,7 +3486,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08059">item_reload_option::qty()</a>, and <a class="el" href="item_8cpp_source.html#l08119">item::reload()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08067">item_reload_option::qty()</a>, and <a class="el" href="item_8cpp_source.html#l08127">item::reload()</a>.</p>
 
 </div>
 </div>
@@ -3516,7 +3514,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04300">item::on_wear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04317">item::on_wear()</a>.</p>
 
 </div>
 </div>
@@ -3572,7 +3570,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -3600,7 +3598,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l00741">item::is_unarmed_weapon()</a>, and <a class="el" href="item_8cpp_source.html#l07216">item::melee_skill()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l00741">item::is_unarmed_weapon()</a>, and <a class="el" href="item_8cpp_source.html#l07220">item::melee_skill()</a>.</p>
 
 </div>
 </div>
@@ -3656,7 +3654,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>, <a class="el" href="item_8cpp_source.html#l08393">item::getlight_emit()</a>, <a class="el" href="item_8cpp_source.html#l09487">item::process_tool()</a>, <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>, and <a class="el" href="item_8cpp_source.html#l08000">item::units_remaining()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>, <a class="el" href="item_8cpp_source.html#l08401">item::getlight_emit()</a>, <a class="el" href="item_8cpp_source.html#l09495">item::process_tool()</a>, <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>, and <a class="el" href="item_8cpp_source.html#l08008">item::units_remaining()</a>.</p>
 
 </div>
 </div>
@@ -3684,7 +3682,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07493">item::ammo_consume()</a>, <a class="el" href="item_8cpp_source.html#l07395">item::ammo_remaining()</a>, <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l03084">item::tool_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07497">item::ammo_consume()</a>, <a class="el" href="item_8cpp_source.html#l07399">item::ammo_remaining()</a>, <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>, and <a class="el" href="item_8cpp_source.html#l03101">item::tool_info()</a>.</p>
 
 </div>
 </div>
@@ -3712,7 +3710,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02743">item::armor_fit_info()</a>, <a class="el" href="item_8cpp_source.html#l02535">item::armor_info()</a>, <a class="el" href="item_8cpp_source.html#l05828">item::get_encumber_when_containing()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02760">item::armor_fit_info()</a>, <a class="el" href="item_8cpp_source.html#l02552">item::armor_info()</a>, <a class="el" href="item_8cpp_source.html#l05845">item::get_encumber_when_containing()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -3740,7 +3738,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09851">item::is_reloadable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09859">item::is_reloadable()</a>.</p>
 
 </div>
 </div>
@@ -3768,7 +3766,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08987">item::process_rot()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08995">item::process_rot()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -3796,7 +3794,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02535">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05883">item::get_layer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02552">item::armor_info()</a>, and <a class="el" href="item_8cpp_source.html#l05900">item::get_layer()</a>.</p>
 
 </div>
 </div>
@@ -3824,7 +3822,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09646">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09654">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -3852,7 +3850,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07772">item::is_gunmod_compatible()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07776">item::is_gunmod_compatible()</a>.</p>
 
 </div>
 </div>
@@ -3880,7 +3878,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04135">item::color_in_inventory()</a>, <a class="el" href="item_8cpp_source.html#l09646">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04152">item::color_in_inventory()</a>, <a class="el" href="item_8cpp_source.html#l09654">item::process_internal()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -3908,7 +3906,7 @@ rot_chart </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09288">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09646">item::process_internal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09296">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09654">item::process_internal()</a>.</p>
 
 </div>
 </div>
@@ -3949,17 +3947,17 @@ rot_chart </dd></dl>
 <div class="line"><a id="l01233" name="l01233"></a><span class="lineno"> 1233</span> </div>
 <div class="line"><a id="l01234" name="l01234"></a><span class="lineno"> 1234</span>    <span class="keywordflow">return</span> t-&gt;<a class="code hl_variable" href="structislot__armor.html#a3bf1982fb7e01dcb6f894a43fa689639">env_resist</a> * it.<a class="code hl_function" href="classitem.html#aa17494d6cb1d70c05f43e99db0a63a39">get_relative_health</a>();</div>
 <div class="line"><a id="l01235" name="l01235"></a><span class="lineno"> 1235</span>}</div>
-<div class="ttc" id="aclassitem_html_a97dda9dbf79f8df65ac930cb89ac9b98"><div class="ttname"><a href="classitem.html#a97dda9dbf79f8df65ac930cb89ac9b98">item::find_armor_data</a></div><div class="ttdeci">const islot_armor * find_armor_data() const</div><div class="ttdoc">If this is an armor item, return its armor data.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l06690">item.cpp:6690</a></div></div>
-<div class="ttc" id="aclassitem_html_aa17494d6cb1d70c05f43e99db0a63a39"><div class="ttname"><a href="classitem.html#aa17494d6cb1d70c05f43e99db0a63a39">item::get_relative_health</a></div><div class="ttdeci">float get_relative_health() const</div><div class="ttdoc">Relative item health.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l06229">item.cpp:6229</a></div></div>
-<div class="ttc" id="aclassitem_html_ac1d2c4c33b8a499812f3437cb2fad742"><div class="ttname"><a href="classitem.html#ac1d2c4c33b8a499812f3437cb2fad742">item::type</a></div><div class="ttdeci">const itype * type</div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l02164">item.h:2164</a></div></div>
-<div class="ttc" id="aclassitem_html_af8be3cc1fd31607205d7170b1e2eb4fb"><div class="ttname"><a href="classitem.html#af8be3cc1fd31607205d7170b1e2eb4fb">item::is_pet_armor</a></div><div class="ttdeci">bool is_pet_armor(bool on_pet=false) const</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l06706">item.cpp:6706</a></div></div>
+<div class="ttc" id="aclassitem_html_a97dda9dbf79f8df65ac930cb89ac9b98"><div class="ttname"><a href="classitem.html#a97dda9dbf79f8df65ac930cb89ac9b98">item::find_armor_data</a></div><div class="ttdeci">const islot_armor * find_armor_data() const</div><div class="ttdoc">If this is an armor item, return its armor data.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l06707">item.cpp:6707</a></div></div>
+<div class="ttc" id="aclassitem_html_aa17494d6cb1d70c05f43e99db0a63a39"><div class="ttname"><a href="classitem.html#aa17494d6cb1d70c05f43e99db0a63a39">item::get_relative_health</a></div><div class="ttdeci">float get_relative_health() const</div><div class="ttdoc">Relative item health.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l06246">item.cpp:6246</a></div></div>
+<div class="ttc" id="aclassitem_html_ac1d2c4c33b8a499812f3437cb2fad742"><div class="ttname"><a href="classitem.html#ac1d2c4c33b8a499812f3437cb2fad742">item::type</a></div><div class="ttdeci">const itype * type</div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l02160">item.h:2160</a></div></div>
+<div class="ttc" id="aclassitem_html_af8be3cc1fd31607205d7170b1e2eb4fb"><div class="ttname"><a href="classitem.html#af8be3cc1fd31607205d7170b1e2eb4fb">item::is_pet_armor</a></div><div class="ttdeci">bool is_pet_armor(bool on_pet=false) const</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l06723">item.cpp:6723</a></div></div>
 <div class="ttc" id="astructislot__armor_html"><div class="ttname"><a href="structislot__armor.html">islot_armor</a></div><div class="ttdef"><b>Definition:</b> <a href="itype_8h_source.html#l00233">itype.h:233</a></div></div>
 <div class="ttc" id="astructislot__armor_html_a3bf1982fb7e01dcb6f894a43fa689639"><div class="ttname"><a href="structislot__armor.html#a3bf1982fb7e01dcb6f894a43fa689639">islot_armor::env_resist</a></div><div class="ttdeci">int env_resist</div><div class="ttdoc">Resistance to environmental effects.</div><div class="ttdef"><b>Definition:</b> <a href="itype_8h_source.html#l00263">itype.h:263</a></div></div>
-<div class="ttc" id="astructitype_html_a37254c7bdbbddd208cc69e2338ab833b"><div class="ttname"><a href="structitype.html#a37254c7bdbbddd208cc69e2338ab833b">itype::pet_armor</a></div><div class="ttdeci">cata::value_ptr&lt; islot_pet_armor &gt; pet_armor</div><div class="ttdef"><b>Definition:</b> <a href="itype_8h_source.html#l00853">itype.h:853</a></div></div>
+<div class="ttc" id="astructitype_html_a37254c7bdbbddd208cc69e2338ab833b"><div class="ttname"><a href="structitype.html#a37254c7bdbbddd208cc69e2338ab833b">itype::pet_armor</a></div><div class="ttdeci">cata::value_ptr&lt; islot_pet_armor &gt; pet_armor</div><div class="ttdef"><b>Definition:</b> <a href="itype_8h_source.html#l00821">itype.h:821</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="itype_8h_source.html#l00263">islot_armor::env_resist</a>, <a class="el" href="item_8cpp_source.html#l06690">item::find_armor_data()</a>, <a class="el" href="item_8cpp_source.html#l06229">item::get_relative_health()</a>, <a class="el" href="item_8cpp_source.html#l06706">item::is_pet_armor()</a>, <a class="el" href="itype_8h_source.html#l00853">itype::pet_armor</a>, and <a class="el" href="item_8h_source.html#l02164">item::type</a>.</p>
+<p class="reference">References <a class="el" href="itype_8h_source.html#l00263">islot_armor::env_resist</a>, <a class="el" href="item_8cpp_source.html#l06707">item::find_armor_data()</a>, <a class="el" href="item_8cpp_source.html#l06246">item::get_relative_health()</a>, <a class="el" href="item_8cpp_source.html#l06723">item::is_pet_armor()</a>, <a class="el" href="itype_8h_source.html#l00821">itype::pet_armor</a>, and <a class="el" href="item_8h_source.html#l02160">item::type</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02492">item::armor_protection_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02509">item::armor_protection_info()</a>.</p>
 
 </div>
 </div>
@@ -3989,18 +3987,18 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l06639">6639</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l06640" name="l06640"></a><span class="lineno"> 6640</span>{</div>
-<div class="line"><a id="l06641" name="l06641"></a><span class="lineno"> 6641</span>    <span class="keywordflow">if</span>( it-&gt;is_food() ) {</div>
-<div class="line"><a id="l06642" name="l06642"></a><span class="lineno"> 6642</span>        <span class="keywordflow">return</span> it;</div>
-<div class="line"><a id="l06643" name="l06643"></a><span class="lineno"> 6643</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>( it-&gt;is_food_container() &amp;&amp; !it-&gt;contents.empty() ) {</div>
-<div class="line"><a id="l06644" name="l06644"></a><span class="lineno"> 6644</span>        <span class="keywordflow">return</span> &amp;it-&gt;contents.front();</div>
-<div class="line"><a id="l06645" name="l06645"></a><span class="lineno"> 6645</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l06646" name="l06646"></a><span class="lineno"> 6646</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l06647" name="l06647"></a><span class="lineno"> 6647</span>    }</div>
-<div class="line"><a id="l06648" name="l06648"></a><span class="lineno"> 6648</span>}</div>
+<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l06656">6656</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l06657" name="l06657"></a><span class="lineno"> 6657</span>{</div>
+<div class="line"><a id="l06658" name="l06658"></a><span class="lineno"> 6658</span>    <span class="keywordflow">if</span>( it-&gt;is_food() ) {</div>
+<div class="line"><a id="l06659" name="l06659"></a><span class="lineno"> 6659</span>        <span class="keywordflow">return</span> it;</div>
+<div class="line"><a id="l06660" name="l06660"></a><span class="lineno"> 6660</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>( it-&gt;is_food_container() &amp;&amp; !it-&gt;contents.empty() ) {</div>
+<div class="line"><a id="l06661" name="l06661"></a><span class="lineno"> 6661</span>        <span class="keywordflow">return</span> &amp;it-&gt;contents.front();</div>
+<div class="line"><a id="l06662" name="l06662"></a><span class="lineno"> 6662</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l06663" name="l06663"></a><span class="lineno"> 6663</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l06664" name="l06664"></a><span class="lineno"> 6664</span>    }</div>
+<div class="line"><a id="l06665" name="l06665"></a><span class="lineno"> 6665</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06650">item::get_food()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06667">item::get_food()</a>.</p>
 
 </div>
 </div>
@@ -4097,15 +4095,15 @@ template&lt;typename Item &gt; </div>
 <div class="ttc" id="acalendar_8cpp_html_a3cbd6a4aa555daec83ee03cc90dd7715"><div class="ttname"><a href="calendar_8cpp.html#a3cbd6a4aa555daec83ee03cc90dd7715">to_string_approx</a></div><div class="ttdeci">std::string to_string_approx(const time_duration &amp;dur, const bool verbose)</div><div class="ttdoc">Returns approximate duration.</div><div class="ttdef"><b>Definition:</b> <a href="calendar_8cpp_source.html#l00361">calendar.cpp:361</a></div></div>
 <div class="ttc" id="aclassCharacter_html_a5903c5bd493f4300e949d8452eb04835"><div class="ttname"><a href="classCharacter.html#a5903c5bd493f4300e949d8452eb04835">Character::can_estimate_rot</a></div><div class="ttdeci">bool can_estimate_rot() const</div><div class="ttdoc">True if the character has enough skill (in cooking or survival) to estimate time to rot.</div><div class="ttdef"><b>Definition:</b> <a href="consumption_8cpp_source.html#l01452">consumption.cpp:1452</a></div></div>
 <div class="ttc" id="aclassavatar_html"><div class="ttname"><a href="classavatar.html">avatar</a></div><div class="ttdef"><b>Definition:</b> <a href="avatar_8h_source.html#l00054">avatar.h:55</a></div></div>
-<div class="ttc" id="aclassitem_html_a4661d733113e53ee370d5aa83e31137b"><div class="ttname"><a href="classitem.html#a4661d733113e53ee370d5aa83e31137b">item::is_going_bad</a></div><div class="ttdeci">bool is_going_bad() const</div><div class="ttdoc">an item is about to become rotten when shelf life has nearly elapsed</div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l00845">item.h:845</a></div></div>
-<div class="ttc" id="aclassitem_html_aad1afe56872327f37ee02011e3a5fb8b"><div class="ttname"><a href="classitem.html#aad1afe56872327f37ee02011e3a5fb8b">item::get_shelf_life</a></div><div class="ttdeci">time_duration get_shelf_life() const</div><div class="ttdoc">Get the shelf life of the item.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05527">item.cpp:5527</a></div></div>
-<div class="ttc" id="aclassitem_html_ac3898605336bf9c45ee3ce37d41d5ead"><div class="ttname"><a href="classitem.html#ac3898605336bf9c45ee3ce37d41d5ead">item::is_fresh</a></div><div class="ttdeci">bool is_fresh() const</div><div class="ttdoc">an item is fresh if it is capable of rotting but still has a long shelf life remaining</div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l00840">item.h:840</a></div></div>
-<div class="ttc" id="aclassitem_html_adfb5ddb3d50f317c79eb7a1a26a63905"><div class="ttname"><a href="classitem.html#adfb5ddb3d50f317c79eb7a1a26a63905">item::get_relative_rot</a></div><div class="ttdeci">double get_relative_rot() const</div><div class="ttdoc">Get rot value relative to shelf life (or 0 if item does not spoil)</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05539">item.cpp:5539</a></div></div>
+<div class="ttc" id="aclassitem_html_a4661d733113e53ee370d5aa83e31137b"><div class="ttname"><a href="classitem.html#a4661d733113e53ee370d5aa83e31137b">item::is_going_bad</a></div><div class="ttdeci">bool is_going_bad() const</div><div class="ttdoc">an item is about to become rotten when shelf life has nearly elapsed</div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l00844">item.h:844</a></div></div>
+<div class="ttc" id="aclassitem_html_aad1afe56872327f37ee02011e3a5fb8b"><div class="ttname"><a href="classitem.html#aad1afe56872327f37ee02011e3a5fb8b">item::get_shelf_life</a></div><div class="ttdeci">time_duration get_shelf_life() const</div><div class="ttdoc">Get the shelf life of the item.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05544">item.cpp:5544</a></div></div>
+<div class="ttc" id="aclassitem_html_ac3898605336bf9c45ee3ce37d41d5ead"><div class="ttname"><a href="classitem.html#ac3898605336bf9c45ee3ce37d41d5ead">item::is_fresh</a></div><div class="ttdeci">bool is_fresh() const</div><div class="ttdoc">an item is fresh if it is capable of rotting but still has a long shelf life remaining</div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l00839">item.h:839</a></div></div>
+<div class="ttc" id="aclassitem_html_adfb5ddb3d50f317c79eb7a1a26a63905"><div class="ttname"><a href="classitem.html#adfb5ddb3d50f317c79eb7a1a26a63905">item::get_relative_rot</a></div><div class="ttdeci">double get_relative_rot() const</div><div class="ttdoc">Get rot value relative to shelf life (or 0 if item does not spoil)</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05556">item.cpp:5556</a></div></div>
 <div class="ttc" id="aclasstime__duration_html"><div class="ttname"><a href="classtime__duration.html">time_duration</a></div><div class="ttdoc">A duration defined as a number of specific time units.</div><div class="ttdef"><b>Definition:</b> <a href="calendar_8h_source.html#l00179">calendar.h:180</a></div></div>
 <div class="ttc" id="astring__formatter_8h_html_a8964099387da2f95396c67566bafce3d"><div class="ttname"><a href="string__formatter_8h.html#a8964099387da2f95396c67566bafce3d">string_format</a></div><div class="ttdeci">std::string string_format(std::string_view format, Args &amp;&amp;...args)</div><div class="ttdoc">Simple wrapper over string_formatter::parse.</div><div class="ttdef"><b>Definition:</b> <a href="string__formatter_8h_source.html#l00430">string_formatter.h:430</a></div></div>
 <div class="ttc" id="atranslations_8h_html_aa829053017e23ef22d44dccecba63a34"><div class="ttname"><a href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a></div><div class="ttdeci">#define _(msg)</div><div class="ttdef"><b>Definition:</b> <a href="translations_8h_source.html#l00116">translations.h:116</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="translations_8h_source.html#l00116">_</a>, <a class="el" href="consumption_8cpp_source.html#l01452">Character::can_estimate_rot()</a>, <a class="el" href="avatar_8cpp_source.html#l00104">get_avatar()</a>, <a class="el" href="item_8cpp_source.html#l05539">item::get_relative_rot()</a>, <a class="el" href="item_8cpp_source.html#l05527">item::get_shelf_life()</a>, <a class="el" href="item_8h_source.html#l00840">item::is_fresh()</a>, <a class="el" href="item_8h_source.html#l00845">item::is_going_bad()</a>, <a class="el" href="string__formatter_8h_source.html#l00430">string_format()</a>, and <a class="el" href="calendar_8cpp_source.html#l00361">to_string_approx()</a>.</p>
+<p class="reference">References <a class="el" href="translations_8h_source.html#l00116">_</a>, <a class="el" href="consumption_8cpp_source.html#l01452">Character::can_estimate_rot()</a>, <a class="el" href="avatar_8cpp_source.html#l00104">get_avatar()</a>, <a class="el" href="item_8cpp_source.html#l05556">item::get_relative_rot()</a>, <a class="el" href="item_8cpp_source.html#l05544">item::get_shelf_life()</a>, <a class="el" href="item_8h_source.html#l00839">item::is_fresh()</a>, <a class="el" href="item_8h_source.html#l00844">item::is_going_bad()</a>, <a class="el" href="string__formatter_8h_source.html#l00430">string_format()</a>, and <a class="el" href="calendar_8cpp_source.html#l00361">to_string_approx()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l01673">item::food_info()</a>.</p>
 
@@ -4132,26 +4130,26 @@ template&lt;typename Item &gt; </div>
 <dl class="section see"><dt>See also</dt><dd>rot_chart </dd></dl>
 <p >Precomputed rot lookup table.</p>
 
-<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l05643">5643</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l05644" name="l05644"></a><span class="lineno"> 5644</span>{<span class="comment"></span></div>
-<div class="line"><a id="l05645" name="l05645"></a><span class="lineno"> 5645</span><span class="comment">    /**</span></div>
-<div class="line"><a id="l05646" name="l05646"></a><span class="lineno"> 5646</span><span class="comment">     * Precomputed rot lookup table.</span></div>
-<div class="line"><a id="l05647" name="l05647"></a><span class="lineno"> 5647</span><span class="comment">     */</span></div>
-<div class="line"><a id="l05648" name="l05648"></a><span class="lineno"> 5648</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::vector&lt;int&gt; rot_chart = <a class="code hl_function" href="item_8cpp.html#a13337d48cd976e76963f10a1e6c87c0b">calc_rot_array</a>( 200 );</div>
-<div class="line"><a id="l05649" name="l05649"></a><span class="lineno"> 5649</span> </div>
-<div class="line"><a id="l05650" name="l05650"></a><span class="lineno"> 5650</span>    <span class="keywordflow">if</span>( temp &lt; 0 ) {</div>
-<div class="line"><a id="l05651" name="l05651"></a><span class="lineno"> 5651</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l05652" name="l05652"></a><span class="lineno"> 5652</span>    }</div>
-<div class="line"><a id="l05653" name="l05653"></a><span class="lineno"> 5653</span>    <span class="keywordflow">if</span>( temp &gt; 150 ) {</div>
-<div class="line"><a id="l05654" name="l05654"></a><span class="lineno"> 5654</span>        <span class="keywordflow">return</span> 21240;</div>
-<div class="line"><a id="l05655" name="l05655"></a><span class="lineno"> 5655</span>    }</div>
-<div class="line"><a id="l05656" name="l05656"></a><span class="lineno"> 5656</span>    <span class="keywordflow">return</span> rot_chart[temp];</div>
-<div class="line"><a id="l05657" name="l05657"></a><span class="lineno"> 5657</span>}</div>
-<div class="ttc" id="aitem_8cpp_html_a13337d48cd976e76963f10a1e6c87c0b"><div class="ttname"><a href="item_8cpp.html#a13337d48cd976e76963f10a1e6c87c0b">calc_rot_array</a></div><div class="ttdeci">static std::vector&lt; int &gt; calc_rot_array(const size_t cap)</div><div class="ttdoc">Initialize the rot table.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05629">item.cpp:5629</a></div></div>
+<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l05660">5660</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l05661" name="l05661"></a><span class="lineno"> 5661</span>{<span class="comment"></span></div>
+<div class="line"><a id="l05662" name="l05662"></a><span class="lineno"> 5662</span><span class="comment">    /**</span></div>
+<div class="line"><a id="l05663" name="l05663"></a><span class="lineno"> 5663</span><span class="comment">     * Precomputed rot lookup table.</span></div>
+<div class="line"><a id="l05664" name="l05664"></a><span class="lineno"> 5664</span><span class="comment">     */</span></div>
+<div class="line"><a id="l05665" name="l05665"></a><span class="lineno"> 5665</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::vector&lt;int&gt; rot_chart = <a class="code hl_function" href="item_8cpp.html#a13337d48cd976e76963f10a1e6c87c0b">calc_rot_array</a>( 200 );</div>
+<div class="line"><a id="l05666" name="l05666"></a><span class="lineno"> 5666</span> </div>
+<div class="line"><a id="l05667" name="l05667"></a><span class="lineno"> 5667</span>    <span class="keywordflow">if</span>( temp &lt; 0 ) {</div>
+<div class="line"><a id="l05668" name="l05668"></a><span class="lineno"> 5668</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l05669" name="l05669"></a><span class="lineno"> 5669</span>    }</div>
+<div class="line"><a id="l05670" name="l05670"></a><span class="lineno"> 5670</span>    <span class="keywordflow">if</span>( temp &gt; 150 ) {</div>
+<div class="line"><a id="l05671" name="l05671"></a><span class="lineno"> 5671</span>        <span class="keywordflow">return</span> 21240;</div>
+<div class="line"><a id="l05672" name="l05672"></a><span class="lineno"> 5672</span>    }</div>
+<div class="line"><a id="l05673" name="l05673"></a><span class="lineno"> 5673</span>    <span class="keywordflow">return</span> rot_chart[temp];</div>
+<div class="line"><a id="l05674" name="l05674"></a><span class="lineno"> 5674</span>}</div>
+<div class="ttc" id="aitem_8cpp_html_a13337d48cd976e76963f10a1e6c87c0b"><div class="ttname"><a href="item_8cpp.html#a13337d48cd976e76963f10a1e6c87c0b">calc_rot_array</a></div><div class="ttdeci">static std::vector&lt; int &gt; calc_rot_array(const size_t cap)</div><div class="ttdoc">Initialize the rot table.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05646">item.cpp:5646</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="item_8cpp_source.html#l05629">calc_rot_array()</a>.</p>
+<p class="reference">References <a class="el" href="item_8cpp_source.html#l05646">calc_rot_array()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05659">item::calc_rot()</a>, and <a class="el" href="item_8cpp_source.html#l05708">item::minimum_freshness_duration()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05676">item::calc_rot()</a>, and <a class="el" href="item_8cpp_source.html#l05725">item::minimum_freshness_duration()</a>.</p>
 
 </div>
 </div>
@@ -4191,11 +4189,11 @@ template&lt;typename Item &gt; </div>
 <div class="line"><a id="l00463" name="l00463"></a><span class="lineno">  463</span>    }</div>
 <div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span>    <span class="keywordflow">return</span> most_rotten;</div>
 <div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span>}</div>
-<div class="ttc" id="aclassitem_html"><div class="ttname"><a href="classitem.html">item</a></div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l00210">item.h:211</a></div></div>
-<div class="ttc" id="aclassitem_html_a9e073e3ce3fcc2e91bdaea5d603e798b"><div class="ttname"><a href="classitem.html#a9e073e3ce3fcc2e91bdaea5d603e798b">item::goes_bad</a></div><div class="ttdeci">bool goes_bad() const</div><div class="ttdoc">whether an item is perishable (can rot)</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05506">item.cpp:5506</a></div></div>
+<div class="ttc" id="aclassitem_html"><div class="ttname"><a href="classitem.html">item</a></div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l00209">item.h:210</a></div></div>
+<div class="ttc" id="aclassitem_html_a9e073e3ce3fcc2e91bdaea5d603e798b"><div class="ttname"><a href="classitem.html#a9e073e3ce3fcc2e91bdaea5d603e798b">item::goes_bad</a></div><div class="ttdeci">bool goes_bad() const</div><div class="ttdoc">whether an item is perishable (can rot)</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05523">item.cpp:5523</a></div></div>
 <div class="ttc" id="anamespaceiuse_html_a31feaa639847b8a1e5974e026eb785b5"><div class="ttname"><a href="namespaceiuse.html#a31feaa639847b8a1e5974e026eb785b5">iuse::craft</a></div><div class="ttdeci">int craft(player *, item *, bool, const tripoint &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="iuse_8cpp_source.html#l09551">iuse.cpp:9551</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="iuse_8cpp_source.html#l09551">iuse::craft()</a>, <a class="el" href="item_8cpp_source.html#l05539">item::get_relative_rot()</a>, and <a class="el" href="item_8cpp_source.html#l05506">item::goes_bad()</a>.</p>
+<p class="reference">References <a class="el" href="iuse_8cpp_source.html#l09551">iuse::craft()</a>, <a class="el" href="item_8cpp_source.html#l05556">item::get_relative_rot()</a>, and <a class="el" href="item_8cpp_source.html#l05523">item::goes_bad()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l00467">item::item()</a>.</p>
 
@@ -4300,7 +4298,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07911">item::gun_get_mode_id()</a>, and <a class="el" href="item_8cpp_source.html#l07919">item::gun_set_mode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07919">item::gun_get_mode_id()</a>, and <a class="el" href="item_8cpp_source.html#l07927">item::gun_set_mode()</a>.</p>
 
 </div>
 </div>
@@ -4328,7 +4326,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04479">item::handle_pickup_ownership()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04496">item::handle_pickup_ownership()</a>.</p>
 
 </div>
 </div>
@@ -4362,9 +4360,9 @@ template&lt;typename Item &gt; </div>
 <div class="line"><a id="l01307" name="l01307"></a><span class="lineno"> 1307</span>        info.push_back( <a class="code hl_struct" href="structiteminfo.html">iteminfo</a>( <span class="stringliteral">&quot;DESCRIPTION&quot;</span>, <span class="stringliteral">&quot;--&quot;</span> ) );</div>
 <div class="line"><a id="l01308" name="l01308"></a><span class="lineno"> 1308</span>    }</div>
 <div class="line"><a id="l01309" name="l01309"></a><span class="lineno"> 1309</span>}</div>
-<div class="ttc" id="astructiteminfo_html"><div class="ttname"><a href="structiteminfo.html">iteminfo</a></div><div class="ttdoc">Value and metadata for one property of an item.</div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l00108">item.h:108</a></div></div>
+<div class="ttc" id="astructiteminfo_html"><div class="ttname"><a href="structiteminfo.html">iteminfo</a></div><div class="ttdoc">Value and metadata for one property of an item.</div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l00107">item.h:107</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l01907">item::ammo_info()</a>, <a class="el" href="item_8cpp_source.html#l02535">item::armor_info()</a>, <a class="el" href="item_8cpp_source.html#l01461">item::basic_info()</a>, <a class="el" href="item_8cpp_source.html#l03065">item::battery_info()</a>, <a class="el" href="item_8cpp_source.html#l03278">item::bionic_info()</a>, <a class="el" href="item_8cpp_source.html#l02900">item::book_info()</a>, <a class="el" href="item_8cpp_source.html#l03401">item::combat_info()</a>, <a class="el" href="item_8cpp_source.html#l03037">item::container_info()</a>, <a class="el" href="item_8cpp_source.html#l03546">item::contents_info()</a>, <a class="el" href="item_8cpp_source.html#l03177">item::disassembly_info()</a>, <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>, <a class="el" href="item_8cpp_source.html#l01673">item::food_info()</a>, <a class="el" href="item_8cpp_source.html#l02020">item::gun_info()</a>, <a class="el" href="item_8cpp_source.html#l02383">item::gunmod_info()</a>, <a class="el" href="item_8cpp_source.html#l03989">item::info()</a>, <a class="el" href="item_8cpp_source.html#l01884">item::magazine_info()</a>, <a class="el" href="item_8cpp_source.html#l03231">item::qualities_info()</a>, <a class="el" href="item_8cpp_source.html#l03156">item::repair_info()</a>, and <a class="el" href="item_8cpp_source.html#l03084">item::tool_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l01907">item::ammo_info()</a>, <a class="el" href="item_8cpp_source.html#l02552">item::armor_info()</a>, <a class="el" href="item_8cpp_source.html#l01461">item::basic_info()</a>, <a class="el" href="item_8cpp_source.html#l03082">item::battery_info()</a>, <a class="el" href="item_8cpp_source.html#l03295">item::bionic_info()</a>, <a class="el" href="item_8cpp_source.html#l02917">item::book_info()</a>, <a class="el" href="item_8cpp_source.html#l03418">item::combat_info()</a>, <a class="el" href="item_8cpp_source.html#l03054">item::container_info()</a>, <a class="el" href="item_8cpp_source.html#l03563">item::contents_info()</a>, <a class="el" href="item_8cpp_source.html#l03194">item::disassembly_info()</a>, <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>, <a class="el" href="item_8cpp_source.html#l01673">item::food_info()</a>, <a class="el" href="item_8cpp_source.html#l02020">item::gun_info()</a>, <a class="el" href="item_8cpp_source.html#l02383">item::gunmod_info()</a>, <a class="el" href="item_8cpp_source.html#l04006">item::info()</a>, <a class="el" href="item_8cpp_source.html#l01884">item::magazine_info()</a>, <a class="el" href="item_8cpp_source.html#l03248">item::qualities_info()</a>, <a class="el" href="item_8cpp_source.html#l03173">item::repair_info()</a>, and <a class="el" href="item_8cpp_source.html#l03101">item::tool_info()</a>.</p>
 
 </div>
 </div>
@@ -4394,14 +4392,14 @@ template&lt;typename Item &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l08855">8855</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l08856" name="l08856"></a><span class="lineno"> 8856</span>{</div>
-<div class="line"><a id="l08857" name="l08857"></a><span class="lineno"> 8857</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="item_8cpp.html#abf665d19c2a38e87fa6fdae700c9e670">item_ptr_compare_by_charges</a>( &amp;left, &amp;<a class="code hl_enumvalue" href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a5bf95244357d6164916bfe6e0ccfbc79">right</a> );</div>
-<div class="line"><a id="l08858" name="l08858"></a><span class="lineno"> 8858</span>}</div>
-<div class="ttc" id="aitem_8cpp_html_abf665d19c2a38e87fa6fdae700c9e670"><div class="ttname"><a href="item_8cpp.html#abf665d19c2a38e87fa6fdae700c9e670">item_ptr_compare_by_charges</a></div><div class="ttdeci">bool item_ptr_compare_by_charges(const item *left, const item *right)</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l08844">item.cpp:8844</a></div></div>
+<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l08863">8863</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l08864" name="l08864"></a><span class="lineno"> 8864</span>{</div>
+<div class="line"><a id="l08865" name="l08865"></a><span class="lineno"> 8865</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="item_8cpp.html#abf665d19c2a38e87fa6fdae700c9e670">item_ptr_compare_by_charges</a>( &amp;left, &amp;<a class="code hl_enumvalue" href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a5bf95244357d6164916bfe6e0ccfbc79">right</a> );</div>
+<div class="line"><a id="l08866" name="l08866"></a><span class="lineno"> 8866</span>}</div>
+<div class="ttc" id="aitem_8cpp_html_abf665d19c2a38e87fa6fdae700c9e670"><div class="ttname"><a href="item_8cpp.html#abf665d19c2a38e87fa6fdae700c9e670">item_ptr_compare_by_charges</a></div><div class="ttdeci">bool item_ptr_compare_by_charges(const item *left, const item *right)</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l08852">item.cpp:8852</a></div></div>
 <div class="ttc" id="anamespacealign_html_aff2772e23f6ac91520e57d4b3ac0c759a5bf95244357d6164916bfe6e0ccfbc79"><div class="ttname"><a href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a5bf95244357d6164916bfe6e0ccfbc79">align::right</a></div><div class="ttdeci">@ right</div><div class="ttdef"><b>Definition:</b> <a href="fmtlib__format_8h_source.html#l01356">fmtlib_format.h:1356</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="item_8cpp_source.html#l08844">item_ptr_compare_by_charges()</a>, <a class="el" href="cata__tiles_8h.html#affa90804269b044a43867f93746f8f8ea811882fecd5c7618d7099ebbd39ea254">left</a>, and <a class="el" href="fmtlib__format_8h_source.html#l01356">align::right</a>.</p>
+<p class="reference">References <a class="el" href="item_8cpp_source.html#l08852">item_ptr_compare_by_charges()</a>, <a class="el" href="cata__tiles_8h.html#affa90804269b044a43867f93746f8f8ea811882fecd5c7618d7099ebbd39ea254">left</a>, and <a class="el" href="fmtlib__format_8h_source.html#l01356">align::right</a>.</p>
 
 </div>
 </div>
@@ -4431,21 +4429,21 @@ template&lt;typename Item &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l08844">8844</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l08845" name="l08845"></a><span class="lineno"> 8845</span>{</div>
-<div class="line"><a id="l08846" name="l08846"></a><span class="lineno"> 8846</span>    <span class="keywordflow">if</span>( <a class="code hl_enumvalue" href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a3282b06f67c5e15c0eaeb515ef8f86fd">left</a>-&gt;contents.empty() ) {</div>
-<div class="line"><a id="l08847" name="l08847"></a><span class="lineno"> 8847</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l08848" name="l08848"></a><span class="lineno"> 8848</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>( <a class="code hl_enumvalue" href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a5bf95244357d6164916bfe6e0ccfbc79">right</a>-&gt;contents.empty() ) {</div>
-<div class="line"><a id="l08849" name="l08849"></a><span class="lineno"> 8849</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l08850" name="l08850"></a><span class="lineno"> 8850</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l08851" name="l08851"></a><span class="lineno"> 8851</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a5bf95244357d6164916bfe6e0ccfbc79">right</a>-&gt;contents.front().charges &lt; <a class="code hl_enumvalue" href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a3282b06f67c5e15c0eaeb515ef8f86fd">left</a>-&gt;contents.front().charges;</div>
-<div class="line"><a id="l08852" name="l08852"></a><span class="lineno"> 8852</span>    }</div>
-<div class="line"><a id="l08853" name="l08853"></a><span class="lineno"> 8853</span>}</div>
+<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l08852">8852</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l08853" name="l08853"></a><span class="lineno"> 8853</span>{</div>
+<div class="line"><a id="l08854" name="l08854"></a><span class="lineno"> 8854</span>    <span class="keywordflow">if</span>( <a class="code hl_enumvalue" href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a3282b06f67c5e15c0eaeb515ef8f86fd">left</a>-&gt;contents.empty() ) {</div>
+<div class="line"><a id="l08855" name="l08855"></a><span class="lineno"> 8855</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l08856" name="l08856"></a><span class="lineno"> 8856</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>( <a class="code hl_enumvalue" href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a5bf95244357d6164916bfe6e0ccfbc79">right</a>-&gt;contents.empty() ) {</div>
+<div class="line"><a id="l08857" name="l08857"></a><span class="lineno"> 8857</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l08858" name="l08858"></a><span class="lineno"> 8858</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l08859" name="l08859"></a><span class="lineno"> 8859</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a5bf95244357d6164916bfe6e0ccfbc79">right</a>-&gt;contents.front().charges &lt; <a class="code hl_enumvalue" href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a3282b06f67c5e15c0eaeb515ef8f86fd">left</a>-&gt;contents.front().charges;</div>
+<div class="line"><a id="l08860" name="l08860"></a><span class="lineno"> 8860</span>    }</div>
+<div class="line"><a id="l08861" name="l08861"></a><span class="lineno"> 8861</span>}</div>
 <div class="ttc" id="anamespacealign_html_aff2772e23f6ac91520e57d4b3ac0c759a3282b06f67c5e15c0eaeb515ef8f86fd"><div class="ttname"><a href="namespacealign.html#aff2772e23f6ac91520e57d4b3ac0c759a3282b06f67c5e15c0eaeb515ef8f86fd">align::left</a></div><div class="ttdeci">@ left</div><div class="ttdef"><b>Definition:</b> <a href="fmtlib__format_8h_source.html#l01356">fmtlib_format.h:1356</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="cata__tiles_8h.html#affa90804269b044a43867f93746f8f8ea811882fecd5c7618d7099ebbd39ea254">left</a>, and <a class="el" href="fmtlib__format_8h_source.html#l01356">align::right</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="crafting_8cpp_source.html#l00414">player::check_eligible_containers_for_crafting()</a>, and <a class="el" href="item_8cpp_source.html#l08855">item_compare_by_charges()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="crafting_8cpp_source.html#l00414">player::check_eligible_containers_for_crafting()</a>, and <a class="el" href="item_8cpp_source.html#l08863">item_compare_by_charges()</a>.</p>
 
 </div>
 </div>
@@ -4476,7 +4474,7 @@ template&lt;typename Item &gt; </div>
 <div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>}</div>
 <div class="ttc" id="anamespacedetail_1_1digits_html_aad69d2373aa047bdd9e81494bf3da5ae"><div class="ttname"><a href="namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5ae">detail::digits::result</a></div><div class="ttdeci">result</div><div class="ttdef"><b>Definition:</b> <a href="fmtlib__format-inl_8h_source.html#l01626">fmtlib_format-inl.h:1626</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="ranged_8cpp_source.html#l03146">target_ui::action_aim_and_shoot()</a>, <a class="el" href="map_8cpp_source.html#l04433">map::add_item()</a>, <a class="el" href="map_8cpp_source.html#l04333">map::add_item_or_charges()</a>, <a class="el" href="melee_8cpp_source.html#l01603">Character::best_shield()</a>, <a class="el" href="bionics_8cpp_source.html#l00521">npc::check_or_use_weapon_cbm()</a>, <a class="el" href="npcmove_8cpp_source.html#l01579">npc::deactivate_combat_cbms()</a>, <a class="el" href="bionics_8cpp_source.html#l00456">npc::discharge_cbm_weapon()</a>, <a class="el" href="inventory_8cpp_source.html#l00800">inventory::find_item()</a>, <a class="el" href="npcmove_8cpp_source.html#l01492">npc::find_reloadable()</a>, <a class="el" href="item_8cpp_source.html#l07059">item::get_contained()</a>, <a class="el" href="npc_8cpp_source.html#l01898">npc::get_healing_item()</a>, <a class="el" href="npcmove_8cpp_source.html#l03815">npc::heal_self()</a>, <a class="el" href="character_8cpp_source.html#l10012">Character::item_with_best_of_quality()</a>, <a class="el" href="savegame__json_8cpp_source.html#l01419">npc::load()</a>, <a class="el" href="inventory_8cpp_source.html#l00943">inventory::most_appropriate_painkiller()</a>, <a class="el" href="item__stack_8cpp_source.html#l00083">item_stack::only_item()</a>, <a class="el" href="melee_8cpp_source.html#l00149">Character::primary_weapon()</a>, <a class="el" href="crafting_8cpp_source.html#l00657">set_item_map()</a>, <a class="el" href="map_8cpp_source.html#l04243">map::spawn_an_item()</a>, <a class="el" href="melee_8cpp_source.html#l00139">Character::used_weapon()</a>, and <a class="el" href="npcmove_8cpp_source.html#l03436">npc::wield_better_weapon()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ranged_8cpp_source.html#l03146">target_ui::action_aim_and_shoot()</a>, <a class="el" href="map_8cpp_source.html#l04433">map::add_item()</a>, <a class="el" href="map_8cpp_source.html#l04333">map::add_item_or_charges()</a>, <a class="el" href="melee_8cpp_source.html#l01603">Character::best_shield()</a>, <a class="el" href="bionics_8cpp_source.html#l00521">npc::check_or_use_weapon_cbm()</a>, <a class="el" href="npcmove_8cpp_source.html#l01579">npc::deactivate_combat_cbms()</a>, <a class="el" href="bionics_8cpp_source.html#l00456">npc::discharge_cbm_weapon()</a>, <a class="el" href="inventory_8cpp_source.html#l00800">inventory::find_item()</a>, <a class="el" href="npcmove_8cpp_source.html#l01492">npc::find_reloadable()</a>, <a class="el" href="item_8cpp_source.html#l07076">item::get_contained()</a>, <a class="el" href="npc_8cpp_source.html#l01898">npc::get_healing_item()</a>, <a class="el" href="npcmove_8cpp_source.html#l03815">npc::heal_self()</a>, <a class="el" href="character_8cpp_source.html#l10012">Character::item_with_best_of_quality()</a>, <a class="el" href="savegame__json_8cpp_source.html#l01419">npc::load()</a>, <a class="el" href="inventory_8cpp_source.html#l00943">inventory::most_appropriate_painkiller()</a>, <a class="el" href="item__stack_8cpp_source.html#l00083">item_stack::only_item()</a>, <a class="el" href="melee_8cpp_source.html#l00149">Character::primary_weapon()</a>, <a class="el" href="crafting_8cpp_source.html#l00657">set_item_map()</a>, <a class="el" href="map_8cpp_source.html#l04243">map::spawn_an_item()</a>, <a class="el" href="melee_8cpp_source.html#l00139">Character::used_weapon()</a>, and <a class="el" href="npcmove_8cpp_source.html#l03436">npc::wield_better_weapon()</a>.</p>
 
 </div>
 </div>
@@ -4508,7 +4506,7 @@ template&lt;typename Item &gt; </div>
 <div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>    <span class="keyword">static</span> <a class="code hl_struct" href="structitype.html">itype</a> nullitem_m;</div>
 <div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    <span class="keywordflow">return</span> &amp;nullitem_m;</div>
 <div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>}</div>
-<div class="ttc" id="astructitype_html"><div class="ttname"><a href="structitype.html">itype</a></div><div class="ttdef"><b>Definition:</b> <a href="itype_8h_source.html#l00836">itype.h:836</a></div></div>
+<div class="ttc" id="astructitype_html"><div class="ttname"><a href="structitype.html">itype</a></div><div class="ttdef"><b>Definition:</b> <a href="itype_8h_source.html#l00804">itype.h:804</a></div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l00735">item::is_null()</a>, and <a class="el" href="item_8cpp_source.html#l00368">item::item()</a>.</p>
 
@@ -4557,7 +4555,7 @@ template&lt;typename Item &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="relic_8h.html#a4beeee7f54b2b6d8a7f559714d979139a340f7c2dcaedeae68e4a62c281c7350b">rad</a>, <a class="el" href="translations_8cpp_source.html#l00384">to_translation()</a>, and <a class="el" href="translations_8cpp_source.html#l00309">translation::translated()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02743">item::armor_fit_info()</a>, and <a class="el" href="suffer_8cpp_source.html#l01594">Character::irradiate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02760">item::armor_fit_info()</a>, and <a class="el" href="suffer_8cpp_source.html#l01594">Character::irradiate()</a>.</p>
 
 </div>
 </div>
@@ -4585,27 +4583,27 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l05690">5690</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l05691" name="l05691"></a><span class="lineno"> 5691</span>{</div>
-<div class="line"><a id="l05692" name="l05692"></a><span class="lineno"> 5692</span>    <span class="keywordflow">switch</span>( <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a> ) {</div>
-<div class="line"><a id="l05693" name="l05693"></a><span class="lineno"> 5693</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da97a8a8356c8e6ec71bc071918368ab20">temperature_flag::TEMP_NORMAL</a>:</div>
-<div class="line"><a id="l05694" name="l05694"></a><span class="lineno"> 5694</span>            <span class="keywordflow">return</span> INT_MAX;</div>
-<div class="line"><a id="l05695" name="l05695"></a><span class="lineno"> 5695</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da6d106a78eac33e56fc089873c46de0dd">temperature_flag::TEMP_HEATER</a>:</div>
-<div class="line"><a id="l05696" name="l05696"></a><span class="lineno"> 5696</span>            <span class="keywordflow">return</span> INT_MAX;</div>
-<div class="line"><a id="l05697" name="l05697"></a><span class="lineno"> 5697</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5dad2e703e320bca1fe9991716791e958fb">temperature_flag::TEMP_FRIDGE</a>:</div>
-<div class="line"><a id="l05698" name="l05698"></a><span class="lineno"> 5698</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#a6ac4b0413305dd75769d62227081d8b1">temperatures::fridge</a> );</div>
-<div class="line"><a id="l05699" name="l05699"></a><span class="lineno"> 5699</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5daab79f10607e00f5f2377eaefe8c09a9a">temperature_flag::TEMP_FREEZER</a>:</div>
-<div class="line"><a id="l05700" name="l05700"></a><span class="lineno"> 5700</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#ab5323589e14984e5c09cafa3b62def7d">temperatures::freezer</a> );</div>
-<div class="line"><a id="l05701" name="l05701"></a><span class="lineno"> 5701</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da485a07b934a4c717af6dd180aadcb207">temperature_flag::TEMP_ROOT_CELLAR</a>:</div>
-<div class="line"><a id="l05702" name="l05702"></a><span class="lineno"> 5702</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#aed7454d776862538b76d7fef4965394d">temperatures::root_cellar</a> );</div>
-<div class="line"><a id="l05703" name="l05703"></a><span class="lineno"> 5703</span>    }</div>
-<div class="line"><a id="l05704" name="l05704"></a><span class="lineno"> 5704</span> </div>
-<div class="line"><a id="l05705" name="l05705"></a><span class="lineno"> 5705</span>    <span class="keywordflow">return</span> INT_MAX;</div>
-<div class="line"><a id="l05706" name="l05706"></a><span class="lineno"> 5706</span>}</div>
+<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l05707">5707</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l05708" name="l05708"></a><span class="lineno"> 5708</span>{</div>
+<div class="line"><a id="l05709" name="l05709"></a><span class="lineno"> 5709</span>    <span class="keywordflow">switch</span>( <a class="code hl_typedef" href="namespaceunits.html#a458531725a9f70ed821e8067cfaf3a0d">temperature</a> ) {</div>
+<div class="line"><a id="l05710" name="l05710"></a><span class="lineno"> 5710</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da97a8a8356c8e6ec71bc071918368ab20">temperature_flag::TEMP_NORMAL</a>:</div>
+<div class="line"><a id="l05711" name="l05711"></a><span class="lineno"> 5711</span>            <span class="keywordflow">return</span> INT_MAX;</div>
+<div class="line"><a id="l05712" name="l05712"></a><span class="lineno"> 5712</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da6d106a78eac33e56fc089873c46de0dd">temperature_flag::TEMP_HEATER</a>:</div>
+<div class="line"><a id="l05713" name="l05713"></a><span class="lineno"> 5713</span>            <span class="keywordflow">return</span> INT_MAX;</div>
+<div class="line"><a id="l05714" name="l05714"></a><span class="lineno"> 5714</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5dad2e703e320bca1fe9991716791e958fb">temperature_flag::TEMP_FRIDGE</a>:</div>
+<div class="line"><a id="l05715" name="l05715"></a><span class="lineno"> 5715</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#a6ac4b0413305dd75769d62227081d8b1">temperatures::fridge</a> );</div>
+<div class="line"><a id="l05716" name="l05716"></a><span class="lineno"> 5716</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5daab79f10607e00f5f2377eaefe8c09a9a">temperature_flag::TEMP_FREEZER</a>:</div>
+<div class="line"><a id="l05717" name="l05717"></a><span class="lineno"> 5717</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#ab5323589e14984e5c09cafa3b62def7d">temperatures::freezer</a> );</div>
+<div class="line"><a id="l05718" name="l05718"></a><span class="lineno"> 5718</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da485a07b934a4c717af6dd180aadcb207">temperature_flag::TEMP_ROOT_CELLAR</a>:</div>
+<div class="line"><a id="l05719" name="l05719"></a><span class="lineno"> 5719</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceunits.html#a375816854bc926ebda4d9240e7d6cf64">to_fahrenheit</a>( <a class="code hl_variable" href="namespacetemperatures.html#aed7454d776862538b76d7fef4965394d">temperatures::root_cellar</a> );</div>
+<div class="line"><a id="l05720" name="l05720"></a><span class="lineno"> 5720</span>    }</div>
+<div class="line"><a id="l05721" name="l05721"></a><span class="lineno"> 5721</span> </div>
+<div class="line"><a id="l05722" name="l05722"></a><span class="lineno"> 5722</span>    <span class="keywordflow">return</span> INT_MAX;</div>
+<div class="line"><a id="l05723" name="l05723"></a><span class="lineno"> 5723</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="game__constants_8h_source.html#l00094">temperatures::freezer</a>, <a class="el" href="game__constants_8h_source.html#l00088">temperatures::fridge</a>, <a class="el" href="game__constants_8h_source.html#l00101">temperatures::root_cellar</a>, <a class="el" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5daab79f10607e00f5f2377eaefe8c09a9a">TEMP_FREEZER</a>, <a class="el" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5dad2e703e320bca1fe9991716791e958fb">TEMP_FRIDGE</a>, <a class="el" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da6d106a78eac33e56fc089873c46de0dd">TEMP_HEATER</a>, <a class="el" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da97a8a8356c8e6ec71bc071918368ab20">TEMP_NORMAL</a>, <a class="el" href="enums_8h.html#a5f18231241dd5fb662d1c5313636ec5da485a07b934a4c717af6dd180aadcb207">TEMP_ROOT_CELLAR</a>, and <a class="el" href="units__temperature_8h_source.html#l00124">units::to_fahrenheit()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05708">item::minimum_freshness_duration()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05725">item::minimum_freshness_duration()</a>.</p>
 
 </div>
 </div>
@@ -4661,7 +4659,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08861">item::already_used_by_player()</a>, and <a class="el" href="item_8cpp_source.html#l08874">item::mark_as_used_by_player()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08869">item::already_used_by_player()</a>, and <a class="el" href="item_8cpp_source.html#l08882">item::mark_as_used_by_player()</a>.</p>
 
 </div>
 </div>
@@ -4690,7 +4688,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04479">item::handle_pickup_ownership()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04496">item::handle_pickup_ownership()</a>.</p>
 
 </div>
 </div>
@@ -4718,7 +4716,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08546">item::allow_crafting_component()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08554">item::allow_crafting_component()</a>.</p>
 
 </div>
 </div>
@@ -4858,7 +4856,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08059">item_reload_option::qty()</a>, and <a class="el" href="item_8cpp_source.html#l08119">item::reload()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l08067">item_reload_option::qty()</a>, and <a class="el" href="item_8cpp_source.html#l08127">item::reload()</a>.</p>
 
 </div>
 </div>
@@ -4947,7 +4945,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -4975,7 +4973,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -5003,7 +5001,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -5031,7 +5029,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -5059,7 +5057,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04135">item::color_in_inventory()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04152">item::color_in_inventory()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -5087,7 +5085,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09646">item::process_internal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09654">item::process_internal()</a>.</p>
 
 </div>
 </div>
@@ -5141,7 +5139,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07847">item::gun_all_modes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07855">item::gun_all_modes()</a>.</p>
 
 </div>
 </div>
@@ -5206,7 +5204,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05565">item::spoilage_sort_order()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05582">item::spoilage_sort_order()</a>.</p>
 
 </div>
 </div>
@@ -5234,7 +5232,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05565">item::spoilage_sort_order()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05582">item::spoilage_sort_order()</a>.</p>
 
 </div>
 </div>
@@ -5262,7 +5260,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06722">item::is_map()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06739">item::is_map()</a>.</p>
 
 </div>
 </div>
@@ -5290,7 +5288,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>, <a class="el" href="item_8cpp_source.html#l05112">item::volume()</a>, and <a class="el" href="item_8cpp_source.html#l04966">item::weight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>, <a class="el" href="item_8cpp_source.html#l05129">item::volume()</a>, and <a class="el" href="item_8cpp_source.html#l04983">item::weight()</a>.</p>
 
 </div>
 </div>
@@ -5318,7 +5316,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09487">item::process_tool()</a>, and <a class="el" href="item_8cpp_source.html#l08000">item::units_remaining()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09495">item::process_tool()</a>, and <a class="el" href="item_8cpp_source.html#l08008">item::units_remaining()</a>.</p>
 
 </div>
 </div>
@@ -5346,7 +5344,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>, and <a class="el" href="item_8cpp_source.html#l09872">item::type_name()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>, and <a class="el" href="item_8cpp_source.html#l09880">item::type_name()</a>.</p>
 
 </div>
 </div>
@@ -5374,7 +5372,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07772">item::is_gunmod_compatible()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07776">item::is_gunmod_compatible()</a>.</p>
 
 </div>
 </div>
@@ -5402,7 +5400,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09288">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09296">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -5430,7 +5428,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09288">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09296">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -5458,7 +5456,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09288">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09296">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -5486,7 +5484,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09288">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09296">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -5514,8 +5512,6 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07772">item::is_gunmod_compatible()</a>.</p>
-
 </div>
 </div>
 <a id="a1482bd2efd92c10f5f8ec958ff39d27b" name="a1482bd2efd92c10f5f8ec958ff39d27b"></a>
@@ -5542,7 +5538,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09288">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09296">item::process_extinguish()</a>, and <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -5570,7 +5566,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04966">item::weight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04983">item::weight()</a>.</p>
 
 </div>
 </div>
@@ -5598,7 +5594,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02743">item::armor_fit_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l02760">item::armor_fit_info()</a>.</p>
 
 </div>
 </div>
@@ -5626,7 +5622,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -5654,7 +5650,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07772">item::is_gunmod_compatible()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07776">item::is_gunmod_compatible()</a>.</p>
 
 </div>
 </div>
@@ -5682,7 +5678,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09487">item::process_tool()</a>, and <a class="el" href="item_8cpp_source.html#l08000">item::units_remaining()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09495">item::process_tool()</a>, and <a class="el" href="item_8cpp_source.html#l08008">item::units_remaining()</a>.</p>
 
 </div>
 </div>
@@ -5710,7 +5706,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06936">item::is_funnel_container()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06953">item::is_funnel_container()</a>.</p>
 
 </div>
 </div>
@@ -5738,7 +5734,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06936">item::is_funnel_container()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06953">item::is_funnel_container()</a>.</p>
 
 </div>
 </div>
@@ -5766,7 +5762,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06936">item::is_funnel_container()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l06953">item::is_funnel_container()</a>.</p>
 
 </div>
 </div>
@@ -5794,7 +5790,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07772">item::is_gunmod_compatible()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07776">item::is_gunmod_compatible()</a>.</p>
 
 </div>
 </div>
@@ -5840,7 +5836,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03231">item::qualities_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03248">item::qualities_info()</a>.</p>
 
 </div>
 </div>
@@ -5868,7 +5864,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03231">item::qualities_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l03248">item::qualities_info()</a>.</p>
 
 </div>
 </div>
@@ -5924,7 +5920,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09140">item::process_corpse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09148">item::process_corpse()</a>.</p>
 
 </div>
 </div>
@@ -5952,7 +5948,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l01673">item::food_info()</a>, and <a class="el" href="item_8cpp_source.html#l04557">item::tname()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l01673">item::food_info()</a>, and <a class="el" href="item_8cpp_source.html#l04574">item::tname()</a>.</p>
 
 </div>
 </div>
@@ -5980,7 +5976,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07216">item::melee_skill()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l07220">item::melee_skill()</a>.</p>
 
 </div>
 </div>
@@ -6008,7 +6004,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09987">item::contextualize_skill()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09995">item::contextualize_skill()</a>.</p>
 
 </div>
 </div>
@@ -6064,7 +6060,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -6120,7 +6116,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l10002">item::is_filthy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l10010">item::is_filthy()</a>.</p>
 
 </div>
 </div>
@@ -6148,7 +6144,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09213">item::process_litcig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l09221">item::process_litcig()</a>.</p>
 
 </div>
 </div>
@@ -6176,7 +6172,7 @@ template&lt;typename Item &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04135">item::color_in_inventory()</a>, and <a class="el" href="item_8cpp_source.html#l03629">item::final_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l04152">item::color_in_inventory()</a>, and <a class="el" href="item_8cpp_source.html#l03646">item::final_info()</a>.</p>
 
 </div>
 </div>
@@ -6186,7 +6182,7 @@ template&lt;typename Item &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="item_8cpp.html">item.cpp</a></li>
-    <li class="footer">Generated on Thu Jun 29 2023 02:33:07 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Fri Jun 30 2023 01:09:41 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

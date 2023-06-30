@@ -1,13 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"namespacedetail.html#a167c8a998550ac44e82e104f7e5a03ad":[35,0,99,197],
-"namespacedetail.html#a16c6f0fa9431a2b4519ba0d14a7ada72":[35,0,99,200],
-"namespacedetail.html#a18c290ebecff982f88dd8cef371b0e87":[35,0,99,170],
-"namespacedetail.html#a18dcc9f4332ab0f3c96b6d5dc17507f4":[35,0,99,210],
-"namespacedetail.html#a194a8dad9dd2c1ee35aaacf7472df3b8":[35,0,99,322],
-"namespacedetail.html#a195ada4a0982dc9817b6386c9efa9f8d":[35,0,99,329],
-"namespacedetail.html#a19fe0523a95f2e571745ce3acf05f9b9":[35,0,99,201],
-"namespacedetail.html#a1a780acb0dc2858109fcb85cc7ec6e06":[35,0,99,207],
 "namespacedetail.html#a1c8c2218e4c822aa8f743fb9c573717f":[35,0,99,320],
 "namespacedetail.html#a1ce5844a002c0c15253b91f7ffae5729":[35,0,99,269],
 "namespacedetail.html#a1d61b8b681bfea9c6949651be0f34c3c":[35,0,99,317],
@@ -249,5 +241,13 @@ var NAVTREEINDEX116 =
 "namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5ae":[35,0,99,0,0],
 "namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5aea5ac52de38b8cf793e5d933bfb76edf45":[35,0,99,0,0,2],
 "namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5aea74589f67c5fc9945d7dde9d16aecda3a":[35,0,99,0,0,0],
-"namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5aeac7878d891005c72a71703f35dbb2be15":[35,0,99,0,0,1]
+"namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5aeac7878d891005c72a71703f35dbb2be15":[35,0,99,0,0,1],
+"namespacedetail_1_1dragonbox.html":[35,0,99,1],
+"namespacedetail_1_1dragonbox.html#a0bf49114abef82fbaac1b6b5abfab666":[35,0,99,1,27],
+"namespacedetail_1_1dragonbox.html#a12286781195aa157eabfe1437ee271fa":[35,0,99,1,25],
+"namespacedetail_1_1dragonbox.html#a233f206f3f73d9c426e5fb0c69df38c1":[35,0,99,1,15],
+"namespacedetail_1_1dragonbox.html#a2a0d2f83211befbd1925abdc65e5a2c8":[35,0,99,1,11],
+"namespacedetail_1_1dragonbox.html#a39bbe321b3f84632f470ba10ed90bc61":[35,0,99,1,9],
+"namespacedetail_1_1dragonbox.html#a434d21d93c2448552d90eb3381f301f1":[35,0,99,1,16],
+"namespacedetail_1_1dragonbox.html#a4bf57aeb5f229f5d6cd53bea7ff02901":[35,0,99,1,26]
 };

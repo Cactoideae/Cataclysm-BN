@@ -283,26 +283,26 @@ Variables</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd>rot_chart </dd></dl>
 <p >Precomputed rot lookup table.</p>
 
-<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l05643">5643</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l05644" name="l05644"></a><span class="lineno"> 5644</span>{<span class="comment"></span></div>
-<div class="line"><a id="l05645" name="l05645"></a><span class="lineno"> 5645</span><span class="comment">    /**</span></div>
-<div class="line"><a id="l05646" name="l05646"></a><span class="lineno"> 5646</span><span class="comment">     * Precomputed rot lookup table.</span></div>
-<div class="line"><a id="l05647" name="l05647"></a><span class="lineno"> 5647</span><span class="comment">     */</span></div>
-<div class="line"><a id="l05648" name="l05648"></a><span class="lineno"> 5648</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::vector&lt;int&gt; rot_chart = <a class="code hl_function" href="item_8cpp.html#a13337d48cd976e76963f10a1e6c87c0b">calc_rot_array</a>( 200 );</div>
-<div class="line"><a id="l05649" name="l05649"></a><span class="lineno"> 5649</span> </div>
-<div class="line"><a id="l05650" name="l05650"></a><span class="lineno"> 5650</span>    <span class="keywordflow">if</span>( temp &lt; 0 ) {</div>
-<div class="line"><a id="l05651" name="l05651"></a><span class="lineno"> 5651</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l05652" name="l05652"></a><span class="lineno"> 5652</span>    }</div>
-<div class="line"><a id="l05653" name="l05653"></a><span class="lineno"> 5653</span>    <span class="keywordflow">if</span>( temp &gt; 150 ) {</div>
-<div class="line"><a id="l05654" name="l05654"></a><span class="lineno"> 5654</span>        <span class="keywordflow">return</span> 21240;</div>
-<div class="line"><a id="l05655" name="l05655"></a><span class="lineno"> 5655</span>    }</div>
-<div class="line"><a id="l05656" name="l05656"></a><span class="lineno"> 5656</span>    <span class="keywordflow">return</span> rot_chart[temp];</div>
-<div class="line"><a id="l05657" name="l05657"></a><span class="lineno"> 5657</span>}</div>
-<div class="ttc" id="aitem_8cpp_html_a13337d48cd976e76963f10a1e6c87c0b"><div class="ttname"><a href="item_8cpp.html#a13337d48cd976e76963f10a1e6c87c0b">calc_rot_array</a></div><div class="ttdeci">static std::vector&lt; int &gt; calc_rot_array(const size_t cap)</div><div class="ttdoc">Initialize the rot table.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05629">item.cpp:5629</a></div></div>
+<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l05660">5660</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l05661" name="l05661"></a><span class="lineno"> 5661</span>{<span class="comment"></span></div>
+<div class="line"><a id="l05662" name="l05662"></a><span class="lineno"> 5662</span><span class="comment">    /**</span></div>
+<div class="line"><a id="l05663" name="l05663"></a><span class="lineno"> 5663</span><span class="comment">     * Precomputed rot lookup table.</span></div>
+<div class="line"><a id="l05664" name="l05664"></a><span class="lineno"> 5664</span><span class="comment">     */</span></div>
+<div class="line"><a id="l05665" name="l05665"></a><span class="lineno"> 5665</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::vector&lt;int&gt; rot_chart = <a class="code hl_function" href="item_8cpp.html#a13337d48cd976e76963f10a1e6c87c0b">calc_rot_array</a>( 200 );</div>
+<div class="line"><a id="l05666" name="l05666"></a><span class="lineno"> 5666</span> </div>
+<div class="line"><a id="l05667" name="l05667"></a><span class="lineno"> 5667</span>    <span class="keywordflow">if</span>( temp &lt; 0 ) {</div>
+<div class="line"><a id="l05668" name="l05668"></a><span class="lineno"> 5668</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l05669" name="l05669"></a><span class="lineno"> 5669</span>    }</div>
+<div class="line"><a id="l05670" name="l05670"></a><span class="lineno"> 5670</span>    <span class="keywordflow">if</span>( temp &gt; 150 ) {</div>
+<div class="line"><a id="l05671" name="l05671"></a><span class="lineno"> 5671</span>        <span class="keywordflow">return</span> 21240;</div>
+<div class="line"><a id="l05672" name="l05672"></a><span class="lineno"> 5672</span>    }</div>
+<div class="line"><a id="l05673" name="l05673"></a><span class="lineno"> 5673</span>    <span class="keywordflow">return</span> rot_chart[temp];</div>
+<div class="line"><a id="l05674" name="l05674"></a><span class="lineno"> 5674</span>}</div>
+<div class="ttc" id="aitem_8cpp_html_a13337d48cd976e76963f10a1e6c87c0b"><div class="ttname"><a href="item_8cpp.html#a13337d48cd976e76963f10a1e6c87c0b">calc_rot_array</a></div><div class="ttdeci">static std::vector&lt; int &gt; calc_rot_array(const size_t cap)</div><div class="ttdoc">Initialize the rot table.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l05646">item.cpp:5646</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="item_8cpp_source.html#l05629">calc_rot_array()</a>.</p>
+<p class="reference">References <a class="el" href="item_8cpp_source.html#l05646">calc_rot_array()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05659">item::calc_rot()</a>, and <a class="el" href="item_8cpp_source.html#l05708">item::minimum_freshness_duration()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l05676">item::calc_rot()</a>, and <a class="el" href="item_8cpp_source.html#l05725">item::minimum_freshness_duration()</a>.</p>
 
 </div>
 </div>
@@ -508,7 +508,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="weather_8h.html">weather.h</a></li>
-    <li class="footer">Generated on Thu Jun 29 2023 02:33:12 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Fri Jun 30 2023 01:09:44 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
