@@ -962,7 +962,7 @@ var namespaces_dup =
       [ "perform_liquid_transfer", "namespaceliquid__handler.html#a8c1765bcc2eb292f1a8cc24f0ca2b8b9", null ]
     ] ],
     [ "map_funcs", "namespacemap__funcs.html", [
-      [ "climbing_cost", "namespacemap__funcs.html#a3d04b9be6f6d41f70f82070ae568e7b2", null ],
+      [ "climbing_cost", "namespacemap__funcs.html#a8f22c4f8a377d195788aa0fa4d315491", null ],
       [ "migo_nerve_cage_removal", "namespacemap__funcs.html#a60f9a4c25252a0b8cffa456f6bc25887", null ]
     ] ],
     [ "MAP_SHARING", "namespaceMAP__SHARING.html", [
