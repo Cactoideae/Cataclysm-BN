@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"pathfinding_8h.html#ad4fb18e6e70f8406c209ab1bb25dbb55aecc59352ad14424c7d789446dc655e0f":[37,0,1,495,3,1],
 "pathfinding_8h_source.html":[37,0,1,495],
 "pickup_8cpp.html":[37,0,1,496],
 "pickup_8cpp.html#a0e89b8759b1d9911fd4632c9739dfd33":[37,0,1,496,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "point_8h.html#a8e35c5207e5507473780bbcaeda208c6":[37,0,1,512,9],
 "point_8h.html#aad28d8d682bc8e5628fd2b04df87decd":[37,0,1,512,18],
 "point_8h.html#ab165520a15047e70bf56ffa33f4cf5b4":[37,0,1,512,8],
-"point_8h.html#abd7de5098b6f2a3e020cdc13cfc5c5ab":[37,0,1,512,46],
-"point_8h.html#acb82c7b237b74c17b506c0383e38b7aa":[37,0,1,512,45]
+"point_8h.html#abd7de5098b6f2a3e020cdc13cfc5c5ab":[37,0,1,512,46]
 };

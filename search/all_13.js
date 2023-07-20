@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['r_0',['R',['../classtileset__loader.html#a2489c18e56fa2888d1b1dc047382f622',1,'tileset_loader']]],
-  ['r_1',['r',['../structdisass__prompt__result.html#a5d3dfc334696743c14bc7adcbb4e3f19',1,'disass_prompt_result']]],
+  ['r_0',['r',['../structdisass__prompt__result.html#a5d3dfc334696743c14bc7adcbb4e3f19',1,'disass_prompt_result']]],
+  ['r_1',['R',['../classtileset__loader.html#a2489c18e56fa2888d1b1dc047382f622',1,'tileset_loader']]],
   ['racing_5fterrain_5fmod_2',['racing_terrain_mod',['../veh__type_8cpp.html#aa393039637b7050f24b707107fe6b1f3',1,'veh_type.cpp']]],
   ['rad_3',['rad',['../relic_8h.html#a4beeee7f54b2b6d8a7f559714d979139a340f7c2dcaedeae68e4a62c281c7350b',1,'rad():&#160;relic.h'],['../structmaptile__soa.html#a69034b688361c90fa77b04e9707f9597',1,'maptile_soa::rad()']]],
   ['rad_5fbadge_5fcolor_4',['rad_badge_color',['../item_8h.html#a38423160898700c390ca36810499c8be',1,'rad_badge_color(int rad):&#160;item.cpp'],['../item_8cpp.html#ae169987d464a24207dd3cb77921c329a',1,'rad_badge_color(const int rad):&#160;item.cpp']]],
