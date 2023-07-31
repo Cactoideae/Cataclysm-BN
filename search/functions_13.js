@@ -65,7 +65,7 @@ var searchData=
   ['scaled_5fraw_5fnoise_5f3d_62',['scaled_raw_noise_3d',['../simplexnoise_8cpp.html#a043f0c46c08615916447f5928172edcc',1,'scaled_raw_noise_3d(const float loBound, const float hiBound, const float x, const float y, const float z):&#160;simplexnoise.cpp'],['../simplexnoise_8h.html#a48658f39ce833c6587969a8182b00bc0',1,'scaled_raw_noise_3d(float loBound, float hiBound, float x, float y, float z):&#160;simplexnoise.cpp']]],
   ['scaled_5fraw_5fnoise_5f4d_63',['scaled_raw_noise_4d',['../simplexnoise_8h.html#a4d42266ee0f4d58f08f22d307710709d',1,'scaled_raw_noise_4d(float loBound, float hiBound, float x, float y, float z, float w):&#160;simplexnoise.cpp'],['../simplexnoise_8cpp.html#a43a2cf807a9d02c32561967b8a78c785',1,'scaled_raw_noise_4d(const float loBound, const float hiBound, const float x, const float y, const float z, const float w):&#160;simplexnoise.cpp']]],
   ['scaling_5fstat_5ffrom_5fstring_64',['scaling_stat_from_string',['../bonuses_8cpp.html#a3ee2c592f63addf2d61f93926e870f51',1,'bonuses.cpp']]],
-  ['scan_5fnew_5fitems_65',['scan_new_items',['../classnpc.html#aafe8341e41f59321adba206531c6b862',1,'npc']]],
+  ['scan_5fnew_5fitems_65',['scan_new_items',['../classnpc.html#a9616d81b2be6554b15c11c2aba1b59fe',1,'npc']]],
   ['scan_5frails_5fat_5fshift_66',['scan_rails_at_shift',['../namespacevehicle__movement.html#a5de69a719cc4cbf1c0c491fe54a4443b',1,'vehicle_movement']]],
   ['scan_5frails_5ffrom_5fveh_5finternal_67',['scan_rails_from_veh_internal',['../namespacevehicle__movement.html#a2bddc1d0e2dc9d47e0c3a85362f1bd46',1,'vehicle_movement']]],
   ['scatter_5fchunks_68',['scatter_chunks',['../mondeath_8cpp.html#a85f78b5b1a30d02601ddb48682e1ac18',1,'mondeath.cpp']]],

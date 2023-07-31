@@ -139,7 +139,7 @@ var searchData=
   ['scaling_5fstat_5ffrom_5fstring_136',['scaling_stat_from_string',['../bonuses_8cpp.html#a3ee2c592f63addf2d61f93926e870f51',1,'bonuses.cpp']]],
   ['scaling_5fstat_5fmap_137',['scaling_stat_map',['../bonuses_8cpp.html#ab03b7ad8c03cb8fa1529e1f2af1ab985',1,'bonuses.cpp']]],
   ['scaling_5fstat_5fmap_5ftranslation_138',['scaling_stat_map_translation',['../bonuses_8cpp.html#a8f40cbf02ea901f6129bfbb1ff103ac6',1,'bonuses.cpp']]],
-  ['scan_5fnew_5fitems_139',['scan_new_items',['../classnpc.html#aafe8341e41f59321adba206531c6b862',1,'npc']]],
+  ['scan_5fnew_5fitems_139',['scan_new_items',['../classnpc.html#a9616d81b2be6554b15c11c2aba1b59fe',1,'npc']]],
   ['scan_5frails_5fat_5fshift_140',['scan_rails_at_shift',['../namespacevehicle__movement.html#a5de69a719cc4cbf1c0c491fe54a4443b',1,'vehicle_movement']]],
   ['scan_5frails_5ffrom_5fveh_5finternal_141',['scan_rails_from_veh_internal',['../namespacevehicle__movement.html#a2bddc1d0e2dc9d47e0c3a85362f1bd46',1,'vehicle_movement']]],
   ['scatter_5fchunks_142',['scatter_chunks',['../mondeath_8cpp.html#a85f78b5b1a30d02601ddb48682e1ac18',1,'mondeath.cpp']]],
