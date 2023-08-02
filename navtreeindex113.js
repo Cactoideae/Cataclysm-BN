@@ -1,5 +1,7 @@
 var NAVTREEINDEX113 =
 {
+"namespaceanonymous__namespace_02animation_8cpp_03.html#ac07d7350591e9095b0d65a4229b46d2b":[35,0,10,4],
+"namespaceanonymous__namespace_02animation_8cpp_03.html#ac2f6a87c38cca440d81f918250de183a":[35,0,10,8],
 "namespaceanonymous__namespace_02animation_8cpp_03.html#ac782629e3afab2499c6128a603239820":[35,0,10,5],
 "namespaceanonymous__namespace_02animation_8cpp_03.html#ac82c57522200ee34145b4d5598d87157":[35,0,10,17],
 "namespaceanonymous__namespace_02animation_8cpp_03.html#ae4475da76d1c26e5b891f4b57277b598":[35,0,10,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX113 =
 "namespaceavatar__funcs.html#ac14b6f126d2c2b3e9a34e3ae6f99827f":[35,0,72,2],
 "namespaceavatar__funcs.html#ac216d229bfa88148e0e4afa8bdbe9ffc":[35,0,72,9],
 "namespaceavatar__funcs.html#ae3e48352faacf76db0e461d8d0e697ea":[35,0,72,7],
-"namespacebase__camps.html":[35,0,73],
-"namespacebase__camps.html#a04fa69b1c0952a34dc4a7d26b3f9f786":[35,0,73,12],
-"namespacebase__camps.html#a11becc5688aac40a12f2bc2e33d605c1":[35,0,73,7]
+"namespacebase__camps.html":[35,0,73]
 };

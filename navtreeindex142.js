@@ -1,5 +1,7 @@
 var NAVTREEINDEX142 =
 {
+"structdefense__game.html#a218f525a03c97ca81343a0a29ac66122":[36,0,201,4],
+"structdefense__game.html#a2e881c197a00c09936537649ff9bbafe":[36,0,201,22],
 "structdefense__game.html#a3d91ad2c2a8c4ef4ff9fa4fad509ba49":[36,0,201,9],
 "structdefense__game.html#a43d6e00527f9de87a031368b819a74e5":[36,0,201,39],
 "structdefense__game.html#a46c52d5f54f2a20b431300ecc4938027":[36,0,201,36],
@@ -247,7 +249,5 @@ var NAVTREEINDEX142 =
 "structdetail_1_1big__decimal__fp.html":[36,0,21,11],
 "structdetail_1_1big__decimal__fp.html#a28984978e324a2f5e6eaff2a0ef1bb1a":[35,0,99,12,1],
 "structdetail_1_1big__decimal__fp.html#a28984978e324a2f5e6eaff2a0ef1bb1a":[36,0,21,11,1],
-"structdetail_1_1big__decimal__fp.html#a7ed9a423b2cfa0afaef4fd0e8a5c2129":[35,0,99,12,2],
-"structdetail_1_1big__decimal__fp.html#a7ed9a423b2cfa0afaef4fd0e8a5c2129":[36,0,21,11,2],
-"structdetail_1_1big__decimal__fp.html#a8c32508a67ea45aff332cf08538c1a78":[36,0,21,11,0]
+"structdetail_1_1big__decimal__fp.html#a7ed9a423b2cfa0afaef4fd0e8a5c2129":[35,0,99,12,2]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"sounds_8h.html#a6f93b4c27e459e0d1c174674586e9c6b":[37,0,1,589,26],
+"sounds_8h.html#a6fefdcbb474aa805a253f157288b0491":[37,0,1,589,43],
 "sounds_8h.html#a746a046c4c6989d32aa62d6799c2f496":[37,0,1,589,3],
 "sounds_8h.html#a746a046c4c6989d32aa62d6799c2f496a5b792cc4435ecdb505ea4f7915481a15":[37,0,1,589,3,3],
 "sounds_8h.html#a746a046c4c6989d32aa62d6799c2f496a6ab110a96d060b00e7149f410220dd10":[37,0,1,589,3,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "structDebugFile.html#af46420802da3af56a8d989dac3ecc0af":[36,0,198,3],
 "structDynamicDataLoader_1_1cached__streams.html":[36,0,237,0],
 "structDynamicDataLoader_1_1cached__streams.html#aeec16b8bd7f3af2943d363f64308fc0c":[36,0,237,0,0],
-"structFastDistanceApproximation.html":[36,0,335],
-"structFastDistanceApproximation.html#a4b8627f3c0e23820c80193e987d15932":[36,0,335,0],
-"structFastDistanceApproximation.html#a85896baf60747da5fb4d9842413898ae":[36,0,335,2]
+"structFastDistanceApproximation.html":[36,0,335]
 };

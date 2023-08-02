@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"iuse__software__sokoban_8h.html#a56e4c36a9251547511046f7a15d5ebc1":[37,0,1,321,2],
+"iuse__software__sokoban_8h_source.html":[37,0,1,321],
 "json_8cpp.html":[37,0,1,322],
 "json_8cpp.html#a3262ac6fdde409c00c544cc3b983f320":[37,0,1,322,5],
 "json_8cpp.html#a385cbd7c574b53bd3f7d9954aa2d7e73":[37,0,1,322,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "line_8h.html#af7fecf5ddb9b8f4a1496b46faa18af62":[37,0,1,333,1],
 "line_8h_source.html":[37,0,1,333],
 "list_8h.html":[37,0,1,334],
-"list_8h.html#a0c959a59d56b9a2d599cad41bdb3a38a":[37,0,1,334,27],
-"list_8h.html#a0f195d8d49dc65c0bc028d7226e1271c":[37,0,1,334,24],
-"list_8h.html#a10240b061d670791ec5bb92856813174":[37,0,1,334,19]
+"list_8h.html#a0c959a59d56b9a2d599cad41bdb3a38a":[37,0,1,334,27]
 };

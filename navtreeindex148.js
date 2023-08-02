@@ -1,5 +1,7 @@
 var NAVTREEINDEX148 =
 {
+"structforest__trail__settings.html#af8d81227adea55cc84910f0ee2113107":[36,0,355,1],
+"structformat__args.html":[36,0,357],
 "structformat__args.html#a6001d2aa429b93f7eb958879933e5d42":[36,0,357,0],
 "structformat__to__n__result.html":[36,0,360],
 "structformat__to__n__result.html#a90597c6c1d23c7301aef16e756c6263b":[36,0,360,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX148 =
 "structislot__ammo.html#a83fe31462db49451fff5240a855c23f6":[36,0,447,3],
 "structislot__ammo.html#a9bf197805d7d623f18b832dd3e5dc770":[36,0,447,11],
 "structislot__ammo.html#ab7743cd9372c97a6542ef4cda254bffe":[36,0,447,1],
-"structislot__ammo.html#abff0a6b76c7f55b8949bd970d25dd05b":[36,0,447,2],
-"structislot__ammo.html#acd114e30cfafd26d8644a2b43d29ceb9":[36,0,447,7],
-"structislot__ammo.html#ad7649b801b4ed0d8bec314b40f18f1db":[36,0,447,8]
+"structislot__ammo.html#abff0a6b76c7f55b8949bd970d25dd05b":[36,0,447,2]
 };

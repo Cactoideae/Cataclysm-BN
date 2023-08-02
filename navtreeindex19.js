@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"classSingle__trait__creator.html#a2b19d4d33fef0102751419c0a60d18ad":[36,0,847,4],
+"classSingle__trait__creator.html#a6dbc4e32b926ace26aab3ece4215c7a2":[36,0,847,6],
 "classSingle__trait__creator.html#a787c65f811c5ec576ca47492c7516653":[36,0,847,1],
 "classSingle__trait__creator.html#a798f5534ff289329a6ba090a1bf56702":[36,0,847,5],
 "classSingle__trait__creator.html#ad2c45e3abebf518f42d876cc31a8af0c":[36,0,847,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classachievements__tracker.html#ae1eadcdba44d5d1db21ccf45a78ac1b6":[36,0,46,16],
 "classactivatable__inventory__preset.html":[36,0,50],
 "classactivatable__inventory__preset.html#a64d12d402625dff10779fe0fee2793ae":[36,0,50,3],
-"classactivatable__inventory__preset.html#a76e9d02e2039a9435fe0e8b1952d2373":[36,0,50,4],
-"classactivatable__inventory__preset.html#aa18ddbe65a0572a52193725305cd5053":[36,0,50,2],
-"classactivatable__inventory__preset.html#ad8afb6e83e9bec65e3ccebe93299c9ab":[36,0,50,1]
+"classactivatable__inventory__preset.html#a76e9d02e2039a9435fe0e8b1952d2373":[36,0,50,4]
 };

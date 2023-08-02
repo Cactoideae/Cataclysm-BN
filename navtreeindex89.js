@@ -1,5 +1,7 @@
 var NAVTREEINDEX89 =
 {
+"gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea08bc635a91e64760aea464070a1ba9a8":[37,0,1,250,4,33],
+"gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea0a333f89e8c0655c824ef1dea08f570a":[37,0,1,250,4,40],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea0b944a7d51752af77635d465aac8b682":[37,0,1,250,4,32],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea184da19c230303368f6ad9aca6276c5a":[37,0,1,250,4,1],
 "gamemode__tutorial_8h.html#a543ad4708a13f830fca96aa55b64d9eea1afe527dece381862da43b138dfe00f5":[37,0,1,250,4,7],
@@ -86,8 +88,8 @@ var NAVTREEINDEX89 =
 "globals_b.html":[37,1,0,2],
 "globals_c.html":[37,1,0,3],
 "globals_d.html":[37,1,0,4],
-"globals_defs.html":[37,1,6,0],
 "globals_defs.html":[37,1,6],
+"globals_defs.html":[37,1,6,0],
 "globals_defs_a.html":[37,1,6,1],
 "globals_defs_b.html":[37,1,6,2],
 "globals_defs_c.html":[37,1,6,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX89 =
 "group__UI.html#ga37138b3d51a326bdac5a3a50a26513a7":[34,1,27],
 "group__UI.html#ga410d553743dc2f17443928cde8cae312":[34,1,23],
 "group__UI.html#ga45ba14bfe0f28ae2fa0de157130e77f9":[34,1,18],
-"group__UI.html#ga4ddfde0211d5b764b5d6f43640bb046c":[34,1,5],
-"group__UI.html#ga4f0d30030a52929c1ced5ca0f9b10bac":[34,1,20],
-"group__UI.html#ga50276f92e976df03cd2a65467541d4f2":[34,1,10]
+"group__UI.html#ga4ddfde0211d5b764b5d6f43640bb046c":[34,1,5]
 };

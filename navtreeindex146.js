@@ -1,5 +1,7 @@
 var NAVTREEINDEX146 =
 {
+"structenum__traits_3_01art__charge_01_4.html#a319d3d1892a36f4d05614239fb4873b2":[36,0,257,0],
+"structenum__traits_3_01art__charge__req_01_4.html":[36,0,258],
 "structenum__traits_3_01art__charge__req_01_4.html#ad7a24fc21f176e1e111d3e087d17b543":[36,0,258,0],
 "structenum__traits_3_01art__effect__active_01_4.html":[36,0,259],
 "structenum__traits_3_01art__effect__active_01_4.html#aac7e9c9a4cde4e176d9bf3a1ffd1bb3a":[36,0,259,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX146 =
 "structexplosion__data.html":[36,0,326],
 "structexplosion__data.html#a01d1dc7609c885fff0930a5a7fc39a5a":[36,0,326,5],
 "structexplosion__data.html#a227838f8868e1f945f7ebfefaf966dd2":[36,0,326,3],
-"structexplosion__data.html#a39e54d0aa5682744c07db25d451cca5b":[36,0,326,0],
-"structexplosion__data.html#a41e8db58a26672fb26266f9693bd8044":[36,0,326,2],
-"structexplosion__data.html#a467512e7e34c64ddb98ec737368b81cb":[36,0,326,1]
+"structexplosion__data.html#a39e54d0aa5682744c07db25d451cca5b":[36,0,326,0]
 };
