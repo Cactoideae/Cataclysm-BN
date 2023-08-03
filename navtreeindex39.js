@@ -1,5 +1,16 @@
 var NAVTREEINDEX39 =
 {
+"classfaction__manager.html#adc46ee0a0e0f8f2487d385da7f0eaef2":[36,0,331,4],
+"classfaction__manager.html#af128819b019519851d65e0f0bf24df8e":[36,0,331,8],
+"classfaction__manager.html#afc40a9cbe1eea87b36f36c64bc5d1094":[36,0,331,3],
+"classfaction__template.html":[36,0,332],
+"classfaction__template.html#a02a49a8831a9393a67713992ba559a26":[36,0,332,19],
+"classfaction__template.html#a1133871efac0709fda44e805e03c5378":[36,0,332,8],
+"classfaction__template.html#a2394a891e6562b159ba62a7d5ebec83d":[36,0,332,6],
+"classfaction__template.html#a46ce16367a6224fc2579540f2561a2fe":[36,0,332,21],
+"classfaction__template.html#a4c7847b9957f6792303697d9e6229e56":[36,0,332,1],
+"classfaction__template.html#a5e2a500660f3adf90c6940ecbe78ccee":[36,0,332,13],
+"classfaction__template.html#a649fcecca332d594911fed59607d4ee7":[36,0,332,12],
 "classfaction__template.html#a65f9213fae0b89b50139fff5f0352424":[36,0,332,7],
 "classfaction__template.html#a66de33109b6c1de9a0dd8b5adbe11b28":[36,0,332,0],
 "classfaction__template.html#a6729976e14fae273d4b251bff5e6aa76":[36,0,332,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX39 =
 "classgame.html#a15c0d8a10c446ed3c968ba1276c05855":[36,0,375,118],
 "classgame.html#a15d3bfff1c26a276130d0249117a9e10":[36,0,375,319],
 "classgame.html#a16da0a3bf2726b4cc47318907c857e7a":[36,0,375,114],
-"classgame.html#a1708597d46a154a9fa566117599594a9":[36,0,375,168],
-"classgame.html#a1761d58262d9bf293c5f9b3a0f6b6719":[36,0,375,110],
-"classgame.html#a1779a632a622de61be53a219a9e6fc2f":[36,0,375,181],
-"classgame.html#a1828969871e375a860d03ad5b1571ac9":[36,0,375,338],
-"classgame.html#a1877e216f0a6c9382601ea4c6ad47d0b":[36,0,375,303],
-"classgame.html#a18bfe276ef77983ab1395d3b6fdf49a4":[36,0,375,58],
-"classgame.html#a1a0e6ebbd77820154bd2fb6d41bb054d":[36,0,375,171],
-"classgame.html#a1aa98aa586fd1797acdd58729ba99eec":[36,0,375,253],
-"classgame.html#a1b5a27f58698e4e9a29d8416264749cc":[36,0,375,297],
-"classgame.html#a1d771ac3d0f32712b673d9dc7306dc1d":[36,0,375,166],
-"classgame.html#a1e7f8a354d22296b09c868c1d78ee175":[36,0,375,367],
-"classgame.html#a1ec865d3fc66e82fdd3590ae8b3d62c5":[36,0,375,55]
+"classgame.html#a1708597d46a154a9fa566117599594a9":[36,0,375,168]
 };

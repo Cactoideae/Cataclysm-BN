@@ -1,5 +1,16 @@
 var NAVTREEINDEX61 =
 {
+"classplayer__activity.html#a0e540c5f23a3578093669cf0d62e3e42":[36,0,757,48],
+"classplayer__activity.html#a0f57b22b4b9af424c55ef8d2610c76aa":[36,0,757,12],
+"classplayer__activity.html#a0fd0176419e160cb65627895ea041722":[36,0,757,42],
+"classplayer__activity.html#a13afed9baf3755048523a4ba9b896216":[36,0,757,34],
+"classplayer__activity.html#a13ea85ae5cffe32c3ff265de51837aa7":[36,0,757,25],
+"classplayer__activity.html#a158270689df786c1d7813a7f50dcadda":[36,0,757,0],
+"classplayer__activity.html#a18f8d1efa005b6f267e1049269bf506b":[36,0,757,24],
+"classplayer__activity.html#a1b2c5a44b184330e2384906fe0727210":[36,0,757,46],
+"classplayer__activity.html#a316b1ded84b8c60b250ab06661f5bce5":[36,0,757,16],
+"classplayer__activity.html#a35ae80d8cdad27d0c568b85accf03745":[36,0,757,27],
+"classplayer__activity.html#a39a3c15127f2f675f564f3c15869ee5d":[36,0,757,28],
 "classplayer__activity.html#a3a477cad2588badd9c96627a91f5eb61":[36,0,757,39],
 "classplayer__activity.html#a3c0f4901d647d15e63531cf1091daf19":[36,0,757,45],
 "classplayer__activity.html#a4eab8695ac70dd05d49d0a874064b0b2":[36,0,757,35],
@@ -238,16 +249,5 @@ var NAVTREEINDEX61 =
 "classquery__destination__callback.html#a5754901a7eeb6ca30a4936949a0f64a3":[36,0,777,1],
 "classquery__destination__callback.html#ab5d3ac2fda55ef1e48836156febd20d1":[36,0,777,3],
 "classquery__destination__callback.html#ab74f4827fec770976eb877182d8c0141":[36,0,777,2],
-"classquery__popup.html":[36,0,778],
-"classquery__popup.html#a02634e14e31650347e1244e723df98ed":[36,0,778,26],
-"classquery__popup.html#a0549c08472324ca2d4de05155539e1df":[36,0,778,6],
-"classquery__popup.html#a0d6992d81c10f0d0b99a73e32c7fe323":[36,0,778,33],
-"classquery__popup.html#a0e73d22bad3ac44de31cd9ede6d08535":[36,0,778,28],
-"classquery__popup.html#a0fcdd9c0efe58e77f0dbebe2cf0a0a92":[36,0,778,7],
-"classquery__popup.html#a150610da6512dd8fd1b33f9ef19f292d":[36,0,778,29],
-"classquery__popup.html#a155b42b661b407e6429d37be7fe89f91":[36,0,778,13],
-"classquery__popup.html#a300a83eed29b136671590531a23cfd48":[36,0,778,4],
-"classquery__popup.html#a344cfcf9aa7f5d4374ae32185ac02b8a":[36,0,778,40],
-"classquery__popup.html#a3c470080910d944f574c07c6422eae98":[36,0,778,19],
-"classquery__popup.html#a4b9b36bd30d9aa3e98d5b56ed450c42c":[36,0,778,17]
+"classquery__popup.html":[36,0,778]
 };

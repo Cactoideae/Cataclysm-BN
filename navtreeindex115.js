@@ -1,5 +1,16 @@
 var NAVTREEINDEX115 =
 {
+"namespacecharacter__funcs.html#ac54c5e58bb5d9b9fc888ca8e85d3b1a5":[35,0,86,26],
+"namespacecharacter__funcs.html#ac767ac632c0c783c8615f5e920cc938e":[35,0,86,40],
+"namespacecharacter__funcs.html#adaa760a90e1a9cc452c7b756bcde2a60":[35,0,86,33],
+"namespacecharacter__funcs.html#adda4d5fd10b7216c49a0f9b6010de579":[35,0,86,14],
+"namespacecharacter__funcs.html#ae7bfa36ae343bba14f1630cc9350f2d9":[35,0,86,24],
+"namespacecharacter__funcs.html#af0d4f519cd76c1891183b3c557bdf007":[35,0,86,12],
+"namespacecharacter__funcs.html#afa9463f9c384d1e193bdbc8dc337f8d3":[35,0,86,37],
+"namespacecharacter__funcs.html#afc55ada93348dbdeea0b7f69151956f5":[35,0,86,21],
+"namespacecharacter__weight__category.html":[35,0,87],
+"namespacecharacter__weight__category.html#a4796dc02b0d31bbc649f0d96a93fd600":[35,0,87,2],
+"namespacecharacter__weight__category.html#a75b0c4b24e523cce5ca6d4699370c985":[35,0,87,6],
 "namespacecharacter__weight__category.html#a8be790615c5a48bdf4fb02fd551f8a17":[35,0,87,1],
 "namespacecharacter__weight__category.html#a94a763d34daa1acd627b67cf6f7e6aaa":[35,0,87,3],
 "namespacecharacter__weight__category.html#a9c7c7934ca11833d32605b6af00f4572":[35,0,87,4],
@@ -238,16 +249,5 @@ var NAVTREEINDEX115 =
 "namespacedetail.html#a03c11572c9a664266d6925f327dec7f3":[35,0,99,158],
 "namespacedetail.html#a05851b470be7b954866c391a975f1bb7":[35,0,99,330],
 "namespacedetail.html#a065b0a90493a51ca4c74cd5e7f818623":[35,0,99,342],
-"namespacedetail.html#a0cdd653ad972489f35ed316aa075c574":[35,0,99,204],
-"namespacedetail.html#a0d8ba35c77308dbea0f638f6c0bb6fba":[35,0,99,296],
-"namespacedetail.html#a0e6e76d76af117dda2fead640c9238b4":[35,0,99,127],
-"namespacedetail.html#a0e78bc1771435b2f03eb002255ede72e":[35,0,99,311],
-"namespacedetail.html#a0f6aad1fb80f2a74cb78b07a0e04e93a":[35,0,99,173],
-"namespacedetail.html#a10e923e5e0b52ca60b97a1126bbfdc88":[35,0,99,167],
-"namespacedetail.html#a12a728bda9b040be8f930a4bf5da1ff2":[35,0,99,290],
-"namespacedetail.html#a15ca7493db6f0db26f88f169f4edfe24":[35,0,99,282],
-"namespacedetail.html#a167c8a998550ac44e82e104f7e5a03ad":[35,0,99,197],
-"namespacedetail.html#a16c6f0fa9431a2b4519ba0d14a7ada72":[35,0,99,200],
-"namespacedetail.html#a18c290ebecff982f88dd8cef371b0e87":[35,0,99,170],
-"namespacedetail.html#a18dcc9f4332ab0f3c96b6d5dc17507f4":[35,0,99,210]
+"namespacedetail.html#a0cdd653ad972489f35ed316aa075c574":[35,0,99,204]
 };

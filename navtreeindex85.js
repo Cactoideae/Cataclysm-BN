@@ -1,5 +1,16 @@
 var NAVTREEINDEX85 =
 {
+"fmtlib__core_8h.html#a3b8e29edd8a32a2de6f946dfa1b484b1":[37,0,1,226,80],
+"fmtlib__core_8h.html#a3b9029d1d5a999c73d00362807c7840b":[37,0,1,226,181],
+"fmtlib__core_8h.html#a3c674f92fe25aa74e8d3d5449ec85efb":[37,0,1,226,114],
+"fmtlib__core_8h.html#a3e6224930832371a8c75d3e519873a9e":[37,0,1,226,117],
+"fmtlib__core_8h.html#a413ef8725ac24ac67f7279ac9997c596":[37,0,1,226,171],
+"fmtlib__core_8h.html#a466bcfc7c97dea31cd585cd41aebd542":[37,0,1,226,201],
+"fmtlib__core_8h.html#a4b099d963b134960e73068d6bfb5b522":[37,0,1,226,169],
+"fmtlib__core_8h.html#a4dc5007c98329a75269d3f501f142b10":[37,0,1,226,203],
+"fmtlib__core_8h.html#a4f5db4f97e31a127b1236d1ff412bb0c":[37,0,1,226,87],
+"fmtlib__core_8h.html#a5164ea4aed26e7700ce4a006d1d32475":[37,0,1,226,132],
+"fmtlib__core_8h.html#a52376c1ced87b19c8b3ece64cc64f22e":[37,0,1,226,102],
 "fmtlib__core_8h.html#a55d7b78b0300ddda018f77208e80f3e9":[37,0,1,226,90],
 "fmtlib__core_8h.html#a5b3412e0fadbabc819d3ceef7fcc5e79":[37,0,1,226,170],
 "fmtlib__core_8h.html#a5d3b416a99857b69e3b7de8e88c71ff3":[37,0,1,226,84],
@@ -238,16 +249,5 @@ var NAVTREEINDEX85 =
 "fmtlib__format_8h.html#a3207ea3698d0bffb39947541a13c3f32":[37,0,1,229,193],
 "fmtlib__format_8h.html#a325a2ee4cf71f5c11e578161f5da87a2":[37,0,1,229,258],
 "fmtlib__format_8h.html#a32ad17838b93fd4237478dec63c747e8":[37,0,1,229,140],
-"fmtlib__format_8h.html#a32ecbd320068f0f120c060b49c3c4f79":[37,0,1,229,195],
-"fmtlib__format_8h.html#a35d4bc2bf717ac7731de7713c54175bb":[37,0,1,229,70],
-"fmtlib__format_8h.html#a366080888d2d3535358d11f0b4781f66":[37,0,1,229,212],
-"fmtlib__format_8h.html#a36b7e236fa4242d8655b508bbebb697f":[37,0,1,229,214],
-"fmtlib__format_8h.html#a3782bb464365613fb093103e9e894f91":[37,0,1,229,238],
-"fmtlib__format_8h.html#a3897a94b873f1e48f8339fde06ec1da3":[37,0,1,229,139],
-"fmtlib__format_8h.html#a395e23b5778786094459932b268e677e":[37,0,1,229,240],
-"fmtlib__format_8h.html#a398176f5e0f1c184f0497e4cdd1a00b6":[37,0,1,229,162],
-"fmtlib__format_8h.html#a3a5342a7122ff11ccf99cfe7b1805af4":[37,0,1,229,130],
-"fmtlib__format_8h.html#a3a96ad523e47d80559fc5981dbdc0339":[37,0,1,229,264],
-"fmtlib__format_8h.html#a3eaa85344eb6d3ab8127a93f93b7a657":[37,0,1,229,196],
-"fmtlib__format_8h.html#a40c29a6aa4c3e8a80ddd6a81ebb54ee7":[37,0,1,229,247]
+"fmtlib__format_8h.html#a32ecbd320068f0f120c060b49c3c4f79":[37,0,1,229,195]
 };

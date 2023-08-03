@@ -1,5 +1,16 @@
 var NAVTREEINDEX55 =
 {
+"classmon__spellcasting__actor.html#aea7e912581411b2cbd7a3e99550b0d92":[36,0,644,4],
+"classmonfaction.html":[36,0,645],
+"classmonfaction.html#a2debcac4b4888967fe9900a8446f51ce":[36,0,645,1],
+"classmonfaction.html#a97b1a0442b4629da602792c1899e7970":[36,0,645,3],
+"classmonfaction.html#a9b48088747d1114a3673f44e0fd04dfc":[36,0,645,2],
+"classmonfaction.html#ac1ecd553b8f91c488df20ca4b60496be":[36,0,645,4],
+"classmonfaction.html#ad48af5228028d52c07f480e5d7c2bf93":[36,0,645,0],
+"classmonster.html":[36,0,650],
+"classmonster.html#a00557d163e7ad3a027548382aa4e0455":[36,0,650,168],
+"classmonster.html#a02e7dee3b3f096d760d7332395ba54f3":[36,0,650,214],
+"classmonster.html#a0315651e596e69f0626b30e081726596":[36,0,650,115],
 "classmonster.html#a04c74718e60016b199e7cdff71d5aa90":[36,0,650,235],
 "classmonster.html#a05323351f6c39e975c217ad0b4bddbdb":[36,0,650,82],
 "classmonster.html#a077b0f7e49bc596862b531e47565b194":[36,0,650,183],
@@ -238,16 +249,5 @@ var NAVTREEINDEX55 =
 "classmonster.html#ae6f0457371b5135c25a727c8017ec6b0":[36,0,650,67],
 "classmonster.html#ae7d28bfb064ffed8272b320e56da7623":[36,0,650,109],
 "classmonster.html#ae7eed08e243bf4be1ac8d3faa45e9c96":[36,0,650,129],
-"classmonster.html#ae808866ea52bc8b079ee607547acfb5f":[36,0,650,89],
-"classmonster.html#ae888c9c78de13997e8e5c04b4d45869a":[36,0,650,112],
-"classmonster.html#aea6c3c57440f7456b8376d9750af4e4a":[36,0,650,145],
-"classmonster.html#aed44761b8e8ac00ee8ffef0347265e4c":[36,0,650,122],
-"classmonster.html#aedaf54c4048d596420fae0d32bb1f586":[36,0,650,83],
-"classmonster.html#aee322ddbd0d998f61aa928c4392396e8":[36,0,650,72],
-"classmonster.html#aef26e967fc1e2cd13ddfc752c086c3b8":[36,0,650,97],
-"classmonster.html#af033816139df1dfa154c27b199b51da6":[36,0,650,127],
-"classmonster.html#af313a62c8ecf3df3919cace7627c7079":[36,0,650,192],
-"classmonster.html#af3444e4763b1dd53e75c5ea50fd8ba9f":[36,0,650,76],
-"classmonster.html#af3b0f9beac863a48f4e7b1b375ecc7cf":[36,0,650,20],
-"classmonster.html#af46606649876d6d9978b914694f9ca16":[36,0,650,246]
+"classmonster.html#ae808866ea52bc8b079ee607547acfb5f":[36,0,650,89]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX49 =
 {
+"classjmapgen__trap.html#aed15d52646a68fd9a0b23ae3bd7b12d8":[36,0,522,3],
+"classjmapgen__trap.html#affe42c9b30544248ac93fbaf35bd44f6":[36,0,522,4],
+"classjmapgen__vehicle.html":[36,0,523],
+"classjmapgen__vehicle.html#a06c27fca053f511e5c4f1ad0488656a3":[36,0,523,7],
+"classjmapgen__vehicle.html#a06fab19d9d2255e43b128bf96dcdefb2":[36,0,523,4],
+"classjmapgen__vehicle.html#a1baefb7813c20d0f9d34fd3614173089":[36,0,523,2],
+"classjmapgen__vehicle.html#a3ca381dc61104c8c3b851ac28e84c034":[36,0,523,0],
+"classjmapgen__vehicle.html#a51f3c86655e4f13ee0d623a145876672":[36,0,523,3],
+"classjmapgen__vehicle.html#a63ce8ee6cdb7ca4ee58469fb828672b0":[36,0,523,6],
+"classjmapgen__vehicle.html#a8a1790013d7e02ecbc0f72b88183be9a":[36,0,523,1],
+"classjmapgen__vehicle.html#af17122e21a0486829aff715d2f89b259":[36,0,523,5],
 "classjmapgen__vending__machine.html":[36,0,524],
 "classjmapgen__vending__machine.html#a0e75203355b6b9b43bf6d95d34132b42":[36,0,524,3],
 "classjmapgen__vending__machine.html#a366d46b5b1584cea9e8221b988113585":[36,0,524,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX49 =
 "classlru__cache.html#a4e92be3931aaf5d9ff1c0a5d50277cbc":[36,0,569,8],
 "classlru__cache.html#aa13aa1975dc464c89d54c1913eb56414":[36,0,569,7],
 "classlru__cache.html#ab590b9fac875677e4d419e0896eaf3c0":[36,0,569,1],
-"classlru__cache.html#addba4e191c59516411810f1457bc2a5c":[36,0,569,5],
-"classlru__cache.html#aec067349698dcd400ec1d28aff31bd56":[36,0,569,6],
-"classlru__cache.html#af295e161f6fd69349618472b3d52572a":[36,0,569,4],
-"classma__buff.html":[36,0,570],
-"classma__buff.html#a114a1f11b8c14b0090a90ce21a98de9e":[36,0,570,18],
-"classma__buff.html#a18a99687fe368099d0651e497a959369":[36,0,570,24],
-"classma__buff.html#a18f92931fcf450ac8dd278f2086d4793":[36,0,570,6],
-"classma__buff.html#a195274137fc388c7f14b9282dcd5be01":[36,0,570,2],
-"classma__buff.html#a19f95bb8b3d5330f5008a3bd3ed7696b":[36,0,570,29],
-"classma__buff.html#a1da651bde74a641607ce6317254c24ef":[36,0,570,22],
-"classma__buff.html#a2816b0c4703cee0bc4dcab2186b5b9c9":[36,0,570,19],
-"classma__buff.html#a29d876a79b57b0a3ffab3af0ce0ce923":[36,0,570,13]
+"classlru__cache.html#addba4e191c59516411810f1457bc2a5c":[36,0,569,5]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX56 =
 {
+"classmonster.html#ae888c9c78de13997e8e5c04b4d45869a":[36,0,650,112],
+"classmonster.html#aea6c3c57440f7456b8376d9750af4e4a":[36,0,650,145],
+"classmonster.html#aed44761b8e8ac00ee8ffef0347265e4c":[36,0,650,122],
+"classmonster.html#aedaf54c4048d596420fae0d32bb1f586":[36,0,650,83],
+"classmonster.html#aee322ddbd0d998f61aa928c4392396e8":[36,0,650,72],
+"classmonster.html#aef26e967fc1e2cd13ddfc752c086c3b8":[36,0,650,97],
+"classmonster.html#af033816139df1dfa154c27b199b51da6":[36,0,650,127],
+"classmonster.html#af313a62c8ecf3df3919cace7627c7079":[36,0,650,192],
+"classmonster.html#af3444e4763b1dd53e75c5ea50fd8ba9f":[36,0,650,76],
+"classmonster.html#af3b0f9beac863a48f4e7b1b375ecc7cf":[36,0,650,20],
+"classmonster.html#af46606649876d6d9978b914694f9ca16":[36,0,650,246],
 "classmonster.html#af473270f1a26f86ced6123e1aa7bf134":[36,0,650,190],
 "classmonster.html#af51b831fad0abe852f25a0166c421d84":[36,0,650,80],
 "classmonster.html#af6d05a3d7157530aba98073fd5166607":[36,0,650,160],
@@ -238,16 +249,5 @@ var NAVTREEINDEX56 =
 "classnpc.html#a70d98fb89cbc92d83f54391f2480d2d8":[36,0,684,148],
 "classnpc.html#a7126a9df203ace036c3fa22b1c775d7e":[36,0,684,56],
 "classnpc.html#a71c2e08d14b32913076f198a293adea1":[36,0,684,266],
-"classnpc.html#a72a5010d44054d2ba97f29b5226d3b7c":[36,0,684,168],
-"classnpc.html#a740bf52a4bcfa3308abb1d236685bbbb":[36,0,684,211],
-"classnpc.html#a74835261fd154f7f7ccdf6fd0bfe41d7":[36,0,684,254],
-"classnpc.html#a757428ed411bbf56f6fc376a6c9f2258":[36,0,684,71],
-"classnpc.html#a768707654ad24de4e74d1324335872e8":[36,0,684,245],
-"classnpc.html#a770a2307ec384a2986e7ca9769cdd2e3":[36,0,684,68],
-"classnpc.html#a78543b29cdeed5945f372d5f6bd1dc76":[36,0,684,191],
-"classnpc.html#a79a47b7719c2fe91cdb22c9d6447d19c":[36,0,684,73],
-"classnpc.html#a7bfe249b7b1c8de24b613b61d6ada119":[36,0,684,319],
-"classnpc.html#a7cf2b087970e2d88a57a6dca64b3e1a9":[36,0,684,50],
-"classnpc.html#a7ee1c9e434339418cb9b5907d8695806":[36,0,684,149],
-"classnpc.html#a7f2ab2407cf562b0d407edfc175029e6":[36,0,684,40]
+"classnpc.html#a72a5010d44054d2ba97f29b5226d3b7c":[36,0,684,168]
 };

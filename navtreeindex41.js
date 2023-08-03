@@ -1,5 +1,15 @@
 var NAVTREEINDEX41 =
 {
+"classgame.html#ac8873f160d6e165fe4d3e2f6b9e0e36e":[36,0,375,261],
+"classgame.html#acaf08b6afd3d9504145870ec272cfc20":[36,0,375,128],
+"classgame.html#acb0b34be6e497bdd2f9f40ae6929d562":[36,0,375,283],
+"classgame.html#acbf8f476b157b4d7e6679f2a3579c4b8":[36,0,375,340],
+"classgame.html#acc4a93c7f2d716532443bcde9366e495":[36,0,375,278],
+"classgame.html#acc820cf65b9731ebc406aa4e04317cf0":[36,0,375,133],
+"classgame.html#ad07cf05a34a584dc4cc00f49015d7330":[36,0,375,258],
+"classgame.html#ad084271a8c37dcc37be78725bd778097":[36,0,375,153],
+"classgame.html#ad22c9b6c5f5efe51e8d97de3c8a1722d":[36,0,375,304],
+"classgame.html#ad2f62391ee57d8a2b5d974b8a0796f8c":[36,0,375,28],
 "classgame.html#ad32ea9b5f20bcf058cff9ffb4198908c":[36,0,375,276],
 "classgame.html#ad43c2e1db5d524dc5d3ace6073d81d5f":[36,0,375,266],
 "classgame.html#ad515804f92806d8321ce1477c4608413":[36,0,375,46],
@@ -54,6 +64,7 @@ var NAVTREEINDEX41 =
 "classgame.html#af1e0716d96a2b6490526432b2d97007f":[36,0,375,267],
 "classgame.html#af24f31178dd17cafbd0540c5e3f814af":[36,0,375,78],
 "classgame.html#af26e069d3c71ab076a9704c635feb530":[36,0,375,132],
+"classgame.html#af2bd2d9dba12210accf8f7ed1d0ad755":[36,0,375,107],
 "classgame.html#af3cc0188ff792afb783ca405d54c46c5":[36,0,375,119],
 "classgame.html#af41740a35eb9d5901fd38d4a9ab8716b":[36,0,375,87],
 "classgame.html#af5ac5d5e42e8ff77ee73c629c7e1e11e":[36,0,375,92],
@@ -238,16 +249,5 @@ var NAVTREEINDEX41 =
 "classgun__modifier__data.html#a741029bc4cb7230c857e4435281a8731":[36,0,385,2],
 "classgun__modifier__data.html#a7fa5bef372cc405aaf455d77a66a98c9":[36,0,385,4],
 "classgun__modifier__data.html#acbeb5103a14ed6f23277cc9dc3c087ad":[36,0,385,7],
-"classgun__modifier__data.html#afcb18a1d12ade9bef9c93e3bdfe3d739":[36,0,385,3],
-"classgun__modifier__data.html#afe5a6e9ab68207719c5cd405e7027975":[36,0,385,6],
-"classgunmod__inventory__preset.html":[36,0,386],
-"classgunmod__inventory__preset.html#a00d7b417e5de33b125f65187d3c8dcd2":[36,0,386,4],
-"classgunmod__inventory__preset.html#a045ec55dfd429112c7e91b338e62ed33":[36,0,386,0],
-"classgunmod__inventory__preset.html#a23bd4615c49064ca22933dcff5bbd0ea":[36,0,386,1],
-"classgunmod__inventory__preset.html#a3349da7bcba07c2fc81d7e2a2a2e0a1f":[36,0,386,5],
-"classgunmod__inventory__preset.html#a54808627ff35f3f1312f7034e57e95c6":[36,0,386,2],
-"classgunmod__inventory__preset.html#aa6efcebac3c8e4e41c76c2c2360614a2":[36,0,386,3],
-"classgunmod__inventory__preset.html#ad90ba0ecc723bdf4e16030de58deb319":[36,0,386,6],
-"classgunmod__location.html":[36,0,387],
-"classgunmod__location.html#a13e673ad3b5f14c709d680fff1c63272":[36,0,387,2]
+"classgun__modifier__data.html#afcb18a1d12ade9bef9c93e3bdfe3d739":[36,0,385,3]
 };

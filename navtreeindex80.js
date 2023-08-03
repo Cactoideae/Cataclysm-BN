@@ -1,5 +1,16 @@
 var NAVTREEINDEX80 =
 {
+"damage_8cpp.html#ac9b70172b15fdc555306b6383cb2fcb2":[37,0,1,156,2],
+"damage_8cpp.html#aeeb4eb798c8c766e0962a8c726a82962":[37,0,1,156,12],
+"damage_8cpp.html#af78839f0692536b2f1ba41643b0acb2e":[37,0,1,156,9],
+"damage_8cpp_source.html":[37,0,1,156],
+"damage_8h.html":[37,0,1,157],
+"damage_8h.html#a10a3750de355f3b6ae5269d73bae6c59":[37,0,1,157,9],
+"damage_8h.html#a137a94f0b744f736d7269cbc7873c076":[37,0,1,157,11],
+"damage_8h.html#a487d8ebc38156ecec4d356142f1ef503":[37,0,1,157,6],
+"damage_8h.html#a4ee1d4ba518b2becb0d1041a010ce7f5":[37,0,1,157,10],
+"damage_8h.html#a5103299af7974d59f73d843729ac1d6b":[37,0,1,157,13],
+"damage_8h.html#a7b7348e1416b1d514adbb591d061974c":[37,0,1,157,8],
 "damage_8h.html#ab70ea9b6d5175e50ae2bca6a02c7f155":[37,0,1,157,14],
 "damage_8h.html#abd81bcfa55cc6bdc482a4cb644968791":[37,0,1,157,12],
 "damage_8h.html#ac9b70172b15fdc555306b6383cb2fcb2":[37,0,1,157,7],
@@ -238,16 +249,5 @@ var NAVTREEINDEX80 =
 "dialogue_8h.html#a71377f676c10f31d05ba78a9331980b6":[37,0,1,165,14],
 "dialogue_8h.html#a80d02798bc4f6a4f04cc30e137798659":[37,0,1,165,17],
 "dialogue_8h.html#a95a639b7c1c82416a0e66fb65f998479":[37,0,1,165,12],
-"dialogue_8h.html#ab6df03849cb069a437e9c5ee43a3050a":[37,0,1,165,13],
-"dialogue_8h.html#abfef6960b077f40e23bc00055370cc71":[37,0,1,165,15],
-"dialogue_8h.html#abfef6960b077f40e23bc00055370cc71a0639a24a99be1d60fe688dd938b7eca8":[37,0,1,165,15,3],
-"dialogue_8h.html#abfef6960b077f40e23bc00055370cc71a38be931b73e384a6a576c499c50c0aee":[37,0,1,165,15,1],
-"dialogue_8h.html#abfef6960b077f40e23bc00055370cc71ab7e4e0120a041dbe6528b050c04269e0":[37,0,1,165,15,0],
-"dialogue_8h.html#abfef6960b077f40e23bc00055370cc71aea1759cac1069121edc08cd421358edc":[37,0,1,165,15,2],
-"dialogue_8h.html#ae482c06259a0a624d6c85e7ba79e07c4":[37,0,1,165,18],
-"dialogue_8h_source.html":[37,0,1,165],
-"dialogue__win_8cpp.html":[37,0,1,166],
-"dialogue__win_8cpp.html#a0b01794b19da8c252ff74067073f8c44":[37,0,1,166,4],
-"dialogue__win_8cpp.html#a0cca3f61b22ea498b2d02d07b7def357":[37,0,1,166,2],
-"dialogue__win_8cpp.html#a49f7c96ed18ad06fb0b36991f64230bb":[37,0,1,166,3]
+"dialogue_8h.html#ab6df03849cb069a437e9c5ee43a3050a":[37,0,1,165,13]
 };

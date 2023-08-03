@@ -1,5 +1,16 @@
 var NAVTREEINDEX116 =
 {
+"namespacedetail.html#a0d8ba35c77308dbea0f638f6c0bb6fba":[35,0,99,296],
+"namespacedetail.html#a0e6e76d76af117dda2fead640c9238b4":[35,0,99,127],
+"namespacedetail.html#a0e78bc1771435b2f03eb002255ede72e":[35,0,99,311],
+"namespacedetail.html#a0f6aad1fb80f2a74cb78b07a0e04e93a":[35,0,99,173],
+"namespacedetail.html#a10e923e5e0b52ca60b97a1126bbfdc88":[35,0,99,167],
+"namespacedetail.html#a12a728bda9b040be8f930a4bf5da1ff2":[35,0,99,290],
+"namespacedetail.html#a15ca7493db6f0db26f88f169f4edfe24":[35,0,99,282],
+"namespacedetail.html#a167c8a998550ac44e82e104f7e5a03ad":[35,0,99,197],
+"namespacedetail.html#a16c6f0fa9431a2b4519ba0d14a7ada72":[35,0,99,200],
+"namespacedetail.html#a18c290ebecff982f88dd8cef371b0e87":[35,0,99,170],
+"namespacedetail.html#a18dcc9f4332ab0f3c96b6d5dc17507f4":[35,0,99,210],
 "namespacedetail.html#a194a8dad9dd2c1ee35aaacf7472df3b8":[35,0,99,322],
 "namespacedetail.html#a195ada4a0982dc9817b6386c9efa9f8d":[35,0,99,329],
 "namespacedetail.html#a19fe0523a95f2e571745ce3acf05f9b9":[35,0,99,201],
@@ -238,16 +249,5 @@ var NAVTREEINDEX116 =
 "namespacedetail.html#afcdfcc63793005e0e9c5a6fbf6f82618":[35,0,99,246],
 "namespacedetail.html#afd66552886bd15890422e2a710d48a60":[35,0,99,274],
 "namespacedetail.html#afdc0d7b145d58d8d40beb9cefccd8d0d":[35,0,99,279],
-"namespacedetail.html#aff49b0789f61b488af21cc010bfd70c4":[35,0,99,231],
-"namespacedetail.html#aff4b427a124a81b718d7bb9a845d1d59":[35,0,99,303],
-"namespacedetail.html#afff9299aba0ea4694c55cddeec0d2ae4":[35,0,99,348],
-"namespacedetail_1_1digits.html":[35,0,99,0],
-"namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5ae":[35,0,99,0,0],
-"namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5aea5ac52de38b8cf793e5d933bfb76edf45":[35,0,99,0,0,2],
-"namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5aea74589f67c5fc9945d7dde9d16aecda3a":[35,0,99,0,0,0],
-"namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5aeac7878d891005c72a71703f35dbb2be15":[35,0,99,0,0,1],
-"namespacedetail_1_1dragonbox.html":[35,0,99,1],
-"namespacedetail_1_1dragonbox.html#a0bf49114abef82fbaac1b6b5abfab666":[35,0,99,1,27],
-"namespacedetail_1_1dragonbox.html#a12286781195aa157eabfe1437ee271fa":[35,0,99,1,25],
-"namespacedetail_1_1dragonbox.html#a233f206f3f73d9c426e5fb0c69df38c1":[35,0,99,1,15]
+"namespacedetail.html#aff49b0789f61b488af21cc010bfd70c4":[35,0,99,231]
 };

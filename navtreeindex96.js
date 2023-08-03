@@ -1,5 +1,16 @@
 var NAVTREEINDEX96 =
 {
+"iuse_8h.html#a39a54f099f8fd5fbb811aa05bad58e02":[37,0,1,307,15],
+"iuse_8h.html#a3b71f85b22913d8683ec1464ec8bec41":[37,0,1,307,75],
+"iuse_8h.html#a3bdece1a07a33641fa483176a9bd0175":[37,0,1,307,173],
+"iuse_8h.html#a3c1d4a10bd7e29e546ba40ab02b3d765":[37,0,1,307,123],
+"iuse_8h.html#a3ec4a9ae044aed6a9e99b59258a6fbda":[37,0,1,307,149],
+"iuse_8h.html#a3ed61e824f231f3b6855d8d3769f085a":[37,0,1,307,172],
+"iuse_8h.html#a3f435663e43863b4d83264dac8fbe9ad":[37,0,1,307,104],
+"iuse_8h.html#a418d7c8d1422f573f32df2253997b165":[37,0,1,307,45],
+"iuse_8h.html#a4303a8a70c9ccc81c39d921ae2478692":[37,0,1,307,136],
+"iuse_8h.html#a44ada5d5014f5183d6be198a5b040138":[37,0,1,307,87],
+"iuse_8h.html#a46c01f7f882fde8bc12283b81cd5fbfb":[37,0,1,307,5],
 "iuse_8h.html#a46dea249d232934f987af8efb8320529":[37,0,1,307,97],
 "iuse_8h.html#a4884a5f4a9818606704ceeffe78382a0":[37,0,1,307,100],
 "iuse_8h.html#a48fa1d77fe26dcfe0cfa5b8d1e38ce03":[37,0,1,307,110],
@@ -238,16 +249,5 @@ var NAVTREEINDEX96 =
 "iuse__software__lightson_8h.html#a64a0689f545bd3904c762dfd0281d922":[37,0,1,315,1],
 "iuse__software__lightson_8h_source.html":[37,0,1,315],
 "iuse__software__minesweeper_8cpp.html":[37,0,1,316],
-"iuse__software__minesweeper_8cpp_source.html":[37,0,1,316],
-"iuse__software__minesweeper_8h.html":[37,0,1,317],
-"iuse__software__minesweeper_8h.html#a2d07c8b60e2af8fab2a72a6ceaf79374":[37,0,1,317,1],
-"iuse__software__minesweeper_8h_source.html":[37,0,1,317],
-"iuse__software__snake_8cpp.html":[37,0,1,318],
-"iuse__software__snake_8cpp_source.html":[37,0,1,318],
-"iuse__software__snake_8h.html":[37,0,1,319],
-"iuse__software__snake_8h.html#acdf5be326f7b8b3dc9a5b549e6b5d1f6":[37,0,1,319,1],
-"iuse__software__snake_8h_source.html":[37,0,1,319],
-"iuse__software__sokoban_8cpp.html":[37,0,1,320],
-"iuse__software__sokoban_8cpp_source.html":[37,0,1,320],
-"iuse__software__sokoban_8h.html":[37,0,1,321]
+"iuse__software__minesweeper_8cpp_source.html":[37,0,1,316]
 };

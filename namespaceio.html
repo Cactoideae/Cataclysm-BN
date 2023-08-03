@@ -358,7 +358,7 @@ template&lt;typename E &gt; </div>
 <div class="ttc" id="adebug_8h_html_a87e509562277a7ada3a75330d00cb445"><div class="ttname"><a href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a></div><div class="ttdeci">#define debugmsg(...)</div><div class="ttdoc">Debug message of level DL::Error and class DC::DebugMsg, also includes the source file name and line,...</div><div class="ttdef"><b>Definition:</b> <a href="debug_8h_source.html#l00074">debug.h:74</a></div></div>
 <div class="ttc" id="anamespacedetail_1_1digits_html_aad69d2373aa047bdd9e81494bf3da5ae"><div class="ttname"><a href="namespacedetail_1_1digits.html#aad69d2373aa047bdd9e81494bf3da5ae">detail::digits::result</a></div><div class="ttdeci">result</div><div class="ttdef"><b>Definition:</b> <a href="fmtlib__format-inl_8h_source.html#l01626">fmtlib_format-inl.h:1626</a></div></div>
 <div class="ttc" id="anamespaceio_html_aa8fa8545615e452e23e6bcc8a6a3a37a"><div class="ttname"><a href="namespaceio.html#aa8fa8545615e452e23e6bcc8a6a3a37a">io::enum_to_string</a></div><div class="ttdeci">std::string enum_to_string(E)</div></div>
-<div class="ttc" id="astructenum__traits_html"><div class="ttname"><a href="structenum__traits.html">enum_traits</a></div><div class="ttdef"><b>Definition:</b> <a href="achievement_8h_source.html#l00030">achievement.h:30</a></div></div>
+<div class="ttc" id="astructenum__traits_html"><div class="ttname"><a href="structenum__traits.html">enum_traits</a></div><div class="ttdef"><b>Definition:</b> <a href="achievement_8h_source.html#l00031">achievement.h:31</a></div></div>
 <div class="ttc" id="astructhas__enum__traits_html"><div class="ttname"><a href="structhas__enum__traits.html">has_enum_traits</a></div><div class="ttdef"><b>Definition:</b> <a href="enum__traits_8h_source.html#l00017">enum_traits.h:17</a></div></div>
 <div class="ttc" id="avehicle_8h_html_a120e32a2f241b5f666c5189a2f405eeaa5bb94a1c12413a2e5d14deabab29f2aa"><div class="ttname"><a href="vehicle_8h.html#a120e32a2f241b5f666c5189a2f405eeaa5bb94a1c12413a2e5d14deabab29f2aa">autodrive_result::abort</a></div><div class="ttdeci">@ abort</div></div>
 </div><!-- fragment -->
@@ -406,19 +406,19 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="achievement_8cpp_source.html#l00092">92</a> of file <a class="el" href="achievement_8cpp_source.html">achievement.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>{</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordflow">switch</span>( data ) {</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="comment">// *INDENT-OFF*</span></div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classachievement_1_1time__bound.html#a8eb52ce6fedafda3d96098640f968e3dac5e0dd61359c77c74d0d0edf77a6123e">achievement::time_bound::epoch::cataclysm</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;cataclysm&quot;</span>;</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classachievement_1_1time__bound.html#a8eb52ce6fedafda3d96098640f968e3da95266276b26eef640aaca61cdbbccbcb">achievement::time_bound::epoch::game_start</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;game_start&quot;</span>;</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="comment">// *INDENT-ON*</span></div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classachievement_1_1time__bound.html#a8eb52ce6fedafda3d96098640f968e3da98bd1c45684cf587ac2347a92dd7bb51">achievement::time_bound::epoch::last</a>:</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    }</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <a class="code hl_define" href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a>( <span class="stringliteral">&quot;Invalid epoch&quot;</span> );</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <a class="code hl_enumvalue" href="vehicle_8h.html#a120e32a2f241b5f666c5189a2f405eeaa5bb94a1c12413a2e5d14deabab29f2aa">abort</a>();</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>}</div>
+<p class="definition">Definition at line <a class="el" href="achievement_8cpp_source.html#l00095">95</a> of file <a class="el" href="achievement_8cpp_source.html">achievement.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>{</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordflow">switch</span>( data ) {</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="comment">// *INDENT-OFF*</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classachievement_1_1time__bound.html#a8eb52ce6fedafda3d96098640f968e3dac5e0dd61359c77c74d0d0edf77a6123e">achievement::time_bound::epoch::cataclysm</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;cataclysm&quot;</span>;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classachievement_1_1time__bound.html#a8eb52ce6fedafda3d96098640f968e3da95266276b26eef640aaca61cdbbccbcb">achievement::time_bound::epoch::game_start</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;game_start&quot;</span>;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        <span class="comment">// *INDENT-ON*</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classachievement_1_1time__bound.html#a8eb52ce6fedafda3d96098640f968e3da98bd1c45684cf587ac2347a92dd7bb51">achievement::time_bound::epoch::last</a>:</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    }</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <a class="code hl_define" href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a>( <span class="stringliteral">&quot;Invalid epoch&quot;</span> );</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <a class="code hl_enumvalue" href="vehicle_8h.html#a120e32a2f241b5f666c5189a2f405eeaa5bb94a1c12413a2e5d14deabab29f2aa">abort</a>();</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>}</div>
 <div class="ttc" id="aclassachievement_1_1time__bound_html_a8eb52ce6fedafda3d96098640f968e3da95266276b26eef640aaca61cdbbccbcb"><div class="ttname"><a href="classachievement_1_1time__bound.html#a8eb52ce6fedafda3d96098640f968e3da95266276b26eef640aaca61cdbbccbcb">achievement::time_bound::epoch::game_start</a></div><div class="ttdeci">@ game_start</div></div>
 <div class="ttc" id="aclassachievement_1_1time__bound_html_a8eb52ce6fedafda3d96098640f968e3da98bd1c45684cf587ac2347a92dd7bb51"><div class="ttname"><a href="classachievement_1_1time__bound.html#a8eb52ce6fedafda3d96098640f968e3da98bd1c45684cf587ac2347a92dd7bb51">achievement::time_bound::epoch::last</a></div><div class="ttdeci">@ last</div></div>
 <div class="ttc" id="aclassachievement_1_1time__bound_html_a8eb52ce6fedafda3d96098640f968e3dac5e0dd61359c77c74d0d0edf77a6123e"><div class="ttname"><a href="classachievement_1_1time__bound.html#a8eb52ce6fedafda3d96098640f968e3dac5e0dd61359c77c74d0d0edf77a6123e">achievement::time_bound::epoch::cataclysm</a></div><div class="ttdeci">@ cataclysm</div></div>
@@ -445,20 +445,20 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="achievement_8cpp_source.html#l00076">76</a> of file <a class="el" href="achievement_8cpp_source.html">achievement.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>{</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordflow">switch</span>( data ) {</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="comment">// *INDENT-OFF*</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112a77932225fb35fc4b74dc8fabf0992dac">achievement_comparison::less_equal</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;&lt;=&quot;</span>;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112a5675102b0e596d9d43bbb0e0f8ea07e2">achievement_comparison::greater_equal</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;&gt;=&quot;</span>;</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112af0e166dc34d14d6c228ffac576c9a43c">achievement_comparison::anything</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;anything&quot;</span>;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="comment">// *INDENT-ON*</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112a98bd1c45684cf587ac2347a92dd7bb51">achievement_comparison::last</a>:</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    }</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <a class="code hl_define" href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a>( <span class="stringliteral">&quot;Invalid achievement_comparison&quot;</span> );</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <a class="code hl_enumvalue" href="vehicle_8h.html#a120e32a2f241b5f666c5189a2f405eeaa5bb94a1c12413a2e5d14deabab29f2aa">abort</a>();</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>}</div>
+<p class="definition">Definition at line <a class="el" href="achievement_8cpp_source.html#l00079">79</a> of file <a class="el" href="achievement_8cpp_source.html">achievement.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>{</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordflow">switch</span>( data ) {</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <span class="comment">// *INDENT-OFF*</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112a77932225fb35fc4b74dc8fabf0992dac">achievement_comparison::less_equal</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;&lt;=&quot;</span>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112a5675102b0e596d9d43bbb0e0f8ea07e2">achievement_comparison::greater_equal</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;&gt;=&quot;</span>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112af0e166dc34d14d6c228ffac576c9a43c">achievement_comparison::anything</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;anything&quot;</span>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="comment">// *INDENT-ON*</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112a98bd1c45684cf587ac2347a92dd7bb51">achievement_comparison::last</a>:</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    }</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <a class="code hl_define" href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a>( <span class="stringliteral">&quot;Invalid achievement_comparison&quot;</span> );</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <a class="code hl_enumvalue" href="vehicle_8h.html#a120e32a2f241b5f666c5189a2f405eeaa5bb94a1c12413a2e5d14deabab29f2aa">abort</a>();</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>}</div>
 <div class="ttc" id="aachievement_8h_html_a4c2771ccaad822c94aee3786288bb112a5675102b0e596d9d43bbb0e0f8ea07e2"><div class="ttname"><a href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112a5675102b0e596d9d43bbb0e0f8ea07e2">achievement_comparison::greater_equal</a></div><div class="ttdeci">@ greater_equal</div></div>
 <div class="ttc" id="aachievement_8h_html_a4c2771ccaad822c94aee3786288bb112a77932225fb35fc4b74dc8fabf0992dac"><div class="ttname"><a href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112a77932225fb35fc4b74dc8fabf0992dac">achievement_comparison::less_equal</a></div><div class="ttdeci">@ less_equal</div></div>
 <div class="ttc" id="aachievement_8h_html_a4c2771ccaad822c94aee3786288bb112a98bd1c45684cf587ac2347a92dd7bb51"><div class="ttname"><a href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112a98bd1c45684cf587ac2347a92dd7bb51">achievement_comparison::last</a></div><div class="ttdeci">@ last</div></div>
@@ -486,20 +486,20 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="achievement_8cpp_source.html#l00530">530</a> of file <a class="el" href="achievement_8cpp_source.html">achievement.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00531" name="l00531"></a><span class="lineno">  531</span>{</div>
-<div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span>    <span class="keywordflow">switch</span>( data ) {</div>
-<div class="line"><a id="l00533" name="l00533"></a><span class="lineno">  533</span>        <span class="comment">// *INDENT-OFF*</span></div>
-<div class="line"><a id="l00534" name="l00534"></a><span class="lineno">  534</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93a7c6c2e5d48ab37a007cbf70d3ea25fa4">achievement_completion::pending</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;pending&quot;</span>;</div>
-<div class="line"><a id="l00535" name="l00535"></a><span class="lineno">  535</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93aaa8fb77e57d1ca18d593e909729871fe">achievement_completion::completed</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;completed&quot;</span>;</div>
-<div class="line"><a id="l00536" name="l00536"></a><span class="lineno">  536</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93a26934eb377001f66e37289a5c93fe284">achievement_completion::failed</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;failed&quot;</span>;</div>
-<div class="line"><a id="l00537" name="l00537"></a><span class="lineno">  537</span>        <span class="comment">// *INDENT-ON*</span></div>
-<div class="line"><a id="l00538" name="l00538"></a><span class="lineno">  538</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93a98bd1c45684cf587ac2347a92dd7bb51">achievement_completion::last</a>:</div>
-<div class="line"><a id="l00539" name="l00539"></a><span class="lineno">  539</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00540" name="l00540"></a><span class="lineno">  540</span>    }</div>
-<div class="line"><a id="l00541" name="l00541"></a><span class="lineno">  541</span>    <a class="code hl_define" href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a>( <span class="stringliteral">&quot;Invalid achievement_completion&quot;</span> );</div>
-<div class="line"><a id="l00542" name="l00542"></a><span class="lineno">  542</span>    <a class="code hl_enumvalue" href="vehicle_8h.html#a120e32a2f241b5f666c5189a2f405eeaa5bb94a1c12413a2e5d14deabab29f2aa">abort</a>();</div>
-<div class="line"><a id="l00543" name="l00543"></a><span class="lineno">  543</span>}</div>
+<p class="definition">Definition at line <a class="el" href="achievement_8cpp_source.html#l00805">805</a> of file <a class="el" href="achievement_8cpp_source.html">achievement.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span>{</div>
+<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>    <span class="keywordflow">switch</span>( data ) {</div>
+<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>        <span class="comment">// *INDENT-OFF*</span></div>
+<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93a7c6c2e5d48ab37a007cbf70d3ea25fa4">achievement_completion::pending</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;pending&quot;</span>;</div>
+<div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93aaa8fb77e57d1ca18d593e909729871fe">achievement_completion::completed</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;completed&quot;</span>;</div>
+<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93a26934eb377001f66e37289a5c93fe284">achievement_completion::failed</a>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;failed&quot;</span>;</div>
+<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>        <span class="comment">// *INDENT-ON*</span></div>
+<div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93a98bd1c45684cf587ac2347a92dd7bb51">achievement_completion::last</a>:</div>
+<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00815" name="l00815"></a><span class="lineno">  815</span>    }</div>
+<div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span>    <a class="code hl_define" href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a>( <span class="stringliteral">&quot;Invalid achievement_completion&quot;</span> );</div>
+<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span>    <a class="code hl_enumvalue" href="vehicle_8h.html#a120e32a2f241b5f666c5189a2f405eeaa5bb94a1c12413a2e5d14deabab29f2aa">abort</a>();</div>
+<div class="line"><a id="l00818" name="l00818"></a><span class="lineno">  818</span>}</div>
 <div class="ttc" id="aachievement_8h_html_ac10c26c3d785b83f46854c5f05b41f93a26934eb377001f66e37289a5c93fe284"><div class="ttname"><a href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93a26934eb377001f66e37289a5c93fe284">achievement_completion::failed</a></div><div class="ttdeci">@ failed</div></div>
 <div class="ttc" id="aachievement_8h_html_ac10c26c3d785b83f46854c5f05b41f93a7c6c2e5d48ab37a007cbf70d3ea25fa4"><div class="ttname"><a href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93a7c6c2e5d48ab37a007cbf70d3ea25fa4">achievement_completion::pending</a></div><div class="ttdeci">@ pending</div></div>
 <div class="ttc" id="aachievement_8h_html_ac10c26c3d785b83f46854c5f05b41f93a98bd1c45684cf587ac2347a92dd7bb51"><div class="ttname"><a href="achievement_8h.html#ac10c26c3d785b83f46854c5f05b41f93a98bd1c45684cf587ac2347a92dd7bb51">achievement_completion::last</a></div><div class="ttdeci">@ last</div></div>
@@ -3739,7 +3739,7 @@ template&lt;typename C , typename E  = typename C::mapped_type&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceio.html">io</a></li>
-    <li class="footer">Generated on Thu Aug 3 2023 04:10:04 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Aug 3 2023 12:47:51 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

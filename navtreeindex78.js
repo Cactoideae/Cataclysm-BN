@@ -1,5 +1,16 @@
 var NAVTREEINDEX78 =
 {
+"consumption_8cpp.html#a92fc92f8871feb56f05a24b582966275":[37,0,1,134,98],
+"consumption_8cpp.html#a93f31d20e997d966be8b81d64c31582b":[37,0,1,134,96],
+"consumption_8cpp.html#a994d0d6d961fbaf3b81c95eea9265ccf":[37,0,1,134,32],
+"consumption_8cpp.html#a9bbf692360c0fe96f9fccf41db5756be":[37,0,1,134,93],
+"consumption_8cpp.html#a9ee9e451710455a6577a559240a53cee":[37,0,1,134,20],
+"consumption_8cpp.html#aa026dbb6ce20973d00e8847f056865dc":[37,0,1,134,35],
+"consumption_8cpp.html#aa529aa8fed8701f3f231986398f2d95d":[37,0,1,134,91],
+"consumption_8cpp.html#aa7c6b64e7778501e77a8c8aeda9c6ffb":[37,0,1,134,109],
+"consumption_8cpp.html#aa9d7670d795db57c4926fef635148e22":[37,0,1,134,106],
+"consumption_8cpp.html#aaa52adaf5d4df3112a266635f08120ed":[37,0,1,134,82],
+"consumption_8cpp.html#aac08741712a8c206a0cb74130f7517d5":[37,0,1,134,44],
 "consumption_8cpp.html#ab0274897870729fe991550cf82d246e9":[37,0,1,134,104],
 "consumption_8cpp.html#ab0ef5d50b9d2e3795b88816ba20982df":[37,0,1,134,15],
 "consumption_8cpp.html#ab1b77b826e76fc26c990435f29f87d50":[37,0,1,134,36],
@@ -238,16 +249,5 @@ var NAVTREEINDEX78 =
 "craft__command_8h.html#a5684f219761d78b4f98e7b2869dd1726a87a06975828a650a938662676287691c":[37,0,1,141,4,0],
 "craft__command_8h.html#a5684f219761d78b4f98e7b2869dd1726ae0cfa7503d9e51c0f908fe4f210a56cb":[37,0,1,141,4,1],
 "craft__command_8h.html#a5684f219761d78b4f98e7b2869dd1726afa28df73c87d81742155531f0f36dc71":[37,0,1,141,4,4],
-"craft__command_8h_source.html":[37,0,1,141],
-"crafting_8cpp.html":[37,0,1,142],
-"crafting_8cpp.html#a011b9ef80a917cadf5cb708f54b67ff9":[37,0,1,142,8],
-"crafting_8cpp.html#a07496c9e8d995433ae9debe590894c3e":[37,0,1,142,41],
-"crafting_8cpp.html#a09be785730be8d8b735277a2434fa57b":[37,0,1,142,19],
-"crafting_8cpp.html#a0a4980f8517a4d5d4f65621c3355d1d9":[37,0,1,142,46],
-"crafting_8cpp.html#a0d310e1d954941b884e3806116ae6f7b":[37,0,1,142,29],
-"crafting_8cpp.html#a0ed9b881c9c23a77d8d1419cf5b81a37":[37,0,1,142,24],
-"crafting_8cpp.html#a0f0a8a1eeb3bc0980512ce77e917dda3":[37,0,1,142,45],
-"crafting_8cpp.html#a10d830fe02dce42ca9a526543c0956c1":[37,0,1,142,43],
-"crafting_8cpp.html#a17ec945038dd28db3e0041be27e319ad":[37,0,1,142,52],
-"crafting_8cpp.html#a1d2a7cb3089df9947e11010194801609":[37,0,1,142,13]
+"craft__command_8h_source.html":[37,0,1,141]
 };

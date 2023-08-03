@@ -1,5 +1,16 @@
 var NAVTREEINDEX48 =
 {
+"classitem__stack.html#a4207720bdf0ec1c5924d7f1f9c917679":[36,0,486,20],
+"classitem__stack.html#a4fc307204e23390ef6790b99439d4475":[36,0,486,0],
+"classitem__stack.html#a543c766f2325b9f5ad03824a8047c97b":[36,0,486,15],
+"classitem__stack.html#a580d57e8a8299927f5c5284cf7371a13":[36,0,486,9],
+"classitem__stack.html#a588d49cd17fbf3c64227906758940769":[36,0,486,7],
+"classitem__stack.html#a61bead24fa34f50e03277ac495ed0384":[36,0,486,25],
+"classitem__stack.html#a62573ca9006b5829467c4ce85ec387a5":[36,0,486,13],
+"classitem__stack.html#a711217cbaded7f3f13b4b54f9ef617af":[36,0,486,2],
+"classitem__stack.html#a74e369b0ba431d8a1ff11703cb2f1823":[36,0,486,28],
+"classitem__stack.html#a83fd3bd296c75326b3709280804acef4":[36,0,486,11],
+"classitem__stack.html#a89fdc36ea9225bbb7a71ec29329e9437":[36,0,486,5],
 "classitem__stack.html#a8fda739cc89d734e4aed73199a239966":[36,0,486,22],
 "classitem__stack.html#aa4946926628c312fae47581b1fd66e19":[36,0,486,6],
 "classitem__stack.html#aadf0c950b89b99d45343fecaf245de4f":[36,0,486,24],
@@ -238,16 +249,5 @@ var NAVTREEINDEX48 =
 "classjmapgen__trap.html":[36,0,522],
 "classjmapgen__trap.html#a4735c5d5a20764ed80f64bb69a6b29d9":[36,0,522,1],
 "classjmapgen__trap.html#aaf1511e5fde126e8782e56a05afc58bb":[36,0,522,0],
-"classjmapgen__trap.html#acdfb43f20b03646df37a3d3c281cc7d9":[36,0,522,2],
-"classjmapgen__trap.html#aed15d52646a68fd9a0b23ae3bd7b12d8":[36,0,522,3],
-"classjmapgen__trap.html#affe42c9b30544248ac93fbaf35bd44f6":[36,0,522,4],
-"classjmapgen__vehicle.html":[36,0,523],
-"classjmapgen__vehicle.html#a06c27fca053f511e5c4f1ad0488656a3":[36,0,523,7],
-"classjmapgen__vehicle.html#a06fab19d9d2255e43b128bf96dcdefb2":[36,0,523,4],
-"classjmapgen__vehicle.html#a1baefb7813c20d0f9d34fd3614173089":[36,0,523,2],
-"classjmapgen__vehicle.html#a3ca381dc61104c8c3b851ac28e84c034":[36,0,523,0],
-"classjmapgen__vehicle.html#a51f3c86655e4f13ee0d623a145876672":[36,0,523,3],
-"classjmapgen__vehicle.html#a63ce8ee6cdb7ca4ee58469fb828672b0":[36,0,523,6],
-"classjmapgen__vehicle.html#a8a1790013d7e02ecbc0f72b88183be9a":[36,0,523,1],
-"classjmapgen__vehicle.html#af17122e21a0486829aff715d2f89b259":[36,0,523,5]
+"classjmapgen__trap.html#acdfb43f20b03646df37a3d3c281cc7d9":[36,0,522,2]
 };

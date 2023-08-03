@@ -1,5 +1,16 @@
 var NAVTREEINDEX108 =
 {
+"monattack_8h.html#a5669c48fecab9c36d9ded49280de7899":[37,0,1,418,93],
+"monattack_8h.html#a5aeefe00f20c767bcdc374eedd168581":[37,0,1,418,65],
+"monattack_8h.html#a5c9e9b3034ba4b0fd002a7131c5609bf":[37,0,1,418,45],
+"monattack_8h.html#a62e06457ee6c394b981b749bc58ea5f7":[37,0,1,418,59],
+"monattack_8h.html#a62e8c4fbc29f9a03ebc2837bd0455323":[37,0,1,418,38],
+"monattack_8h.html#a65739d5a70d035190c2891c9591fee54":[37,0,1,418,61],
+"monattack_8h.html#a6790ba4e09c2cc0b951be9bbd108f568":[37,0,1,418,83],
+"monattack_8h.html#a69edf9ed7981f29303fa89ab10fba1a5":[37,0,1,418,79],
+"monattack_8h.html#a6b060ca0e13788d28461dc56035cae2c":[37,0,1,418,12],
+"monattack_8h.html#a6ce58570c447deaaadce15b35a8aa534":[37,0,1,418,0],
+"monattack_8h.html#a6deb1c5d25f7d3ff5970dc90fa122322":[37,0,1,418,56],
 "monattack_8h.html#a7304ed99145452654c6e4ce3456f601e":[37,0,1,418,71],
 "monattack_8h.html#a7337d81c74b581c18bd4a1cedb0fb9c1":[37,0,1,418,44],
 "monattack_8h.html#a74c5bd8b75ec90d4af94f3fc218b3eba":[37,0,1,418,30],
@@ -238,16 +249,5 @@ var NAVTREEINDEX108 =
 "monmove_8cpp.html#a0100ef5def86123b2e4744ec6ed2d00d":[37,0,1,429,7],
 "monmove_8cpp.html#a08481f62adb6937636ea44b855311037":[37,0,1,429,11],
 "monmove_8cpp.html#a21ab92eb0bc71e62dbc4d95a9fd6eb70":[37,0,1,429,21],
-"monmove_8cpp.html#a3c9d7c1da038730a8cc36cb559d1bbd8":[37,0,1,429,6],
-"monmove_8cpp.html#a43d73ec1734433adc005632647aa155c":[37,0,1,429,23],
-"monmove_8cpp.html#a4d46ec656f4868fa3b493812e72e8509":[37,0,1,429,3],
-"monmove_8cpp.html#a4e2730248c54d4d07fa7e215efb35d1a":[37,0,1,429,25],
-"monmove_8cpp.html#a6500d7a3ab33f453019cc4e7f55ced72":[37,0,1,429,19],
-"monmove_8cpp.html#a692b3825de327022efb956655bf5e441":[37,0,1,429,12],
-"monmove_8cpp.html#a7697771dc47ecaeff36785ff20c9aa33":[37,0,1,429,14],
-"monmove_8cpp.html#a79654cfc6f07462199ec3f5da9e49c83":[37,0,1,429,18],
-"monmove_8cpp.html#a819ab69b6fd687e1edf7c8d0ca664154":[37,0,1,429,1],
-"monmove_8cpp.html#a8bbfe91713ddfaa4c647fa68f9734e34":[37,0,1,429,9],
-"monmove_8cpp.html#a8c7cbf21cfb7caaf9cc9d45150684d29":[37,0,1,429,22],
-"monmove_8cpp.html#a8f09f88f12d06451c8aa83b57011a685":[37,0,1,429,2]
+"monmove_8cpp.html#a3c9d7c1da038730a8cc36cb559d1bbd8":[37,0,1,429,6]
 };

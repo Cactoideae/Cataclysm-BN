@@ -1,5 +1,16 @@
 var NAVTREEINDEX54 =
 {
+"classmaterial__type.html#ad29bdfab8f403590cfab63d4fbb4faa1":[36,0,611,59],
+"classmaterial__type.html#ad2eca6f51abd079fe3ae9f919be9d3da":[36,0,611,49],
+"classmaterial__type.html#ad59afb627bf09df475e17a9fc036568f":[36,0,611,47],
+"classmaterial__type.html#ad654aacb499fa6acd6978e73e739fda0":[36,0,611,43],
+"classmaterial__type.html#ae1d3a5da6eb31c7c0e90449e03c692c1":[36,0,611,34],
+"classmaterial__type.html#ae1e197f82b191b12abff7bd36845ddcf":[36,0,611,45],
+"classmaterial__type.html#ae34126e866ec3a531b22188344a5e0f1":[36,0,611,17],
+"classmaterial__type.html#ae7358d8de9f82f18577c22cc9857cdd7":[36,0,611,5],
+"classmaterial__type.html#af1f4a576d29f83335400a60a4f0ab697":[36,0,611,36],
+"classmaterial__type.html#af36ffedc30589f8405646a08b42e93be":[36,0,611,35],
+"classmaterial__type.html#af730ece9d9939526ef1bfe0d9634d1df":[36,0,611,13],
 "classmaterial__type.html#af8184040a7984ceb86ea62d0a2e0cdd9":[36,0,611,2],
 "classmaterial__type.html#af9e488794e494c294206538f4a719dcf":[36,0,611,21],
 "classmaterial__type.html#afc03c90f8d6193b1e00d0ddc014e2259":[36,0,611,58],
@@ -238,16 +249,5 @@ var NAVTREEINDEX54 =
 "classmon__spellcasting__actor.html#aa395e4adb77b3166a0e592bbf4000796":[36,0,644,3],
 "classmon__spellcasting__actor.html#aca5045e5451c7fdf309213bff87ea804":[36,0,644,5],
 "classmon__spellcasting__actor.html#acd9cdc10aaa212b96367e536009f5574":[36,0,644,2],
-"classmon__spellcasting__actor.html#ad249bc3559a4500370e7fab9fb22c96b":[36,0,644,6],
-"classmon__spellcasting__actor.html#aea7e912581411b2cbd7a3e99550b0d92":[36,0,644,4],
-"classmonfaction.html":[36,0,645],
-"classmonfaction.html#a2debcac4b4888967fe9900a8446f51ce":[36,0,645,1],
-"classmonfaction.html#a97b1a0442b4629da602792c1899e7970":[36,0,645,3],
-"classmonfaction.html#a9b48088747d1114a3673f44e0fd04dfc":[36,0,645,2],
-"classmonfaction.html#ac1ecd553b8f91c488df20ca4b60496be":[36,0,645,4],
-"classmonfaction.html#ad48af5228028d52c07f480e5d7c2bf93":[36,0,645,0],
-"classmonster.html":[36,0,650],
-"classmonster.html#a00557d163e7ad3a027548382aa4e0455":[36,0,650,168],
-"classmonster.html#a02e7dee3b3f096d760d7332395ba54f3":[36,0,650,214],
-"classmonster.html#a0315651e596e69f0626b30e081726596":[36,0,650,115]
+"classmon__spellcasting__actor.html#ad249bc3559a4500370e7fab9fb22c96b":[36,0,644,6]
 };

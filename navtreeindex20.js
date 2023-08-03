@@ -1,5 +1,16 @@
 var NAVTREEINDEX20 =
 {
+"classachievements__tracker.html#a9024a8b912822ad92bb6c8999ff6bea6":[36,0,46,8],
+"classachievements__tracker.html#a9b0887c52839207d4ee834c79b6ff393":[36,0,46,14],
+"classachievements__tracker.html#aa8db7ec724c3e5d86842ae4897df705c":[36,0,46,13],
+"classachievements__tracker.html#aaa60699cad62ad88ced0b0849255c3e5":[36,0,46,12],
+"classachievements__tracker.html#abc165d6d64b317c8035122c64a0d1452":[36,0,46,10],
+"classachievements__tracker.html#abfc42368e27849ff2dd0448f0038b98e":[36,0,46,6],
+"classachievements__tracker.html#ac57a269247f053d98ef67f3891d003a6":[36,0,46,9],
+"classachievements__tracker.html#ae1472b3c71c6f011242e2b86c05a67d7":[36,0,46,18],
+"classactivatable__inventory__preset.html":[36,0,50],
+"classactivatable__inventory__preset.html#a64d12d402625dff10779fe0fee2793ae":[36,0,50,3],
+"classactivatable__inventory__preset.html#a76e9d02e2039a9435fe0e8b1952d2373":[36,0,50,4],
 "classactivatable__inventory__preset.html#aa18ddbe65a0572a52193725305cd5053":[36,0,50,2],
 "classactivatable__inventory__preset.html#ad8afb6e83e9bec65e3ccebe93299c9ab":[36,0,50,1],
 "classactivatable__inventory__preset.html#afbc949d4e10d0a2ed810a2f5e7cc6a4c":[36,0,50,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX20 =
 "classaim__activity__actor.html#a60a3bfb67e84bc06fe3df2598c633d97":[36,0,67,2],
 "classaim__activity__actor.html#a6494e351d5e93b2712dfbeb2bb8806d7":[36,0,67,6],
 "classaim__activity__actor.html#a652d27c7724e4682cfa2397015c6b25e":[36,0,67,23],
-"classaim__activity__actor.html#a8b6cc625e5670655553876fda52c40f4":[36,0,67,24],
-"classaim__activity__actor.html#a8c3d80e4e315bf3b6f98d83c6b188f15":[36,0,67,13],
-"classaim__activity__actor.html#a8f9b4001d182a0fc1ab4fdd8bd5b1507":[36,0,67,21],
-"classaim__activity__actor.html#a967322a6d4ede039817a938909825235":[36,0,67,4],
-"classaim__activity__actor.html#a9835661ff059c7c690bf26075417b9b9":[36,0,67,18],
-"classaim__activity__actor.html#a98e2c3f5007a07adac77555b40d6cfe4":[36,0,67,14],
-"classaim__activity__actor.html#a9f8bf1558fe9cc3e8307f429853f428f":[36,0,67,1],
-"classaim__activity__actor.html#ab7b696d1eb458e907dbccf99a5dd54aa":[36,0,67,29],
-"classaim__activity__actor.html#ab984cbfdbe534695d0b536cad108da58":[36,0,67,26],
-"classaim__activity__actor.html#abff5df380fe0c09c79d78bf6e1e18e83":[36,0,67,22],
-"classaim__activity__actor.html#ac2ba3f2dc0121a26e5792fffb31ee2d3":[36,0,67,5],
-"classaim__activity__actor.html#ac533f33a95657b2f7797f37c8452a4ba":[36,0,67,15]
+"classaim__activity__actor.html#a8b6cc625e5670655553876fda52c40f4":[36,0,67,24]
 };

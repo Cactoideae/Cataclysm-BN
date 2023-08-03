@@ -1,5 +1,16 @@
 var NAVTREEINDEX37 =
 {
+"classeditmap_1_1game__draw__callback__t__container.html#a021c2e54a90156fc065379decae08e77":[36,0,238,0,3],
+"classeditmap_1_1game__draw__callback__t__container.html#a08b08da48a7c6f4a90fca8eb0e932b75":[36,0,238,0,2],
+"classeditmap_1_1game__draw__callback__t__container.html#abda9d420278bcf880167fb4961911411":[36,0,238,0,0],
+"classeditmap_1_1game__draw__callback__t__container.html#ae2e06e12e26d231e8f401d0d90ffdd13":[36,0,238,0,1],
+"classeffect.html":[36,0,240],
+"classeffect.html#a066af1ed3e05451d34a43a79a1997e1d":[36,0,240,19],
+"classeffect.html#a0761861661abb287a4ea8c92d9e7b463":[36,0,240,31],
+"classeffect.html#a09aa90b1a4c21585a7e4692f9e7d7367":[36,0,240,28],
+"classeffect.html#a0a3e199cd84807473263df21a6d361e4":[36,0,240,57],
+"classeffect.html#a0c04d874460f8a3e2b2f9ed01d15f3e0":[36,0,240,16],
+"classeffect.html#a118dd88810785bfbb8243af97a37d2ab":[36,0,240,40],
 "classeffect.html#a11dfe5a38fa2a63bf309b491f64051e0":[36,0,240,23],
 "classeffect.html#a1667125ab2c78290564aabc38ddd673d":[36,0,240,6],
 "classeffect.html#a2932b8f27b7a13fbedade3961430e4d5":[36,0,240,48],
@@ -238,16 +249,5 @@ var NAVTREEINDEX37 =
 "classevent__bus.html#ab753616a3a663185377ac52560068194":[36,0,309,5],
 "classevent__bus.html#acf25bfe1239b99ddd472b1253416b368":[36,0,309,6],
 "classevent__bus.html#ae5ca554a13687976b4ef8276bb01c4c8":[36,0,309,3],
-"classevent__multiset.html":[36,0,311],
-"classevent__multiset.html#a10ba14beffd8d4111b6b62a0b1e94c27":[36,0,311,14],
-"classevent__multiset.html#a177a19afbe7932dae1bd31178300157c":[36,0,311,12],
-"classevent__multiset.html#a5174fbff5ee3be088e64e3d5f5b2c2c1":[36,0,311,11],
-"classevent__multiset.html#a6094014a6131c177787fc9e4bab61551":[36,0,311,10],
-"classevent__multiset.html#a672dfe29d0bd9212b6efe72be1051f10":[36,0,311,1],
-"classevent__multiset.html#a7b04c5a63cb91318928793ef4fc5e8f1":[36,0,311,3],
-"classevent__multiset.html#a7e8888cfecccf0c1fb911ebca74c9eab":[36,0,311,4],
-"classevent__multiset.html#a896addcbe3dca0ddd0dda4db25849673":[36,0,311,7],
-"classevent__multiset.html#a8abcdbcf5f03acb8bebcd7e790660405":[36,0,311,9],
-"classevent__multiset.html#a92bf63922580d6bed90def51f229325d":[36,0,311,16],
-"classevent__multiset.html#a9960169a3c407bc97fe7f4d0c268bf83":[36,0,311,8]
+"classevent__multiset.html":[36,0,311]
 };

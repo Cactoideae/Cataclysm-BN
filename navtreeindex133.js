@@ -1,5 +1,16 @@
 var NAVTREEINDEX133 =
 {
+"savegame__json_8cpp.html#a4c420e5c73d867c7b481e35c55c00a3b":[37,0,1,554,6],
+"savegame__json_8cpp.html#a4e7a322af76fc37851d307769493edc0":[37,0,1,554,15],
+"savegame__json_8cpp.html#a61cae1fe43e81e613c409438aee2d5d2":[37,0,1,554,7],
+"savegame__json_8cpp.html#a6a839c9b56bf28a92da6e778e8364280":[37,0,1,554,23],
+"savegame__json_8cpp.html#a6bc36bb44f51d0369a8a7764f83708ed":[37,0,1,554,26],
+"savegame__json_8cpp.html#a6e8089d4ead04789dc89cd7f5b996345":[37,0,1,554,3],
+"savegame__json_8cpp.html#a710b381c065fb5ce605bc3a770df2832":[37,0,1,554,4],
+"savegame__json_8cpp.html#a731e18ebb9fe98be814fd8e70499907d":[37,0,1,554,24],
+"savegame__json_8cpp.html#a791fdda8696df7f02aacd16a4061a461":[37,0,1,554,16],
+"savegame__json_8cpp.html#a81aece3dca06d1ebf99dd7d069ae18bb":[37,0,1,554,5],
+"savegame__json_8cpp.html#a8c80c02fb14cd9bf70ec9aa43eba5164":[37,0,1,554,22],
 "savegame__json_8cpp.html#a8fde1516b02345dfc16ffb4af909da45":[37,0,1,554,19],
 "savegame__json_8cpp.html#aa00e9cfe225dd46aa7d83936838f44f7":[37,0,1,554,27],
 "savegame__json_8cpp.html#aa2388f961ff14499d847777a40741d59":[37,0,1,554,11],
@@ -238,16 +249,5 @@ var NAVTREEINDEX133 =
 "sounds_8h.html":[37,0,1,589],
 "sounds_8h.html#a02cb1f282ed428b33ca55c85d53a8403":[37,0,1,589,44],
 "sounds_8h.html#a03291faa7dbf7c6a4c0aa23c160cd33f":[37,0,1,589,15],
-"sounds_8h.html#a0bc839a28a863d37194d8b5f7deb8414":[37,0,1,589,25],
-"sounds_8h.html#a11a9f9e69773936782aa3625283b961f":[37,0,1,589,45],
-"sounds_8h.html#a1f138eaa92db132e81ce591751c512cc":[37,0,1,589,24],
-"sounds_8h.html#a2cf6eebd3df3764f7004be69b364e930":[37,0,1,589,5],
-"sounds_8h.html#a505afd0f1b90542693cb6b3bed2220f1":[37,0,1,589,35],
-"sounds_8h.html#a50a3e27e2bcf1999d25e782f48a74b46":[37,0,1,589,11],
-"sounds_8h.html#a554f3adef264edde34e8c53e22022e3d":[37,0,1,589,6],
-"sounds_8h.html#a5a9ede603b3172ac36976fd964eec8aa":[37,0,1,589,21],
-"sounds_8h.html#a649e58c2b2476c8a814dfe94e865ec3e":[37,0,1,589,17],
-"sounds_8h.html#a658252f566c644d810dab49c5a6e2d7d":[37,0,1,589,22],
-"sounds_8h.html#a6b548de536e96cd1e7564e5ebd229ac1":[37,0,1,589,36],
-"sounds_8h.html#a6bb79ae1c9c3dcd8c8e0b28c66b0398d":[37,0,1,589,41]
+"sounds_8h.html#a0bc839a28a863d37194d8b5f7deb8414":[37,0,1,589,25]
 };
