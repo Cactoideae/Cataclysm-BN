@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"classmaterial__type.html#aca9c69fd02ebc715e44f149d50e3e3b3":[36,0,611,41],
+"classmaterial__type.html#acf1b3dfbc690649d9b4fb4b63ae753f1":[36,0,611,44],
 "classmaterial__type.html#ad29bdfab8f403590cfab63d4fbb4faa1":[36,0,611,59],
 "classmaterial__type.html#ad2eca6f51abd079fe3ae9f919be9d3da":[36,0,611,49],
 "classmaterial__type.html#ad59afb627bf09df475e17a9fc036568f":[36,0,611,47],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "classmon__spellcasting__actor.html#a5b0fdff61894febcfe6a9079b0624770":[36,0,644,0],
 "classmon__spellcasting__actor.html#a73ff0fd6d0ee6a7366c8ed2ed5a97d5e":[36,0,644,8],
 "classmon__spellcasting__actor.html#aa395e4adb77b3166a0e592bbf4000796":[36,0,644,3],
-"classmon__spellcasting__actor.html#aca5045e5451c7fdf309213bff87ea804":[36,0,644,5],
-"classmon__spellcasting__actor.html#acd9cdc10aaa212b96367e536009f5574":[36,0,644,2],
-"classmon__spellcasting__actor.html#ad249bc3559a4500370e7fab9fb22c96b":[36,0,644,6]
+"classmon__spellcasting__actor.html#aca5045e5451c7fdf309213bff87ea804":[36,0,644,5]
 };

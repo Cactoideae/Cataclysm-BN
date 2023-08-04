@@ -1,5 +1,7 @@
 var NAVTREEINDEX147 =
 {
+"structevent__type__event__source.html#abca0f9b5c26ad9449a7b47de02581335":[36,0,324,5],
+"structevent__type__event__source.html#ad7f74fbdd07040a0e21be1c24d0da353":[36,0,324,6],
 "structevent__type__event__source.html#aef2460f35027f0a720e77cc5f0cd37d6":[36,0,324,2],
 "structexpansion__data.html":[36,0,325],
 "structexpansion__data.html#a52e0ba7c4995c3fb4fb64a38ccbec920":[36,0,325,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX147 =
 "structforest__trail__settings.html":[36,0,355],
 "structforest__trail__settings.html#a09a058c08ac7e67c79b392831805d30d":[36,0,355,11],
 "structforest__trail__settings.html#a2a0bce93e5b0d7d84a169bc5b2ef5e2d":[36,0,355,16],
-"structforest__trail__settings.html#a560e252b17009faf9398e42b5708def4":[36,0,355,2],
-"structforest__trail__settings.html#a574e0732092ef2fc9e47ad4d54be23ff":[36,0,355,9],
-"structforest__trail__settings.html#a850e253aa782946a3620eabacee5c7e6":[36,0,355,6]
+"structforest__trail__settings.html#a560e252b17009faf9398e42b5708def4":[36,0,355,2]
 };

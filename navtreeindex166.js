@@ -1,5 +1,8 @@
 var NAVTREEINDEX166 =
 {
+"vehicle__group_8h.html#aeee43123813747f0cffbc93498f7f31e":[37,0,1,664,8],
+"vehicle__group_8h_source.html":[37,0,1,664],
+"vehicle__move_8cpp.html":[37,0,1,665],
 "vehicle__move_8cpp.html#a0039ad830efb94637bdc1dd04d0fa60c":[37,0,1,665,1],
 "vehicle__move_8cpp.html#a00735c0bfb68c2a0c0c7d53e8f72a70e":[37,0,1,665,10],
 "vehicle__move_8cpp.html#a02a4844a7fb68c13a34dc40b0a9e94d8":[37,0,1,665,18],
@@ -246,8 +249,5 @@ var NAVTREEINDEX166 =
 "weather__gen_8h.html#a8c42bf78d61c5d9a39f6dd74a2da434c":[37,0,1,684,3],
 "weather__gen_8h_source.html":[37,0,1,684],
 "weather__type_8cpp.html":[37,0,1,685],
-"weather__type_8cpp.html#a1334971bc5f7dde6dda02f283dcaed8b":[37,0,1,685,4],
-"weather__type_8cpp.html#a1b60a9d6e5074730890fcf327fa741d4":[37,0,1,685,2],
-"weather__type_8cpp.html#a34ef8306955e0fa0890f22213f9e7519":[37,0,1,685,1],
-"weather__type_8cpp.html#aa285a9288fa74cc434202f1035bde8c3":[37,0,1,685,3]
+"weather__type_8cpp.html#a1334971bc5f7dde6dda02f283dcaed8b":[37,0,1,685,4]
 };

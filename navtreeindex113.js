@@ -1,5 +1,7 @@
 var NAVTREEINDEX113 =
 {
+"namespaceanonymous__namespace_02animation_8cpp_03.html#a1f369a30d468e3610be549a2020c90eb":[35,0,10,9],
+"namespaceanonymous__namespace_02animation_8cpp_03.html#a271a2d2b71ba0e37131ddeee69aee517":[35,0,10,11],
 "namespaceanonymous__namespace_02animation_8cpp_03.html#a29da75b2e4c59316b658df853b6dc446":[35,0,10,10],
 "namespaceanonymous__namespace_02animation_8cpp_03.html#a2c245e53b1d717bd30afc1629532bd05":[35,0,10,18],
 "namespaceanonymous__namespace_02animation_8cpp_03.html#a372a99b383ab88c864e045751c5b61b2":[35,0,10,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX113 =
 "namespaceavatar__funcs.html":[35,0,72],
 "namespaceavatar__funcs.html#a0cb75fd1a3b035578ab495d30d8ee0bd":[35,0,72,4],
 "namespaceavatar__funcs.html#a0e31be97cb02c9a6aa2ec0c547149d3e":[35,0,72,10],
-"namespaceavatar__funcs.html#a1bb52c7ff53526e659bfc25b8b53d620":[35,0,72,3],
-"namespaceavatar__funcs.html#a2c717f781583bcd89e23c46ef1e3f893":[35,0,72,11],
-"namespaceavatar__funcs.html#a33caecf3332887bbdf26598147a39ebc":[35,0,72,1]
+"namespaceavatar__funcs.html#a1bb52c7ff53526e659bfc25b8b53d620":[35,0,72,3]
 };

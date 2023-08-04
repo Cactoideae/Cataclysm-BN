@@ -1,5 +1,7 @@
 var NAVTREEINDEX149 =
 {
+"structis__contiguous_3_01basic__memory__buffer_3_01T_00_01SIZE_00_01Allocator_01_4_01_4.html":[36,0,438],
+"structis__contiguous_3_01std_1_1basic__string_3_01Char_01_4_01_4.html":[36,0,439],
 "structislot__ammo.html":[36,0,447],
 "structislot__ammo.html#a067571acedb780b02faa4320ff0a7745":[36,0,447,9],
 "structislot__ammo.html#a3904c72b147fc5bb85bdf443dc61538d":[36,0,447,10],
@@ -240,14 +242,12 @@ var NAVTREEINDEX149 =
 "structitem__info__data.html#aebc34b872c27347457cc489fc5d4c15f":[36,0,478,20],
 "structitem__internal_1_1scoped__goes__bad__cache.html":[35,0,123,0],
 "structitem__internal_1_1scoped__goes__bad__cache.html":[36,0,26,0],
-"structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[36,0,26,0,1],
 "structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[35,0,123,0,1],
+"structitem__internal_1_1scoped__goes__bad__cache.html#a9c04c10d3077efbb0ad9f9cf3240fc26":[36,0,26,0,1],
 "structitem__internal_1_1scoped__goes__bad__cache.html#aa1469bdfabcf1a484d40c1a7c96fcd98":[35,0,123,0,0],
 "structitem__internal_1_1scoped__goes__bad__cache.html#aa1469bdfabcf1a484d40c1a7c96fcd98":[36,0,26,0,0],
 "structitem__reference.html":[36,0,483],
 "structitem__reference.html#a39088ef0fffbac57621a06913246eab1":[36,0,483,0],
 "structitem__reference.html#aa5f61b515d64cb6b440911cd9f181518":[36,0,483,1],
-"structiteminfo.html":[36,0,487],
-"structiteminfo.html#a08df1fc0d74c7025b1b8d8417a7649d2":[36,0,487,5],
-"structiteminfo.html#a2ea894a0db6894975592baf5a3c8289b":[36,0,487,11]
+"structiteminfo.html":[36,0,487]
 };

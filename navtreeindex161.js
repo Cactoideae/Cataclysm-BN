@@ -1,5 +1,7 @@
 var NAVTREEINDEX161 =
 {
+"structvehicle__part.html#a7870e57df524a459b61c45041153d1df":[36,0,977,62],
+"structvehicle__part.html#a7c9609ecf75f0839401351558a6b5b83":[36,0,977,52],
 "structvehicle__part.html#a85b96041d7f61831a467fdcd1fae1dc5":[36,0,977,46],
 "structvehicle__part.html#a86c3ad22b1284273f14e63ce726d685d":[36,0,977,45],
 "structvehicle__part.html#a8b6c8fd3924772afdd6acb0398ca059a":[36,0,977,14],
@@ -244,10 +246,8 @@ var NAVTREEINDEX161 =
 "submap_8h_source.html":[37,0,1,611],
 "suffer_8cpp.html":[37,0,1,612],
 "suffer_8cpp.html#a00836471ff2f1d41325cfa85003bc8f8":[37,0,1,612,19],
-"suffer_8cpp.html#a00bb6392a34016196bb9750c411a7523":[37,0,1,612,38],
+"suffer_8cpp.html#a00bb6392a34016196bb9750c411a7523":[37,0,1,612,39],
 "suffer_8cpp.html#a04039c76ddb52d1bf7b03d23b46c6a03":[37,0,1,612,10],
-"suffer_8cpp.html#a08481f62adb6937636ea44b855311037":[37,0,1,612,34],
-"suffer_8cpp.html#a09e952ef4d27618e2f60ec737a8d1bae":[37,0,1,612,29],
-"suffer_8cpp.html#a0a3de1e6679128988d176115710ddd03":[37,0,1,612,31],
-"suffer_8cpp.html#a0b49aa7d4b07c448f7546ba24fb6b233":[37,0,1,612,35]
+"suffer_8cpp.html#a08481f62adb6937636ea44b855311037":[37,0,1,612,35],
+"suffer_8cpp.html#a09e952ef4d27618e2f60ec737a8d1bae":[37,0,1,612,29]
 };

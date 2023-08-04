@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"classjmapgen__trap.html#aaf1511e5fde126e8782e56a05afc58bb":[36,0,522,0],
+"classjmapgen__trap.html#acdfb43f20b03646df37a3d3c281cc7d9":[36,0,522,2],
 "classjmapgen__trap.html#aed15d52646a68fd9a0b23ae3bd7b12d8":[36,0,522,3],
 "classjmapgen__trap.html#affe42c9b30544248ac93fbaf35bd44f6":[36,0,522,4],
 "classjmapgen__vehicle.html":[36,0,523],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "classlru__cache.html#a127b0d2001c632d17413ea0cdb617d59":[36,0,569,0],
 "classlru__cache.html#a1b5e943a1577d9ff732a63c130c58a45":[36,0,569,2],
 "classlru__cache.html#a4e92be3931aaf5d9ff1c0a5d50277cbc":[36,0,569,8],
-"classlru__cache.html#aa13aa1975dc464c89d54c1913eb56414":[36,0,569,7],
-"classlru__cache.html#ab590b9fac875677e4d419e0896eaf3c0":[36,0,569,1],
-"classlru__cache.html#addba4e191c59516411810f1457bc2a5c":[36,0,569,5]
+"classlru__cache.html#aa13aa1975dc464c89d54c1913eb56414":[36,0,569,7]
 };

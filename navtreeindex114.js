@@ -1,5 +1,7 @@
 var NAVTREEINDEX114 =
 {
+"namespaceavatar__funcs.html#a2c717f781583bcd89e23c46ef1e3f893":[35,0,72,11],
+"namespaceavatar__funcs.html#a33caecf3332887bbdf26598147a39ebc":[35,0,72,1],
 "namespaceavatar__funcs.html#a4c319ba53f385ba862179b8540d2ead9":[35,0,72,6],
 "namespaceavatar__funcs.html#a63299af2c1172957092be68037b047f4":[35,0,72,0],
 "namespaceavatar__funcs.html#a916f182d460c34fb5df1804432a4505d":[35,0,72,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX114 =
 "namespacecharacter__funcs.html#a95d2e2c3c197301f7e9c3e4608e912eb":[35,0,86,2],
 "namespacecharacter__funcs.html#a97bfa1444b6ed6f142910821e84fe313":[35,0,86,3],
 "namespacecharacter__funcs.html#aa14127fd34677b0e529bb14166513850":[35,0,86,6],
-"namespacecharacter__funcs.html#aaa9f2cc376f03128e0a486a90c7376fa":[35,0,86,18],
-"namespacecharacter__funcs.html#ab11c9faad62fd3d26d41cbf1d68391bb":[35,0,86,35],
-"namespacecharacter__funcs.html#abb9c092872bd448a887024fe5379816d":[35,0,86,20]
+"namespacecharacter__funcs.html#aaa9f2cc376f03128e0a486a90c7376fa":[35,0,86,18]
 };

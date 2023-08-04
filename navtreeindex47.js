@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"classitem_1_1craft__data.html#a5b7cf82db21a4327a2634b4db3ab3324":[36,0,469,0,2],
+"classitem_1_1craft__data.html#a87e6142e6a5897f3cad0ec33feee684b":[36,0,469,0,0],
 "classitem_1_1craft__data.html#a94d9590e4be12fd60821af42dce20e9b":[36,0,469,0,6],
 "classitem_1_1craft__data.html#aa082fa5f08b35638560da4a22fe4ffe5":[36,0,469,0,7],
 "classitem__action.html":[36,0,470],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "classitem__stack.html#a22966750de054355f0277ab826513139":[36,0,486,17],
 "classitem__stack.html#a27413250792dac247d9d9e3187f48ce9":[36,0,486,18],
 "classitem__stack.html#a2800bc05558927015fb2a36429a3abc2":[36,0,486,23],
-"classitem__stack.html#a30f8c86ed590bda762f4716db99e8697":[36,0,486,4],
-"classitem__stack.html#a33d36cf99ab91ac023d2219861370cca":[36,0,486,30],
-"classitem__stack.html#a3aaeb870fb5c8facd39107e43b4b3013":[36,0,486,14]
+"classitem__stack.html#a30f8c86ed590bda762f4716db99e8697":[36,0,486,4]
 };

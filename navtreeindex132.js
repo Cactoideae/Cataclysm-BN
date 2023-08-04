@@ -1,5 +1,7 @@
 var NAVTREEINDEX132 =
 {
+"recipe_8h.html#a37c2a2a1459187bd0b24aac80f99dfb3":[37,0,1,528,3],
+"recipe_8h.html#a51a3bc39543e5aa2a5cb9aec35a5c7b2":[37,0,1,528,1],
 "recipe_8h.html#a6409b244d953153c56933adfbdc71b81":[37,0,1,528,2],
 "recipe_8h.html#a6409b244d953153c56933adfbdc71b81a334c4a4c42fdb79d7ebc3e73b517e6f8":[37,0,1,528,2,0],
 "recipe_8h.html#a6409b244d953153c56933adfbdc71b81a4377a40dfcbd9cf2a59077c787e2fa5a":[37,0,1,528,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX132 =
 "savegame__json_8cpp.html#a0a50e3fbf57e70bfac50331092ff8ad1":[37,0,1,554,20],
 "savegame__json_8cpp.html#a1832d828e2801ca80dba5fee9480902c":[37,0,1,554,12],
 "savegame__json_8cpp.html#a252353398ab75623ad9416450c49ac8c":[37,0,1,554,8],
-"savegame__json_8cpp.html#a2acd4adf75e97139587461013ec187d6":[37,0,1,554,10],
-"savegame__json_8cpp.html#a35a44b1d8b92ae5fa9ca0d1ac818cb92":[37,0,1,554,14],
-"savegame__json_8cpp.html#a40e81866270369a6cdc4b1d7795c749c":[37,0,1,554,17]
+"savegame__json_8cpp.html#a2acd4adf75e97139587461013ec187d6":[37,0,1,554,10]
 };

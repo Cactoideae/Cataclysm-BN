@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"computer_8h.html#a3509dba5a05e2d4dcf56fee3abd392d5afddf26b46cbae763b19ad67971fadc4c":[37,0,1,119,5,1],
+"computer_8h_source.html":[37,0,1,119],
 "computer__session_8cpp.html":[37,0,1,120],
 "computer__session_8cpp.html#a2f518e9a33f9a1ac4a7cc3ed3f64510e":[37,0,1,120,13],
 "computer__session_8cpp.html#a36d52922f16af18517878be2c1ed2ab0":[37,0,1,120,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "consumption_8cpp.html#a7db9c307e6c910db699fffaccf9c5e0d":[37,0,1,134,17],
 "consumption_8cpp.html#a8048758dc914b63455fd2c2a422579bf":[37,0,1,134,41],
 "consumption_8cpp.html#a8e7b9fefa5c3c64830ff6786d9408ee6":[37,0,1,134,67],
-"consumption_8cpp.html#a8f2b6423a81f8993e1f39868c1d9a805":[37,0,1,134,31],
-"consumption_8cpp.html#a914db3df05fd548e81adc85699eaaf05":[37,0,1,134,57],
-"consumption_8cpp.html#a91b238005aeb2d80dac3fa7de669e797":[37,0,1,134,23]
+"consumption_8cpp.html#a8f2b6423a81f8993e1f39868c1d9a805":[37,0,1,134,31]
 };

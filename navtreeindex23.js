@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"classbasecamp.html#a3dad1dfcbcdaa17239b37435e8e7a1ae":[36,0,92,54],
+"classbasecamp.html#a3ec51f25609b8eedf9aa6f1379bed114":[36,0,92,74],
 "classbasecamp.html#a3ecb46527970f092526033543ce980b7":[36,0,92,15],
 "classbasecamp.html#a3f4a8f449d5b04ceb2615ff734cc84f6":[36,0,92,70],
 "classbasecamp.html#a3f4d24b69fe6c19c32c39cc4264ddb9c":[36,0,92,83],
@@ -243,11 +245,9 @@ var NAVTREEINDEX23 =
 "classbattery__tile.html#adadf04690f15ccb5579308c6c371eecd":[36,0,108,3],
 "classbattery__tile.html#ae34111ca9fbdd6d215e20bf4f3af3f90":[36,0,108,4],
 "classbattery__tile.html#aec6a0e2de153c8e7e469b65e587439ef":[36,0,108,1],
-"classbehavior_1_1character__oracle__t.html":[36,0,13,1],
 "classbehavior_1_1character__oracle__t.html":[35,0,74,1],
+"classbehavior_1_1character__oracle__t.html":[36,0,13,1],
 "classbehavior_1_1character__oracle__t.html#a07ccdbd99fd29c90f66ee3dc91310dd2":[36,0,13,1,1],
 "classbehavior_1_1character__oracle__t.html#a07ccdbd99fd29c90f66ee3dc91310dd2":[35,0,74,1,1],
-"classbehavior_1_1character__oracle__t.html#a1c25a58ac3f6ef4449cbd0a5cd879014":[36,0,13,1,8],
-"classbehavior_1_1character__oracle__t.html#a1c25a58ac3f6ef4449cbd0a5cd879014":[35,0,74,1,8],
-"classbehavior_1_1character__oracle__t.html#a1c76f7d04d3324a6569e5da1a5f76ed5":[35,0,74,1,3]
+"classbehavior_1_1character__oracle__t.html#a1c25a58ac3f6ef4449cbd0a5cd879014":[35,0,74,1,8]
 };

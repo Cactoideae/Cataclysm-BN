@@ -1,5 +1,7 @@
 var NAVTREEINDEX146 =
 {
+"structenum__traits_3_01DC_01_4.html":[36,0,270],
+"structenum__traits_3_01DC_01_4.html#a4445f092ab2dc481d47ff8ce18247fd4":[36,0,270,0],
 "structenum__traits_3_01DL_01_4.html":[36,0,273],
 "structenum__traits_3_01DL_01_4.html#aba412e4ea3ee994f61a1f127cf3f358f":[36,0,273,0],
 "structenum__traits_3_01achievement_1_1time__bound_1_1epoch_01_4.html":[36,0,253],
@@ -247,7 +249,5 @@ var NAVTREEINDEX146 =
 "structevent__type__event__source.html#a55f0f1ce113c35d5a3f97563a2370649":[36,0,324,0],
 "structevent__type__event__source.html#a66dd2a0c3db43521ec321fb6932e4097":[36,0,324,7],
 "structevent__type__event__source.html#a8b83be40ba2a02d8bb73478ca022f328":[36,0,324,1],
-"structevent__type__event__source.html#a9fd444e53e278bfc165a3ac344864920":[36,0,324,8],
-"structevent__type__event__source.html#abca0f9b5c26ad9449a7b47de02581335":[36,0,324,5],
-"structevent__type__event__source.html#ad7f74fbdd07040a0e21be1c24d0da353":[36,0,324,6]
+"structevent__type__event__source.html#a9fd444e53e278bfc165a3ac344864920":[36,0,324,8]
 };

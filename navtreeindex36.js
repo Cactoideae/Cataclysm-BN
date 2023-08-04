@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classdiary.html#aaf3223f044433acc53d75b76a0c771c3":[36,0,213,28],
+"classdiary.html#aafbfa5ecd902193a34752d16009b2b0e":[36,0,213,15],
 "classdiary.html#acd7808ad7a0b97e48b7de3910b666f44":[36,0,213,10],
 "classdiary.html#ae6a0abb001ad2a79c20ecf2cb7d1b6bd":[36,0,213,17],
 "classdiary.html#ae762e8247e4d80c00810c0fc0bf942a2":[36,0,213,35],
@@ -92,20 +94,20 @@ var NAVTREEINDEX36 =
 "classdispersion__sources.html#acef366e9f542abaeaa4babeeee3b78e2":[36,0,224,3],
 "classdispersion__sources.html#ad54491de624f4110976e17bf1834b213":[36,0,224,9],
 "classdispersion__sources.html#af9119f90d39a52caf16086dca87b1cac":[36,0,224,2],
-"classdistraction__manager_1_1distraction__manager__gui.html":[36,0,22,0],
 "classdistraction__manager_1_1distraction__manager__gui.html":[35,0,101,0],
-"classdistraction__manager_1_1distraction__manager__gui.html#a817fe59be179b9845f4f54f9bd983d18":[35,0,101,0,6],
+"classdistraction__manager_1_1distraction__manager__gui.html":[36,0,22,0],
 "classdistraction__manager_1_1distraction__manager__gui.html#a817fe59be179b9845f4f54f9bd983d18":[36,0,22,0,6],
-"classdistraction__manager_1_1distraction__manager__gui.html#aa13b3aa716a85d784bf8658aea9eae65":[35,0,101,0,5],
+"classdistraction__manager_1_1distraction__manager__gui.html#a817fe59be179b9845f4f54f9bd983d18":[35,0,101,0,6],
 "classdistraction__manager_1_1distraction__manager__gui.html#aa13b3aa716a85d784bf8658aea9eae65":[36,0,22,0,5],
+"classdistraction__manager_1_1distraction__manager__gui.html#aa13b3aa716a85d784bf8658aea9eae65":[35,0,101,0,5],
 "classdistraction__manager_1_1distraction__manager__gui.html#aa7337ce65b967e4b4db28dbd4ea930fb":[36,0,22,0,1],
 "classdistraction__manager_1_1distraction__manager__gui.html#aa7337ce65b967e4b4db28dbd4ea930fb":[35,0,101,0,1],
 "classdistraction__manager_1_1distraction__manager__gui.html#ac172abca9ba651ce21d71845267528d1":[35,0,101,0,2],
 "classdistraction__manager_1_1distraction__manager__gui.html#ac172abca9ba651ce21d71845267528d1":[36,0,22,0,2],
 "classdistraction__manager_1_1distraction__manager__gui.html#ac3d91bb6fb7ad9a78403a8b4fa754610":[35,0,101,0,4],
 "classdistraction__manager_1_1distraction__manager__gui.html#ac3d91bb6fb7ad9a78403a8b4fa754610":[36,0,22,0,4],
-"classdistraction__manager_1_1distraction__manager__gui.html#ade41e328c41759aaaa7eb2ec1fa30472":[36,0,22,0,3],
 "classdistraction__manager_1_1distraction__manager__gui.html#ade41e328c41759aaaa7eb2ec1fa30472":[35,0,101,0,3],
+"classdistraction__manager_1_1distraction__manager__gui.html#ade41e328c41759aaaa7eb2ec1fa30472":[36,0,22,0,3],
 "classdistraction__manager_1_1distraction__manager__gui.html#af4af0e3d22b791f51ff498c6a72454f2":[35,0,101,0,0],
 "classdistraction__manager_1_1distraction__manager__gui.html#af4af0e3d22b791f51ff498c6a72454f2":[36,0,22,0,0],
 "classdistribution.html":[36,0,225],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classeditmap.html#adc31cdc40feabf5a35e1bb60ff87a52a":[36,0,238,23],
 "classeditmap.html#ae68b5a7f2e22370833a227e5420f5eeb":[36,0,238,29],
 "classeditmap.html#af89e3d83700cc7fe10a4981de468676c":[36,0,238,21],
-"classeditmap.html#afad580fae5555d9c9752dc342103e644":[36,0,238,50],
-"classeditmap.html#afe5d569bff214d07fd0f43a2c74a23cc":[36,0,238,39],
-"classeditmap_1_1game__draw__callback__t__container.html":[36,0,238,0]
+"classeditmap.html#afad580fae5555d9c9752dc342103e644":[36,0,238,50]
 };

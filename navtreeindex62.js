@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"classquery__destination__callback.html#ab74f4827fec770976eb877182d8c0141":[36,0,777,2],
+"classquery__popup.html":[36,0,778],
 "classquery__popup.html#a02634e14e31650347e1244e723df98ed":[36,0,778,26],
 "classquery__popup.html#a0549c08472324ca2d4de05155539e1df":[36,0,778,6],
 "classquery__popup.html#a0d6992d81c10f0d0b99a73e32c7fe323":[36,0,778,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "classrelic__recharge.html#afac57ac1c95a8f80a473e441dfcc1e34":[36,0,795,12],
 "classrepair__inventory__preset.html":[36,0,797],
 "classrepair__inventory__preset.html#a1ccaf7405b8085baf802c463f9e7bf4a":[36,0,797,3],
-"classrepair__inventory__preset.html#a90f5e41d09db77d5c7e3ae046f99443a":[36,0,797,1],
-"classrepair__inventory__preset.html#a967f82ce29edfaaad31c89ee52abdaa4":[36,0,797,2],
-"classrepair__inventory__preset.html#af592872f502520c29dc939fc33f8e396":[36,0,797,0]
+"classrepair__inventory__preset.html#a90f5e41d09db77d5c7e3ae046f99443a":[36,0,797,1]
 };
