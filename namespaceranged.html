@@ -2270,21 +2270,21 @@ Driving reduces the inaccuracy penalty when using guns whilst driving Gun improv
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ballistics_8cpp_source.html#l00514">514</a> of file <a class="el" href="ballistics_8cpp_source.html">ballistics.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00516" name="l00516"></a><span class="lineno">  516</span>{</div>
-<div class="line"><a id="l00517" name="l00517"></a><span class="lineno">  517</span>    <span class="keywordflow">if</span>( <a class="code hl_enumvalue" href="character_8h.html#addab86bfe6fd0bf8c22ec43df3ec051da1c21724609ac70f1573fd4b755c64ddb">range</a> &lt;= 0 ) {</div>
-<div class="line"><a id="l00518" name="l00518"></a><span class="lineno">  518</span>        <span class="keywordflow">return</span> 1.0;</div>
-<div class="line"><a id="l00519" name="l00519"></a><span class="lineno">  519</span>    }</div>
-<div class="line"><a id="l00520" name="l00520"></a><span class="lineno">  520</span> </div>
-<div class="line"><a id="l00521" name="l00521"></a><span class="lineno">  521</span>    <span class="keywordtype">double</span> missed_by_tiles = missed_by * target_size;</div>
-<div class="line"><a id="l00522" name="l00522"></a><span class="lineno">  522</span> </div>
-<div class="line"><a id="l00523" name="l00523"></a><span class="lineno">  523</span>    <span class="comment">//          T = (2*D**2 * (1 - cos V)) ** 0.5   (from iso_tangent)</span></div>
-<div class="line"><a id="l00524" name="l00524"></a><span class="lineno">  524</span>    <span class="comment">//      cos V = 1 - T**2 / (2*D**2)</span></div>
-<div class="line"><a id="l00525" name="l00525"></a><span class="lineno">  525</span>    <span class="keywordtype">double</span> cosV = 1 - missed_by_tiles * missed_by_tiles / ( 2 * <a class="code hl_enumvalue" href="character_8h.html#addab86bfe6fd0bf8c22ec43df3ec051da1c21724609ac70f1573fd4b755c64ddb">range</a> * <a class="code hl_enumvalue" href="character_8h.html#addab86bfe6fd0bf8c22ec43df3ec051da1c21724609ac70f1573fd4b755c64ddb">range</a> );</div>
-<div class="line"><a id="l00526" name="l00526"></a><span class="lineno">  526</span>    <span class="keywordtype">double</span> needed_dispersion = ( cosV &lt; -1.0 ? <a class="code hl_define" href="math__defines_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">M_PI</a> : acos( cosV ) ) * 180 * 60 / <a class="code hl_define" href="math__defines_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">M_PI</a>;</div>
-<div class="line"><a id="l00527" name="l00527"></a><span class="lineno">  527</span> </div>
-<div class="line"><a id="l00528" name="l00528"></a><span class="lineno">  528</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="cata__utility_8cpp.html#aedad91155e8b8c3f459bd5c588b80dd0">normal_cdf</a>( needed_dispersion, dispersion.<a class="code hl_function" href="classdispersion__sources.html#acef366e9f542abaeaa4babeeee3b78e2">avg</a>(), dispersion.<a class="code hl_function" href="classdispersion__sources.html#acef366e9f542abaeaa4babeeee3b78e2">avg</a>() / 2 );</div>
-<div class="line"><a id="l00529" name="l00529"></a><span class="lineno">  529</span>}</div>
+<p class="definition">Definition at line <a class="el" href="ballistics_8cpp_source.html#l00515">515</a> of file <a class="el" href="ballistics_8cpp_source.html">ballistics.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00517" name="l00517"></a><span class="lineno">  517</span>{</div>
+<div class="line"><a id="l00518" name="l00518"></a><span class="lineno">  518</span>    <span class="keywordflow">if</span>( <a class="code hl_enumvalue" href="character_8h.html#addab86bfe6fd0bf8c22ec43df3ec051da1c21724609ac70f1573fd4b755c64ddb">range</a> &lt;= 0 ) {</div>
+<div class="line"><a id="l00519" name="l00519"></a><span class="lineno">  519</span>        <span class="keywordflow">return</span> 1.0;</div>
+<div class="line"><a id="l00520" name="l00520"></a><span class="lineno">  520</span>    }</div>
+<div class="line"><a id="l00521" name="l00521"></a><span class="lineno">  521</span> </div>
+<div class="line"><a id="l00522" name="l00522"></a><span class="lineno">  522</span>    <span class="keywordtype">double</span> missed_by_tiles = missed_by * target_size;</div>
+<div class="line"><a id="l00523" name="l00523"></a><span class="lineno">  523</span> </div>
+<div class="line"><a id="l00524" name="l00524"></a><span class="lineno">  524</span>    <span class="comment">//          T = (2*D**2 * (1 - cos V)) ** 0.5   (from iso_tangent)</span></div>
+<div class="line"><a id="l00525" name="l00525"></a><span class="lineno">  525</span>    <span class="comment">//      cos V = 1 - T**2 / (2*D**2)</span></div>
+<div class="line"><a id="l00526" name="l00526"></a><span class="lineno">  526</span>    <span class="keywordtype">double</span> cosV = 1 - missed_by_tiles * missed_by_tiles / ( 2 * <a class="code hl_enumvalue" href="character_8h.html#addab86bfe6fd0bf8c22ec43df3ec051da1c21724609ac70f1573fd4b755c64ddb">range</a> * <a class="code hl_enumvalue" href="character_8h.html#addab86bfe6fd0bf8c22ec43df3ec051da1c21724609ac70f1573fd4b755c64ddb">range</a> );</div>
+<div class="line"><a id="l00527" name="l00527"></a><span class="lineno">  527</span>    <span class="keywordtype">double</span> needed_dispersion = ( cosV &lt; -1.0 ? <a class="code hl_define" href="math__defines_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">M_PI</a> : acos( cosV ) ) * 180 * 60 / <a class="code hl_define" href="math__defines_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">M_PI</a>;</div>
+<div class="line"><a id="l00528" name="l00528"></a><span class="lineno">  528</span> </div>
+<div class="line"><a id="l00529" name="l00529"></a><span class="lineno">  529</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="cata__utility_8cpp.html#aedad91155e8b8c3f459bd5c588b80dd0">normal_cdf</a>( needed_dispersion, dispersion.<a class="code hl_function" href="classdispersion__sources.html#acef366e9f542abaeaa4babeeee3b78e2">avg</a>(), dispersion.<a class="code hl_function" href="classdispersion__sources.html#acef366e9f542abaeaa4babeeee3b78e2">avg</a>() / 2 );</div>
+<div class="line"><a id="l00530" name="l00530"></a><span class="lineno">  530</span>}</div>
 <div class="ttc" id="acata__utility_8cpp_html_aedad91155e8b8c3f459bd5c588b80dd0"><div class="ttname"><a href="cata__utility_8cpp.html#aedad91155e8b8c3f459bd5c588b80dd0">normal_cdf</a></div><div class="ttdeci">double normal_cdf(double x, double mean, double stddev)</div><div class="ttdoc">Cumulative distribution function of a certain normal distribution.</div><div class="ttdef"><b>Definition:</b> <a href="cata__utility_8cpp_source.html#l00107">cata_utility.cpp:107</a></div></div>
 <div class="ttc" id="acharacter_8h_html_addab86bfe6fd0bf8c22ec43df3ec051da1c21724609ac70f1573fd4b755c64ddb"><div class="ttname"><a href="character_8h.html#addab86bfe6fd0bf8c22ec43df3ec051da1c21724609ac70f1573fd4b755c64ddb">range</a></div><div class="ttdeci">@ range</div><div class="ttdef"><b>Definition:</b> <a href="character_8h_source.html#l00104">character.h:104</a></div></div>
 <div class="ttc" id="aclassdispersion__sources_html_acef366e9f542abaeaa4babeeee3b78e2"><div class="ttname"><a href="classdispersion__sources.html#acef366e9f542abaeaa4babeeee3b78e2">dispersion_sources::avg</a></div><div class="ttdeci">double avg() const</div><div class="ttdef"><b>Definition:</b> <a href="dispersion_8cpp_source.html#l00035">dispersion.cpp:35</a></div></div>
@@ -3526,7 +3526,7 @@ Strength decreases throwing dispersion when throwing heavy objects Throw increas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceranged.html">ranged</a></li>
-    <li class="footer">Generated on Sat Aug 19 2023 17:44:04 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Aug 20 2023 09:33:03 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
