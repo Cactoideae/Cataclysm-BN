@@ -102,7 +102,7 @@ var searchData=
   ['set_5fcharges_5fmsg_99',['set_charges_msg',['../classset__transform__iuse.html#a839e0ad52707bf25bc75f67d1ed2d21f',1,'set_transform_iuse']]],
   ['set_5ftrap_100',['set_trap',['../structvehicle__handle__trap__data.html#ab19712f6fbd3b157f986b29925197dd3',1,'vehicle_handle_trap_data']]],
   ['setmap_5fpoints_101',['setmap_points',['../classmapgen__function__json__base.html#a9f6ebc6274eae84b2d1038e77c87818b',1,'mapgen_function_json_base']]],
-  ['settings_102',['settings',['../classpixel__minimap.html#ac52284c1119553e300fbfca304827f42',1,'pixel_minimap::settings()'],['../classovermap.html#a67f238943c09a0de2ad8ecd2f34cc4fb',1,'overmap::settings()']]],
+  ['settings_102',['settings',['../classpixel__minimap.html#ac52284c1119553e300fbfca304827f42',1,'pixel_minimap::settings()'],['../classovermap.html#a1c39f262783927ca13cd476dba73905d',1,'overmap::settings()']]],
   ['sfilter_103',['sFilter',['../classgame.html#ac3d6674ddf388630b3987c250114297d',1,'game']]],
   ['sfmt_104',['sFmt',['../structiteminfo.html#ab85666284bdac5599ffd8c19391b1be5',1,'iteminfo']]],
   ['sfx_5ftime_105',['sfx_time',['../sounds_8cpp.html#a341426a3f47ce6682357f2ca235b1581',1,'sounds.cpp']]],

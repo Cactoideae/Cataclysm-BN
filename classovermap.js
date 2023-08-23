@@ -129,7 +129,7 @@ var classovermap =
     [ "overmap_special_placements", "classovermap.html#acb711947d0e95bfd7e71c56e9724f1f9", null ],
     [ "radios", "classovermap.html#adca0a7e93c09419381429042db5084cc", null ],
     [ "scents", "classovermap.html#ace13b57da0344050156c8e5e643eb601", null ],
-    [ "settings", "classovermap.html#a67f238943c09a0de2ad8ecd2f34cc4fb", null ],
+    [ "settings", "classovermap.html#a1c39f262783927ca13cd476dba73905d", null ],
     [ "vehicles", "classovermap.html#a310c87d14736ee7f6edea7b0180789a3", null ],
     [ "zg", "classovermap.html#a2c4a178cb22997f78d39282562929523", null ]
 ];
