@@ -228,7 +228,7 @@ Functions</h2></td></tr>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordflow">if</span>( p.is_tank() ) {</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        json.<a class="code hl_function" href="classJsonOut.html#adb3c899f0ad7fc4f25cd3357c51a2c42">member</a>( <span class="stringliteral">&quot;fuel&quot;</span>, ammo_type );</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>( p.is_turret() ) {</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="comment">// TODO: serializing items are not implemented, thus ammo must be 0</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        json.<a class="code hl_function" href="classJsonOut.html#adb3c899f0ad7fc4f25cd3357c51a2c42">member</a>( <span class="stringliteral">&quot;ammo&quot;</span>, 50 );</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        json.<a class="code hl_function" href="classJsonOut.html#adb3c899f0ad7fc4f25cd3357c51a2c42">member</a>( <span class="stringliteral">&quot;ammo_types&quot;</span>, std::array{ ammo_type } );</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        json.<a class="code hl_function" href="classJsonOut.html#adb3c899f0ad7fc4f25cd3357c51a2c42">member</a>( <span class="stringliteral">&quot;ammo_qty&quot;</span>, std::array{ 0, p.ammo_capacity() } );</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
@@ -307,7 +307,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceanonymous__namespace_02vehicle__export_8cpp_03.html">anonymous_namespace{vehicle_export.cpp}</a></li>
-    <li class="footer">Generated on Fri Aug 25 2023 16:01:02 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Fri Aug 25 2023 17:21:34 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

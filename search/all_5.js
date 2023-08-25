@@ -214,7 +214,7 @@ var searchData=
   ['debug_5ftokens_211',['debug_tokens',['../activity__item__handling_8cpp.html#afac0f9deaf686789e8135c892e968ff3',1,'activity_item_handling.cpp']]],
   ['debug_5ftrait_5fgroup_212',['DEBUG_TRAIT_GROUP',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970ac2fc46a4b442e5a5a941a8c2979f455f',1,'debug_menu']]],
   ['debug_5fvehicle_5fbattery_5fcharge_213',['DEBUG_VEHICLE_BATTERY_CHARGE',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970a25fea886bbf405d086665076ef67aeab',1,'debug_menu']]],
-  ['debug_5fvehicle_5fcopy_5fjson_214',['DEBUG_VEHICLE_COPY_JSON',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970ac8ca5c4341acd030ec4663f7b0c1743a',1,'debug_menu']]],
+  ['debug_5fvehicle_5fexport_5fjson_214',['DEBUG_VEHICLE_EXPORT_JSON',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970a795b64ad598b1dfb13722fdee507f8de',1,'debug_menu']]],
   ['debug_5fvision_215',['debug_vision',['../descriptions_8cpp.html#afc75cb64fad8f2ee5ce9997ce8d94c4f',1,'descriptions.cpp']]],
   ['debug_5fwind_5fdirection_216',['DEBUG_WIND_DIRECTION',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970a8b6a87945e72319ff819273b39d125ce',1,'debug_menu']]],
   ['debug_5fwind_5fspeed_217',['DEBUG_WIND_SPEED',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970ab3dc23e05121c235f6b3ab79b570bc62',1,'debug_menu']]],

@@ -80,7 +80,7 @@ var searchData=
   ['debug_5ftest_5fweather_77',['DEBUG_TEST_WEATHER',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970a98457336f30d07ea9d1f363610c62fd2',1,'debug_menu']]],
   ['debug_5ftrait_5fgroup_78',['DEBUG_TRAIT_GROUP',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970ac2fc46a4b442e5a5a941a8c2979f455f',1,'debug_menu']]],
   ['debug_5fvehicle_5fbattery_5fcharge_79',['DEBUG_VEHICLE_BATTERY_CHARGE',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970a25fea886bbf405d086665076ef67aeab',1,'debug_menu']]],
-  ['debug_5fvehicle_5fcopy_5fjson_80',['DEBUG_VEHICLE_COPY_JSON',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970ac8ca5c4341acd030ec4663f7b0c1743a',1,'debug_menu']]],
+  ['debug_5fvehicle_5fexport_5fjson_80',['DEBUG_VEHICLE_EXPORT_JSON',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970a795b64ad598b1dfb13722fdee507f8de',1,'debug_menu']]],
   ['debug_5fwind_5fdirection_81',['DEBUG_WIND_DIRECTION',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970a8b6a87945e72319ff819273b39d125ce',1,'debug_menu']]],
   ['debug_5fwind_5fspeed_82',['DEBUG_WIND_SPEED',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970ab3dc23e05121c235f6b3ab79b570bc62',1,'debug_menu']]],
   ['debug_5fwish_83',['DEBUG_WISH',['../namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970ad732487704cb14a7052dbc7b24971498',1,'debug_menu']]],
