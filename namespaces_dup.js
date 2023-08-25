@@ -256,6 +256,13 @@ var namespaces_dup =
     [ "anonymous_namespace{trap.cpp}", "namespaceanonymous__namespace_02trap_8cpp_03.html", [
       [ "trap_factory", "namespaceanonymous__namespace_02trap_8cpp_03.html#ab3675c90d391e657ff95abc6c6e3ad40", null ]
     ] ],
+    [ "anonymous_namespace{vehicle_export.cpp}", "namespaceanonymous__namespace_02vehicle__export_8cpp_03.html", [
+      [ "refs", "namespaceanonymous__namespace_02vehicle__export_8cpp_03.html#aae074b3ea243a2926f0bb13142d41c7d", null ],
+      [ "grouped_refs", "namespaceanonymous__namespace_02vehicle__export_8cpp_03.html#a3b93ca166df07dd5a8510740e5d16cae", null ],
+      [ "is_plain_id", "namespaceanonymous__namespace_02vehicle__export_8cpp_03.html#a32b6ce1a395b05bc16feec0e9b0bb16b", null ],
+      [ "json_part_write", "namespaceanonymous__namespace_02vehicle__export_8cpp_03.html#a97d04f684db4c74819f947931c56c600", null ],
+      [ "json_parts_write", "namespaceanonymous__namespace_02vehicle__export_8cpp_03.html#a23fd25bd61f1e8e8777d9ba10bff3ccb", null ]
+    ] ],
     [ "anonymous_namespace{weather_gen.cpp}", "namespaceanonymous__namespace_02weather__gen_8cpp_03.html", [
       [ "coldest_hour", "namespaceanonymous__namespace_02weather__gen_8cpp_03.html#a700033f9fcab08f4915c435aed946b98", null ],
       [ "tau", "namespaceanonymous__namespace_02weather__gen_8cpp_03.html#a30fe50ced89d5bb665ebed7274750aae", null ]
@@ -937,6 +944,9 @@ var namespaces_dup =
       [ "weather_tool", "namespaceiuse.html#ae128a5b390f487c2ab93acbeadd86867", null ],
       [ "weed_cake", "namespaceiuse.html#a9a3cc0372f69cfd7f6554822d61a083e", null ],
       [ "xanax", "namespaceiuse.html#af2324774ae58dc15ed929ec5b4f0bb7f", null ]
+    ] ],
+    [ "json_export", "namespacejson__export.html", [
+      [ "vehicle", "namespacejson__export.html#a0f3f501e14d08ab8bedf5692af7d8104", null ]
     ] ],
     [ "l10n_data", "namespacel10n__data.html", [
       [ "add_base_catalogue", "namespacel10n__data.html#abfcdf2a2557ecb53efa07617e16d4fe1", null ],

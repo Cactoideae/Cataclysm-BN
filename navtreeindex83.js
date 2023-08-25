@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"event__statistics_8cpp.html#af36ce1a3325f503c1a2a6cb6c4444e12":[37,0,1,201,21],
 "event__statistics_8cpp_source.html":[37,0,1,201],
 "event__statistics_8h.html":[37,0,1,202],
 "event__statistics_8h.html#a8c820bd0cff753bc8746dce45c797909":[37,0,1,202,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "faction__camp_8h.html#a400245b2e7b04b34a485224dab4686e5":[37,0,1,211,12],
 "faction__camp_8h.html#aa7184772d38335a0d21c3db9d057a91d":[37,0,1,211,6],
 "faction__camp_8h.html#aadedf0687f4d2cc5ed56a0f329eb0bca":[37,0,1,211,8],
-"faction__camp_8h.html#ab0377f5f3595fe3c29a32dfa2b5a34c7":[37,0,1,211,10],
-"faction__camp_8h.html#acc5e1cead4bd1b3fa01c40e0848ff05d":[37,0,1,211,4]
+"faction__camp_8h.html#ab0377f5f3595fe3c29a32dfa2b5a34c7":[37,0,1,211,10]
 };

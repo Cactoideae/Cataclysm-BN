@@ -68,11 +68,12 @@ var searchData=
   ['anonymous_5fnamespace_7bstart_5flocation_2ecpp_7d_65',['anonymous_namespace{start_location.cpp}',['../namespaceanonymous__namespace_02start__location_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bstring_5fid_2ecpp_7d_66',['anonymous_namespace{string_id.cpp}',['../namespaceanonymous__namespace_02string__id_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7btrap_2ecpp_7d_67',['anonymous_namespace{trap.cpp}',['../namespaceanonymous__namespace_02trap_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bweather_5fgen_2ecpp_7d_68',['anonymous_namespace{weather_gen.cpp}',['../namespaceanonymous__namespace_02weather__gen_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bweather_5ftype_2ecpp_7d_69',['anonymous_namespace{weather_type.cpp}',['../namespaceanonymous__namespace_02weather__type_8cpp_03.html',1,'']]],
-  ['auto_5fnotes_70',['auto_notes',['../namespaceauto__notes.html',1,'']]],
-  ['auto_5fpickup_71',['auto_pickup',['../namespaceauto__pickup.html',1,'']]],
-  ['avatar_5faction_72',['avatar_action',['../namespaceavatar__action.html',1,'']]],
-  ['avatar_5ffuncs_73',['avatar_funcs',['../namespaceavatar__funcs.html',1,'']]],
-  ['repair_5factivity_5fhack_74',['repair_activity_hack',['../namespaceactivity__handlers_1_1repair__activity__hack.html',1,'activity_handlers']]]
+  ['anonymous_5fnamespace_7bvehicle_5fexport_2ecpp_7d_68',['anonymous_namespace{vehicle_export.cpp}',['../namespaceanonymous__namespace_02vehicle__export_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bweather_5fgen_2ecpp_7d_69',['anonymous_namespace{weather_gen.cpp}',['../namespaceanonymous__namespace_02weather__gen_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bweather_5ftype_2ecpp_7d_70',['anonymous_namespace{weather_type.cpp}',['../namespaceanonymous__namespace_02weather__type_8cpp_03.html',1,'']]],
+  ['auto_5fnotes_71',['auto_notes',['../namespaceauto__notes.html',1,'']]],
+  ['auto_5fpickup_72',['auto_pickup',['../namespaceauto__pickup.html',1,'']]],
+  ['avatar_5faction_73',['avatar_action',['../namespaceavatar__action.html',1,'']]],
+  ['avatar_5ffuncs_74',['avatar_funcs',['../namespaceavatar__funcs.html',1,'']]],
+  ['repair_5factivity_5fhack_75',['repair_activity_hack',['../namespaceactivity__handlers_1_1repair__activity__hack.html',1,'activity_handlers']]]
 ];

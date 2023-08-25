@@ -70,6 +70,7 @@ var namespacedebug__menu =
       [ "DEBUG_DISPLAY_SUBMAP_GRID", "namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970abf7fecef72493133e8778386eb249c24", null ],
       [ "DEBUG_TEST_MAP_EXTRA_DISTRIBUTION", "namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970a997eafac44d62e80ad301b8277d4aff2", null ],
       [ "DEBUG_VEHICLE_BATTERY_CHARGE", "namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970a25fea886bbf405d086665076ef67aeab", null ],
+      [ "DEBUG_VEHICLE_COPY_JSON", "namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970ac8ca5c4341acd030ec4663f7b0c1743a", null ],
       [ "DEBUG_HOUR_TIMER", "namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970a8121aae5201157c65682232a41069f32", null ],
       [ "DEBUG_NESTED_MAPGEN", "namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970aa8a9ea29bed60dde8e5fb5a1b0bd0e71", null ],
       [ "DEBUG_RESET_IGNORED_MESSAGES", "namespacedebug__menu.html#a7457e58c3bc9fcf28b9c23cdab4df970aabf69be8eaccd0f2b2a65abb90c826cf", null ],
