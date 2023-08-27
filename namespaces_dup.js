@@ -156,6 +156,9 @@ var namespaces_dup =
       [ "offroad_str_req_cap", "namespaceanonymous__namespace_02grab_8cpp_03.html#a9ffee7ffe58226b58a1f284ec3f6a856", null ]
     ] ],
     [ "anonymous_namespace{iexamine.cpp}", "namespaceanonymous__namespace_02iexamine_8cpp_03.html", "namespaceanonymous__namespace_02iexamine_8cpp_03" ],
+    [ "anonymous_namespace{item.cpp}", "namespaceanonymous__namespace_02item_8cpp_03.html", [
+      [ "get_clothing_mod_val_key", "namespaceanonymous__namespace_02item_8cpp_03.html#a4344f62919abf9934b6abe5a7cffbe3e", null ]
+    ] ],
     [ "anonymous_namespace{item_category.cpp}", "namespaceanonymous__namespace_02item__category_8cpp_03.html", [
       [ "item_category_factory", "namespaceanonymous__namespace_02item__category_8cpp_03.html#af08a772fbabbbc0c65e9f8f29b163d2e", null ]
     ] ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"classmapbuffer.html#a735a8ab72394141749562047e7f9ca55":[36,0,593,11],
 "classmapbuffer.html#a84df91661b328060eb44b4e4eaba0dcd":[36,0,593,10],
 "classmapbuffer.html#a94ddda1920e1ad8049581f2f686b46e9":[36,0,593,6],
 "classmapbuffer.html#a9a43ba89d1e7f504247a9c2c545e1b2c":[36,0,593,4],
@@ -10,15 +11,15 @@ var NAVTREEINDEX53 =
 "classmapbuffer.html#acaf938d4ae5a4396133f8c9e89564770":[36,0,593,5],
 "classmapbuffer.html#afd0ede34e179e88c37a9820fc6d60671":[36,0,593,2],
 "classmapf_1_1format__effect.html":[36,0,27,0],
-"classmapf_1_1format__effect.html":[35,0,132,0],
-"classmapf_1_1format__effect.html#a3f4df7987e5f3dd4b95bf4024bf7526e":[35,0,132,0,1],
+"classmapf_1_1format__effect.html":[35,0,133,0],
+"classmapf_1_1format__effect.html#a3f4df7987e5f3dd4b95bf4024bf7526e":[35,0,133,0,1],
 "classmapf_1_1format__effect.html#a3f4df7987e5f3dd4b95bf4024bf7526e":[36,0,27,0,1],
+"classmapf_1_1format__effect.html#a512202461d2edd7a403088e688833a93":[35,0,133,0,3],
 "classmapf_1_1format__effect.html#a512202461d2edd7a403088e688833a93":[36,0,27,0,3],
-"classmapf_1_1format__effect.html#a512202461d2edd7a403088e688833a93":[35,0,132,0,3],
 "classmapf_1_1format__effect.html#a5d87a382c4598d3de006f60d3282b6d2":[36,0,27,0,2],
-"classmapf_1_1format__effect.html#a5d87a382c4598d3de006f60d3282b6d2":[35,0,132,0,2],
+"classmapf_1_1format__effect.html#a5d87a382c4598d3de006f60d3282b6d2":[35,0,133,0,2],
 "classmapf_1_1format__effect.html#ac7844b6ff5d022c28e853753b1d7f063":[36,0,27,0,0],
-"classmapf_1_1format__effect.html#ac7844b6ff5d022c28e853753b1d7f063":[35,0,132,0,0],
+"classmapf_1_1format__effect.html#ac7844b6ff5d022c28e853753b1d7f063":[35,0,133,0,0],
 "classmapgen__basic__container.html":[36,0,594],
 "classmapgen__basic__container.html#a06ec01b4dd9194a2d18cf282e4719630":[36,0,594,4],
 "classmapgen__basic__container.html#a14e8874d7e6e21ee24d31571d5e1af66":[36,0,594,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "classmaterial__type.html#aa53c653545a9fa5fb3b7f2c7c1141b83":[36,0,611,37],
 "classmaterial__type.html#aac8146cf872ebf4b21852158e118131b":[36,0,611,30],
 "classmaterial__type.html#aba7b9ec5c4d5f786d98b9cfbbe8045b3":[36,0,611,27],
-"classmaterial__type.html#abd7d5bc8f152a4fe417219692f757acc":[36,0,611,15],
-"classmaterial__type.html#ac067488e2acf59573042f549adf22cdb":[36,0,611,61]
+"classmaterial__type.html#abd7d5bc8f152a4fe417219692f757acc":[36,0,611,15]
 };

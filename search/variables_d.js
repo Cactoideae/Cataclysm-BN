@@ -361,7 +361,7 @@ var searchData=
   ['mon_5fdog_5fthing_358',['mon_dog_thing',['../iuse_8cpp.html#abba17bddc3842ecab72974ff65125b4d',1,'iuse.cpp']]],
   ['mon_5fduck_359',['mon_duck',['../faction__camp_8cpp.html#ae2b3ed2add1eabd706b7f9ebd170066e',1,'faction_camp.cpp']]],
   ['mon_5feyebot_360',['mon_eyebot',['../timed__event_8cpp.html#a39667bac9f0d7cc26965236f47945fa1',1,'timed_event.cpp']]],
-  ['mon_5ffaction_361',['mon_faction',['../classfaction__template.html#abb2d51aee2b30a988c76eef29a10096d',1,'faction_template']]],
+  ['mon_5ffaction_361',['mon_faction',['../classfaction__template.html#a73b4960841f075bce8acb16a0eabeaa7',1,'faction_template']]],
   ['mon_5ffleshy_5fshambler_362',['mon_fleshy_shambler',['../map__extras_8cpp.html#a589b23ec8c8cd23e07cd1520bbf1daf3',1,'map_extras.cpp']]],
   ['mon_5ffly_363',['mon_fly',['../iuse_8cpp.html#a767c37a52b8327ca337bbb36afd4ffa4',1,'iuse.cpp']]],
   ['mon_5ffox_5fgray_364',['mon_fox_gray',['../faction__camp_8cpp.html#a308df2f534b2546e19ef574fb323138f',1,'faction_camp.cpp']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"iuse_8h.html#a32e8ce410f0d48d5d30ad5a75ec274e5":[37,0,1,307,61],
+"iuse_8h.html#a35959c8acb23336c61771b360564c4d1":[37,0,1,307,132],
 "iuse_8h.html#a3795d77ec24e87e31270b733722b971f":[37,0,1,307,30],
 "iuse_8h.html#a3842b28b642b547db964b32260af5010":[37,0,1,307,52],
 "iuse_8h.html#a385737dae1ad9a403ea7946dea63a601":[37,0,1,307,192],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "iuse__software__kitten_8h.html#a1698d9aba68210b65dfa717ab6e4ef9b":[37,0,1,313,3],
 "iuse__software__kitten_8h_source.html":[37,0,1,313],
 "iuse__software__lightson_8cpp.html":[37,0,1,314],
-"iuse__software__lightson_8cpp_source.html":[37,0,1,314],
-"iuse__software__lightson_8h.html":[37,0,1,315],
-"iuse__software__lightson_8h.html#a64a0689f545bd3904c762dfd0281d922":[37,0,1,315,1]
+"iuse__software__lightson_8cpp_source.html":[37,0,1,314]
 };

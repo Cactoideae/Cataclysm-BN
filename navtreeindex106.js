@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"memorial__logger_8cpp.html#af406dedb2e646d2f18e5d5b5b3fa5a84":[37,0,1,396,28],
+"memorial__logger_8cpp.html#af6f884678af8ae4523b9e4ba6ecc77dd":[37,0,1,396,25],
 "memorial__logger_8cpp.html#af7be0fdf59a1f94184f49073494ded76":[37,0,1,396,15],
 "memorial__logger_8cpp.html#af8733a7745c3c5f28dc9ac8fa16020bd":[37,0,1,396,14],
 "memorial__logger_8cpp.html#afa18764c5ad3425306f5dba3c61e5b63":[37,0,1,396,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "missiondef_8cpp.html#adf1da71f970fc757e82a8e56d7671b00a723b415180e29043baf31286d4d1f65a":[37,0,1,411,0,67],
 "missiondef_8cpp.html#adf1da71f970fc757e82a8e56d7671b00a766973dfe65419ea8969acf95bd09776":[37,0,1,411,0,53],
 "missiondef_8cpp.html#adf1da71f970fc757e82a8e56d7671b00a79868093d3b2c005492e9a25179ff4c6":[37,0,1,411,0,8],
-"missiondef_8cpp.html#adf1da71f970fc757e82a8e56d7671b00a7e9eb440499afe600cd9783e84b1498a":[37,0,1,411,0,65],
-"missiondef_8cpp.html#adf1da71f970fc757e82a8e56d7671b00a7ecd59a64e082e0148120fec31f8f03b":[37,0,1,411,0,60],
-"missiondef_8cpp.html#adf1da71f970fc757e82a8e56d7671b00a8063a4368ac28140ff6a8baf4ce10310":[37,0,1,411,0,36]
+"missiondef_8cpp.html#adf1da71f970fc757e82a8e56d7671b00a7e9eb440499afe600cd9783e84b1498a":[37,0,1,411,0,65]
 };

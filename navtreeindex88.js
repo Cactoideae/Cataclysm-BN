@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"game_8h.html#a9b619c091265d2dc2d06adc764772a30a84e6443709c276341cac53e6f1ea3778":[37,0,1,239,15,0],
 "game_8h.html#a9b619c091265d2dc2d06adc764772a30a8c42fd0d0eca1cf564cad4d92b3acca2":[37,0,1,239,15,1],
 "game_8h.html#a9b619c091265d2dc2d06adc764772a30aa70d57f02387f664b4bb5ccb11f90b73":[37,0,1,239,15,3],
 "game_8h.html#a9b619c091265d2dc2d06adc764772a30aa81a89dec97998583393ead537002c88":[37,0,1,239,15,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "gamemode__defense_8h.html#ac34fd12b283cd18207efedba46e540d2aeabc31a8faab836f93d301ceaddd9e4a":[37,0,1,248,4,8],
 "gamemode__defense_8h.html#ac34fd12b283cd18207efedba46e540d2afd95c22f138c8eae6f8a697163986367":[37,0,1,248,4,7],
 "gamemode__defense_8h_source.html":[37,0,1,248],
-"gamemode__tutorial_8cpp.html":[37,0,1,249],
-"gamemode__tutorial_8cpp.html#a03b811a729d048304cc2e5bcba9de9d7":[37,0,1,249,3]
+"gamemode__tutorial_8cpp.html":[37,0,1,249]
 };

@@ -1,10 +1,14 @@
 var NAVTREEINDEX149 =
 {
-"structio_1_1object__archive__tag.html#a0a8ff694fc1af71ee7281da77df48e4e":[35,0,121,9,0],
+"structio_1_1empty__default__tag.html":[35,0,122,3],
+"structio_1_1empty__default__tag.html":[36,0,25,3],
+"structio_1_1object__archive__tag.html":[35,0,122,9],
+"structio_1_1object__archive__tag.html":[36,0,25,9],
+"structio_1_1object__archive__tag.html#a0a8ff694fc1af71ee7281da77df48e4e":[35,0,122,9,0],
 "structio_1_1object__archive__tag.html#a0a8ff694fc1af71ee7281da77df48e4e":[36,0,25,9,0],
-"structio_1_1object__archive__tag.html#a84a883fc59484eb944ddc3702ec7d236":[35,0,121,9,1],
+"structio_1_1object__archive__tag.html#a84a883fc59484eb944ddc3702ec7d236":[35,0,122,9,1],
 "structio_1_1object__archive__tag.html#a84a883fc59484eb944ddc3702ec7d236":[36,0,25,9,1],
-"structio_1_1required__tag.html":[35,0,121,10],
+"structio_1_1required__tag.html":[35,0,122,10],
 "structio_1_1required__tag.html":[36,0,25,10],
 "structis__char.html":[36,0,430],
 "structis__char_3_01char16__t_01_4.html":[36,0,432],
@@ -245,9 +249,5 @@ var NAVTREEINDEX149 =
 "structitem__info__data.html#a67f104f8cb8044a4193fbfca48682ba9":[36,0,478,10],
 "structitem__info__data.html#a6bcdf17506c0be6902e9f61f2daf7172":[36,0,478,6],
 "structitem__info__data.html#a7e069f70dc31593dce7cdb7321a5445d":[36,0,478,1],
-"structitem__info__data.html#aba49fc1c285867fc9110816cd13c8e79":[36,0,478,17],
-"structitem__info__data.html#ac30189a0f526d1897dbf46d6e77ac193":[36,0,478,19],
-"structitem__info__data.html#ac78d38be36e9d32c15632fde13e025d9":[36,0,478,13],
-"structitem__info__data.html#ad57335d0a5f281ce07e0a7ad6bc1e692":[36,0,478,5],
-"structitem__info__data.html#ad97bf5ace32c133c33d09b0d5572d20c":[36,0,478,14]
+"structitem__info__data.html#aba49fc1c285867fc9110816cd13c8e79":[36,0,478,17]
 };
