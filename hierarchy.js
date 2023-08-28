@@ -1012,6 +1012,7 @@ var hierarchy =
         [ "set_transformed_iuse", "classset__transformed__iuse.html", null ]
       ] ],
       [ "learn_spell_actor", "classlearn__spell__actor.html", null ],
+      [ "lua_iuse_actor", "classlua__iuse__actor.html", null ],
       [ "manualnoise_actor", "classmanualnoise__actor.html", null ],
       [ "musical_instrument_actor", "classmusical__instrument__actor.html", null ],
       [ "mutagen_actor", "classmutagen__actor.html", null ],
@@ -1125,6 +1126,11 @@ var hierarchy =
     [ "lockpicking_open_result", "structlockpicking__open__result.html", null ],
     [ "look_around_result", "structlook__around__result.html", null ],
     [ "lru_cache< Key, Value >", "classlru__cache.html", null ],
+    [ "cata::lua_log_handler", "classcata_1_1lua__log__handler.html", null ],
+    [ "cata::lua_log_msg", "structcata_1_1lua__log__msg.html", null ],
+    [ "cata::lua_state", "structcata_1_1lua__state.html", null ],
+    [ "cata::lua_state_deleter", "structcata_1_1lua__state__deleter.html", null ],
+    [ "luna::detail::luna_traits< T >", "structluna_1_1detail_1_1luna__traits.html", null ],
     [ "ma_buff", "classma__buff.html", null ],
     [ "ma_requirements", "structma__requirements.html", null ],
     [ "ma_technique", "classma__technique.html", null ],
@@ -1262,6 +1268,7 @@ var hierarchy =
     [ "needs_rates", "structneeds__rates.html", null ],
     [ "jmapgen_nested::neighborhood_check", "classjmapgen__nested_1_1neighborhood__check.html", null ],
     [ "new_field", "structnew__field.html", null ],
+    [ "luna::no_bases_t", "structluna_1_1no__bases__t.html", null ],
     [ "translation::no_translation_tag", "structtranslation_1_1no__translation__tag.html", null ],
     [ "area_expander::node", "structarea__expander_1_1node.html", null ],
     [ "detail::dynamic_arg_list::node< typename >", "structdetail_1_1dynamic__arg__list_1_1node.html", [
@@ -1326,6 +1333,7 @@ var hierarchy =
     [ "omt_find_params", "structomt__find__params.html", null ],
     [ "omt_route_params", "structomt__route__params.html", null ],
     [ "pf::omt_score", "structpf_1_1omt__score.html", null ],
+    [ "cata::on_every_x_hooks", "structcata_1_1on__every__x__hooks.html", null ],
     [ "on_out_of_scope", "classon__out__of__scope.html", null ],
     [ "std::optional", null, [
       [ "optional_vpart_position", "classoptional__vpart__position.html", null ]
@@ -1783,6 +1791,8 @@ var hierarchy =
     [ "use_function", "structuse__function.html", null ],
     [ "auto_pickup::user_interface", "classauto__pickup_1_1user__interface.html", null ],
     [ "user_turn", "classuser__turn.html", null ],
+    [ "luna::userenum< E >", "structluna_1_1userenum.html", null ],
+    [ "luna::userlib", "structluna_1_1userlib.html", null ],
     [ "detail::utf8_to_utf16", "classdetail_1_1utf8__to__utf16.html", null ],
     [ "utf8_wrapper", "classutf8__wrapper.html", null ],
     [ "detail::arg_ref< Char >::value", "uniondetail_1_1arg__ref_1_1value.html", null ],

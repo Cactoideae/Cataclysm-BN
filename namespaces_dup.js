@@ -732,6 +732,7 @@ var namespaces_dup =
       [ "check_mods_for_errors", "namespaceinit.html#a65d404eb71b025ce30265f7eb245a813", null ],
       [ "is_data_loaded", "namespaceinit.html#adfd08e6d89eb52f3404a9bb47f0f6fa7", null ],
       [ "load_core_bn_modfiles", "namespaceinit.html#a4c0940fb41394700d2b04313098d8204", null ],
+      [ "load_main_lua_scripts", "namespaceinit.html#ada77873ea544730670708cae3c188180", null ],
       [ "load_soundpack_files", "namespaceinit.html#a8ba37b679d394453119d20c691fd20d9", null ],
       [ "load_world_modfiles", "namespaceinit.html#abd5d92dc3d9cc02dd46330831b163372", null ]
     ] ],
@@ -975,6 +976,7 @@ var namespaces_dup =
       [ "handle_liquid_from_ground", "namespaceliquid__handler.html#ae4b5ac39dbc51d5559ba9d6f901395f0", null ],
       [ "perform_liquid_transfer", "namespaceliquid__handler.html#a8c1765bcc2eb292f1a8cc24f0ca2b8b9", null ]
     ] ],
+    [ "luna", "namespaceluna.html", "namespaceluna" ],
     [ "map_funcs", "namespacemap__funcs.html", [
       [ "climbing_cost", "namespacemap__funcs.html#a8f22c4f8a377d195788aa0fa4d315491", null ],
       [ "migo_nerve_cage_removal", "namespacemap__funcs.html#a60f9a4c25252a0b8cffa456f6bc25887", null ]
@@ -1465,6 +1467,7 @@ var namespaces_dup =
       [ "keybindingsdir", "namespacePATH__INFO.html#a1e9ba1a402f471d94423691877ec77f6", null ],
       [ "language_defs_file", "namespacePATH__INFO.html#a87c3bb74433855094b83a53bfdd92852", null ],
       [ "lastworld", "namespacePATH__INFO.html#a8c382696ff179ba28e1f06d7cfdd4436", null ],
+      [ "lua_doc_output", "namespacePATH__INFO.html#aea32d12cf2ae62096fb72de5cbeff1b3", null ],
       [ "main_menu_tips", "namespacePATH__INFO.html#aabcf66dffe7dc74841a1b92f729904d1", null ],
       [ "memorialdir", "namespacePATH__INFO.html#a182bc8dae734699bdf8e6942592366bc", null ],
       [ "moddir", "namespacePATH__INFO.html#a3b5e8898cb37116e2a8639b13b0079f9", null ],

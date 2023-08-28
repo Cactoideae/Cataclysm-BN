@@ -360,7 +360,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="stats__tracker_8h_source.html#l00183">data</a>, <a class="el" href="stats__tracker_8h_source.html#l00190">event_transformation_states</a>, <a class="el" href="stats__tracker_8h_source.html#l00194">initial_scores</a>, <a class="el" href="stats__tracker_8h_source.html#l00192">stat_states</a>, and <a class="el" href="stats__tracker_8cpp_source.html#l00256">unwatch_all()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="game_8cpp_source.html#l00477">game::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="game_8cpp_source.html#l00478">game::setup()</a>.</p>
 
 </div>
 </div>
@@ -675,8 +675,8 @@ Private Attributes</h2></td></tr>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="comment">// an index, but that seems over-complex.</span></div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    <span class="keyword">auto</span> erase_from = [watcher]( <span class="keyword">auto</span> &amp; map_of_watcher_sets ) {</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        <span class="keywordflow">for</span>( <span class="keyword">auto</span> &amp;p : map_of_watcher_sets ) {</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>            <span class="keyword">auto</span> &amp;set = p.second;</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>            <span class="keywordflow">if</span>( set.erase( watcher ) ) {</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>            <span class="keyword">auto</span> &amp;<a class="code hl_function" href="namespaceluna.html#a45210d4990f1595321805e787cae7096">set</a> = p.second;</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>            <span class="keywordflow">if</span>( <a class="code hl_function" href="namespaceluna.html#a45210d4990f1595321805e787cae7096">set</a>.erase( watcher ) ) {</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>            }</div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        }</div>
@@ -692,8 +692,9 @@ Private Attributes</h2></td></tr>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    <a class="code hl_define" href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a>( <span class="stringliteral">&quot;unwatch for a watcher not found&quot;</span> );</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>}</div>
 <div class="ttc" id="adebug_8h_html_a87e509562277a7ada3a75330d00cb445"><div class="ttname"><a href="debug_8h.html#a87e509562277a7ada3a75330d00cb445">debugmsg</a></div><div class="ttdeci">#define debugmsg(...)</div><div class="ttdoc">Debug message of level DL::Error and class DC::DebugMsg, also includes the source file name and line,...</div><div class="ttdef"><b>Definition:</b> <a href="debug_8h_source.html#l00074">debug.h:74</a></div></div>
+<div class="ttc" id="anamespaceluna_html_a45210d4990f1595321805e787cae7096"><div class="ttname"><a href="namespaceluna.html#a45210d4990f1595321805e787cae7096">luna::set</a></div><div class="ttdeci">void set(sol::usertype&lt; Class &gt; &amp;ut, Key &amp;&amp;key, Value &amp;&amp;value)</div><div class="ttdef"><b>Definition:</b> <a href="catalua__luna_8h_source.html#l00436">catalua_luna.h:436</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="debug_8h_source.html#l00074">debugmsg</a>, <a class="el" href="stats__tracker_8h_source.html#l00187">event_transformation_watchers</a>, <a class="el" href="stats__tracker_8h_source.html#l00185">event_type_watchers</a>, and <a class="el" href="stats__tracker_8h_source.html#l00188">stat_watchers</a>.</p>
+<p class="reference">References <a class="el" href="debug_8h_source.html#l00074">debugmsg</a>, <a class="el" href="stats__tracker_8h_source.html#l00187">event_transformation_watchers</a>, <a class="el" href="stats__tracker_8h_source.html#l00185">event_type_watchers</a>, <a class="el" href="catalua__luna_8h_source.html#l00436">luna::set()</a>, and <a class="el" href="stats__tracker_8h_source.html#l00188">stat_watchers</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="stats__tracker_8cpp_source.html#l00112">base_watcher::~base_watcher()</a>.</p>
 
@@ -726,8 +727,8 @@ Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>{</div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    <span class="keyword">auto</span> unsub_all = [&amp;]( <span class="keyword">auto</span> &amp; map_of_watcher_sets ) {</div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>        <span class="keywordflow">for</span>( <span class="keyword">auto</span> <span class="keyword">const</span> &amp;p : map_of_watcher_sets ) {</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>            <span class="keyword">const</span> <span class="keyword">auto</span> &amp;set = p.second;</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>            set.send_to_all( &amp;<a class="code hl_function" href="classbase__watcher.html#af0a599759be381740ab735c96ea2ac09">base_watcher::on_unsubscribe</a>, <span class="keyword">this</span> );</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>            <span class="keyword">const</span> <span class="keyword">auto</span> &amp;<a class="code hl_function" href="namespaceluna.html#a45210d4990f1595321805e787cae7096">set</a> = p.second;</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>            <a class="code hl_function" href="namespaceluna.html#a45210d4990f1595321805e787cae7096">set</a>.send_to_all( &amp;<a class="code hl_function" href="classbase__watcher.html#af0a599759be381740ab735c96ea2ac09">base_watcher::on_unsubscribe</a>, <span class="keyword">this</span> );</div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        }</div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        map_of_watcher_sets.clear();</div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    };</div>
@@ -737,7 +738,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>}</div>
 <div class="ttc" id="aclassbase__watcher_html_af0a599759be381740ab735c96ea2ac09"><div class="ttname"><a href="classbase__watcher.html#af0a599759be381740ab735c96ea2ac09">base_watcher::on_unsubscribe</a></div><div class="ttdeci">void on_unsubscribe(stats_tracker *)</div><div class="ttdef"><b>Definition:</b> <a href="stats__tracker_8cpp_source.html#l00127">stats_tracker.cpp:127</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="stats__tracker_8h_source.html#l00187">event_transformation_watchers</a>, <a class="el" href="stats__tracker_8h_source.html#l00185">event_type_watchers</a>, <a class="el" href="stats__tracker_8cpp_source.html#l00127">base_watcher::on_unsubscribe()</a>, and <a class="el" href="stats__tracker_8h_source.html#l00188">stat_watchers</a>.</p>
+<p class="reference">References <a class="el" href="stats__tracker_8h_source.html#l00187">event_transformation_watchers</a>, <a class="el" href="stats__tracker_8h_source.html#l00185">event_type_watchers</a>, <a class="el" href="stats__tracker_8cpp_source.html#l00127">base_watcher::on_unsubscribe()</a>, <a class="el" href="catalua__luna_8h_source.html#l00436">luna::set()</a>, and <a class="el" href="stats__tracker_8h_source.html#l00188">stat_watchers</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="stats__tracker_8cpp_source.html#l00247">clear()</a>, and <a class="el" href="stats__tracker_8cpp_source.html#l00138">~stats_tracker()</a>.</p>
 
@@ -991,7 +992,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classstats__tracker.html">stats_tracker</a></li>
-    <li class="footer">Generated on Mon Aug 28 2023 14:39:10 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Mon Aug 28 2023 15:07:02 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
