@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"namespacecrafting.html#a33e973ebbe76aa946752c7f3b4a4392d":[35,0,99,0],
 "namespacecrafting.html#a5844edf7e04b20037d08a1215cf62236":[35,0,99,8],
 "namespacecrafting.html#a653e8b3027cf7e8256c46600bdea2697":[35,0,99,2],
 "namespacecrafting.html#a66f83eefe72e71cf1a8831fde5afe0aa":[35,0,99,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "namespacedetail.html#a86248e67a02da65ce86531070bbd18f5":[35,0,101,327],
 "namespacedetail.html#a89a6ead77427b27fdb713df77aa556e5":[35,0,101,135],
 "namespacedetail.html#a89a6ead77427b27fdb713df77aa556e5a822509d77d8e4544ec4701e7474f262e":[35,0,101,135,2],
-"namespacedetail.html#a89a6ead77427b27fdb713df77aa556e5ad4ee0fbbeb7ffd4fd7a7d477a7ecd922":[35,0,101,135,1],
-"namespacedetail.html#a89a6ead77427b27fdb713df77aa556e5af24f62eeb789199b9b2e467df3b1876b":[35,0,101,135,0]
+"namespacedetail.html#a89a6ead77427b27fdb713df77aa556e5ad4ee0fbbeb7ffd4fd7a7d477a7ecd922":[35,0,101,135,1]
 };

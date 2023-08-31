@@ -1,5 +1,6 @@
 var NAVTREEINDEX158 =
 {
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a973912ac2aa381a928a3ca779a2e51a2":[35,0,165,0,0,2],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#abc3775a75d41f1621409b2bd03e028d0":[36,0,33,0,0,1],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#abc3775a75d41f1621409b2bd03e028d0":[35,0,165,0,0,1],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1point__node.html":[36,0,33,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX158 =
 "structprojectile.html":[36,0,774],
 "structprojectile.html#a00028c6a471291a6aab9d1b8d817905d":[36,0,774,15],
 "structprojectile.html#a05d90cbb1c83669dd7c23477c8f35963":[36,0,774,4],
-"structprojectile.html#a06144f890c4579ec8e25ebc9095a1768":[36,0,774,3],
-"structprojectile.html#a0ee580471861f852c6cde9536879cd4f":[36,0,774,10]
+"structprojectile.html#a06144f890c4579ec8e25ebc9095a1768":[36,0,774,3]
 };

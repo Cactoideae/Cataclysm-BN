@@ -1,5 +1,6 @@
 var NAVTREEINDEX139 =
 {
+"structbehavior_1_1behavior__return.html#a70a42d2c1ef16a5f36fd91030659e82b":[36,0,13,0,1],
 "structbehavior_1_1behavior__return.html#acf8fb8a3528e7d8bbc935f810ddf93f2":[35,0,76,0,0],
 "structbehavior_1_1behavior__return.html#acf8fb8a3528e7d8bbc935f810ddf93f2":[36,0,13,0,0],
 "structbench__location.html":[36,0,110],
@@ -248,6 +249,5 @@ var NAVTREEINDEX139 =
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1avatar__moves_01_4.html#a3eae4a6102362fc53a01a19dac1e4360":[35,0,78,1,5,0],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1awakes__dark__wyrms_01_4.html":[35,0,78,1,6],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1awakes__dark__wyrms_01_4.html":[36,0,14,0,6],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1becomes__wanted_01_4.html":[35,0,78,1,7],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1becomes__wanted_01_4.html":[36,0,14,0,7]
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1becomes__wanted_01_4.html":[35,0,78,1,7]
 };

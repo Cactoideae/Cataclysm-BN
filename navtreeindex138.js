@@ -1,5 +1,6 @@
 var NAVTREEINDEX138 =
 {
+"structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a125d84058df7ccace14af69b0ef71339":[36,0,7,0,9],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a2a2184b52d226d101c2539da0ffa5f5d":[35,0,49,0,8],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a2a2184b52d226d101c2539da0ffa5f5d":[36,0,7,0,8],
 "structanonymous__namespace_02messages_8cpp_03_1_1game__message.html#a365e9d6beec6a1351af03f01fa6ecddd":[36,0,7,0,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX138 =
 "structbasic__format__specs.html#ac05254b4b13aac586b98730d65d73b65":[36,0,104,7],
 "structbehavior_1_1behavior__return.html":[36,0,13,0],
 "structbehavior_1_1behavior__return.html":[35,0,76,0],
-"structbehavior_1_1behavior__return.html#a70a42d2c1ef16a5f36fd91030659e82b":[35,0,76,0,1],
-"structbehavior_1_1behavior__return.html#a70a42d2c1ef16a5f36fd91030659e82b":[36,0,13,0,1]
+"structbehavior_1_1behavior__return.html#a70a42d2c1ef16a5f36fd91030659e82b":[35,0,76,0,1]
 };

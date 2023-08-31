@@ -1,5 +1,6 @@
 var NAVTREEINDEX149 =
 {
+"structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html":[35,0,111,2,0],
 "structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#a21619d341ec9d3932831f4afa92bfab1":[36,0,24,1,0,0],
 "structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#a21619d341ec9d3932831f4afa92bfab1":[35,0,111,2,0,0],
 "structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#a63f7c054374913967dabe223207cc822":[36,0,24,1,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX149 =
 "structforest__trail__settings.html#af14ecba339abfacb46bb905de4d8c6df":[36,0,356,10],
 "structforest__trail__settings.html#af8d81227adea55cc84910f0ee2113107":[36,0,356,1],
 "structformat__args.html":[36,0,358],
-"structformat__args.html#a6001d2aa429b93f7eb958879933e5d42":[36,0,358,0],
-"structformat__to__n__result.html":[36,0,361]
+"structformat__args.html#a6001d2aa429b93f7eb958879933e5d42":[36,0,358,0]
 };

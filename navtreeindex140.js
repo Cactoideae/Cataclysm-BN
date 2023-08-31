@@ -1,5 +1,6 @@
 var NAVTREEINDEX140 =
 {
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1becomes__wanted_01_4.html":[36,0,14,0,7],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1broken__bone__mends_01_4.html":[35,0,78,1,8],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1broken__bone__mends_01_4.html":[36,0,14,0,8],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1broken__bone__mends_01_4.html#a7b94c533c8de6d7e9f8c11623305e7dc":[35,0,78,1,8,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX140 =
 "structcata_1_1list_1_1group.html#aaab2d014cc19dac6a5030eeb36553050":[36,0,14,11,7,7],
 "structcata_1_1list_1_1group.html#adb287db31b76ce2e02ca8aec6e92c834":[35,0,78,13,7,6],
 "structcata_1_1list_1_1group.html#adb287db31b76ce2e02ca8aec6e92c834":[36,0,14,11,7,6],
-"structcata_1_1list_1_1group.html#ae6d52bac1205d0c8122df20ec59e9116":[35,0,78,13,7,4],
-"structcata_1_1list_1_1group.html#ae6d52bac1205d0c8122df20ec59e9116":[36,0,14,11,7,4]
+"structcata_1_1list_1_1group.html#ae6d52bac1205d0c8122df20ec59e9116":[35,0,78,13,7,4]
 };

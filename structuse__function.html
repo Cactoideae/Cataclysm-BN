@@ -256,10 +256,10 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iuse_8cpp_source.html#l09810">9810</a> of file <a class="el" href="iuse_8cpp_source.html">iuse.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l09811" name="l09811"></a><span class="lineno"> 9811</span>{</div>
-<div class="line"><a id="l09812" name="l09812"></a><span class="lineno"> 9812</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="structuse__function.html#aba33d9e92f5f28f34cc6d24b82b3d7f0">actor</a>-&gt;use( p, it, <a class="code hl_enumvalue" href="mutation__ui_8cpp.html#a402f65070aa900e68cd18960d2685a76ac76a5e84e4bdee527e274ea30c680d79">active</a>, pos );</div>
-<div class="line"><a id="l09813" name="l09813"></a><span class="lineno"> 9813</span>}</div>
+<p class="definition">Definition at line <a class="el" href="iuse_8cpp_source.html#l09820">9820</a> of file <a class="el" href="iuse_8cpp_source.html">iuse.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l09821" name="l09821"></a><span class="lineno"> 9821</span>{</div>
+<div class="line"><a id="l09822" name="l09822"></a><span class="lineno"> 9822</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="structuse__function.html#aba33d9e92f5f28f34cc6d24b82b3d7f0">actor</a>-&gt;use( p, it, <a class="code hl_enumvalue" href="mutation__ui_8cpp.html#a402f65070aa900e68cd18960d2685a76ac76a5e84e4bdee527e274ea30c680d79">active</a>, pos );</div>
+<div class="line"><a id="l09823" name="l09823"></a><span class="lineno"> 9823</span>}</div>
 <div class="ttc" id="amutation__ui_8cpp_html_a402f65070aa900e68cd18960d2685a76ac76a5e84e4bdee527e274ea30c680d79"><div class="ttname"><a href="mutation__ui_8cpp.html#a402f65070aa900e68cd18960d2685a76ac76a5e84e4bdee527e274ea30c680d79">mutation_tab_mode::active</a></div><div class="ttdeci">@ active</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="mutation__ui_8cpp.html#a402f65070aa900e68cd18960d2685a76ac76a5e84e4bdee527e274ea30c680d79">active</a>, and <a class="el" href="iuse_8h_source.html#l00306">actor</a>.</p>
@@ -306,15 +306,15 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iuse_8cpp_source.html#l09799">9799</a> of file <a class="el" href="iuse_8cpp_source.html">iuse.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l09801" name="l09801"></a><span class="lineno"> 9801</span>{</div>
-<div class="line"><a id="l09802" name="l09802"></a><span class="lineno"> 9802</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="structuse__function.html#aba33d9e92f5f28f34cc6d24b82b3d7f0">actor</a> == <span class="keyword">nullptr</span> ) {</div>
-<div class="line"><a id="l09803" name="l09803"></a><span class="lineno"> 9803</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="classret__val.html#a415798e6fd736bd724329890cae0df4a">ret_val&lt;bool&gt;::make_failure</a>( <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <span class="stringliteral">&quot;You can&#39;t do anything interesting with your %s.&quot;</span> ),</div>
-<div class="line"><a id="l09804" name="l09804"></a><span class="lineno"> 9804</span>                                            it.<a class="code hl_function" href="classitem.html#a7e78e26dcf9b357cda769c3ca2938eda">tname</a>() );</div>
-<div class="line"><a id="l09805" name="l09805"></a><span class="lineno"> 9805</span>    }</div>
-<div class="line"><a id="l09806" name="l09806"></a><span class="lineno"> 9806</span> </div>
-<div class="line"><a id="l09807" name="l09807"></a><span class="lineno"> 9807</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="structuse__function.html#aba33d9e92f5f28f34cc6d24b82b3d7f0">actor</a>-&gt;can_use( p, it, t, pos );</div>
-<div class="line"><a id="l09808" name="l09808"></a><span class="lineno"> 9808</span>}</div>
+<p class="definition">Definition at line <a class="el" href="iuse_8cpp_source.html#l09809">9809</a> of file <a class="el" href="iuse_8cpp_source.html">iuse.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l09811" name="l09811"></a><span class="lineno"> 9811</span>{</div>
+<div class="line"><a id="l09812" name="l09812"></a><span class="lineno"> 9812</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="structuse__function.html#aba33d9e92f5f28f34cc6d24b82b3d7f0">actor</a> == <span class="keyword">nullptr</span> ) {</div>
+<div class="line"><a id="l09813" name="l09813"></a><span class="lineno"> 9813</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="classret__val.html#a415798e6fd736bd724329890cae0df4a">ret_val&lt;bool&gt;::make_failure</a>( <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <span class="stringliteral">&quot;You can&#39;t do anything interesting with your %s.&quot;</span> ),</div>
+<div class="line"><a id="l09814" name="l09814"></a><span class="lineno"> 9814</span>                                            it.<a class="code hl_function" href="classitem.html#a7e78e26dcf9b357cda769c3ca2938eda">tname</a>() );</div>
+<div class="line"><a id="l09815" name="l09815"></a><span class="lineno"> 9815</span>    }</div>
+<div class="line"><a id="l09816" name="l09816"></a><span class="lineno"> 9816</span> </div>
+<div class="line"><a id="l09817" name="l09817"></a><span class="lineno"> 9817</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="structuse__function.html#aba33d9e92f5f28f34cc6d24b82b3d7f0">actor</a>-&gt;can_use( p, it, t, pos );</div>
+<div class="line"><a id="l09818" name="l09818"></a><span class="lineno"> 9818</span>}</div>
 <div class="ttc" id="aclassitem_html_a7e78e26dcf9b357cda769c3ca2938eda"><div class="ttname"><a href="classitem.html#a7e78e26dcf9b357cda769c3ca2938eda">item::tname</a></div><div class="ttdeci">std::string tname(unsigned int quantity=1, bool with_prefix=true, unsigned int truncate=0) const</div><div class="ttdoc">Return the (translated) item name.</div><div class="ttdef"><b>Definition:</b> <a href="item_8cpp_source.html#l04574">item.cpp:4574</a></div></div>
 <div class="ttc" id="aclassret__val_html_a415798e6fd736bd724329890cae0df4a"><div class="ttname"><a href="classret__val.html#a415798e6fd736bd724329890cae0df4a">ret_val::make_failure</a></div><div class="ttdeci">static ret_val make_failure(T val=default_failure::value)</div><div class="ttdef"><b>Definition:</b> <a href="ret__val_8h_source.html#l00046">ret_val.h:46</a></div></div>
 <div class="ttc" id="atranslations_8h_html_aa829053017e23ef22d44dccecba63a34"><div class="ttname"><a href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a></div><div class="ttdeci">#define _(msg)</div><div class="ttdef"><b>Definition:</b> <a href="translations_8h_source.html#l00116">translations.h:116</a></div></div>
@@ -350,12 +350,12 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Used by <a class="el" href="classitem.html#a59b179750453eefd9d4c66bf8261a3f6">item::info</a> to get description of the actor </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="iuse_8cpp_source.html#l09792">9792</a> of file <a class="el" href="iuse_8cpp_source.html">iuse.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l09793" name="l09793"></a><span class="lineno"> 9793</span>{</div>
-<div class="line"><a id="l09794" name="l09794"></a><span class="lineno"> 9794</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="structuse__function.html#aba33d9e92f5f28f34cc6d24b82b3d7f0">actor</a> != <span class="keyword">nullptr</span> ) {</div>
-<div class="line"><a id="l09795" name="l09795"></a><span class="lineno"> 9795</span>        <a class="code hl_variable" href="structuse__function.html#aba33d9e92f5f28f34cc6d24b82b3d7f0">actor</a>-&gt;info( it, dump );</div>
-<div class="line"><a id="l09796" name="l09796"></a><span class="lineno"> 9796</span>    }</div>
-<div class="line"><a id="l09797" name="l09797"></a><span class="lineno"> 9797</span>}</div>
+<p class="definition">Definition at line <a class="el" href="iuse_8cpp_source.html#l09802">9802</a> of file <a class="el" href="iuse_8cpp_source.html">iuse.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l09803" name="l09803"></a><span class="lineno"> 9803</span>{</div>
+<div class="line"><a id="l09804" name="l09804"></a><span class="lineno"> 9804</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="structuse__function.html#aba33d9e92f5f28f34cc6d24b82b3d7f0">actor</a> != <span class="keyword">nullptr</span> ) {</div>
+<div class="line"><a id="l09805" name="l09805"></a><span class="lineno"> 9805</span>        <a class="code hl_variable" href="structuse__function.html#aba33d9e92f5f28f34cc6d24b82b3d7f0">actor</a>-&gt;info( it, dump );</div>
+<div class="line"><a id="l09806" name="l09806"></a><span class="lineno"> 9806</span>    }</div>
+<div class="line"><a id="l09807" name="l09807"></a><span class="lineno"> 9807</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="iuse_8h_source.html#l00306">actor</a>.</p>
 
@@ -541,7 +541,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="iuse_8h_source.html#l00306">306</a> of file <a class="el" href="iuse_8h_source.html">iuse.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="iuse_8cpp_source.html#l09810">call()</a>, <a class="el" href="iuse_8cpp_source.html#l09799">can_call()</a>, <a class="el" href="iuse_8cpp_source.html#l09792">dump_info()</a>, <a class="el" href="iuse_8h_source.html#l00316">get_actor_ptr()</a>, <a class="el" href="item__action_8cpp_source.html#l00365">get_name()</a>, <a class="el" href="item__action_8cpp_source.html#l00341">get_type()</a>, and <a class="el" href="iuse_8h_source.html#l00324">operator bool()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="iuse_8cpp_source.html#l09820">call()</a>, <a class="el" href="iuse_8cpp_source.html#l09809">can_call()</a>, <a class="el" href="iuse_8cpp_source.html#l09802">dump_info()</a>, <a class="el" href="iuse_8h_source.html#l00316">get_actor_ptr()</a>, <a class="el" href="item__action_8cpp_source.html#l00365">get_name()</a>, <a class="el" href="item__action_8cpp_source.html#l00341">get_type()</a>, and <a class="el" href="iuse_8h_source.html#l00324">operator bool()</a>.</p>
 
 </div>
 </div>
@@ -557,7 +557,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structuse__function.html">use_function</a></li>
-    <li class="footer">Generated on Thu Aug 31 2023 10:05:27 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Aug 31 2023 10:33:04 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -334,27 +334,33 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span>        }</div>
 <div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span>    }</div>
 <div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span> </div>
-<div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>    <span class="keywordtype">int</span> dist = <a class="code hl_function" href="coordinates_8h.html#a47953b33a873caa0861b12222842a5ec">rl_dist</a>( z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>(), aim_at );</div>
-<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>    <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;e : <a class="code hl_variable" href="classgun__actor.html#a1812996dc43161cabf999808ed3887f6">ranges</a> ) {</div>
-<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>        <span class="keywordflow">if</span>( dist &gt;= e.first.first &amp;&amp; dist &lt;= e.first.second ) {</div>
-<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>            <span class="keywordflow">if</span>( untargeted || <a class="code hl_function" href="classgun__actor.html#a1428f2909f5654676860eb7eba9aed45">try_target</a>( z, *target ) ) {</div>
-<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>                <a class="code hl_function" href="classgun__actor.html#a91a6d3fd47e5b2e6bff40441d0c21e6f">shoot</a>( z, aim_at, e.second );</div>
-<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>            }</div>
-<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span> </div>
-<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>        }</div>
-<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>    }</div>
-<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>}</div>
+<div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>    <span class="comment">// One last check to make sure we&#39;re not firing on a friendly</span></div>
+<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>    <span class="keywordflow">if</span>( z.<a class="code hl_function" href="classmonster.html#a125622587c2069dc4dbbe07943c81336">attitude_to</a>( *target ) == <a class="code hl_enumvalue" href="classCreature.html#a8a475630b3289c468bd06cf114008217ac45ee12dee5d3dc56de7fe86e4484bea">Creature::A_FRIENDLY</a> ) {</div>
+<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>    }</div>
+<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>    <span class="keywordtype">int</span> dist = <a class="code hl_function" href="coordinates_8h.html#a47953b33a873caa0861b12222842a5ec">rl_dist</a>( z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>(), aim_at );</div>
+<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>    <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;e : <a class="code hl_variable" href="classgun__actor.html#a1812996dc43161cabf999808ed3887f6">ranges</a> ) {</div>
+<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>        <span class="keywordflow">if</span>( dist &gt;= e.first.first &amp;&amp; dist &lt;= e.first.second ) {</div>
+<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>            <span class="keywordflow">if</span>( untargeted || <a class="code hl_function" href="classgun__actor.html#a1428f2909f5654676860eb7eba9aed45">try_target</a>( z, *target ) ) {</div>
+<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>                <a class="code hl_function" href="classgun__actor.html#a91a6d3fd47e5b2e6bff40441d0c21e6f">shoot</a>( z, aim_at, e.second );</div>
+<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>            }</div>
+<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span> </div>
+<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>        }</div>
+<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>    }</div>
+<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>}</div>
 <div class="ttc" id="aclassCreature_html"><div class="ttname"><a href="classCreature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> <a href="creature_8h_source.html#l00077">creature.h:78</a></div></div>
 <div class="ttc" id="aclassCreature_html_a45926a7ba63ccc9be744f87a4d540b7d"><div class="ttname"><a href="classCreature.html#a45926a7ba63ccc9be744f87a4d540b7d">Creature::pos</a></div><div class="ttdeci">virtual const tripoint &amp; pos() const =0</div></div>
+<div class="ttc" id="aclassCreature_html_a8a475630b3289c468bd06cf114008217ac45ee12dee5d3dc56de7fe86e4484bea"><div class="ttname"><a href="classCreature.html#a8a475630b3289c468bd06cf114008217ac45ee12dee5d3dc56de7fe86e4484bea">Creature::A_FRIENDLY</a></div><div class="ttdeci">@ A_FRIENDLY</div><div class="ttdef"><b>Definition:</b> <a href="creature_8h_source.html#l00169">creature.h:169</a></div></div>
 <div class="ttc" id="aclassCreature_html_ab42d5d429a5599b7f80906394c1236e5"><div class="ttname"><a href="classCreature.html#ab42d5d429a5599b7f80906394c1236e5">Creature::sees</a></div><div class="ttdeci">virtual bool sees(const Creature &amp;critter) const</div><div class="ttdoc">The functions check whether this creature can see the target.</div><div class="ttdef"><b>Definition:</b> <a href="creature_8cpp_source.html#l00204">creature.cpp:204</a></div></div>
 <div class="ttc" id="aclassCreature_html_abb91e1cd5610658124d40623e7e4d698"><div class="ttname"><a href="classCreature.html#abb91e1cd5610658124d40623e7e4d698">Creature::auto_find_hostile_target</a></div><div class="ttdeci">Creature * auto_find_hostile_target(int range, int &amp;boo_hoo, int area=0)</div><div class="ttdoc">For fake-players (turrets, mounted turrets) this functions chooses a target.</div><div class="ttdef"><b>Definition:</b> <a href="creature_8cpp_source.html#l00337">creature.cpp:337</a></div></div>
-<div class="ttc" id="aclassgun__actor_html_a1428f2909f5654676860eb7eba9aed45"><div class="ttname"><a href="classgun__actor.html#a1428f2909f5654676860eb7eba9aed45">gun_actor::try_target</a></div><div class="ttdeci">bool try_target(monster &amp;z, Creature &amp;target) const</div><div class="ttdef"><b>Definition:</b> <a href="mattack__actors_8cpp_source.html#l00597">mattack_actors.cpp:597</a></div></div>
+<div class="ttc" id="aclassgun__actor_html_a1428f2909f5654676860eb7eba9aed45"><div class="ttname"><a href="classgun__actor.html#a1428f2909f5654676860eb7eba9aed45">gun_actor::try_target</a></div><div class="ttdeci">bool try_target(monster &amp;z, Creature &amp;target) const</div><div class="ttdef"><b>Definition:</b> <a href="mattack__actors_8cpp_source.html#l00601">mattack_actors.cpp:601</a></div></div>
 <div class="ttc" id="aclassgun__actor_html_a1812996dc43161cabf999808ed3887f6"><div class="ttname"><a href="classgun__actor.html#a1812996dc43161cabf999808ed3887f6">gun_actor::ranges</a></div><div class="ttdeci">std::map&lt; std::pair&lt; int, int &gt;, gun_mode_id &gt; ranges</div><div class="ttdoc">Specify weapon mode to use at different engagement distances.</div><div class="ttdef"><b>Definition:</b> <a href="mattack__actors_8h_source.html#l00149">mattack_actors.h:149</a></div></div>
-<div class="ttc" id="aclassgun__actor_html_a91a6d3fd47e5b2e6bff40441d0c21e6f"><div class="ttname"><a href="classgun__actor.html#a91a6d3fd47e5b2e6bff40441d0c21e6f">gun_actor::shoot</a></div><div class="ttdeci">void shoot(monster &amp;z, const tripoint &amp;target, const gun_mode_id &amp;mode, int inital_recoil=0) const</div><div class="ttdef"><b>Definition:</b> <a href="mattack__actors_8cpp_source.html#l00643">mattack_actors.cpp:643</a></div></div>
+<div class="ttc" id="aclassgun__actor_html_a91a6d3fd47e5b2e6bff40441d0c21e6f"><div class="ttname"><a href="classgun__actor.html#a91a6d3fd47e5b2e6bff40441d0c21e6f">gun_actor::shoot</a></div><div class="ttdeci">void shoot(monster &amp;z, const tripoint &amp;target, const gun_mode_id &amp;mode, int inital_recoil=0) const</div><div class="ttdef"><b>Definition:</b> <a href="mattack__actors_8cpp_source.html#l00647">mattack_actors.cpp:647</a></div></div>
 <div class="ttc" id="aclassgun__actor_html_afb97dd441db660dfcb09c4ff7c3b7bb2"><div class="ttname"><a href="classgun__actor.html#afb97dd441db660dfcb09c4ff7c3b7bb2">gun_actor::target_moving_vehicles</a></div><div class="ttdeci">bool target_moving_vehicles</div><div class="ttdoc">Should moving vehicles be targeted.</div><div class="ttdef"><b>Definition:</b> <a href="mattack__actors_8h_source.html#l00166">mattack_actors.h:166</a></div></div>
 <div class="ttc" id="aclassgun__actor_html_aff79fca7fe9537504e6d2266ae3f342a"><div class="ttname"><a href="classgun__actor.html#aff79fca7fe9537504e6d2266ae3f342a">gun_actor::get_max_range</a></div><div class="ttdeci">int get_max_range() const</div><div class="ttdef"><b>Definition:</b> <a href="mattack__actors_8cpp_source.html#l00480">mattack_actors.cpp:480</a></div></div>
+<div class="ttc" id="aclassmonster_html_a125622587c2069dc4dbbe07943c81336"><div class="ttname"><a href="classmonster.html#a125622587c2069dc4dbbe07943c81336">monster::attitude_to</a></div><div class="ttdeci">Attitude attitude_to(const Creature &amp;other) const override</div><div class="ttdoc">Attitude (of this creature) towards another creature.</div><div class="ttdef"><b>Definition:</b> <a href="monster_8cpp_source.html#l01045">monster.cpp:1045</a></div></div>
 <div class="ttc" id="aclassmonster_html_a3414f60cd7b63132b8ab605f6949edf4"><div class="ttname"><a href="classmonster.html#a3414f60cd7b63132b8ab605f6949edf4">monster::attack_target</a></div><div class="ttdeci">Creature * attack_target()</div><div class="ttdef"><b>Definition:</b> <a href="monster_8cpp_source.html#l01018">monster.cpp:1018</a></div></div>
 <div class="ttc" id="aclassmonster_html_a4e17d0d504a12d9b2e4de3e7a7503fff"><div class="ttname"><a href="classmonster.html#a4e17d0d504a12d9b2e4de3e7a7503fff">monster::friendly</a></div><div class="ttdeci">int friendly</div><div class="ttdef"><b>Definition:</b> <a href="monster_8h_source.html#l00471">monster.h:471</a></div></div>
 <div class="ttc" id="aclassmonster_html_a55d95177d49525c0da7649f135a6306d"><div class="ttname"><a href="classmonster.html#a55d95177d49525c0da7649f135a6306d">monster::pos</a></div><div class="ttdeci">const tripoint &amp; pos() const override</div><div class="ttdef"><b>Definition:</b> <a href="monster_8cpp_source.html#l00252">monster.cpp:252</a></div></div>
@@ -367,7 +373,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="astructtripoint_html"><div class="ttname"><a href="structtripoint.html">tripoint</a></div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00133">point.h:133</a></div></div>
 <div class="ttc" id="atranslations_8cpp_html_a82b835742108b8d7f5f6a291b41e208e"><div class="ttname"><a href="translations_8cpp.html#a82b835742108b8d7f5f6a291b41e208e">vgettext</a></div><div class="ttdeci">const char * vgettext(const char *msgid, const char *msgid_plural, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="translations_8cpp_source.html#l00036">translations.cpp:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="messages_8cpp_source.html#l00910">add_msg()</a>, <a class="el" href="monster_8cpp_source.html#l01018">monster::attack_target()</a>, <a class="el" href="creature_8cpp_source.html#l00337">Creature::auto_find_hostile_target()</a>, <a class="el" href="mattack__actors_8cpp_source.html#l00489">find_target_vehicle()</a>, <a class="el" href="monster_8h_source.html#l00471">monster::friendly</a>, <a class="el" href="game_8cpp_source.html#l00284">g</a>, <a class="el" href="mattack__actors_8cpp_source.html#l00480">get_max_range()</a>, <a class="el" href="enums_8h_source.html#l00264">m_warning</a>, <a class="el" href="monster_8cpp_source.html#l00489">monster::name()</a>, <a class="el" href="classCreature.html#a45926a7ba63ccc9be744f87a4d540b7d">Creature::pos()</a>, <a class="el" href="monster_8cpp_source.html#l00252">monster::pos()</a>, <a class="el" href="mattack__actors_8h_source.html#l00149">ranges</a>, <a class="el" href="coordinates_8h_source.html#l00519">rl_dist()</a>, <a class="el" href="creature_8cpp_source.html#l00204">Creature::sees()</a>, <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>, <a class="el" href="mattack__actors_8h_source.html#l00166">target_moving_vehicles</a>, <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>, and <a class="el" href="translations_8cpp_source.html#l00036">vgettext()</a>.</p>
+<p class="reference">References <a class="el" href="creature_8h_source.html#l00169">Creature::A_FRIENDLY</a>, <a class="el" href="messages_8cpp_source.html#l00910">add_msg()</a>, <a class="el" href="monster_8cpp_source.html#l01018">monster::attack_target()</a>, <a class="el" href="monster_8cpp_source.html#l01045">monster::attitude_to()</a>, <a class="el" href="creature_8cpp_source.html#l00337">Creature::auto_find_hostile_target()</a>, <a class="el" href="mattack__actors_8cpp_source.html#l00489">find_target_vehicle()</a>, <a class="el" href="monster_8h_source.html#l00471">monster::friendly</a>, <a class="el" href="game_8cpp_source.html#l00284">g</a>, <a class="el" href="mattack__actors_8cpp_source.html#l00480">get_max_range()</a>, <a class="el" href="enums_8h_source.html#l00264">m_warning</a>, <a class="el" href="monster_8cpp_source.html#l00489">monster::name()</a>, <a class="el" href="classCreature.html#a45926a7ba63ccc9be744f87a4d540b7d">Creature::pos()</a>, <a class="el" href="monster_8cpp_source.html#l00252">monster::pos()</a>, <a class="el" href="mattack__actors_8h_source.html#l00149">ranges</a>, <a class="el" href="coordinates_8h_source.html#l00519">rl_dist()</a>, <a class="el" href="creature_8cpp_source.html#l00204">Creature::sees()</a>, <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>, <a class="el" href="mattack__actors_8h_source.html#l00166">target_moving_vehicles</a>, <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>, and <a class="el" href="translations_8cpp_source.html#l00036">vgettext()</a>.</p>
 
 </div>
 </div>
@@ -606,47 +612,47 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mattack__actors_8cpp_source.html#l00643">643</a> of file <a class="el" href="mattack__actors_8cpp_source.html">mattack_actors.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>{</div>
-<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span>    z.<a class="code hl_variable" href="classCreature.html#a8c5a392caa213bee9581b47e9f0e2052">moves</a> -= <a class="code hl_variable" href="classgun__actor.html#aed74d3ea4f57236800b69ce48148c29a">move_cost</a>;</div>
-<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span> </div>
-<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>    <a class="code hl_class" href="classitem.html">item</a> gun( <a class="code hl_variable" href="classgun__actor.html#ab67d5da84abab2514ed756af85afe71b">gun_type</a> );</div>
-<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>    gun.gun_set_mode( mode );</div>
-<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span> </div>
-<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>    <a class="code hl_class" href="classstring__id.html">itype_id</a> ammo = <a class="code hl_variable" href="classgun__actor.html#a5221d464f2ea89c177e0b4dbc8a67dea">ammo_type</a> ? <a class="code hl_variable" href="classgun__actor.html#a5221d464f2ea89c177e0b4dbc8a67dea">ammo_type</a> : gun.ammo_default();</div>
-<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>    <span class="keywordflow">if</span>( ammo ) {</div>
-<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>        gun.ammo_set( ammo, z.<a class="code hl_variable" href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">ammo</a>[ammo] );</div>
-<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    }</div>
-<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span> </div>
-<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>    <span class="keywordflow">if</span>( !gun.ammo_sufficient() ) {</div>
-<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>        <span class="keywordflow">if</span>( !<a class="code hl_variable" href="classgun__actor.html#a217b0838342c6f685a41b7659c7c0aea">no_ammo_sound</a>.empty() ) {</div>
-<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>            <a class="code hl_function" href="namespacesounds.html#a6bb79ae1c9c3dcd8c8e0b28c66b0398d">sounds::sound</a>( z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>(), 10, <a class="code hl_enumvalue" href="namespacesounds.html#af6b3d144906d9ccfda6824fb87e46aa3ac222ae0d4e9c59bd254b72521b9e74ed">sounds::sound_t::combat</a>, <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <a class="code hl_variable" href="classgun__actor.html#a217b0838342c6f685a41b7659c7c0aea">no_ammo_sound</a> ) );</div>
-<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>        }</div>
-<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>    }</div>
-<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span> </div>
-<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>    <a class="code hl_class" href="classstandard__npc.html">standard_npc</a> tmp( <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <span class="stringliteral">&quot;The &quot;</span> ) + z.<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>(), z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>(), {}, 8,</div>
-<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>                      <a class="code hl_variable" href="classgun__actor.html#a3e6eb6736a7e91a375e01cc0a6760dff">fake_str</a>, <a class="code hl_variable" href="classgun__actor.html#a1c91e2aa4bef675ba51a1606342c97d8">fake_dex</a>, <a class="code hl_variable" href="classgun__actor.html#aba5ba55c5f85ed3c272cee87cc5bea97">fake_int</a>, <a class="code hl_variable" href="classgun__actor.html#aee9644e0885168e841b079db910b5d8b">fake_per</a> );</div>
-<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>    tmp.set_fake( <span class="keyword">true</span> );</div>
-<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span>    tmp.set_attitude( z.<a class="code hl_variable" href="classmonster.html#a4e17d0d504a12d9b2e4de3e7a7503fff">friendly</a> ? <a class="code hl_enumvalue" href="npc_8h.html#a0b36e2ae8f588616c1fd7a3788452cd4aee568a181e2bf1f4ef5122e0674b162d">NPCATT_FOLLOW</a> : <a class="code hl_enumvalue" href="npc_8h.html#a0b36e2ae8f588616c1fd7a3788452cd4a59e2eeab0c7bf7336d7c5fea3a870d2a">NPCATT_KILL</a> );</div>
-<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>    tmp.recoil = inital_recoil; <span class="comment">// set inital recoil</span></div>
-<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="classgun__actor.html#a555c1f1fae690ffb3f2de83758a13464">no_crits</a> ) {</div>
-<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>        tmp.toggle_trait( <a class="code hl_variable" href="mattack__actors_8cpp.html#a7a08490346831114f00f3e44cbe454e3">trait_NORANGEDCRIT</a> );</div>
-<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>    }</div>
-<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span> </div>
-<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>    <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;pr : <a class="code hl_variable" href="classgun__actor.html#a7bc74ea463561eef5a33b6391e3f7160">fake_skills</a> ) {</div>
-<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>        tmp.set_skill_level( pr.first, pr.second );</div>
+<p class="definition">Definition at line <a class="el" href="mattack__actors_8cpp_source.html#l00647">647</a> of file <a class="el" href="mattack__actors_8cpp_source.html">mattack_actors.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>{</div>
+<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>    z.<a class="code hl_variable" href="classCreature.html#a8c5a392caa213bee9581b47e9f0e2052">moves</a> -= <a class="code hl_variable" href="classgun__actor.html#aed74d3ea4f57236800b69ce48148c29a">move_cost</a>;</div>
+<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span> </div>
+<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>    <a class="code hl_class" href="classitem.html">item</a> gun( <a class="code hl_variable" href="classgun__actor.html#ab67d5da84abab2514ed756af85afe71b">gun_type</a> );</div>
+<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>    gun.gun_set_mode( mode );</div>
+<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span> </div>
+<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>    <a class="code hl_class" href="classstring__id.html">itype_id</a> ammo = <a class="code hl_variable" href="classgun__actor.html#a5221d464f2ea89c177e0b4dbc8a67dea">ammo_type</a> ? <a class="code hl_variable" href="classgun__actor.html#a5221d464f2ea89c177e0b4dbc8a67dea">ammo_type</a> : gun.ammo_default();</div>
+<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>    <span class="keywordflow">if</span>( ammo ) {</div>
+<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>        gun.ammo_set( ammo, z.<a class="code hl_variable" href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">ammo</a>[ammo] );</div>
+<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>    }</div>
+<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span> </div>
+<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>    <span class="keywordflow">if</span>( !gun.ammo_sufficient() ) {</div>
+<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>        <span class="keywordflow">if</span>( !<a class="code hl_variable" href="classgun__actor.html#a217b0838342c6f685a41b7659c7c0aea">no_ammo_sound</a>.empty() ) {</div>
+<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>            <a class="code hl_function" href="namespacesounds.html#a6bb79ae1c9c3dcd8c8e0b28c66b0398d">sounds::sound</a>( z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>(), 10, <a class="code hl_enumvalue" href="namespacesounds.html#af6b3d144906d9ccfda6824fb87e46aa3ac222ae0d4e9c59bd254b72521b9e74ed">sounds::sound_t::combat</a>, <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <a class="code hl_variable" href="classgun__actor.html#a217b0838342c6f685a41b7659c7c0aea">no_ammo_sound</a> ) );</div>
+<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>        }</div>
+<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>    }</div>
+<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span> </div>
+<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>    <a class="code hl_class" href="classstandard__npc.html">standard_npc</a> tmp( <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <span class="stringliteral">&quot;The &quot;</span> ) + z.<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>(), z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>(), {}, 8,</div>
+<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>                      <a class="code hl_variable" href="classgun__actor.html#a3e6eb6736a7e91a375e01cc0a6760dff">fake_str</a>, <a class="code hl_variable" href="classgun__actor.html#a1c91e2aa4bef675ba51a1606342c97d8">fake_dex</a>, <a class="code hl_variable" href="classgun__actor.html#aba5ba55c5f85ed3c272cee87cc5bea97">fake_int</a>, <a class="code hl_variable" href="classgun__actor.html#aee9644e0885168e841b079db910b5d8b">fake_per</a> );</div>
+<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>    tmp.set_fake( <span class="keyword">true</span> );</div>
+<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>    tmp.set_attitude( z.<a class="code hl_variable" href="classmonster.html#a4e17d0d504a12d9b2e4de3e7a7503fff">friendly</a> ? <a class="code hl_enumvalue" href="npc_8h.html#a0b36e2ae8f588616c1fd7a3788452cd4aee568a181e2bf1f4ef5122e0674b162d">NPCATT_FOLLOW</a> : <a class="code hl_enumvalue" href="npc_8h.html#a0b36e2ae8f588616c1fd7a3788452cd4a59e2eeab0c7bf7336d7c5fea3a870d2a">NPCATT_KILL</a> );</div>
+<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>    tmp.recoil = inital_recoil; <span class="comment">// set inital recoil</span></div>
+<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="classgun__actor.html#a555c1f1fae690ffb3f2de83758a13464">no_crits</a> ) {</div>
+<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>        tmp.toggle_trait( <a class="code hl_variable" href="mattack__actors_8cpp.html#a7a08490346831114f00f3e44cbe454e3">trait_NORANGEDCRIT</a> );</div>
 <div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span>    }</div>
 <div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span> </div>
-<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span>    tmp.set_primary_weapon( gun );</div>
-<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>    tmp.i_add( <a class="code hl_class" href="classitem.html">item</a>( <span class="stringliteral">&quot;UPS_off&quot;</span>, <a class="code hl_variable" href="namespacecalendar.html#ae15fcbf1c971589eb49c1a657fb6a580">calendar::turn</a>, 1000 ) );</div>
-<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span> </div>
-<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u.sees( z ) ) {</div>
-<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>        <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096eaed9222dd268c0a08567f6c9081b3e687">m_warning</a>, <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <a class="code hl_variable" href="classgun__actor.html#a31df38db7939eb63eff2920566d67885">description</a> ), z.<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>(), tmp.primary_weapon().tname() );</div>
-<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>    }</div>
+<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span>    <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;pr : <a class="code hl_variable" href="classgun__actor.html#a7bc74ea463561eef5a33b6391e3f7160">fake_skills</a> ) {</div>
+<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>        tmp.set_skill_level( pr.first, pr.second );</div>
+<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span>    }</div>
+<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span> </div>
+<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>    tmp.set_primary_weapon( gun );</div>
+<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>    tmp.i_add( <a class="code hl_class" href="classitem.html">item</a>( <span class="stringliteral">&quot;UPS_off&quot;</span>, <a class="code hl_variable" href="namespacecalendar.html#ae15fcbf1c971589eb49c1a657fb6a580">calendar::turn</a>, 1000 ) );</div>
 <div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span> </div>
-<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>    z.<a class="code hl_variable" href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">ammo</a>[ammo] -= <a class="code hl_function" href="namespaceranged.html#a0bb67d4debaf06355d3b7c8234fda44e">ranged::fire_gun</a>( tmp, target, gun.gun_current_mode().qty );</div>
-<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>}</div>
+<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u.sees( z ) ) {</div>
+<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>        <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096eaed9222dd268c0a08567f6c9081b3e687">m_warning</a>, <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <a class="code hl_variable" href="classgun__actor.html#a31df38db7939eb63eff2920566d67885">description</a> ), z.<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>(), tmp.primary_weapon().tname() );</div>
+<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>    }</div>
+<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span> </div>
+<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>    z.<a class="code hl_variable" href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">ammo</a>[ammo] -= <a class="code hl_function" href="namespaceranged.html#a0bb67d4debaf06355d3b7c8234fda44e">ranged::fire_gun</a>( tmp, target, gun.gun_current_mode().qty );</div>
+<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>}</div>
 <div class="ttc" id="aclassCreature_html_a8c5a392caa213bee9581b47e9f0e2052"><div class="ttname"><a href="classCreature.html#a8c5a392caa213bee9581b47e9f0e2052">Creature::moves</a></div><div class="ttdeci">int moves</div><div class="ttdef"><b>Definition:</b> <a href="creature_8h_source.html#l00582">creature.h:582</a></div></div>
 <div class="ttc" id="aclassitem_html"><div class="ttname"><a href="classitem.html">item</a></div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l00209">item.h:210</a></div></div>
 <div class="ttc" id="aclassmonster_html_aa5740a03294bcab8ef209151af709c4c"><div class="ttname"><a href="classmonster.html#aa5740a03294bcab8ef209151af709c4c">monster::ammo</a></div><div class="ttdeci">std::map&lt; itype_id, int &gt; ammo</div><div class="ttdef"><b>Definition:</b> <a href="monster_8h_source.html#l00512">monster.h:512</a></div></div>
@@ -691,58 +697,58 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mattack__actors_8cpp_source.html#l00597">597</a> of file <a class="el" href="mattack__actors_8cpp_source.html">mattack_actors.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>{</div>
-<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="classgun__actor.html#a6712305c7f797f98e713d46132bf3160">require_sunlight</a> &amp;&amp; !<a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;is_in_sunlight( z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>() ) ) {</div>
-<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>        <span class="keywordflow">if</span>( <a class="code hl_function" href="rng_8cpp.html#aad28bdad07401a34ecf9912708f8b750">one_in</a>( 3 ) &amp;&amp; <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u.sees( z ) ) {</div>
-<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>            <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <a class="code hl_variable" href="classgun__actor.html#a56c43c74c06c035f895de9a93d57fa6b">failure_msg</a> ), z.<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>() );</div>
-<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>        }</div>
-<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>    }</div>
-<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span> </div>
-<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> require_targeting = ( <a class="code hl_variable" href="classgun__actor.html#a4d974bd7f92ce69799e53602af86270c">require_targeting_player</a> &amp;&amp; target.<a class="code hl_function" href="classCreature.html#a1217a190a2e561227e831a72d4a6d390">is_player</a>() ) ||</div>
-<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>                                   ( <a class="code hl_variable" href="classgun__actor.html#a8d37856ff5aa0b3a02ea1590f6038643">require_targeting_npc</a> &amp;&amp; target.<a class="code hl_function" href="classCreature.html#aed84fe52e1335d48d53f482f8a278c87">is_npc</a>() ) ||</div>
-<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>                                   ( <a class="code hl_variable" href="classgun__actor.html#aff79e0151e3f3a1d00e835b918fdbbaf">require_targeting_monster</a> &amp;&amp; target.<a class="code hl_function" href="classCreature.html#a07012d6d1998068bef112510c7424374">is_monster</a>() );</div>
-<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> not_targeted = require_targeting &amp;&amp; !z.<a class="code hl_function" href="classCreature.html#a6fb79df9315dc2bed6f34d9a2e37da90">has_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#a90a259f4c1b37d66fbc8c485ea1ccaba">effect_targeted</a> );</div>
-<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> not_laser_locked = require_targeting &amp;&amp; <a class="code hl_variable" href="classgun__actor.html#aaa8250938390d7900af7d3a82429e63d">laser_lock</a> &amp;&amp;</div>
-<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>                                  !target.<a class="code hl_function" href="classCreature.html#a6fb79df9315dc2bed6f34d9a2e37da90">has_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#ad42e9088931762f5e3e1bc3e23c839ae">effect_was_laserlocked</a> );</div>
-<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span> </div>
-<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>    <span class="keywordflow">if</span>( not_targeted || not_laser_locked ) {</div>
-<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>        <span class="keywordflow">if</span>( <a class="code hl_variable" href="classgun__actor.html#a118a567dcf98482adb92376e8d755fe6">targeting_volume</a> &gt; 0 &amp;&amp; !<a class="code hl_variable" href="classgun__actor.html#a3cc97a873fb87cd8d87bbfd4b51014d7">targeting_sound</a>.empty() ) {</div>
-<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>            <a class="code hl_function" href="namespacesounds.html#a6bb79ae1c9c3dcd8c8e0b28c66b0398d">sounds::sound</a>( z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>(), <a class="code hl_variable" href="classgun__actor.html#a118a567dcf98482adb92376e8d755fe6">targeting_volume</a>, <a class="code hl_enumvalue" href="namespacesounds.html#af6b3d144906d9ccfda6824fb87e46aa3a6486b4e98228b83d4b13d54febe5f170">sounds::sound_t::alarm</a>,</div>
-<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>                           <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <a class="code hl_variable" href="classgun__actor.html#a3cc97a873fb87cd8d87bbfd4b51014d7">targeting_sound</a> ) );</div>
-<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>        }</div>
-<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>        <span class="keywordflow">if</span>( not_targeted ) {</div>
-<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>            z.<a class="code hl_function" href="classmonster.html#a45462fba4c37679c66ecde2f9000c22c">add_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#a90a259f4c1b37d66fbc8c485ea1ccaba">effect_targeted</a>, <a class="code hl_function" href="classtime__duration.html#a0f7145f4fc4c09defbaf25f468e4e54a">time_duration::from_turns</a>( <a class="code hl_variable" href="classgun__actor.html#a34e90e6986439c089a7fc4606a96620e">targeting_timeout</a> ) );</div>
-<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>        }</div>
-<div class="line"><a id="l00621" name="l00621"></a><span class="lineno">  621</span>        <span class="keywordflow">if</span>( not_laser_locked ) {</div>
-<div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>            target.<a class="code hl_function" href="classCreature.html#a666022fd3ed772fa109d273c20e8de55">add_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#a6bf1394e103efe8661fc75163e3482c3">effect_laserlocked</a>, 5_turns );</div>
-<div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span>            target.<a class="code hl_function" href="classCreature.html#a666022fd3ed772fa109d273c20e8de55">add_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#ad42e9088931762f5e3e1bc3e23c839ae">effect_was_laserlocked</a>, 5_turns );</div>
-<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>            target.<a class="code hl_function" href="classCreature.html#a91dc4715c36eef7d116f944be9a4d435">add_msg_if_player</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096eaed9222dd268c0a08567f6c9081b3e687">m_warning</a>,</div>
-<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>                                      <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <span class="stringliteral">&quot;You&#39;re not sure why you&#39;ve got a laser dot on you…&quot;</span> ) );</div>
-<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span>        }</div>
-<div class="line"><a id="l00627" name="l00627"></a><span class="lineno">  627</span> </div>
-<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span>        z.<a class="code hl_variable" href="classCreature.html#a8c5a392caa213bee9581b47e9f0e2052">moves</a> -= <a class="code hl_variable" href="classgun__actor.html#a2b995f0d20f99c404d920f3d23e6d758">targeting_cost</a>;</div>
-<div class="line"><a id="l00629" name="l00629"></a><span class="lineno">  629</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00630" name="l00630"></a><span class="lineno">  630</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mattack__actors_8cpp_source.html#l00601">601</a> of file <a class="el" href="mattack__actors_8cpp_source.html">mattack_actors.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>{</div>
+<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="classgun__actor.html#a6712305c7f797f98e713d46132bf3160">require_sunlight</a> &amp;&amp; !<a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;is_in_sunlight( z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>() ) ) {</div>
+<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>        <span class="keywordflow">if</span>( <a class="code hl_function" href="rng_8cpp.html#aad28bdad07401a34ecf9912708f8b750">one_in</a>( 3 ) &amp;&amp; <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u.sees( z ) ) {</div>
+<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>            <a class="code hl_function" href="messages_8cpp.html#a54489326fc37823819c5105addfa27f2">add_msg</a>( <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <a class="code hl_variable" href="classgun__actor.html#a56c43c74c06c035f895de9a93d57fa6b">failure_msg</a> ), z.<a class="code hl_function" href="classmonster.html#a7cb9d9786d11c2c0926d3482d3f51ffe">name</a>() );</div>
+<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>        }</div>
+<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>    }</div>
+<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span> </div>
+<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> require_targeting = ( <a class="code hl_variable" href="classgun__actor.html#a4d974bd7f92ce69799e53602af86270c">require_targeting_player</a> &amp;&amp; target.<a class="code hl_function" href="classCreature.html#a1217a190a2e561227e831a72d4a6d390">is_player</a>() ) ||</div>
+<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>                                   ( <a class="code hl_variable" href="classgun__actor.html#a8d37856ff5aa0b3a02ea1590f6038643">require_targeting_npc</a> &amp;&amp; target.<a class="code hl_function" href="classCreature.html#aed84fe52e1335d48d53f482f8a278c87">is_npc</a>() ) ||</div>
+<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>                                   ( <a class="code hl_variable" href="classgun__actor.html#aff79e0151e3f3a1d00e835b918fdbbaf">require_targeting_monster</a> &amp;&amp; target.<a class="code hl_function" href="classCreature.html#a07012d6d1998068bef112510c7424374">is_monster</a>() );</div>
+<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> not_targeted = require_targeting &amp;&amp; !z.<a class="code hl_function" href="classCreature.html#a6fb79df9315dc2bed6f34d9a2e37da90">has_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#a90a259f4c1b37d66fbc8c485ea1ccaba">effect_targeted</a> );</div>
+<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> not_laser_locked = require_targeting &amp;&amp; <a class="code hl_variable" href="classgun__actor.html#aaa8250938390d7900af7d3a82429e63d">laser_lock</a> &amp;&amp;</div>
+<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>                                  !target.<a class="code hl_function" href="classCreature.html#a6fb79df9315dc2bed6f34d9a2e37da90">has_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#ad42e9088931762f5e3e1bc3e23c839ae">effect_was_laserlocked</a> );</div>
+<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span> </div>
+<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>    <span class="keywordflow">if</span>( not_targeted || not_laser_locked ) {</div>
+<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>        <span class="keywordflow">if</span>( <a class="code hl_variable" href="classgun__actor.html#a118a567dcf98482adb92376e8d755fe6">targeting_volume</a> &gt; 0 &amp;&amp; !<a class="code hl_variable" href="classgun__actor.html#a3cc97a873fb87cd8d87bbfd4b51014d7">targeting_sound</a>.empty() ) {</div>
+<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>            <a class="code hl_function" href="namespacesounds.html#a6bb79ae1c9c3dcd8c8e0b28c66b0398d">sounds::sound</a>( z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>(), <a class="code hl_variable" href="classgun__actor.html#a118a567dcf98482adb92376e8d755fe6">targeting_volume</a>, <a class="code hl_enumvalue" href="namespacesounds.html#af6b3d144906d9ccfda6824fb87e46aa3a6486b4e98228b83d4b13d54febe5f170">sounds::sound_t::alarm</a>,</div>
+<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>                           <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <a class="code hl_variable" href="classgun__actor.html#a3cc97a873fb87cd8d87bbfd4b51014d7">targeting_sound</a> ) );</div>
+<div class="line"><a id="l00621" name="l00621"></a><span class="lineno">  621</span>        }</div>
+<div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>        <span class="keywordflow">if</span>( not_targeted ) {</div>
+<div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span>            z.<a class="code hl_function" href="classmonster.html#a45462fba4c37679c66ecde2f9000c22c">add_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#a90a259f4c1b37d66fbc8c485ea1ccaba">effect_targeted</a>, <a class="code hl_function" href="classtime__duration.html#a0f7145f4fc4c09defbaf25f468e4e54a">time_duration::from_turns</a>( <a class="code hl_variable" href="classgun__actor.html#a34e90e6986439c089a7fc4606a96620e">targeting_timeout</a> ) );</div>
+<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>        }</div>
+<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>        <span class="keywordflow">if</span>( not_laser_locked ) {</div>
+<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span>            target.<a class="code hl_function" href="classCreature.html#a666022fd3ed772fa109d273c20e8de55">add_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#a6bf1394e103efe8661fc75163e3482c3">effect_laserlocked</a>, 5_turns );</div>
+<div class="line"><a id="l00627" name="l00627"></a><span class="lineno">  627</span>            target.<a class="code hl_function" href="classCreature.html#a666022fd3ed772fa109d273c20e8de55">add_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#ad42e9088931762f5e3e1bc3e23c839ae">effect_was_laserlocked</a>, 5_turns );</div>
+<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span>            target.<a class="code hl_function" href="classCreature.html#a91dc4715c36eef7d116f944be9a4d435">add_msg_if_player</a>( <a class="code hl_enumvalue" href="enums_8h.html#a3baf36d700701401b6baf94db93d096eaed9222dd268c0a08567f6c9081b3e687">m_warning</a>,</div>
+<div class="line"><a id="l00629" name="l00629"></a><span class="lineno">  629</span>                                      <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <span class="stringliteral">&quot;You&#39;re not sure why you&#39;ve got a laser dot on you…&quot;</span> ) );</div>
+<div class="line"><a id="l00630" name="l00630"></a><span class="lineno">  630</span>        }</div>
 <div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span> </div>
-<div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span>    <span class="keywordflow">if</span>( require_targeting ) {</div>
-<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>        z.<a class="code hl_function" href="classmonster.html#a45462fba4c37679c66ecde2f9000c22c">add_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#a90a259f4c1b37d66fbc8c485ea1ccaba">effect_targeted</a>, <a class="code hl_function" href="classtime__duration.html#a0f7145f4fc4c09defbaf25f468e4e54a">time_duration::from_turns</a>( <a class="code hl_variable" href="classgun__actor.html#a1eea1e2ade51eefcd68d2e2fd7d687b1">targeting_timeout_extend</a> ) );</div>
+<div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span>        z.<a class="code hl_variable" href="classCreature.html#a8c5a392caa213bee9581b47e9f0e2052">moves</a> -= <a class="code hl_variable" href="classgun__actor.html#a2b995f0d20f99c404d920f3d23e6d758">targeting_cost</a>;</div>
+<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span>    }</div>
 <div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span> </div>
-<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="classgun__actor.html#aaa8250938390d7900af7d3a82429e63d">laser_lock</a> ) {</div>
-<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span>        <span class="comment">// To prevent spamming laser locks when the player can tank that stuff somehow</span></div>
-<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>        target.<a class="code hl_function" href="classCreature.html#a666022fd3ed772fa109d273c20e8de55">add_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#ad42e9088931762f5e3e1bc3e23c839ae">effect_was_laserlocked</a>, 5_turns );</div>
-<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>    }</div>
-<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>}</div>
+<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>    <span class="keywordflow">if</span>( require_targeting ) {</div>
+<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span>        z.<a class="code hl_function" href="classmonster.html#a45462fba4c37679c66ecde2f9000c22c">add_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#a90a259f4c1b37d66fbc8c485ea1ccaba">effect_targeted</a>, <a class="code hl_function" href="classtime__duration.html#a0f7145f4fc4c09defbaf25f468e4e54a">time_duration::from_turns</a>( <a class="code hl_variable" href="classgun__actor.html#a1eea1e2ade51eefcd68d2e2fd7d687b1">targeting_timeout_extend</a> ) );</div>
+<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>    }</div>
+<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span> </div>
+<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="classgun__actor.html#aaa8250938390d7900af7d3a82429e63d">laser_lock</a> ) {</div>
+<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>        <span class="comment">// To prevent spamming laser locks when the player can tank that stuff somehow</span></div>
+<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>        target.<a class="code hl_function" href="classCreature.html#a666022fd3ed772fa109d273c20e8de55">add_effect</a>( <a class="code hl_variable" href="mattack__actors_8cpp.html#ad42e9088931762f5e3e1bc3e23c839ae">effect_was_laserlocked</a>, 5_turns );</div>
+<div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span>    }</div>
+<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>}</div>
 <div class="ttc" id="aclassCreature_html_a07012d6d1998068bef112510c7424374"><div class="ttname"><a href="classCreature.html#a07012d6d1998068bef112510c7424374">Creature::is_monster</a></div><div class="ttdeci">virtual bool is_monster() const</div><div class="ttdef"><b>Definition:</b> <a href="creature_8h_source.html#l00101">creature.h:101</a></div></div>
 <div class="ttc" id="aclassCreature_html_a1217a190a2e561227e831a72d4a6d390"><div class="ttname"><a href="classCreature.html#a1217a190a2e561227e831a72d4a6d390">Creature::is_player</a></div><div class="ttdeci">virtual bool is_player() const</div><div class="ttdef"><b>Definition:</b> <a href="creature_8h_source.html#l00092">creature.h:92</a></div></div>
 <div class="ttc" id="aclassCreature_html_a666022fd3ed772fa109d273c20e8de55"><div class="ttname"><a href="classCreature.html#a666022fd3ed772fa109d273c20e8de55">Creature::add_effect</a></div><div class="ttdeci">void add_effect(const effect &amp;eff, bool force=false, bool deferred=false)</div><div class="ttdef"><b>Definition:</b> <a href="creature_8cpp_source.html#l01007">creature.cpp:1007</a></div></div>
 <div class="ttc" id="aclassCreature_html_a6fb79df9315dc2bed6f34d9a2e37da90"><div class="ttname"><a href="classCreature.html#a6fb79df9315dc2bed6f34d9a2e37da90">Creature::has_effect</a></div><div class="ttdeci">bool has_effect(const efftype_id &amp;eff_id, body_part bp=num_bp) const</div><div class="ttdoc">Check if creature has the matching effect.</div><div class="ttdef"><b>Definition:</b> <a href="creature_8cpp_source.html#l01206">creature.cpp:1206</a></div></div>
 <div class="ttc" id="aclassCreature_html_a91dc4715c36eef7d116f944be9a4d435"><div class="ttname"><a href="classCreature.html#a91dc4715c36eef7d116f944be9a4d435">Creature::add_msg_if_player</a></div><div class="ttdeci">virtual void add_msg_if_player(const std::string &amp;) const</div><div class="ttdef"><b>Definition:</b> <a href="creature_8h_source.html#l00605">creature.h:605</a></div></div>
 <div class="ttc" id="aclassCreature_html_aed84fe52e1335d48d53f482f8a278c87"><div class="ttname"><a href="classCreature.html#aed84fe52e1335d48d53f482f8a278c87">Creature::is_npc</a></div><div class="ttdeci">virtual bool is_npc() const</div><div class="ttdef"><b>Definition:</b> <a href="creature_8h_source.html#l00098">creature.h:98</a></div></div>
-<div class="ttc" id="aclassmonster_html_a45462fba4c37679c66ecde2f9000c22c"><div class="ttname"><a href="classmonster.html#a45462fba4c37679c66ecde2f9000c22c">monster::add_effect</a></div><div class="ttdeci">void add_effect(const efftype_id &amp;eff_id, const time_duration &amp;dur, const bodypart_str_id &amp;bp, int intensity=0, bool force=false, bool deferred=false) override</div><div class="ttdoc">Performs any monster-specific modifications to the arguments before passing to Creature::add_effect()...</div><div class="ttdef"><b>Definition:</b> <a href="monster_8cpp_source.html#l01856">monster.cpp:1856</a></div></div>
+<div class="ttc" id="aclassmonster_html_a45462fba4c37679c66ecde2f9000c22c"><div class="ttname"><a href="classmonster.html#a45462fba4c37679c66ecde2f9000c22c">monster::add_effect</a></div><div class="ttdeci">void add_effect(const efftype_id &amp;eff_id, const time_duration &amp;dur, const bodypart_str_id &amp;bp, int intensity=0, bool force=false, bool deferred=false) override</div><div class="ttdoc">Performs any monster-specific modifications to the arguments before passing to Creature::add_effect()...</div><div class="ttdef"><b>Definition:</b> <a href="monster_8cpp_source.html#l01862">monster.cpp:1862</a></div></div>
 <div class="ttc" id="aclasstime__duration_html_a0f7145f4fc4c09defbaf25f468e4e54a"><div class="ttname"><a href="classtime__duration.html#a0f7145f4fc4c09defbaf25f468e4e54a">time_duration::from_turns</a></div><div class="ttdeci">static constexpr time_duration from_turns(const T t)</div><div class="ttdoc">Named constructors to get a duration representing a multiple of the named time units.</div><div class="ttdef"><b>Definition:</b> <a href="calendar_8h_source.html#l00204">calendar.h:204</a></div></div>
 <div class="ttc" id="amattack__actors_8cpp_html_a6bf1394e103efe8661fc75163e3482c3"><div class="ttname"><a href="mattack__actors_8cpp.html#a6bf1394e103efe8661fc75163e3482c3">effect_laserlocked</a></div><div class="ttdeci">static const efftype_id effect_laserlocked(&quot;laserlocked&quot;)</div></div>
 <div class="ttc" id="amattack__actors_8cpp_html_a90a259f4c1b37d66fbc8c485ea1ccaba"><div class="ttname"><a href="mattack__actors_8cpp.html#a90a259f4c1b37d66fbc8c485ea1ccaba">effect_targeted</a></div><div class="ttdeci">static const efftype_id effect_targeted(&quot;targeted&quot;)</div></div>
@@ -750,7 +756,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="anamespacesounds_html_af6b3d144906d9ccfda6824fb87e46aa3a6486b4e98228b83d4b13d54febe5f170"><div class="ttname"><a href="namespacesounds.html#af6b3d144906d9ccfda6824fb87e46aa3a6486b4e98228b83d4b13d54febe5f170">sounds::sound_t::alarm</a></div><div class="ttdeci">@ alarm</div></div>
 <div class="ttc" id="arng_8cpp_html_aad28bdad07401a34ecf9912708f8b750"><div class="ttname"><a href="rng_8cpp.html#aad28bdad07401a34ecf9912708f8b750">one_in</a></div><div class="ttdeci">bool one_in(int chance)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8cpp_source.html#l00065">rng.cpp:65</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="translations_8h_source.html#l00116">_</a>, <a class="el" href="creature_8cpp_source.html#l01007">Creature::add_effect()</a>, <a class="el" href="monster_8cpp_source.html#l01856">monster::add_effect()</a>, <a class="el" href="messages_8cpp_source.html#l00910">add_msg()</a>, <a class="el" href="creature_8h_source.html#l00605">Creature::add_msg_if_player()</a>, <a class="el" href="namespacesounds.html#af6b3d144906d9ccfda6824fb87e46aa3a6486b4e98228b83d4b13d54febe5f170">sounds::alarm</a>, <a class="el" href="mattack__actors_8cpp.html#a6bf1394e103efe8661fc75163e3482c3">effect_laserlocked</a>, <a class="el" href="mattack__actors_8cpp.html#a90a259f4c1b37d66fbc8c485ea1ccaba">effect_targeted</a>, <a class="el" href="mattack__actors_8cpp.html#ad42e9088931762f5e3e1bc3e23c839ae">effect_was_laserlocked</a>, <a class="el" href="mattack__actors_8h_source.html#l00157">failure_msg</a>, <a class="el" href="calendar_8h_source.html#l00204">time_duration::from_turns()</a>, <a class="el" href="game_8cpp_source.html#l00284">g</a>, <a class="el" href="creature_8cpp_source.html#l01206">Creature::has_effect()</a>, <a class="el" href="creature_8h_source.html#l00101">Creature::is_monster()</a>, <a class="el" href="creature_8h_source.html#l00098">Creature::is_npc()</a>, <a class="el" href="creature_8h_source.html#l00092">Creature::is_player()</a>, <a class="el" href="mattack__actors_8h_source.html#l00183">laser_lock</a>, <a class="el" href="enums_8h_source.html#l00264">m_warning</a>, <a class="el" href="creature_8h_source.html#l00582">Creature::moves</a>, <a class="el" href="monster_8cpp_source.html#l00489">monster::name()</a>, <a class="el" href="rng_8cpp_source.html#l00065">one_in()</a>, <a class="el" href="monster_8cpp_source.html#l00252">monster::pos()</a>, <a class="el" href="mattack__actors_8h_source.html#l00189">require_sunlight</a>, <a class="el" href="mattack__actors_8h_source.html#l00175">require_targeting_monster</a>, <a class="el" href="mattack__actors_8h_source.html#l00174">require_targeting_npc</a>, <a class="el" href="mattack__actors_8h_source.html#l00173">require_targeting_player</a>, <a class="el" href="sounds_8cpp_source.html#l00177">sounds::sound()</a>, <a class="el" href="mattack__actors_8h_source.html#l00171">targeting_cost</a>, <a class="el" href="mattack__actors_8h_source.html#l00180">targeting_sound</a>, <a class="el" href="mattack__actors_8h_source.html#l00177">targeting_timeout</a>, <a class="el" href="mattack__actors_8h_source.html#l00178">targeting_timeout_extend</a>, and <a class="el" href="mattack__actors_8h_source.html#l00181">targeting_volume</a>.</p>
+<p class="reference">References <a class="el" href="translations_8h_source.html#l00116">_</a>, <a class="el" href="creature_8cpp_source.html#l01007">Creature::add_effect()</a>, <a class="el" href="monster_8cpp_source.html#l01862">monster::add_effect()</a>, <a class="el" href="messages_8cpp_source.html#l00910">add_msg()</a>, <a class="el" href="creature_8h_source.html#l00605">Creature::add_msg_if_player()</a>, <a class="el" href="namespacesounds.html#af6b3d144906d9ccfda6824fb87e46aa3a6486b4e98228b83d4b13d54febe5f170">sounds::alarm</a>, <a class="el" href="mattack__actors_8cpp.html#a6bf1394e103efe8661fc75163e3482c3">effect_laserlocked</a>, <a class="el" href="mattack__actors_8cpp.html#a90a259f4c1b37d66fbc8c485ea1ccaba">effect_targeted</a>, <a class="el" href="mattack__actors_8cpp.html#ad42e9088931762f5e3e1bc3e23c839ae">effect_was_laserlocked</a>, <a class="el" href="mattack__actors_8h_source.html#l00157">failure_msg</a>, <a class="el" href="calendar_8h_source.html#l00204">time_duration::from_turns()</a>, <a class="el" href="game_8cpp_source.html#l00284">g</a>, <a class="el" href="creature_8cpp_source.html#l01206">Creature::has_effect()</a>, <a class="el" href="creature_8h_source.html#l00101">Creature::is_monster()</a>, <a class="el" href="creature_8h_source.html#l00098">Creature::is_npc()</a>, <a class="el" href="creature_8h_source.html#l00092">Creature::is_player()</a>, <a class="el" href="mattack__actors_8h_source.html#l00183">laser_lock</a>, <a class="el" href="enums_8h_source.html#l00264">m_warning</a>, <a class="el" href="creature_8h_source.html#l00582">Creature::moves</a>, <a class="el" href="monster_8cpp_source.html#l00489">monster::name()</a>, <a class="el" href="rng_8cpp_source.html#l00065">one_in()</a>, <a class="el" href="monster_8cpp_source.html#l00252">monster::pos()</a>, <a class="el" href="mattack__actors_8h_source.html#l00189">require_sunlight</a>, <a class="el" href="mattack__actors_8h_source.html#l00175">require_targeting_monster</a>, <a class="el" href="mattack__actors_8h_source.html#l00174">require_targeting_npc</a>, <a class="el" href="mattack__actors_8h_source.html#l00173">require_targeting_player</a>, <a class="el" href="sounds_8cpp_source.html#l00177">sounds::sound()</a>, <a class="el" href="mattack__actors_8h_source.html#l00171">targeting_cost</a>, <a class="el" href="mattack__actors_8h_source.html#l00180">targeting_sound</a>, <a class="el" href="mattack__actors_8h_source.html#l00177">targeting_timeout</a>, <a class="el" href="mattack__actors_8h_source.html#l00178">targeting_timeout_extend</a>, and <a class="el" href="mattack__actors_8h_source.html#l00181">targeting_volume</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00545">call()</a>.</p>
 
@@ -773,7 +779,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00137">137</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -794,7 +800,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00154">154</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -814,7 +820,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00157">157</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -832,7 +838,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00143">143</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -850,7 +856,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00144">144</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -868,7 +874,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00145">145</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -889,7 +895,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00141">141</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -907,7 +913,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00142">142</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -925,7 +931,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00134">134</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mondeath_8cpp_source.html#l00646">mdeath::broken()</a>, <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mondeath_8cpp_source.html#l00646">mdeath::broken()</a>, <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -945,7 +951,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00183">183</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -983,7 +989,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00163">163</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -1003,7 +1009,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00160">160</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -1025,7 +1031,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00184">184</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00643">shoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00647">shoot()</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1072,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00189">189</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -1084,7 +1090,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00175">175</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -1104,7 +1110,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00174">174</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -1124,7 +1130,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00173">173</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -1164,7 +1170,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00171">171</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -1184,7 +1190,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00180">180</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -1202,7 +1208,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00177">177</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -1222,7 +1228,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00178">178</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -1240,7 +1246,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="mattack__actors_8h_source.html#l00181">181</a> of file <a class="el" href="mattack__actors_8h_source.html">mattack_actors.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00597">try_target()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mattack__actors_8cpp_source.html#l00408">load_internal()</a>, and <a class="el" href="mattack__actors_8cpp_source.html#l00601">try_target()</a>.</p>
 
 </div>
 </div>
@@ -1254,7 +1260,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classgun__actor.html">gun_actor</a></li>
-    <li class="footer">Generated on Thu Aug 31 2023 10:05:14 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Aug 31 2023 10:32:52 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

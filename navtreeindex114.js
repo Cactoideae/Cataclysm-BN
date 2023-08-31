@@ -1,5 +1,6 @@
 var NAVTREEINDEX114 =
 {
+"namespaceactivity__handlers.html#ad774c554b59d4e4c994e4ff3e795957b":[35,0,2,51],
 "namespaceactivity__handlers.html#ad7fd0f1776c20951819301b6ded2912e":[35,0,2,16],
 "namespaceactivity__handlers.html#adc71e4bdafb981bc0fc06058bd00837b":[35,0,2,86],
 "namespaceactivity__handlers.html#adcd64ea96ad01e7fe06c7282b91820d4":[35,0,2,104],
@@ -248,6 +249,5 @@ var NAVTREEINDEX114 =
 "namespaceanonymous__namespace_02profession_8cpp_03.html#a7488aa64b6b073c21ae0bf4af01102aa":[35,0,56,0],
 "namespaceanonymous__namespace_02recipe__dictionary_8cpp_03.html":[35,0,57],
 "namespaceanonymous__namespace_02recipe__dictionary_8cpp_03.html#a682c179b89f27c7092e1e4907c407a2c":[35,0,57,0],
-"namespaceanonymous__namespace_02recipe__groups_8cpp_03.html":[35,0,58],
-"namespaceanonymous__namespace_02recipe__groups_8cpp_03.html#ad3ae3cc26f6d2a1604cf7ec01d4a3dfe":[35,0,58,1]
+"namespaceanonymous__namespace_02recipe__groups_8cpp_03.html":[35,0,58]
 };

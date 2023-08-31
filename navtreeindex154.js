@@ -1,5 +1,6 @@
 var NAVTREEINDEX154 =
 {
+"structmission__fail.html#a4d9b493fcb418dbc64f8cd5eea6bdfc7":[36,0,629,0],
 "structmission__goal__condition__context.html":[36,0,630],
 "structmission__goal__condition__context.html#a15be0a5cbc0924ff718446bb46535aee":[36,0,630,1],
 "structmission__goal__condition__context.html#a5109455021f42e6ba61b7f6ecaf3bd25":[36,0,630,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX154 =
 "structmtype.html#a561d4830d7f7c613c177f5880c2e15fb":[36,0,663,78],
 "structmtype.html#a575a59af47aec8bf8bfb9021eb4dddf5":[36,0,663,80],
 "structmtype.html#a5ac953b39ce7a7411d9599b2937d316d":[36,0,663,13],
-"structmtype.html#a5ed20392cde7880e73be35a7d30a39f6":[36,0,663,4],
-"structmtype.html#a60dea81cdc4c627313e540831d311b5a":[36,0,663,70]
+"structmtype.html#a5ed20392cde7880e73be35a7d30a39f6":[36,0,663,4]
 };

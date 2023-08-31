@@ -1,5 +1,6 @@
 var NAVTREEINDEX108 =
 {
+"mission__util_8cpp.html#a9b68d4044ef1206773bc0ba8cff4d46d":[37,0,1,434,2],
 "mission__util_8cpp.html#abd124c2a7333547a97058624014577ba":[37,0,1,434,4],
 "mission__util_8cpp_source.html":[37,0,1,434],
 "missiondef_8cpp.html":[37,0,1,435],
@@ -248,6 +249,5 @@ var NAVTREEINDEX108 =
 "monattack_8cpp.html#ac2aa877afbc90f2a8dccb91704af5973":[37,0,1,442,54],
 "monattack_8cpp.html#aca5c34a4efa7eb7aad971e0c6ad33441":[37,0,1,442,19],
 "monattack_8cpp.html#acb26b0b14ec40c39a6a997bfdae66d76":[37,0,1,442,103],
-"monattack_8cpp.html#ace9d1890ec80f6dd15d66b99f6d30d2e":[37,0,1,442,121],
-"monattack_8cpp.html#ad1df0ca2944a94c3ad796e8baada33ae":[37,0,1,442,57]
+"monattack_8cpp.html#ace9d1890ec80f6dd15d66b99f6d30d2e":[37,0,1,442,121]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"namespaceio.html#afe706e6fffb7102a5aca05fd0ff68cfc":[35,0,122,31],
 "namespaceio_1_1detail.html":[35,0,122,0],
 "namespaceitem__funcs.html":[35,0,123],
 "namespaceitem__funcs.html#a04f6aa7c848c842a119f6e07e0dd7c6b":[35,0,123,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "namespaceluna.html#a45210d4990f1595321805e787cae7096":[35,0,130,13],
 "namespaceluna.html#a4cd1dedc8a3e9277b414eac91e219a23":[35,0,130,16],
 "namespaceluna.html#a81e7b1fc7186cd0eedac3d233d78dbb9":[35,0,130,14],
-"namespaceluna.html#a880e04cf5600a5b6d914e73de6f2131f":[35,0,130,8],
-"namespaceluna.html#a9351c00f897da9004b684fc9dacf8a63":[35,0,130,18]
+"namespaceluna.html#a880e04cf5600a5b6d914e73de6f2131f":[35,0,130,8]
 };
