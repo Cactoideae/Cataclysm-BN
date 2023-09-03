@@ -917,7 +917,10 @@ var hierarchy =
     [ "std::ios_base", null, [
       [ "std::basic_ios< Char >", null, [
         [ "std::basic_ostream< Char >", null, [
-          [ "detail::test_stream< Char >", "structdetail_1_1test__stream.html", null ]
+          [ "detail::test_stream< Char >", "structdetail_1_1test__stream.html", null ],
+          [ "std::ostream", null, [
+            [ "NullStream", "classNullStream.html", null ]
+          ] ]
         ] ]
       ] ]
     ] ],
@@ -1571,9 +1574,6 @@ var hierarchy =
       [ "behavior::fallback_t", "classbehavior_1_1fallback__t.html", null ],
       [ "behavior::sequential_t", "classbehavior_1_1sequential__t.html", null ],
       [ "behavior::sequential_until_done_t", "classbehavior_1_1sequential__until__done__t.html", null ]
-    ] ],
-    [ "std::streambuf", null, [
-      [ "NullBuf", "structNullBuf.html", null ]
     ] ],
     [ "string_col", "structstring__col.html", null ],
     [ "cata_libintl::trans_catalogue::string_descr", "structcata__libintl_1_1trans__catalogue_1_1string__descr.html", null ],

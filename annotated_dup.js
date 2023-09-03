@@ -1130,7 +1130,7 @@ var annotated_dup =
     [ "npc_template", "classnpc__template.html", "classnpc__template" ],
     [ "null_deleter", "structnull__deleter.html", "structnull__deleter" ],
     [ "null_tile_data", "classnull__tile__data.html", "classnull__tile__data" ],
-    [ "NullBuf", "structNullBuf.html", "structNullBuf" ],
+    [ "NullStream", "classNullStream.html", "classNullStream" ],
     [ "number_sci_notation", "structnumber__sci__notation.html", "structnumber__sci__notation" ],
     [ "numeric_interval", "structnumeric__interval.html", "structnumeric__interval" ],
     [ "nutrients", "structnutrients.html", "structnutrients" ],

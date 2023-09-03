@@ -1,5 +1,13 @@
 var NAVTREEINDEX157 =
 {
+"structoter__t.html#a0194ea6205d1bf22ee1ca038f5775198":[36,0,715,21],
+"structoter__t.html#a063e58c6a2620660da9a8e95f6819b29":[36,0,715,36],
+"structoter__t.html#a091d9efb4c55e9ef6b38edcb43b6ec71":[36,0,715,16],
+"structoter__t.html#a0bfdbb31856a2f3bb578a35d59a1e91e":[36,0,715,20],
+"structoter__t.html#a1011106d3391237c0e9fb2d016ee85da":[36,0,715,6],
+"structoter__t.html#a1133d903db1cb0cc75536ec89f4688c6":[36,0,715,17],
+"structoter__t.html#a1752c536ee34c905a3a2fa6e64c2f0ea":[36,0,715,29],
+"structoter__t.html#a1e54a71cf8e4dadaac6632650725ebe3":[36,0,715,1],
 "structoter__t.html#a1e734b780cad20081d4a923ba80771a9":[36,0,715,11],
 "structoter__t.html#a261f01242d082319b6ddd5789a6e705b":[36,0,715,31],
 "structoter__t.html#a2925a174bf7349052f72ad9279b1c87b":[36,0,715,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX157 =
 "structpathfinding__settings.html#acba070ceb6ae16b9c3991a1d2814d4c8":[36,0,743,8],
 "structpathfinding__settings.html#ad0b14e2ee3fc5bb59d985e98e2fa9504":[36,0,743,11],
 "structpathfinding__settings.html#ad6c8b466453d6bd53db004ce7ab625c4":[36,0,743,10],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html":[36,0,33,0,0],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html":[35,0,165,0,0],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a6e73915d672ef4b2182873654c46945b":[36,0,33,0,0,3],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a6e73915d672ef4b2182873654c46945b":[35,0,165,0,0,3],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a74a2cff68362dc3619928744e781375b":[36,0,33,0,0,0],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a74a2cff68362dc3619928744e781375b":[35,0,165,0,0,0],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a7eab3637e7c45a0be57b8847979e4067":[36,0,33,0,0,4],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a7eab3637e7c45a0be57b8847979e4067":[35,0,165,0,0,4],
-"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a973912ac2aa381a928a3ca779a2e51a2":[36,0,33,0,0,2]
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html":[36,0,33,0,0]
 };

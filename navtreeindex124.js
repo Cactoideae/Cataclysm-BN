@@ -1,5 +1,16 @@
 var NAVTREEINDEX124 =
 {
+"namespacespell__effect.html#a377a074da70df6b24b1b3774af619e59":[35,0,178,0],
+"namespacespell__effect.html#a4df2a86c4b7ba408de7513e9a1cbf2ef":[35,0,178,19],
+"namespacespell__effect.html#a5190e06459a4d2190d8d029a4fba6d09":[35,0,178,2],
+"namespacespell__effect.html#a572acfb9ae05c3cdd9f2827512a7a2d4":[35,0,178,8],
+"namespacespell__effect.html#a60706ce2352423a49ebd4d43dacbd12f":[35,0,178,7],
+"namespacespell__effect.html#a74590d959ed2787d44cee3c8b428490e":[35,0,178,26],
+"namespacespell__effect.html#a778d669e005669b220e9643309e48d25":[35,0,178,12],
+"namespacespell__effect.html#a7976cd373a1186fe53d107be623cd327":[35,0,178,11],
+"namespacespell__effect.html#a8523cdab31daef3b6742d82ced4d6a7c":[35,0,178,27],
+"namespacespell__effect.html#a853f1ec509f13190ef10d85be9bf657e":[35,0,178,13],
+"namespacespell__effect.html#a96b5e110d1f457b2524f7efca1dd5537":[35,0,178,17],
 "namespacespell__effect.html#a9b44c680d1b9d80dcecd8672521a0d99":[35,0,178,10],
 "namespacespell__effect.html#a9c1ca41ab01026f6634fd4775fdc44d1":[35,0,178,23],
 "namespacespell__effect.html#a9f1b39574600d0523b1c049f7d7d69bd":[35,0,178,5],
@@ -238,16 +249,5 @@ var NAVTREEINDEX124 =
 "namespaceui__manager.html#a93b4bb0f95c5d3a9be3b28ba09878fcc":[35,0,189,0],
 "namespaceui__manager.html#aaa801bfcb6ef4eb737e70c793df08da9":[35,0,189,3],
 "namespaceui__manager.html#ae38f3a918052ef286ee60daac47f52d4":[35,0,189,1],
-"namespaceunits.html":[35,0,190],
-"namespaceunits.html#a02cd314e028c7c9b30313c8de875ab63":[35,0,190,46],
-"namespaceunits.html#a0467e74cf266a5244ebf3edf49cd97b1":[35,0,190,71],
-"namespaceunits.html#a068cd98efba5fd1fbb936ce3597db23d":[35,0,190,29],
-"namespaceunits.html#a06f0a56fa73de505d97d5c97e65c6cda":[35,0,190,103],
-"namespaceunits.html#a0b9218914b883c6c31f5af68deaafc2e":[35,0,190,22],
-"namespaceunits.html#a13286963083a3168f592347b8c335ea4":[35,0,190,36],
-"namespaceunits.html#a144476d36f26d6e1916493c3636d54dc":[35,0,190,85],
-"namespaceunits.html#a161e2cbd569d6861dba8ce1d054de9cf":[35,0,190,89],
-"namespaceunits.html#a16c5ffd73f399f1731d7176ee699ce0e":[35,0,190,77],
-"namespaceunits.html#a17c1b0beb2eae062157f05809396884e":[35,0,190,47],
-"namespaceunits.html#a1bd284bde31c6b9124add6c8362c8a90":[35,0,190,88]
+"namespaceunits.html":[35,0,190]
 };

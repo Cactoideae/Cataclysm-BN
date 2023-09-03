@@ -4,7 +4,7 @@ var debug_8cpp =
     [ "buffered_prompt_info", "structbuffered__prompt__info.html", "structbuffered__prompt__info" ],
     [ "time_info", "structtime__info.html", "structtime__info" ],
     [ "repetition_folder", "structrepetition__folder.html", "structrepetition__folder" ],
-    [ "NullBuf", "structNullBuf.html", "structNullBuf" ],
+    [ "NullStream", "classNullStream.html", "classNullStream" ],
     [ "DebugFile", "structDebugFile.html", "structDebugFile" ],
     [ "buffered_prompts", "debug_8cpp.html#afc86277dac33d8cff0e14b832365b38b", null ],
     [ "capture_debugmsg_during", "debug_8cpp.html#a169b6ef1ad10061b6e22ea8b27daaead", null ],

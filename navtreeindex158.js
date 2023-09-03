@@ -1,5 +1,13 @@
 var NAVTREEINDEX158 =
 {
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html":[35,0,165,0,0],
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a6e73915d672ef4b2182873654c46945b":[36,0,33,0,0,3],
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a6e73915d672ef4b2182873654c46945b":[35,0,165,0,0,3],
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a74a2cff68362dc3619928744e781375b":[36,0,33,0,0,0],
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a74a2cff68362dc3619928744e781375b":[35,0,165,0,0,0],
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a7eab3637e7c45a0be57b8847979e4067":[36,0,33,0,0,4],
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a7eab3637e7c45a0be57b8847979e4067":[35,0,165,0,0,4],
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a973912ac2aa381a928a3ca779a2e51a2":[36,0,33,0,0,2],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a973912ac2aa381a928a3ca779a2e51a2":[35,0,165,0,0,2],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#abc3775a75d41f1621409b2bd03e028d0":[36,0,33,0,0,1],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#abc3775a75d41f1621409b2bd03e028d0":[35,0,165,0,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX158 =
 "structprintf__formatter.html#a2df8a8e343a2dbdc96e71c580c2bc988":[36,0,772,0],
 "structprintf__formatter.html#a339e8b7c2916129b1e1001bfd68fe584":[36,0,772,1],
 "structprintf__formatter.html#ad4ca7b204b381a7fdb7c4a94952217b3":[36,0,772,2],
-"structprofession_1_1itypedec.html":[36,0,773,0],
-"structprofession_1_1itypedec.html#a6b64ee2b83640ea23854f1341ab32c9b":[36,0,773,0,0],
-"structprofession_1_1itypedec.html#a912b30a136649fad0ecdd290d0ccd1b1":[36,0,773,0,1],
-"structprofession_1_1itypedec.html#a9fbbd630844121b286deb7356241fbe3":[36,0,773,0,3],
-"structprofession_1_1itypedec.html#ae98eed6a86706695499f65ac8726c57c":[36,0,773,0,2],
-"structprojectile.html":[36,0,774],
-"structprojectile.html#a00028c6a471291a6aab9d1b8d817905d":[36,0,774,15],
-"structprojectile.html#a05d90cbb1c83669dd7c23477c8f35963":[36,0,774,4],
-"structprojectile.html#a06144f890c4579ec8e25ebc9095a1768":[36,0,774,3]
+"structprofession_1_1itypedec.html":[36,0,773,0]
 };

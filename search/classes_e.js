@@ -44,7 +44,7 @@ var searchData=
   ['null_5fdeleter_41',['null_deleter',['../structnull__deleter.html',1,'']]],
   ['null_5fhandler_42',['null_handler',['../structdynamic__formatter_1_1null__handler.html',1,'dynamic_formatter']]],
   ['null_5ftile_5fdata_43',['null_tile_data',['../classnull__tile__data.html',1,'']]],
-  ['nullbuf_44',['NullBuf',['../structNullBuf.html',1,'']]],
+  ['nullstream_44',['NullStream',['../classNullStream.html',1,'']]],
   ['number_5fsci_5fnotation_45',['number_sci_notation',['../structnumber__sci__notation.html',1,'']]],
   ['numeric_5finterval_46',['numeric_interval',['../structnumeric__interval.html',1,'']]],
   ['numeric_5fspecs_5fchecker_47',['numeric_specs_checker',['../classdetail_1_1numeric__specs__checker.html',1,'detail']]],

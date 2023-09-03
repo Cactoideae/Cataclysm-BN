@@ -1,5 +1,16 @@
 var NAVTREEINDEX123 =
 {
+"namespaceovermap__locations.html#ae30daf181fd7d85d46bc3b8048539e21":[35,0,160,0],
+"namespaceovermap__specials.html":[35,0,161],
+"namespaceovermap__specials.html#a096b23bd59893411f0333358fbc6b0ab":[35,0,161,6],
+"namespaceovermap__specials.html#a2939ccd0213e323b8a8c10f764f206eb":[35,0,161,2],
+"namespaceovermap__specials.html#a5b049e59ea1caba25c44c785e08210c8":[35,0,161,0],
+"namespaceovermap__specials.html#a7e95432bcc3c9ccbb4567d281671ec36":[35,0,161,4],
+"namespaceovermap__specials.html#ac5a9bc184554a7bea55b66ec11bcc76e":[35,0,161,5],
+"namespaceovermap__specials.html#ae39e94620013b52e3f84a973c5a5bf73":[35,0,161,3],
+"namespaceovermap__specials.html#af05eed49c8aee8dba1ae1fcdf347385c":[35,0,161,1],
+"namespaceovermap__terrains.html":[35,0,162],
+"namespaceovermap__terrains.html#a4d7d53060fea66b34f5fec124eed6790":[35,0,162,3],
 "namespaceovermap__terrains.html#a5c4233383094691159d7177dd183e628":[35,0,162,4],
 "namespaceovermap__terrains.html#a7401d7be491abbf9263fd9cb17004576":[35,0,162,1],
 "namespaceovermap__terrains.html#a9d7cf2c1765272475afbe9f3c4913aa8":[35,0,162,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX123 =
 "namespacespell__effect.html#a1046d781ac5cfb3381c95ce1d965f06b":[35,0,178,4],
 "namespacespell__effect.html#a23cac54dff54c06895ee6a486bdd91e8":[35,0,178,3],
 "namespacespell__effect.html#a2664427c4eee090b72a108bbcaad0569":[35,0,178,24],
-"namespacespell__effect.html#a2dfd6a1bcb07c5dc38f66bc5078b883c":[35,0,178,16],
-"namespacespell__effect.html#a377a074da70df6b24b1b3774af619e59":[35,0,178,0],
-"namespacespell__effect.html#a4df2a86c4b7ba408de7513e9a1cbf2ef":[35,0,178,19],
-"namespacespell__effect.html#a5190e06459a4d2190d8d029a4fba6d09":[35,0,178,2],
-"namespacespell__effect.html#a572acfb9ae05c3cdd9f2827512a7a2d4":[35,0,178,8],
-"namespacespell__effect.html#a60706ce2352423a49ebd4d43dacbd12f":[35,0,178,7],
-"namespacespell__effect.html#a74590d959ed2787d44cee3c8b428490e":[35,0,178,26],
-"namespacespell__effect.html#a778d669e005669b220e9643309e48d25":[35,0,178,12],
-"namespacespell__effect.html#a7976cd373a1186fe53d107be623cd327":[35,0,178,11],
-"namespacespell__effect.html#a8523cdab31daef3b6742d82ced4d6a7c":[35,0,178,27],
-"namespacespell__effect.html#a853f1ec509f13190ef10d85be9bf657e":[35,0,178,13],
-"namespacespell__effect.html#a96b5e110d1f457b2524f7efca1dd5537":[35,0,178,17]
+"namespacespell__effect.html#a2dfd6a1bcb07c5dc38f66bc5078b883c":[35,0,178,16]
 };

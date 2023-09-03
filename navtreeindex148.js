@@ -1,5 +1,13 @@
 var NAVTREEINDEX148 =
 {
+"structenum__traits_3_01achievement__completion_01_4.html#a0ceb9830f038fba0f82ece47b0ca3b0a":[36,0,256,0],
+"structenum__traits_3_01add__type_01_4.html":[36,0,257],
+"structenum__traits_3_01add__type_01_4.html#ab05dba45f712e2ffd837f75bfce84ea2":[36,0,257,0],
+"structenum__traits_3_01art__charge_01_4.html":[36,0,258],
+"structenum__traits_3_01art__charge_01_4.html#a319d3d1892a36f4d05614239fb4873b2":[36,0,258,0],
+"structenum__traits_3_01art__charge__req_01_4.html":[36,0,259],
+"structenum__traits_3_01art__charge__req_01_4.html#ad7a24fc21f176e1e111d3e087d17b543":[36,0,259,0],
+"structenum__traits_3_01art__effect__active_01_4.html":[36,0,260],
 "structenum__traits_3_01art__effect__active_01_4.html#aac7e9c9a4cde4e176d9bf3a1ffd1bb3a":[36,0,260,0],
 "structenum__traits_3_01art__effect__passive_01_4.html":[36,0,261],
 "structenum__traits_3_01art__effect__passive_01_4.html#a6d95829a7692600eb39e5a160185b38a":[36,0,261,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX148 =
 "structexpansion__data.html#a804029365a52ec62c7ef92e93ec20d9c":[36,0,326,2],
 "structexpansion__data.html#a85ec7fd868eb65d34208fe5ac0ecf413":[36,0,326,3],
 "structexpansion__data.html#abbbbbfd04949438d881dcb929af979c5":[36,0,326,1],
-"structexpansion__data.html#ac992b028d47f0f65f44501349f348e71":[36,0,326,0],
-"structexplosion__data.html":[36,0,327],
-"structexplosion__data.html#a01d1dc7609c885fff0930a5a7fc39a5a":[36,0,327,5],
-"structexplosion__data.html#a227838f8868e1f945f7ebfefaf966dd2":[36,0,327,3],
-"structexplosion__data.html#a39e54d0aa5682744c07db25d451cca5b":[36,0,327,0],
-"structexplosion__data.html#a41e8db58a26672fb26266f9693bd8044":[36,0,327,2],
-"structexplosion__data.html#a467512e7e34c64ddb98ec737368b81cb":[36,0,327,1],
-"structexplosion__data.html#ad6b795c0523e217319f464066c7d42f4":[36,0,327,4],
-"structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html":[36,0,24,1,0]
+"structexpansion__data.html#ac992b028d47f0f65f44501349f348e71":[36,0,326,0]
 };

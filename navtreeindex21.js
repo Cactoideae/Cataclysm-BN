@@ -1,5 +1,9 @@
 var NAVTREEINDEX21 =
 {
+"classachievement__tracker.html#a69b1c4c4a34d10fdd8b1af95581f2681":[36,0,46,9],
+"classachievement__tracker.html#a7bbb28de3035febc2723dd1ff8579cb3":[36,0,46,0],
+"classachievement__tracker.html#aa87e2e22e5da085346954ac0b71fa1a0":[36,0,46,1],
+"classachievement__tracker.html#ae38d6284530490336148bd7ceb32c07f":[36,0,46,3],
 "classachievement__tracker.html#aeb873098b3e29508742da4683abd8b6c":[36,0,46,10],
 "classachievements__tracker.html":[36,0,47],
 "classachievements__tracker.html#a00675688ee098231b1854aca280e3dc9":[36,0,47,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX21 =
 "classadvanced__inventory__pane.html#adf44cdbe904fdadbeee158e3f773ce4f":[36,0,66,19],
 "classadvanced__inventory__pane.html#af2c4b2f624bbf139fe14db30f4c4a619":[36,0,66,11],
 "classadvanced__inventory__pane.html#af9cb7ca917f871dae4935385ec762537":[36,0,66,17],
-"classadvanced__inventory__pane.html#afe1073cc2511832d0c61687a8bc6ead4":[36,0,66,24],
-"classaim__activity__actor.html":[36,0,68],
-"classaim__activity__actor.html#a064e415f122aefc25c29b9d3eee4fa4e":[36,0,68,17],
-"classaim__activity__actor.html#a0f069c30c5f3860543a9b9ddcc7d48be":[36,0,68,9],
-"classaim__activity__actor.html#a14fa61e3a66db776b55f75a6dba7f67d":[36,0,68,16]
+"classadvanced__inventory__pane.html#afe1073cc2511832d0c61687a8bc6ead4":[36,0,66,24]
 };

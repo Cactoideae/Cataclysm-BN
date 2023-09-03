@@ -1,5 +1,13 @@
 var NAVTREEINDEX149 =
 {
+"structexplosion__data.html":[36,0,327],
+"structexplosion__data.html#a01d1dc7609c885fff0930a5a7fc39a5a":[36,0,327,5],
+"structexplosion__data.html#a227838f8868e1f945f7ebfefaf966dd2":[36,0,327,3],
+"structexplosion__data.html#a39e54d0aa5682744c07db25d451cca5b":[36,0,327,0],
+"structexplosion__data.html#a41e8db58a26672fb26266f9693bd8044":[36,0,327,2],
+"structexplosion__data.html#a467512e7e34c64ddb98ec737368b81cb":[36,0,327,1],
+"structexplosion__data.html#ad6b795c0523e217319f464066c7d42f4":[36,0,327,4],
+"structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html":[36,0,24,1,0],
 "structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html":[35,0,111,2,0],
 "structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#a21619d341ec9d3932831f4afa92bfab1":[36,0,24,1,0,0],
 "structexplosion__handler_1_1ExplosionEvent_1_1FieldToAdd.html#a21619d341ec9d3932831f4afa92bfab1":[35,0,111,2,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX149 =
 "structforest__trail__settings.html#a8dea659bbc57867d2ec96303fd9e9d82":[36,0,356,12],
 "structforest__trail__settings.html#a95e73b07d1294f9f0d43a97b32b5e920":[36,0,356,3],
 "structforest__trail__settings.html#aa22929552c18812f9d65285811782211":[36,0,356,8],
-"structforest__trail__settings.html#aaf18f503eff0edb67b81a8399450f5cd":[36,0,356,13],
-"structforest__trail__settings.html#ad1593f2abdbc957e3b6243b9045f33cc":[36,0,356,5],
-"structforest__trail__settings.html#ad548544c752adb158681d4551f449b9d":[36,0,356,15],
-"structforest__trail__settings.html#adf4af8b09dab9c71ce699030ee6125b0":[36,0,356,14],
-"structforest__trail__settings.html#ae62ec85b5f56acdf3a16182a33940880":[36,0,356,4],
-"structforest__trail__settings.html#af14ecba339abfacb46bb905de4d8c6df":[36,0,356,10],
-"structforest__trail__settings.html#af8d81227adea55cc84910f0ee2113107":[36,0,356,1],
-"structformat__args.html":[36,0,358],
-"structformat__args.html#a6001d2aa429b93f7eb958879933e5d42":[36,0,358,0]
+"structforest__trail__settings.html#aaf18f503eff0edb67b81a8399450f5cd":[36,0,356,13]
 };
