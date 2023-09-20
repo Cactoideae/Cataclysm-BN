@@ -125,6 +125,19 @@ Functions</h2></td></tr>
 <tr class="separator:a43c358454fade284f44aed7629e3dee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f5194c9bbe9d91e846956db072d3078"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="catalua__impl_8h.html#a3f5194c9bbe9d91e846956db072d3078">check_func_result</a> (sol::protected_function_result &amp;res)</td></tr>
 <tr class="separator:a3f5194c9bbe9d91e846956db072d3078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44be1fd73be8904c683244bf382c7a68"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="catalua__impl_8h.html#a44be1fd73be8904c683244bf382c7a68">is_number_integer</a> (sol::state_view lua, sol::object val)</td></tr>
+<tr class="separator:a44be1fd73be8904c683244bf382c7a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2ede931e69e11ba3a086a75e8328e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="generic__factory_8h.html#a1159dbaba81931271dbfe5b9c7f041b3">std::optional</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="catalua__impl_8h.html#a2e2ede931e69e11ba3a086a75e8328e7">get_luna_type</a> (sol::object val)</td></tr>
+<tr class="separator:a2e2ede931e69e11ba3a086a75e8328e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acadb0bbf958a939f56d8d1dc9945be36"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="catalua__impl_8h.html#acadb0bbf958a939f56d8d1dc9945be36">compare_values</a> (sol::object <a class="el" href="magic_8cpp.html#a188caae18b60b66f9f44214c7e28ac1f">a</a>, sol::object <a class="el" href="magic_8cpp.html#aa93a189fb7bbbf87be54bcc7bd11bb6f">b</a>)</td></tr>
+<tr class="memdesc:acadb0bbf958a939f56d8d1dc9945be36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare 2 Lua values for equality (by value).  <a href="catalua__impl_8h.html#acadb0bbf958a939f56d8d1dc9945be36">More...</a><br /></td></tr>
+<tr class="separator:acadb0bbf958a939f56d8d1dc9945be36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54121dde1a547799a231a72623908b20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="catalua__impl_8h.html#a54121dde1a547799a231a72623908b20">compare_tables</a> (sol::table <a class="el" href="magic_8cpp.html#a188caae18b60b66f9f44214c7e28ac1f">a</a>, sol::table <a class="el" href="magic_8cpp.html#aa93a189fb7bbbf87be54bcc7bd11bb6f">b</a>)</td></tr>
+<tr class="memdesc:a54121dde1a547799a231a72623908b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare 2 Lua tables for equality (by value).  <a href="catalua__impl_8h.html#a54121dde1a547799a231a72623908b20">More...</a><br /></td></tr>
+<tr class="separator:a54121dde1a547799a231a72623908b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b7e50f51897147b4882db7c7f04dd10"><td class="memItemLeft" align="right" valign="top">sol::object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="catalua__impl_8h.html#a2b7e50f51897147b4882db7c7f04dd10">find_equivalent_key</a> (sol::table t, sol::object desired_key)</td></tr>
+<tr class="memdesc:a2b7e50f51897147b4882db7c7f04dd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find key of equivalent value in provided table.  <a href="catalua__impl_8h.html#a2b7e50f51897147b4882db7c7f04dd10">More...</a><br /></td></tr>
+<tr class="separator:a2b7e50f51897147b4882db7c7f04dd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aebd6525f635f6aca4ddfe5b1ada26df8" name="aebd6525f635f6aca4ddfe5b1ada26df8"></a>
@@ -156,6 +169,153 @@ Functions</h2></td></tr>
           <td class="paramtype">sol::protected_function_result &amp;&#160;</td>
           <td class="paramname"><em>res</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54121dde1a547799a231a72623908b20" name="a54121dde1a547799a231a72623908b20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54121dde1a547799a231a72623908b20">&#9670;&nbsp;</a></span>compare_tables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool compare_tables </td>
+          <td>(</td>
+          <td class="paramtype">sol::table&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sol::table&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compare 2 Lua tables for equality (by value). </p>
+<p >May contain unhandled cases, use with care. </p>
+
+</div>
+</div>
+<a id="acadb0bbf958a939f56d8d1dc9945be36" name="acadb0bbf958a939f56d8d1dc9945be36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acadb0bbf958a939f56d8d1dc9945be36">&#9670;&nbsp;</a></span>compare_values()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool compare_values </td>
+          <td>(</td>
+          <td class="paramtype">sol::object&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sol::object&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compare 2 Lua values for equality (by value). </p>
+<p >May contain unhandled cases, use with care. </p>
+
+</div>
+</div>
+<a id="a2b7e50f51897147b4882db7c7f04dd10" name="a2b7e50f51897147b4882db7c7f04dd10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b7e50f51897147b4882db7c7f04dd10">&#9670;&nbsp;</a></span>find_equivalent_key()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sol::object find_equivalent_key </td>
+          <td>(</td>
+          <td class="paramtype">sol::table&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sol::object&#160;</td>
+          <td class="paramname"><em>desired_key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find key of equivalent value in provided table. </p>
+<p >Since userdata and tables are compared by their reference when used as keys, if we want to find value with a different userdata instance we first need to find a key that is equal <em>by value</em> to the one we want to use.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>table to search in for the key </td></tr>
+    <tr><td class="paramname">desired_key</td><td>found key will be equal to this value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>sol::nil on failure, key object from table <code>t</code> on success </dd></dl>
+
+</div>
+</div>
+<a id="a2e2ede931e69e11ba3a086a75e8328e7" name="a2e2ede931e69e11ba3a086a75e8328e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e2ede931e69e11ba3a086a75e8328e7">&#9670;&nbsp;</a></span>get_luna_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="generic__factory_8h.html#a1159dbaba81931271dbfe5b9c7f041b3">std::optional</a>&lt; std::string &gt; get_luna_type </td>
+          <td>(</td>
+          <td class="paramtype">sol::object&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44be1fd73be8904c683244bf382c7a68" name="a44be1fd73be8904c683244bf382c7a68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44be1fd73be8904c683244bf382c7a68">&#9670;&nbsp;</a></span>is_number_integer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool is_number_integer </td>
+          <td>(</td>
+          <td class="paramtype">sol::state_view&#160;</td>
+          <td class="paramname"><em>lua</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sol::object&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -241,7 +401,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="catalua__impl_8h.html">catalua_impl.h</a></li>
-    <li class="footer">Generated on Tue Sep 5 2023 23:06:46 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Sep 20 2023 23:55:41 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -112,19 +112,19 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l10174">10174</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l10175" name="l10175"></a><span class="lineno">10175</span>{</div>
-<div class="line"><a id="l10176" name="l10176"></a><span class="lineno">10176</span>    <span class="keyword">const</span> <span class="keyword">static</span> <span class="keyword">auto</span> cache = ( []() {</div>
-<div class="line"><a id="l10177" name="l10177"></a><span class="lineno">10177</span>        std::array&lt;std::string, <a class="code hl_variable" href="namespaceclothing__mods.html#aec1b637295ff2f661b88d4c77692e176">clothing_mods::all_clothing_mod_types</a>.size()&gt; res;</div>
-<div class="line"><a id="l10178" name="l10178"></a><span class="lineno">10178</span>        <span class="keywordflow">for</span>( <span class="keyword">const</span> <a class="code hl_enumeration" href="clothing__mod_8h.html#ab129387d97c2c7f0393c210d21df0152">clothing_mod_type</a> &amp;type : <a class="code hl_variable" href="namespaceclothing__mods.html#aec1b637295ff2f661b88d4c77692e176">clothing_mods::all_clothing_mod_types</a> ) {</div>
-<div class="line"><a id="l10179" name="l10179"></a><span class="lineno">10179</span>            res[type] = <a class="code hl_function" href="item_8cpp.html#aab0054280289e72ae8b8d9f062e20e47">CLOTHING_MOD_VAR_PREFIX</a></div>
-<div class="line"><a id="l10180" name="l10180"></a><span class="lineno">10180</span>                        + <a class="code hl_function" href="namespaceclothing__mods.html#a5bf63dd4b0368188aa71cfa230cfa989">clothing_mods::string_from_clothing_mod_type</a>( <a class="code hl_variable" href="namespaceclothing__mods.html#aec1b637295ff2f661b88d4c77692e176">clothing_mods::all_clothing_mod_types</a>[type] );</div>
-<div class="line"><a id="l10181" name="l10181"></a><span class="lineno">10181</span>        }</div>
-<div class="line"><a id="l10182" name="l10182"></a><span class="lineno">10182</span>        <span class="keywordflow">return</span> res;</div>
-<div class="line"><a id="l10183" name="l10183"></a><span class="lineno">10183</span>    } )();</div>
-<div class="line"><a id="l10184" name="l10184"></a><span class="lineno">10184</span> </div>
-<div class="line"><a id="l10185" name="l10185"></a><span class="lineno">10185</span>    <span class="keywordflow">return</span> cache[ <a class="code hl_enumeration" href="namespacedetail.html#ad46d232fb6116de4dac0c43dbde8e7a9">type</a> ];</div>
-<div class="line"><a id="l10186" name="l10186"></a><span class="lineno">10186</span>}</div>
+<p class="definition">Definition at line <a class="el" href="item_8cpp_source.html#l10175">10175</a> of file <a class="el" href="item_8cpp_source.html">item.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l10176" name="l10176"></a><span class="lineno">10176</span>{</div>
+<div class="line"><a id="l10177" name="l10177"></a><span class="lineno">10177</span>    <span class="keyword">const</span> <span class="keyword">static</span> <span class="keyword">auto</span> cache = ( []() {</div>
+<div class="line"><a id="l10178" name="l10178"></a><span class="lineno">10178</span>        std::array&lt;std::string, <a class="code hl_variable" href="namespaceclothing__mods.html#aec1b637295ff2f661b88d4c77692e176">clothing_mods::all_clothing_mod_types</a>.size()&gt; res;</div>
+<div class="line"><a id="l10179" name="l10179"></a><span class="lineno">10179</span>        <span class="keywordflow">for</span>( <span class="keyword">const</span> <a class="code hl_enumeration" href="clothing__mod_8h.html#ab129387d97c2c7f0393c210d21df0152">clothing_mod_type</a> &amp;type : <a class="code hl_variable" href="namespaceclothing__mods.html#aec1b637295ff2f661b88d4c77692e176">clothing_mods::all_clothing_mod_types</a> ) {</div>
+<div class="line"><a id="l10180" name="l10180"></a><span class="lineno">10180</span>            res[type] = <a class="code hl_function" href="item_8cpp.html#aab0054280289e72ae8b8d9f062e20e47">CLOTHING_MOD_VAR_PREFIX</a></div>
+<div class="line"><a id="l10181" name="l10181"></a><span class="lineno">10181</span>                        + <a class="code hl_function" href="namespaceclothing__mods.html#a5bf63dd4b0368188aa71cfa230cfa989">clothing_mods::string_from_clothing_mod_type</a>( <a class="code hl_variable" href="namespaceclothing__mods.html#aec1b637295ff2f661b88d4c77692e176">clothing_mods::all_clothing_mod_types</a>[type] );</div>
+<div class="line"><a id="l10182" name="l10182"></a><span class="lineno">10182</span>        }</div>
+<div class="line"><a id="l10183" name="l10183"></a><span class="lineno">10183</span>        <span class="keywordflow">return</span> res;</div>
+<div class="line"><a id="l10184" name="l10184"></a><span class="lineno">10184</span>    } )();</div>
+<div class="line"><a id="l10185" name="l10185"></a><span class="lineno">10185</span> </div>
+<div class="line"><a id="l10186" name="l10186"></a><span class="lineno">10186</span>    <span class="keywordflow">return</span> cache[ <a class="code hl_enumeration" href="namespacedetail.html#ad46d232fb6116de4dac0c43dbde8e7a9">type</a> ];</div>
+<div class="line"><a id="l10187" name="l10187"></a><span class="lineno">10187</span>}</div>
 <div class="ttc" id="aclothing__mod_8h_html_ab129387d97c2c7f0393c210d21df0152"><div class="ttname"><a href="clothing__mod_8h.html#ab129387d97c2c7f0393c210d21df0152">clothing_mod_type</a></div><div class="ttdeci">clothing_mod_type</div><div class="ttdef"><b>Definition:</b> <a href="clothing__mod_8h_source.html#l00016">clothing_mod.h:16</a></div></div>
 <div class="ttc" id="aitem_8cpp_html_aab0054280289e72ae8b8d9f062e20e47"><div class="ttname"><a href="item_8cpp.html#aab0054280289e72ae8b8d9f062e20e47">CLOTHING_MOD_VAR_PREFIX</a></div><div class="ttdeci">static const std::string CLOTHING_MOD_VAR_PREFIX(&quot;clothing_mod_&quot;)</div></div>
 <div class="ttc" id="anamespaceclothing__mods_html_a5bf63dd4b0368188aa71cfa230cfa989"><div class="ttname"><a href="namespaceclothing__mods.html#a5bf63dd4b0368188aa71cfa230cfa989">clothing_mods::string_from_clothing_mod_type</a></div><div class="ttdeci">std::string string_from_clothing_mod_type(clothing_mod_type type)</div><div class="ttdef"><b>Definition:</b> <a href="clothing__mod_8cpp_source.html#l00168">clothing_mod.cpp:168</a></div></div>
@@ -133,7 +133,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="clothing__mod_8h_source.html#l00063">clothing_mods::all_clothing_mod_types</a>, <a class="el" href="item_8cpp.html#aab0054280289e72ae8b8d9f062e20e47">CLOTHING_MOD_VAR_PREFIX()</a>, <a class="el" href="clothing__mod_8cpp_source.html#l00168">clothing_mods::string_from_clothing_mod_type()</a>, and <a class="el" href="enums_8h.html#ac7c2392f800a8be2feb093ef5fe48d40a599dcce2998a6b40b1e38e8c6006cb0a">type</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l10189">item::get_clothing_mod_val()</a>, and <a class="el" href="item_8cpp_source.html#l10194">item::update_clothing_mod_val()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="item_8cpp_source.html#l10190">item::get_clothing_mod_val()</a>, and <a class="el" href="item_8cpp_source.html#l10195">item::update_clothing_mod_val()</a>.</p>
 
 </div>
 </div>
@@ -143,7 +143,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceanonymous__namespace_02item_8cpp_03.html">anonymous_namespace{item.cpp}</a></li>
-    <li class="footer">Generated on Tue Sep 5 2023 23:07:24 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Sep 20 2023 23:56:15 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

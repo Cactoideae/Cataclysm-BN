@@ -433,6 +433,7 @@ var hierarchy =
     [ "effect_type", "classeffect__type.html", [
       [ "ma_buff_effect_type", "classma__buff__effect__type.html", null ]
     ] ],
+    [ "anonymous_namespace{iexamine_elevator.cpp}::elevator::elevator_vehicles", "structanonymous__namespace_02iexamine__elevator_8cpp_03_1_1elevator_1_1elevator__vehicles.html", null ],
     [ "emit", "classemit.html", null ],
     [ "safe_reference_anchor::empty", "structsafe__reference__anchor_1_1empty.html", null ],
     [ "io::empty_default_tag", "structio_1_1empty__default__tag.html", null ],

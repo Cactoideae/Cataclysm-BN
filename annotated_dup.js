@@ -21,6 +21,11 @@ var annotated_dup =
     [ "anonymous_namespace{iexamine.cpp}", "namespaceanonymous__namespace_02iexamine_8cpp_03.html", [
       [ "atm_menu", "classanonymous__namespace_02iexamine_8cpp_03_1_1atm__menu.html", "classanonymous__namespace_02iexamine_8cpp_03_1_1atm__menu" ]
     ] ],
+    [ "anonymous_namespace{iexamine_elevator.cpp}", "namespaceanonymous__namespace_02iexamine__elevator_8cpp_03.html", [
+      [ "elevator", "namespaceanonymous__namespace_02iexamine__elevator_8cpp_03_1_1elevator.html", [
+        [ "elevator_vehicles", "structanonymous__namespace_02iexamine__elevator_8cpp_03_1_1elevator_1_1elevator__vehicles.html", "structanonymous__namespace_02iexamine__elevator_8cpp_03_1_1elevator_1_1elevator__vehicles" ]
+      ] ]
+    ] ],
     [ "anonymous_namespace{main.cpp}", "namespaceanonymous__namespace_02main_8cpp_03.html", [
       [ "arg_handler", "structanonymous__namespace_02main_8cpp_03_1_1arg__handler.html", "structanonymous__namespace_02main_8cpp_03_1_1arg__handler" ]
     ] ],

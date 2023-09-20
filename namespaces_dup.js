@@ -156,6 +156,7 @@ var namespaces_dup =
       [ "offroad_str_req_cap", "namespaceanonymous__namespace_02grab_8cpp_03.html#a9ffee7ffe58226b58a1f284ec3f6a856", null ]
     ] ],
     [ "anonymous_namespace{iexamine.cpp}", "namespaceanonymous__namespace_02iexamine_8cpp_03.html", "namespaceanonymous__namespace_02iexamine_8cpp_03" ],
+    [ "anonymous_namespace{iexamine_elevator.cpp}", "namespaceanonymous__namespace_02iexamine__elevator_8cpp_03.html", "namespaceanonymous__namespace_02iexamine__elevator_8cpp_03" ],
     [ "anonymous_namespace{item.cpp}", "namespaceanonymous__namespace_02item_8cpp_03.html", [
       [ "get_clothing_mod_val_key", "namespaceanonymous__namespace_02item_8cpp_03.html#a4344f62919abf9934b6abe5a7cffbe3e", null ]
     ] ],
@@ -198,6 +199,9 @@ var namespaces_dup =
     ] ],
     [ "anonymous_namespace{material.cpp}", "namespaceanonymous__namespace_02material_8cpp_03.html", [
       [ "material_data", "namespaceanonymous__namespace_02material_8cpp_03.html#a7ca756e3448d6202a95086c3d2fa0005", null ]
+    ] ],
+    [ "anonymous_namespace{mattack_actors.cpp}", "namespaceanonymous__namespace_02mattack__actors_8cpp_03.html", [
+      [ "find_target_vehicle", "namespaceanonymous__namespace_02mattack__actors_8cpp_03.html#a767184a049adbbdfe57d29478e2d0fa2", null ]
     ] ],
     [ "anonymous_namespace{messages.cpp}", "namespaceanonymous__namespace_02messages_8cpp_03.html", "namespaceanonymous__namespace_02messages_8cpp_03" ],
     [ "anonymous_namespace{morale_types.cpp}", "namespaceanonymous__namespace_02morale__types_8cpp_03.html", [
@@ -604,7 +608,8 @@ var namespaces_dup =
       ] ]
     ] ],
     [ "game_info", "namespacegame__info.html", [
-      [ "bitness", "namespacegame__info.html#a89e70b6c3190e6d2d5cd25d30388fd84", null ],
+      [ "bitness", "namespacegame__info.html#a346914292a97ce585747c5f07fa41027", null ],
+      [ "bitness_string", "namespacegame__info.html#acdbccaac41fc7f113ba5d011321557b4", null ],
       [ "game_report", "namespacegame__info.html#a6e2841c65be4bf7f92290991465a9edb", null ],
       [ "game_version", "namespacegame__info.html#aee3ac3ce7ea3341cfcb88e84261ba800", null ],
       [ "graphics_version", "namespacegame__info.html#a61e6df366ab3796e27177f4e4d777dc0", null ],

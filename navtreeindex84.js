@@ -1,5 +1,13 @@
 var NAVTREEINDEX84 =
 {
+"event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea4e1d40b9faafb4cce1e627ed46ef3d67":[37,0,1,222,69,31],
+"event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea51254c482b6dacdbdb37316246fc1f52":[37,0,1,222,69,54],
+"event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea5af19c77ac2514bf3d73a1bb935d2445":[37,0,1,222,69,41],
+"event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea5bd65214d7b589aa2192ad3543f4f925":[37,0,1,222,69,34],
+"event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea6028bd5236de38ecbf0bc2daa224b57e":[37,0,1,222,69,6],
+"event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea6e4d2fdcce4816e1ae4d7ef156e305cb":[37,0,1,222,69,32],
+"event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea7133be53e1a918e127e8fd0b14f871ac":[37,0,1,222,69,55],
+"event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea7176e453815ab2a3439511f8e6be2f86":[37,0,1,222,69,25],
 "event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea73bf12e46893348e69d06b00186f937d":[37,0,1,222,69,24],
 "event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea74cc8e54763d13afaa42599271e8bd8c":[37,0,1,222,69,17],
 "event_8h.html#a430b444c74dd3fd1472a31714ec5f1cea828d341d133077b5a9655dec239e4758":[37,0,1,222,69,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX84 =
 "faction__camp_8cpp.html#a5376ed9197ed2f50548146c0f5826275":[37,0,1,236,65],
 "faction__camp_8cpp.html#a53a27ba882bb24158d8752e53158bf46":[37,0,1,236,80],
 "faction__camp_8cpp.html#a57719348c0cc281d0209194295397255":[37,0,1,236,66],
-"faction__camp_8cpp.html#a587c0d5f74109ecfaa4d132e59324bd1":[37,0,1,236,48],
-"faction__camp_8cpp.html#a5a622b6a0d0fac4b901f28bc3dcbb600":[37,0,1,236,4],
-"faction__camp_8cpp.html#a5f01dc8a050b281a7394110b5fe66470":[37,0,1,236,67],
-"faction__camp_8cpp.html#a621a3a619e918a18a9dda8a6ce9dc6e9":[37,0,1,236,70],
-"faction__camp_8cpp.html#a68d2ddb231aad0384b246833620cd888":[37,0,1,236,74],
-"faction__camp_8cpp.html#a68f9c20ad70753474f1b79a96f94b6b8":[37,0,1,236,61],
-"faction__camp_8cpp.html#a6a3a80bf51b74b56dd08fa71f3c44e25":[37,0,1,236,37],
-"faction__camp_8cpp.html#a6d4ba0226d19620ae18727a61a0cd538":[37,0,1,236,51],
-"faction__camp_8cpp.html#a788516bc4a1e478d67e1772e83bf3b69":[37,0,1,236,25]
+"faction__camp_8cpp.html#a587c0d5f74109ecfaa4d132e59324bd1":[37,0,1,236,48]
 };

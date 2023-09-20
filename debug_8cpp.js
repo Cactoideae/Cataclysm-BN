@@ -17,6 +17,7 @@ var debug_8cpp =
     [ "enum_to_string< DC >", "debug_8cpp.html#a0410b1157c801e81d38669dccd59aab2", null ],
     [ "enum_to_string< DL >", "debug_8cpp.html#a8b3048f54a8bdcedc4260653b3fe6dbe", null ],
     [ "fmt_mask", "debug_8cpp.html#a30502b81d05f247a0d401d79418f8d53", null ],
+    [ "get_os_bitness", "debug_8cpp.html#ab6d59c0569db5bf701a728df339dac5d", null ],
     [ "get_time", "debug_8cpp.html#aeb4049fda277faed5ccb8af4c07be023", null ],
     [ "output_repetitions", "debug_8cpp.html#a83a7ddf0ed043073e2270178b2aa0e06", null ],
     [ "realDebugmsg", "debug_8cpp.html#a6df73e3dfe021638f778bba543d0685b", null ],
